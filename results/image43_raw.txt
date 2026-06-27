@@ -1,0 +1,15 @@
+{
+  "screen_type": "ability",
+  "pokemon": "swampert",
+  "usage": 10,
+  "moves": [],
+  "move_usage": [],
+  "abilities": ["torrent", "damp"],
+  "ability_usage": [76.5, 23.5],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

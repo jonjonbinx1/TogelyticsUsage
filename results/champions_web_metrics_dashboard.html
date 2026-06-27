@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pokemon Champions VGC 2026 Regulation Set M-A</title>
+  <style>
+    :root {
+      --bg: #f5efe2;
+      --panel: rgba(255, 251, 244, 0.9);
+      --panel-strong: rgba(255, 249, 239, 0.98);
+      --ink: #21180f;
+      --muted: #715c49;
+      --line: rgba(74, 53, 32, 0.12);
+      --accent: #d65a31;
+      --accent-2: #1f7a8c;
+      --accent-3: #7d8f2a;
+      --accent-soft: rgba(214, 90, 49, 0.12);
+      --shadow: 0 18px 44px rgba(41, 25, 8, 0.12);
+      --radius: 20px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Aptos", "Segoe UI Variable", "Trebuchet MS", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(214, 90, 49, 0.22), transparent 28%),
+        radial-gradient(circle at top right, rgba(31, 122, 140, 0.16), transparent 24%),
+        linear-gradient(180deg, #f8f2e7 0%, #efe2ce 100%);
+    }
+
+    .shell {
+      width: min(1400px, calc(100vw - 32px));
+      margin: 0 auto;
+      padding: 24px 0 40px;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 28px;
+      border-radius: 28px;
+      background:
+        linear-gradient(135deg, rgba(255, 251, 246, 0.95), rgba(247, 236, 218, 0.92)),
+        linear-gradient(135deg, rgba(214, 90, 49, 0.08), rgba(31, 122, 140, 0.04));
+      box-shadow: var(--shadow);
+      border: 1px solid rgba(74, 53, 32, 0.08);
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: auto -80px -120px auto;
+      width: 280px;
+      height: 280px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(214, 90, 49, 0.18), transparent 72%);
+      pointer-events: none;
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 760px;
+      font-size: clamp(30px, 5vw, 54px);
+      line-height: 0.98;
+      letter-spacing: -0.04em;
+    }
+
+    .hero-copy {
+      margin: 14px 0 0;
+      max-width: 800px;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 20px;
+      align-items: end;
+      margin-top: 22px;
+    }
+
+    .control {
+      min-width: 220px;
+    }
+
+    .control-label {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    select {
+      width: 100%;
+      padding: 12px 14px;
+      border-radius: 14px;
+      border: 1px solid rgba(74, 53, 32, 0.14);
+      background: rgba(255, 252, 247, 0.95);
+      color: var(--ink);
+      font: inherit;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.65);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+      gap: 18px;
+      margin-top: 18px;
+    }
+
+    .panel {
+      position: relative;
+      padding: 20px;
+      border-radius: var(--radius);
+      background: var(--panel);
+      border: 1px solid rgba(74, 53, 32, 0.08);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .panel-title {
+      margin: 0;
+      font-size: 20px;
+      letter-spacing: -0.03em;
+    }
+
+    .panel-copy {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .summary-card {
+      padding: 16px;
+      border-radius: 18px;
+      background: linear-gradient(180deg, rgba(255, 251, 244, 0.96), rgba(244, 233, 214, 0.85));
+      border: 1px solid rgba(74, 53, 32, 0.08);
+      min-height: 116px;
+    }
+
+    .summary-label {
+      margin: 0 0 10px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+    }
+
+    .summary-value {
+      margin: 0;
+      font-size: clamp(22px, 3vw, 32px);
+      line-height: 1;
+      letter-spacing: -0.04em;
+    }
+
+    .summary-subvalue {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    .span-12 { grid-column: span 12; }
+    .span-8 { grid-column: span 8; }
+    .span-7 { grid-column: span 7; }
+    .span-6 { grid-column: span 6; }
+    .span-5 { grid-column: span 5; }
+    .span-4 { grid-column: span 4; }
+
+    .chart-block {
+      margin-top: 18px;
+      min-height: 320px;
+    }
+
+    .bar-chart {
+      display: grid;
+      gap: 10px;
+    }
+
+    .bar-row {
+      display: grid;
+      grid-template-columns: minmax(0, 188px) minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .bar-label {
+      font-size: 13px;
+      line-height: 1.3;
+      color: var(--ink);
+    }
+
+    .bar-track {
+      position: relative;
+      overflow: hidden;
+      height: 14px;
+      border-radius: 999px;
+      background: rgba(74, 53, 32, 0.08);
+    }
+
+    .bar-fill {
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--accent), #ee964b);
+    }
+
+    .bar-fill.secondary {
+      background: linear-gradient(90deg, var(--accent-2), #44b3c2);
+    }
+
+    .bar-fill.olive {
+      background: linear-gradient(90deg, var(--accent-3), #b7c55c);
+    }
+
+    .bar-value {
+      font-size: 12px;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 16px;
+    }
+
+    .pill {
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(74, 53, 32, 0.12);
+      background: rgba(255, 251, 246, 0.9);
+      color: var(--muted);
+      font: inherit;
+      cursor: pointer;
+    }
+
+    .pill.active {
+      border-color: rgba(214, 90, 49, 0.35);
+      color: var(--ink);
+      background: rgba(214, 90, 49, 0.12);
+    }
+
+    .empty-state {
+      display: grid;
+      place-items: center;
+      min-height: 280px;
+      border: 1px dashed rgba(74, 53, 32, 0.14);
+      border-radius: 16px;
+      color: var(--muted);
+      text-align: center;
+      padding: 20px;
+    }
+
+    .chart-svg {
+      width: 100%;
+      height: 340px;
+      overflow: visible;
+    }
+
+    .chart-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 14px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .legend-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .legend-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      flex: 0 0 12px;
+    }
+
+    .two-column {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-top: 16px;
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .team-card {
+      padding: 16px;
+      border-radius: 16px;
+      background: var(--panel-strong);
+      border: 1px solid rgba(74, 53, 32, 0.08);
+    }
+
+    .team-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: start;
+    }
+
+    .team-rank {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgba(214, 90, 49, 0.12);
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .team-meta {
+      margin: 10px 0 0;
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .team-members {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .member-chip {
+      padding: 8px 10px;
+      border-radius: 999px;
+      background: rgba(31, 122, 140, 0.08);
+      color: var(--ink);
+      font-size: 12px;
+    }
+
+    a.team-link {
+      display: inline-block;
+      margin-top: 12px;
+      color: var(--accent-2);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    a.team-link:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 1120px) {
+      .summary-grid,
+      .two-column,
+      .team-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .span-8,
+      .span-7,
+      .span-6,
+      .span-5,
+      .span-4 {
+        grid-column: span 12;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .shell {
+        width: min(100vw - 18px, 100%);
+        padding: 12px 0 24px;
+      }
+
+      .hero,
+      .panel {
+        padding: 16px;
+        border-radius: 18px;
+      }
+
+      .summary-grid,
+      .two-column,
+      .team-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .bar-row {
+        grid-template-columns: 1fr;
+        gap: 6px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <section class="hero">
+      <p class="eyebrow">Pokemon Champions Web Metrics</p>
+      <h1 id="dashboard-title">Pokemon Champions VGC 2026 Regulation Set M-A</h1>
+      <p class="hero-copy">
+        A local viewer for usage, top-team performance, source cores, observed combinations, and per-Pokemon set details.
+      </p>
+      <div class="toolbar">
+        <div class="control">
+          <label class="control-label" for="snapshot-select">Snapshot Date</label>
+          <select id="snapshot-select"></select>
+        </div>
+        <div class="control">
+          <label class="control-label" for="pokemon-select">Set Explorer Pokemon</label>
+          <select id="pokemon-select"></select>
+        </div>
+      </div>
+      <div class="summary-grid" id="summary-grid"></div>
+    </section>
+
+    <section class="grid">
+      <article class="panel span-6">
+        <h2 class="panel-title">Usage Ladder</h2>
+        <p class="panel-copy">Top Pokemon by source usage percentage for the selected snapshot.</p>
+        <div class="chart-block" id="usage-chart"></div>
+      </article>
+
+      <article class="panel span-6">
+        <h2 class="panel-title">Top Team Anchors</h2>
+        <p class="panel-copy">Bubble view of top-team presence against win rate. Bubble size tracks team appearances.</p>
+        <div class="chart-block" id="performance-chart"></div>
+      </article>
+
+      <article class="panel span-6">
+        <h2 class="panel-title">Source Common Cores</h2>
+        <p class="panel-copy">Pikalytics core frequency pulled directly from the format page.</p>
+        <div class="pill-row" id="core-filter"></div>
+        <div class="chart-block" id="core-chart"></div>
+      </article>
+
+      <article class="panel span-6">
+        <h2 class="panel-title">Observed Team Combinations</h2>
+        <p class="panel-copy">Pairings, trios, and full teams aggregated from the scraped top-team sample.</p>
+        <div class="pill-row" id="combo-filter"></div>
+        <div class="chart-block" id="combo-chart"></div>
+      </article>
+
+      <article class="panel span-7">
+        <h2 class="panel-title">Usage Timeline</h2>
+        <p class="panel-copy">Tracks the selected snapshot's key Pokemon across all collected snapshot dates.</p>
+        <div class="chart-block" id="timeline-chart"></div>
+      </article>
+
+      <article class="panel span-5">
+        <h2 class="panel-title">Set Explorer</h2>
+        <p class="panel-copy">Item, move, and teammate frequencies from the normalized team_pokemon_details dataset.</p>
+        <div class="two-column">
+          <div>
+            <h3 class="panel-copy">Items</h3>
+            <div class="chart-block" id="item-chart"></div>
+          </div>
+          <div>
+            <h3 class="panel-copy">Moves</h3>
+            <div class="chart-block" id="move-chart"></div>
+          </div>
+        </div>
+        <div class="two-column">
+          <div>
+            <h3 class="panel-copy">Abilities</h3>
+            <div class="chart-block" id="ability-chart"></div>
+          </div>
+          <div>
+            <h3 class="panel-copy">Top Teammates</h3>
+            <div class="chart-block" id="teammate-chart"></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="panel span-12">
+        <h2 class="panel-title">Top Team Viewer</h2>
+        <p class="panel-copy">Quick scan of the best-performing sampled teams with source teamlist links when available.</p>
+        <div class="team-grid" id="team-grid"></div>
+      </article>
+    </section>
+  </div>
+
+  <script id="dashboard-data" type="application/json">{"title":"Pokemon Champions VGC 2026 Regulation Set M-A","snapshots":["2026-05-20"],"selectedSnapshot":"2026-05-20","snapshotData":{"2026-05-20":{"summary":{"format_name":"Pokemon Champions VGC 2026 Regulation Set M-A","source":"pikalytics","usage_leader":"Sneasler","usage_leader_pct":43.8,"sample_teams":20,"anchor":"Basculegion","anchor_presence":55.0,"anchor_win_rate":90.99,"best_pairing":"Charizard-Mega-Y / Garchomp","best_pairing_win_rate":87.5},"usage":[{"pokemon":"Sneasler","rank":1,"usage_pct":43.8},{"pokemon":"Garchomp","rank":2,"usage_pct":40.4},{"pokemon":"Kingambit","rank":3,"usage_pct":38.21},{"pokemon":"Basculegion","rank":4,"usage_pct":38.16},{"pokemon":"Incineroar","rank":5,"usage_pct":35.84},{"pokemon":"Sinistcha","rank":6,"usage_pct":26.87},{"pokemon":"Floette-Mega","rank":7,"usage_pct":21.37},{"pokemon":"Charizard-Mega-Y","rank":8,"usage_pct":17.86},{"pokemon":"Pelipper","rank":9,"usage_pct":15.69},{"pokemon":"Aerodactyl","rank":10,"usage_pct":15.26},{"pokemon":"Archaludon","rank":11,"usage_pct":13.81},{"pokemon":"Rotom-Wash","rank":12,"usage_pct":13.46},{"pokemon":"Farigiraf","rank":13,"usage_pct":13.23},{"pokemon":"Milotic","rank":14,"usage_pct":10.83},{"pokemon":"Whimsicott","rank":15,"usage_pct":10.64}],"teamPerformance":[{"pokemon":"Basculegion","usage_rank":4,"usage_pct":38.16,"team_appearances":11,"team_appearance_pct":55.0,"win_rate":90.99,"avg_team_rank":10.27,"top_teammates":["Charizard-Mega-Y","Kingambit","Garchomp","Aerodactyl-Mega","Whimsicott"]},{"pokemon":"Kingambit","usage_rank":3,"usage_pct":38.21,"team_appearances":11,"team_appearance_pct":55.0,"win_rate":90.83,"avg_team_rank":10.55,"top_teammates":["Garchomp","Basculegion","Charizard-Mega-Y","Whimsicott","Aerodactyl-Mega"]},{"pokemon":"Garchomp","usage_rank":2,"usage_pct":40.4,"team_appearances":10,"team_appearance_pct":50.0,"win_rate":88.68,"avg_team_rank":10.1,"top_teammates":["Charizard-Mega-Y","Kingambit","Basculegion","Whimsicott","Aerodactyl-Mega"]},{"pokemon":"Charizard-Mega-Y","usage_rank":8,"usage_pct":17.86,"team_appearances":10,"team_appearance_pct":50.0,"win_rate":88.35,"avg_team_rank":11.2,"top_teammates":["Garchomp","Basculegion","Kingambit","Whimsicott","Aerodactyl-Mega"]},{"pokemon":"Aerodactyl-Mega","usage_rank":19,"usage_pct":7.94,"team_appearances":6,"team_appearance_pct":30.0,"win_rate":92.86,"avg_team_rank":11.5,"top_teammates":["Basculegion","Kingambit","Sneasler","Charizard-Mega-Y","Garchomp"]},{"pokemon":"Whimsicott","usage_rank":15,"usage_pct":10.64,"team_appearances":6,"team_appearance_pct":30.0,"win_rate":87.1,"avg_team_rank":11.83,"top_teammates":["Charizard-Mega-Y","Garchomp","Basculegion","Kingambit","Glimmora"]},{"pokemon":"Sneasler","usage_rank":1,"usage_pct":43.8,"team_appearances":5,"team_appearance_pct":25.0,"win_rate":97.62,"avg_team_rank":11.6,"top_teammates":["Aerodactyl-Mega","Basculegion","Kingambit","Froslass","Archaludon"]},{"pokemon":"Incineroar","usage_rank":5,"usage_pct":35.84,"team_appearances":5,"team_appearance_pct":25.0,"win_rate":91.38,"avg_team_rank":6.2,"top_teammates":["Dragonite","Gengar-Mega","Archaludon","Basculegion","Kingambit"]},{"pokemon":"Archaludon","usage_rank":11,"usage_pct":13.81,"team_appearances":4,"team_appearance_pct":20.0,"win_rate":95.0,"avg_team_rank":9.0,"top_teammates":["Basculegion","Pelipper","Incineroar","Sableye","Aerodactyl-Mega"]},{"pokemon":"Dragonite","usage_rank":null,"usage_pct":0.0,"team_appearances":4,"team_appearance_pct":20.0,"win_rate":94.87,"avg_team_rank":7.75,"top_teammates":["Incineroar","Basculegion","Gengar-Mega","Kingambit","Ninetales-Alola"]},{"pokemon":"Gengar-Mega","usage_rank":24,"usage_pct":6.47,"team_appearances":3,"team_appearance_pct":15.0,"win_rate":90.91,"avg_team_rank":8.0,"top_teammates":["Incineroar","Dragonite","Kingambit","Ninetales-Alola","Archaludon"]},{"pokemon":"Sylveon","usage_rank":18,"usage_pct":8.01,"team_appearances":3,"team_appearance_pct":15.0,"win_rate":90.32,"avg_team_rank":9.33,"top_teammates":["Aerodactyl-Mega","Basculegion","Charizard-Mega-Y","Garchomp","Kingambit"]},{"pokemon":"Glimmora","usage_rank":null,"usage_pct":0.0,"team_appearances":3,"team_appearance_pct":15.0,"win_rate":89.29,"avg_team_rank":13.33,"top_teammates":["Basculegion","Charizard-Mega-Y","Whimsicott","Garchomp","Kingambit"]},{"pokemon":"Pelipper","usage_rank":9,"usage_pct":15.69,"team_appearances":2,"team_appearance_pct":10.0,"win_rate":100.0,"avg_team_rank":9.5,"top_teammates":["Archaludon","Basculegion","Aerodactyl-Mega","Dragonite","Incineroar"]},{"pokemon":"Froslass","usage_rank":null,"usage_pct":0.0,"team_appearances":2,"team_appearance_pct":10.0,"win_rate":95.65,"avg_team_rank":5.0,"top_teammates":["Sneasler","Garchomp","Kingambit","Rotom-Wash","Talonflame"]},{"pokemon":"Rotom-Wash","usage_rank":12,"usage_pct":13.46,"team_appearances":2,"team_appearance_pct":10.0,"win_rate":94.44,"avg_team_rank":11.0,"top_teammates":["Froslass","Garchomp","Kingambit","Sneasler","Talonflame"]},{"pokemon":"Sableye","usage_rank":null,"usage_pct":0.0,"team_appearances":2,"team_appearance_pct":10.0,"win_rate":90.91,"avg_team_rank":8.5,"top_teammates":["Archaludon","Gengar-Mega","Incineroar","Politoed","Sinistcha"]},{"pokemon":"Ninetales-Alola","usage_rank":null,"usage_pct":0.0,"team_appearances":2,"team_appearance_pct":10.0,"win_rate":90.48,"avg_team_rank":10.0,"top_teammates":["Dragonite","Gengar-Mega","Incineroar","Kingambit","Basculegion"]}],"sourceCores":{"2":[{"label":"Charizard-Mega-Y / Garchomp","usage_pct":21.6,"team_count":521},{"label":"Basculegion / Kingambit","usage_pct":20.7,"team_count":500},{"label":"Garchomp / Kingambit","usage_pct":19.3,"team_count":467},{"label":"Basculegion / Garchomp","usage_pct":19.1,"team_count":462},{"label":"Kingambit / Sneasler","usage_pct":16.1,"team_count":389}],"3":[{"label":"Basculegion / Charizard-Mega-Y / Garchomp","usage_pct":14.0,"team_count":339},{"label":"Charizard-Mega-Y / Garchomp / Kingambit","usage_pct":13.1,"team_count":317},{"label":"Basculegion / Garchomp / Kingambit","usage_pct":12.0,"team_count":291},{"label":"Basculegion / Charizard-Mega-Y / Kingambit","usage_pct":9.9,"team_count":238},{"label":"Archaludon / Basculegion / Pelipper","usage_pct":9.0,"team_count":218}],"4":[{"label":"Basculegion / Charizard-Mega-Y / Garchomp / Kingambit","usage_pct":9.2,"team_count":221},{"label":"Basculegion / Charizard-Mega-Y / Garchomp / Sylveon","usage_pct":6.0,"team_count":145},{"label":"Aerodactyl-Mega / Basculegion / Garchomp / Sylveon","usage_pct":5.3,"team_count":129},{"label":"Aerodactyl-Mega / Charizard-Mega-Y / Garchomp / Sylveon","usage_pct":5.3,"team_count":128},{"label":"Aerodactyl-Mega / Basculegion / Charizard-Mega-Y / Sylveon","usage_pct":5.1,"team_count":124}]},"observedCombinations":{"pairing":[{"label":"Charizard-Mega-Y / Garchomp","team_appearances":9,"team_appearance_pct":45.0,"win_rate":87.5},{"label":"Garchomp / Kingambit","team_appearances":8,"team_appearance_pct":40.0,"win_rate":90.24},{"label":"Basculegion / Charizard-Mega-Y","team_appearances":8,"team_appearance_pct":40.0,"win_rate":89.02},{"label":"Basculegion / Kingambit","team_appearances":7,"team_appearance_pct":35.0,"win_rate":89.33},{"label":"Charizard-Mega-Y / Kingambit","team_appearances":7,"team_appearance_pct":35.0,"win_rate":88.89},{"label":"Basculegion / Garchomp","team_appearances":7,"team_appearance_pct":35.0,"win_rate":88.0},{"label":"Charizard-Mega-Y / Whimsicott","team_appearances":6,"team_appearance_pct":30.0,"win_rate":87.1},{"label":"Garchomp / Whimsicott","team_appearances":5,"team_appearance_pct":25.0,"win_rate":85.45},{"label":"Aerodactyl-Mega / Basculegion","team_appearances":4,"team_appearance_pct":20.0,"win_rate":91.89},{"label":"Basculegion / Whimsicott","team_appearances":4,"team_appearance_pct":20.0,"win_rate":87.8},{"label":"Kingambit / Whimsicott","team_appearances":4,"team_appearance_pct":20.0,"win_rate":85.71},{"label":"Archaludon / Basculegion","team_appearances":3,"team_appearance_pct":15.0,"win_rate":96.43}],"trio":[{"label":"Charizard-Mega-Y / Garchomp / Kingambit","team_appearances":7,"team_appearance_pct":35.0,"win_rate":88.89},{"label":"Basculegion / Charizard-Mega-Y / Garchomp","team_appearances":7,"team_appearance_pct":35.0,"win_rate":88.0},{"label":"Basculegion / Charizard-Mega-Y / Kingambit","team_appearances":6,"team_appearance_pct":30.0,"win_rate":89.06},{"label":"Basculegion / Garchomp / Kingambit","team_appearances":6,"team_appearance_pct":30.0,"win_rate":89.06},{"label":"Charizard-Mega-Y / Garchomp / Whimsicott","team_appearances":5,"team_appearance_pct":25.0,"win_rate":85.45},{"label":"Basculegion / Charizard-Mega-Y / Whimsicott","team_appearances":4,"team_appearance_pct":20.0,"win_rate":87.8},{"label":"Charizard-Mega-Y / Kingambit / Whimsicott","team_appearances":4,"team_appearance_pct":20.0,"win_rate":85.71},{"label":"Garchomp / Kingambit / Whimsicott","team_appearances":4,"team_appearance_pct":20.0,"win_rate":85.71},{"label":"Aerodactyl-Mega / Basculegion / Charizard-Mega-Y","team_appearances":3,"team_appearance_pct":15.0,"win_rate":90.32},{"label":"Aerodactyl-Mega / Basculegion / Garchomp","team_appearances":3,"team_appearance_pct":15.0,"win_rate":90.32},{"label":"Aerodactyl-Mega / Basculegion / Sylveon","team_appearances":3,"team_appearance_pct":15.0,"win_rate":90.32},{"label":"Aerodactyl-Mega / Charizard-Mega-Y / Garchomp","team_appearances":3,"team_appearance_pct":15.0,"win_rate":90.32}],"full_team":[{"label":"Aerodactyl-Mega / Basculegion / Charizard-Mega-Y / Garchomp / Kingambit / Sylveon","team_appearances":2,"team_appearance_pct":10.0,"win_rate":95.0},{"label":"Basculegion / Charizard-Mega-Y / Garchomp / Glimmora / Kingambit / Whimsicott","team_appearances":2,"team_appearance_pct":10.0,"win_rate":85.71},{"label":"Archaludon / Basculegion / Dragonite / Incineroar / Pelipper / Scizor-Mega","team_appearances":1,"team_appearance_pct":5.0,"win_rate":100.0},{"label":"Froslass / Garchomp / Kingambit / Rotom-Wash / Sneasler / Talonflame","team_appearances":1,"team_appearance_pct":5.0,"win_rate":100.0},{"label":"Dragonite / Lopunny-Mega / Meowscarada / Orthworm / Primarina / Volcarona","team_appearances":1,"team_appearance_pct":5.0,"win_rate":100.0},{"label":"Basculegion / Charizard-Mega-Y / Glimmora / Sneasler / Weavile / Whimsicott","team_appearances":1,"team_appearance_pct":5.0,"win_rate":100.0},{"label":"Aerodactyl-Mega / Chandelure / Kingambit / Kommo-o / Sneasler / Tsareena","team_appearances":1,"team_appearance_pct":5.0,"win_rate":100.0},{"label":"Aerodactyl-Mega / Archaludon / Basculegion / Pelipper / Scovillain / Sneasler","team_appearances":1,"team_appearance_pct":5.0,"win_rate":100.0},{"label":"Aerodactyl-Mega / Froslass / Milotic / Samurott-Hisui / Scizor / Sneasler","team_appearances":1,"team_appearance_pct":5.0,"win_rate":92.31},{"label":"Archaludon / Gengar-Mega / Incineroar / Politoed / Sableye / Sinistcha","team_appearances":1,"team_appearance_pct":5.0,"win_rate":91.67},{"label":"Basculegion / Dragonite / Gengar-Mega / Incineroar / Kingambit / Ninetales-Alola","team_appearances":1,"team_appearance_pct":5.0,"win_rate":90.91},{"label":"Blastoise / Dragonite / Gengar-Mega / Incineroar / Kingambit / Ninetales-Alola","team_appearances":1,"team_appearance_pct":5.0,"win_rate":90.0}]},"setBreakdown":{"Aerodactyl-Mega":{"items":[{"label":"Aerodactylite","count":6,"pct":100.0}],"moves":[{"label":"Rock Slide","count":6,"pct":100.0},{"label":"Dual Wingbeat","count":6,"pct":100.0},{"label":"Tailwind","count":6,"pct":100.0},{"label":"Protect","count":6,"pct":100.0}],"abilities":[{"label":"Unnerve","count":6,"pct":100.0}],"teammates":[{"label":"Basculegion","count":4,"pct":66.67},{"label":"Charizard-Mega-Y","count":3,"pct":50.0},{"label":"Sylveon","count":3,"pct":50.0},{"label":"Kingambit","count":3,"pct":50.0},{"label":"Garchomp","count":3,"pct":50.0},{"label":"Sneasler","count":3,"pct":50.0},{"label":"Froslass","count":1,"pct":16.67},{"label":"Milotic","count":1,"pct":16.67},{"label":"Samurott-Hisui","count":1,"pct":16.67},{"label":"Scizor","count":1,"pct":16.67}]},"Archaludon":{"items":[{"label":"Leftovers","count":3,"pct":75.0},{"label":"Chople Berry","count":1,"pct":25.0}],"moves":[{"label":"Electro Shot","count":4,"pct":100.0},{"label":"Dragon Pulse","count":4,"pct":100.0},{"label":"Protect","count":4,"pct":100.0},{"label":"Flash Cannon","count":2,"pct":50.0},{"label":"Aura Sphere","count":1,"pct":25.0},{"label":"Snarl","count":1,"pct":25.0}],"abilities":[{"label":"Stamina","count":4,"pct":100.0}],"teammates":[{"label":"Basculegion","count":3,"pct":75.0},{"label":"Pelipper","count":2,"pct":50.0},{"label":"Incineroar","count":2,"pct":50.0},{"label":"Sableye","count":2,"pct":50.0},{"label":"Dragonite","count":1,"pct":25.0},{"label":"Scizor-Mega","count":1,"pct":25.0},{"label":"Gengar-Mega","count":1,"pct":25.0},{"label":"Sinistcha","count":1,"pct":25.0},{"label":"Politoed","count":1,"pct":25.0},{"label":"Charizard-Mega-Y","count":1,"pct":25.0}]},"Basculegion":{"items":[{"label":"Choice Scarf","count":4,"pct":36.36},{"label":"Focus Sash","count":4,"pct":36.36},{"label":"Mystic Water","count":2,"pct":18.18},{"label":"Colbur Berry","count":1,"pct":9.09}],"moves":[{"label":"Last Respects","count":11,"pct":100.0},{"label":"Aqua Jet","count":11,"pct":100.0},{"label":"Wave Crash","count":7,"pct":63.64},{"label":"Protect","count":7,"pct":63.64},{"label":"Flip Turn","count":4,"pct":36.36},{"label":"Liquidation","count":4,"pct":36.36}],"abilities":[{"label":"Adaptability","count":11,"pct":100.0}],"teammates":[{"label":"Charizard-Mega-Y","count":8,"pct":72.73},{"label":"Kingambit","count":7,"pct":63.64},{"label":"Garchomp","count":7,"pct":63.64},{"label":"Aerodactyl-Mega","count":4,"pct":36.36},{"label":"Whimsicott","count":4,"pct":36.36},{"label":"Archaludon","count":3,"pct":27.27},{"label":"Sylveon","count":3,"pct":27.27},{"label":"Glimmora","count":3,"pct":27.27},{"label":"Dragonite","count":2,"pct":18.18},{"label":"Pelipper","count":2,"pct":18.18}]},"Blastoise":{"items":[{"label":"Leftovers","count":1,"pct":100.0}],"moves":[{"label":"Protect","count":1,"pct":100.0},{"label":"Flip Turn","count":1,"pct":100.0},{"label":"Fake Out","count":1,"pct":100.0},{"label":"Body Press","count":1,"pct":100.0}],"abilities":[{"label":"Rain Dish","count":1,"pct":100.0}],"teammates":[{"label":"Gengar-Mega","count":1,"pct":100.0},{"label":"Incineroar","count":1,"pct":100.0},{"label":"Kingambit","count":1,"pct":100.0},{"label":"Ninetales-Alola","count":1,"pct":100.0},{"label":"Dragonite","count":1,"pct":100.0}]},"Chandelure":{"items":[{"label":"Chandelurite","count":1,"pct":100.0}],"moves":[{"label":"Heat Wave","count":1,"pct":100.0},{"label":"Shadow Ball","count":1,"pct":100.0},{"label":"Trick Room","count":1,"pct":100.0},{"label":"Protect","count":1,"pct":100.0}],"abilities":[{"label":"Flash Fire","count":1,"pct":100.0}],"teammates":[{"label":"Tsareena","count":1,"pct":100.0},{"label":"Kommo-o","count":1,"pct":100.0},{"label":"Kingambit","count":1,"pct":100.0},{"label":"Aerodactyl-Mega","count":1,"pct":100.0},{"label":"Sneasler","count":1,"pct":100.0}]},"Charizard-Mega-Y":{"items":[{"label":"Charizardite Y","count":10,"pct":100.0}],"moves":[{"label":"Heat Wave","count":10,"pct":100.0},{"label":"Protect","count":10,"pct":100.0},{"label":"Weather Ball","count":9,"pct":90.0},{"label":"Solar Beam","count":9,"pct":90.0},{"label":"Focus Blast","count":1,"pct":10.0},{"label":"Air Slash","count":1,"pct":10.0}],"abilities":[{"label":"Blaze","count":6,"pct":60.0},{"label":"Solar Power","count":3,"pct":30.0},{"label":"blaze","count":1,"pct":10.0}],"teammates":[{"label":"Garchomp","count":9,"pct":90.0},{"label":"Basculegion","count":8,"pct":80.0},{"label":"Kingambit","count":7,"pct":70.0},{"label":"Whimsicott","count":6,"pct":60.0},{"label":"Aerodactyl-Mega","count":3,"pct":30.0},{"label":"Sylveon","count":3,"pct":30.0},{"label":"Glimmora","count":3,"pct":30.0},{"label":"Farigiraf","count":2,"pct":20.0},{"label":"Skarmory","count":1,"pct":10.0},{"label":"Incineroar","count":1,"pct":10.0}]},"Corviknight":{"items":[{"label":"Leftovers","count":1,"pct":100.0}],"moves":[{"label":"Brave Bird","count":1,"pct":100.0},{"label":"Body Press","count":1,"pct":100.0},{"label":"Bulk Up","count":1,"pct":100.0},{"label":"Tailwind","count":1,"pct":100.0}],"abilities":[{"label":"Mirror Armor","count":1,"pct":100.0}],"teammates":[{"label":"Excadrill","count":1,"pct":100.0},{"label":"Tyranitar-Mega","count":1,"pct":100.0},{"label":"Hydreigon","count":1,"pct":100.0},{"label":"Rotom-Wash","count":1,"pct":100.0},{"label":"Mimikyu","count":1,"pct":100.0}]},"Dragonite":{"items":[{"label":"Dragon Fang","count":3,"pct":75.0},{"label":"Dragoninite","count":1,"pct":25.0}],"moves":[{"label":"Protect","count":4,"pct":100.0},{"label":"Tailwind","count":2,"pct":50.0},{"label":"Dragon Claw","count":2,"pct":50.0},{"label":"Low Kick","count":2,"pct":50.0},{"label":"Extreme Speed","count":2,"pct":50.0},{"label":"Dragon Pulse","count":1,"pct":25.0},{"label":"Hurricane","count":1,"pct":25.0},{"label":"Scale Shot","count":1,"pct":25.0},{"label":"Stomping Tantrum","count":1,"pct":25.0}],"abilities":[{"label":"Multiscale","count":3,"pct":75.0},{"label":"Inner Focus","count":1,"pct":25.0}],"teammates":[{"label":"Incineroar","count":3,"pct":75.0},{"label":"Basculegion","count":2,"pct":50.0},{"label":"Gengar-Mega","count":2,"pct":50.0},{"label":"Kingambit","count":2,"pct":50.0},{"label":"Ninetales-Alola","count":2,"pct":50.0},{"label":"Scizor-Mega","count":1,"pct":25.0},{"label":"Archaludon","count":1,"pct":25.0},{"label":"Pelipper","count":1,"pct":25.0},{"label":"Lopunny-Mega","count":1,"pct":25.0},{"label":"Volcarona","count":1,"pct":25.0}]},"Excadrill":{"items":[{"label":"Focus Sash","count":1,"pct":100.0}],"moves":[{"label":"Iron Head","count":1,"pct":100.0},{"label":"Earthquake","count":1,"pct":100.0},{"label":"Rock Slide","count":1,"pct":100.0},{"label":"Protect","count":1,"pct":100.0}],"abilities":[{"label":"Sand Rush","count":1,"pct":100.0}],"teammates":[{"label":"Tyranitar-Mega","count":1,"pct":100.0},{"label":"Corviknight","count":1,"pct":100.0},{"label":"Hydreigon","count":1,"pct":100.0},{"label":"Rotom-Wash","count":1,"pct":100.0},{"label":"Mimikyu","count":1,"pct":100.0}]},"Farigiraf":{"items":[{"label":"Sitrus Berry","count":1,"pct":50.0},{"label":"Colbur Berry","count":1,"pct":50.0}],"moves":[{"label":"Protect","count":2,"pct":100.0},{"label":"Helping Hand","count":2,"pct":100.0},{"label":"Trick Room","count":2,"pct":100.0},{"label":"Psychic","count":1,"pct":50.0},{"label":"Psyshock","count":1,"pct":50.0}],"abilities":[{"label":"Armor Tail","count":2,"pct":100.0}],"teammates":[{"label":"Charizard-Mega-Y","count":2,"pct":100.0},{"label":"Garchomp","count":2,"pct":100.0},{"label":"Aerodactyl-Mega","count":1,"pct":50.0},{"label":"Basculegion","count":1,"pct":50.0},{"label":"Sylveon","count":1,"pct":50.0},{"label":"Tauros","count":1,"pct":50.0},{"label":"Whimsicott","count":1,"pct":50.0},{"label":"Kingambit","count":1,"pct":50.0}]},"Floette-Eternal":{"items":[{"label":"Floettite","count":1,"pct":100.0}],"moves":[{"label":"Light of Ruin","count":1,"pct":100.0},{"label":"Protect","count":1,"pct":100.0},{"label":"Moonblast","count":1,"pct":100.0},{"label":"Dazzling Gleam","count":1,"pct":100.0}],"abilities":[{"label":"Flower Veil","count":1,"pct":100.0}],"teammates":[{"label":"Whimsicott","count":1,"pct":100.0},{"label":"Incineroar","count":1,"pct":100.0},{"label":"Tyranitar","count":1,"pct":100.0},{"label":"Garchomp","count":1,"pct":100.0},{"label":"Charizard-Mega-Y","count":1,"pct":100.0}]},"Froslass":{"items":[{"label":"Froslassite","count":2,"pct":100.0}],"moves":[{"label":"Blizzard","count":2,"pct":100.0},{"label":"Shadow Ball","count":2,"pct":100.0},{"label":"Protect","count":2,"pct":100.0},{"label":"Aurora Veil","count":1,"pct":50.0},{"label":"Will-O-Wisp","count":1,"pct":50.0}],"abilities":[{"label":"Cursed Body","count":2,"pct":100.0}],"teammates":[{"label":"Sneasler","count":2,"pct":100.0},{"label":"Garchomp","count":1,"pct":50.0},{"label":"Talonflame","count":1,"pct":50.0},{"label":"Rotom-Wash","count":1,"pct":50.0},{"label":"Kingambit","count":1,"pct":50.0},{"label":"Milotic","count":1,"pct":50.0},{"label":"Samurott-Hisui","count":1,"pct":50.0},{"label":"Aerodactyl-Mega","count":1,"pct":50.0},{"label":"Scizor","count":1,"pct":50.0}]},"Garchomp":{"items":[{"label":"Sitrus Berry","count":6,"pct":60.0},{"label":"Choice Scarf","count":2,"pct":20.0},{"label":"White Herb","count":1,"pct":10.0},{"label":"Soft Sand","count":1,"pct":10.0}],"moves":[{"label":"Earthquake","count":9,"pct":90.0},{"label":"Dragon Claw","count":8,"pct":80.0},{"label":"Protect","count":7,"pct":70.0},{"label":"Rock Slide","count":6,"pct":60.0},{"label":"Stomping Tantrum","count":4,"pct":40.0},{"label":"Rock Tomb","count":3,"pct":30.0},{"label":"Poison Jab","count":2,"pct":20.0},{"label":"Outrage","count":1,"pct":10.0}],"abilities":[{"label":"Rough Skin","count":8,"pct":80.0},{"label":"Sand Veil","count":2,"pct":20.0}],"teammates":[{"label":"Charizard-Mega-Y","count":9,"pct":90.0},{"label":"Kingambit","count":8,"pct":80.0},{"label":"Basculegion","count":7,"pct":70.0},{"label":"Whimsicott","count":5,"pct":50.0},{"label":"Aerodactyl-Mega","count":3,"pct":30.0},{"label":"Sylveon","count":3,"pct":30.0},{"label":"Glimmora","count":2,"pct":20.0},{"label":"Farigiraf","count":2,"pct":20.0},{"label":"Froslass","count":1,"pct":10.0},{"label":"Talonflame","count":1,"pct":10.0}]},"Gengar-Mega":{"items":[{"label":"Gengarite","count":3,"pct":100.0}],"moves":[{"label":"Shadow Ball","count":3,"pct":100.0},{"label":"Protect","count":3,"pct":100.0},{"label":"Perish Song","count":2,"pct":66.67},{"label":"Disable","count":2,"pct":66.67},{"label":"Sludge Bomb","count":2,"pct":66.67}],"abilities":[{"label":"Cursed Body","count":3,"pct":100.0}],"teammates":[{"label":"Incineroar","count":3,"pct":100.0},{"label":"Kingambit","count":2,"pct":66.67},{"label":"Dragonite","count":2,"pct":66.67},{"label":"Ninetales-Alola","count":2,"pct":66.67},{"label":"Sinistcha","count":1,"pct":33.33},{"label":"Archaludon","count":1,"pct":33.33},{"label":"Sableye","count":1,"pct":33.33},{"label":"Politoed","count":1,"pct":33.33},{"label":"Basculegion","count":1,"pct":33.33},{"label":"Blastoise","count":1,"pct":33.33}]},"Glimmora":{"items":[{"label":"Focus Sash","count":2,"pct":66.67},{"label":"Glimmoranite","count":1,"pct":33.33}],"moves":[{"label":"Spiky Shield","count":3,"pct":100.0},{"label":"Power Gem","count":3,"pct":100.0},{"label":"Sludge Bomb","count":3,"pct":100.0},{"label":"Earth Power","count":3,"pct":100.0}],"abilities":[{"label":"Toxic Debris","count":3,"pct":100.0}],"teammates":[{"label":"Charizard-Mega-Y","count":3,"pct":100.0},{"label":"Basculegion","count":3,"pct":100.0},{"label":"Whimsicott","count":3,"pct":100.0},{"label":"Garchomp","count":2,"pct":66.67},{"label":"Kingambit","count":2,"pct":66.67},{"label":"Weavile","count":1,"pct":33.33},{"label":"Sneasler","count":1,"pct":33.33}]},"Hydreigon":{"items":[{"label":"Choice Scarf","count":1,"pct":100.0}],"moves":[{"label":"Dark Pulse","count":1,"pct":100.0},{"label":"Draco Meteor","count":1,"pct":100.0},{"label":"Heat Wave","count":1,"pct":100.0},{"label":"Snarl","count":1,"pct":100.0}],"abilities":[{"label":"Levitate","count":1,"pct":100.0}],"teammates":[{"label":"Excadrill","count":1,"pct":100.0},{"label":"Tyranitar-Mega","count":1,"pct":100.0},{"label":"Corviknight","count":1,"pct":100.0},{"label":"Rotom-Wash","count":1,"pct":100.0},{"label":"Mimikyu","count":1,"pct":100.0}]},"Incineroar":{"items":[{"label":"Sitrus Berry","count":3,"pct":60.0},{"label":"Passho Berry","count":1,"pct":20.0},{"label":"Chople Berry","count":1,"pct":20.0}],"moves":[{"label":"Fake Out","count":5,"pct":100.0},{"label":"Parting Shot","count":5,"pct":100.0},{"label":"Flare Blitz","count":4,"pct":80.0},{"label":"Throat Chop","count":3,"pct":60.0},{"label":"Protect","count":2,"pct":40.0},{"label":"Taunt","count":1,"pct":20.0}],"abilities":[{"label":"Intimidate","count":5,"pct":100.0}],"teammates":[{"label":"Dragonite","count":3,"pct":60.0},{"label":"Gengar-Mega","count":3,"pct":60.0},{"label":"Basculegion","count":2,"pct":40.0},{"label":"Archaludon","count":2,"pct":40.0},{"label":"Kingambit","count":2,"pct":40.0},{"label":"Ninetales-Alola","count":2,"pct":40.0},{"label":"Scizor-Mega","count":1,"pct":20.0},{"label":"Pelipper","count":1,"pct":20.0},{"label":"Sinistcha","count":1,"pct":20.0},{"label":"Sableye","count":1,"pct":20.0}]},"Kingambit":{"items":[{"label":"Chople Berry","count":9,"pct":81.82},{"label":"Black Glasses","count":2,"pct":18.18}],"moves":[{"label":"Kowtow Cleave","count":11,"pct":100.0},{"label":"Sucker Punch","count":11,"pct":100.0},{"label":"Protect","count":9,"pct":81.82},{"label":"Iron Head","count":7,"pct":63.64},{"label":"Low Kick","count":5,"pct":45.45},{"label":"Swords Dance","count":1,"pct":9.09}],"abilities":[{"label":"Defiant","count":11,"pct":100.0}],"teammates":[{"label":"Garchomp","count":8,"pct":72.73},{"label":"Charizard-Mega-Y","count":7,"pct":63.64},{"label":"Basculegion","count":7,"pct":63.64},{"label":"Whimsicott","count":4,"pct":36.36},{"label":"Aerodactyl-Mega","count":3,"pct":27.27},{"label":"Sylveon","count":2,"pct":18.18},{"label":"Sneasler","count":2,"pct":18.18},{"label":"Gengar-Mega","count":2,"pct":18.18},{"label":"Incineroar","count":2,"pct":18.18},{"label":"Dragonite","count":2,"pct":18.18}]},"Kommo-o":{"items":[{"label":"Sitrus Berry","count":1,"pct":100.0}],"moves":[{"label":"Clanging Scales","count":1,"pct":100.0},{"label":"Aura Sphere","count":1,"pct":100.0},{"label":"Clangorous Soul","count":1,"pct":100.0},{"label":"Protect","count":1,"pct":100.0}],"abilities":[{"label":"Soundproof","count":1,"pct":100.0}],"teammates":[{"label":"Tsareena","count":1,"pct":100.0},{"label":"Chandelure","count":1,"pct":100.0},{"label":"Kingambit","count":1,"pct":100.0},{"label":"Aerodactyl-Mega","count":1,"pct":100.0},{"label":"Sneasler","count":1,"pct":100.0}]},"Lopunny-Mega":{"items":[{"label":"Lopunnite","count":1,"pct":100.0}],"moves":[{"label":"Close Combat","count":1,"pct":100.0},{"label":"Fake Out","count":1,"pct":100.0},{"label":"Protect","count":1,"pct":100.0},{"label":"Triple Axel","count":1,"pct":100.0}],"abilities":[{"label":"Limber","count":1,"pct":100.0}],"teammates":[{"label":"Volcarona","count":1,"pct":100.0},{"label":"Primarina","count":1,"pct":100.0},{"label":"Meowscarada","count":1,"pct":100.0},{"label":"Dragonite","count":1,"pct":100.0},{"label":"Orthworm","count":1,"pct":100.0}]},"Meowscarada":{"items":[{"label":"Focus Sash","count":1,"pct":100.0}],"moves":[{"label":"Flower Trick","count":1,"pct":100.0},{"label":"Knock Off","count":1,"pct":100.0},{"label":"Protect","count":1,"pct":100.0},{"label":"Sucker Punch","count":1,"pct":100.0}],"abilities":[{"label":"Overgrow","count":1,"pct":100.0}],"teammates":[{"label":"Lopunny-Mega","count":1,"pct":100.0},{"label":"Volcarona","count":1,"pct":100.0},{"label":"Primarina","count":1,"pct":100.0},{"label":"Dragonite","count":1,"pct":100.0},{"label":"Orthworm","count":1,"pct":100.0}]},"Milotic":{"items":[{"label":"Leftovers","count":1,"pct":100.0}],"moves":[{"label":"Coil","count":1,"pct":100.0},{"label":"Muddy Water","count":1,"pct":100.0},{"label":"Hypnosis","count":1,"pct":100.0},{"label":"Recover","count":1,"pct":100.0}],"abilities":[{"label":"Competitive","count":1,"pct":100.0}],"teammates":[{"label":"Froslass","count":1,"pct":100.0},{"label":"Samurott-Hisui","count":1,"pct":100.0},{"label":"Aerodactyl-Mega","count":1,"pct":100.0},{"label":"Sneasler","count":1,"pct":100.0},{"label":"Scizor","count":1,"pct":100.0}]},"Mimikyu":{"items":[{"label":"White Herb","count":1,"pct":100.0}],"moves":[{"label":"Shadow Claw","count":1,"pct":100.0},{"label":"Shadow Sneak","count":1,"pct":100.0},{"label":"Play Rough","count":1,"pct":100.0},{"label":"Protect","count":1,"pct":100.0}],"abilities":[{"label":"Disguise","count":1,"pct":100.0}],"teammates":[{"label":"Excadrill","count":1,"pct":100.0},{"label":"Tyranitar-Mega","count":1,"pct":100.0},{"label":"Corviknight","count":1,"pct":100.0},{"label":"Hydreigon","count":1,"pct":100.0},{"label":"Rotom-Wash","count":1,"pct":100.0}]},"Ninetales-Alola":{"items":[{"label":"Never-Melt Ice","count":2,"pct":100.0}],"moves":[{"label":"Blizzard","count":2,"pct":100.0},{"label":"Encore","count":2,"pct":100.0},{"label":"Protect","count":2,"pct":100.0},{"label":"Icy Wind","count":1,"pct":50.0},{"label":"Disable","count":1,"pct":50.0}],"abilities":[{"label":"Snow Warning","count":2,"pct":100.0}],"teammates":[{"label":"Gengar-Mega","count":2,"pct":100.0},{"label":"Incineroar","count":2,"pct":100.0},{"label":"Kingambit","count":2,"pct":100.0},{"label":"Dragonite","count":2,"pct":100.0},{"label":"Basculegion","count":1,"pct":50.0},{"label":"Blastoise","count":1,"pct":50.0}]},"Orthworm":{"items":[{"label":"Sitrus Berry","count":1,"pct":100.0}],"moves":[{"label":"Body Press","count":1,"pct":100.0},{"label":"Heavy Slam","count":1,"pct":100.0},{"label":"Protect","count":1,"pct":100.0},{"label":"Shed Tail","count":1,"pct":100.0}],"abilities":[{"label":"Earth Eater","count":1,"pct":100.0}],"teammates":[{"label":"Lopunny-Mega","count":1,"pct":100.0},{"label":"Volcarona","count":1,"pct":100.0},{"label":"Primarina","count":1,"pct":100.0},{"label":"Meowscarada","count":1,"pct":100.0},{"label":"Dragonite","count":1,"pct":100.0}]},"Pelipper":{"items":[{"label":"Focus Sash","count":1,"pct":50.0},{"label":"Sitrus Berry","count":1,"pct":50.0}],"moves":[{"label":"Hurricane","count":2,"pct":100.0},{"label":"Weather Ball","count":2,"pct":100.0},{"label":"Protect","count":2,"pct":100.0},{"label":"Tailwind","count":1,"pct":50.0},{"label":"Wide Guard","count":1,"pct":50.0}],"abilities":[{"label":"Drizzle","count":2,"pct":100.0}],"teammates":[{"label":"Basculegion","count":2,"pct":100.0},{"label":"Archaludon","count":2,"pct":100.0},{"label":"Dragonite","count":1,"pct":50.0},{"label":"Scizor-Mega","count":1,"pct":50.0},{"label":"Incineroar","count":1,"pct":50.0},{"label":"Scovillain","count":1,"pct":50.0},{"label":"Aerodactyl-Mega","count":1,"pct":50.0},{"label":"Sneasler","count":1,"pct":50.0}]},"Politoed":{"items":[{"label":"Sitrus Berry","count":1,"pct":100.0}],"moves":[{"label":"Weather Ball","count":1,"pct":100.0},{"label":"Perish Song","count":1,"pct":100.0},{"label":"Encore","count":1,"pct":100.0},{"label":"Protect","count":1,"pct":100.0}],"abilities":[{"label":"Drizzle","count":1,"pct":100.0}],"teammates":[{"label":"Gengar-Mega","count":1,"pct":100.0},{"label":"Sinistcha","count":1,"pct":100.0},{"label":"Archaludon","count":1,"pct":100.0},{"label":"Incineroar","count":1,"pct":100.0},{"label":"Sableye","count":1,"pct":100.0}]},"Primarina":{"items":[{"label":"Mystic Water","count":1,"pct":100.0}],"moves":[{"label":"Hyper Voice","count":1,"pct":100.0},{"label":"Moonblast","count":1,"pct":100.0},{"label":"Protect","count":1,"pct":100.0},{"label":"Hydro Pump","count":1,"pct":100.0}],"abilities":[{"label":"Liquid Voice","count":1,"pct":100.0}],"teammates":[{"label":"Lopunny-Mega","count":1,"pct":100.0},{"label":"Volcarona","count":1,"pct":100.0},{"label":"Meowscarada","count":1,"pct":100.0},{"label":"Dragonite","count":1,"pct":100.0},{"label":"Orthworm","count":1,"pct":100.0}]},"Rotom-Wash":{"items":[{"label":"Leftovers","count":1,"pct":50.0},{"label":"Sitrus Berry","count":1,"pct":50.0}],"moves":[{"label":"Hydro Pump","count":2,"pct":100.0},{"label":"Thunderbolt","count":2,"pct":100.0},{"label":"Will-O-Wisp","count":2,"pct":100.0},{"label":"Protect","count":2,"pct":100.0}],"abilities":[{"label":"Levitate","count":2,"pct":100.0}],"teammates":[{"label":"Froslass","count":1,"pct":50.0},{"label":"Garchomp","count":1,"pct":50.0},{"label":"Talonflame","count":1,"pct":50.0},{"label":"Sneasler","count":1,"pct":50.0},{"label":"Kingambit","count":1,"pct":50.0},{"label":"Excadrill","count":1,"pct":50.0},{"label":"Tyranitar-Mega","count":1,"pct":50.0},{"label":"Corviknight","count":1,"pct":50.0},{"label":"Hydreigon","count":1,"pct":50.0},{"label":"Mimikyu","count":1,"pct":50.0}]},"Sableye":{"items":[{"label":"Roseli Berry","count":2,"pct":100.0}],"moves":[{"label":"Rain Dance","count":2,"pct":100.0},{"label":"Light Screen","count":2,"pct":100.0},{"label":"Will-O-Wisp","count":1,"pct":50.0},{"label":"Encore","count":1,"pct":50.0},{"label":"Foul Play","count":1,"pct":50.0},{"label":"Reflect","count":1,"pct":50.0}],"abilities":[{"label":"Prankster","count":2,"pct":100.0}],"teammates":[{"label":"Archaludon","count":2,"pct":100.0},{"label":"Gengar-Mega","count":1,"pct":50.0},{"label":"Sinistcha","count":1,"pct":50.0},{"label":"Incineroar","count":1,"pct":50.0},{"label":"Politoed","count":1,"pct":50.0},{"label":"Charizard-Mega-Y","count":1,"pct":50.0},{"label":"Garchomp","count":1,"pct":50.0},{"label":"Kingambit","count":1,"pct":50.0},{"label":"Basculegion","count":1,"pct":50.0}]},"Samurott-Hisui":{"items":[{"label":"Focus Sash","count":1,"pct":100.0}],"moves":[{"label":"Protect","count":1,"pct":100.0},{"label":"Sucker Punch","count":1,"pct":100.0},{"label":"Night Slash","count":1,"pct":100.0},{"label":"Sacred Sword","count":1,"pct":100.0}],"abilities":[{"label":"Sharpness","count":1,"pct":100.0}],"teammates":[{"label":"Froslass","count":1,"pct":100.0},{"label":"Milotic","count":1,"pct":100.0},{"label":"Aerodactyl-Mega","count":1,"pct":100.0},{"label":"Sneasler","count":1,"pct":100.0},{"label":"Scizor","count":1,"pct":100.0}]},"Scizor":{"items":[{"label":"Metal Coat","count":1,"pct":100.0}],"moves":[{"label":"Bullet Punch","count":1,"pct":100.0},{"label":"Protect","count":1,"pct":100.0},{"label":"Bug Bite","count":1,"pct":100.0},{"label":"Swords Dance","count":1,"pct":100.0}],"abilities":[{"label":"Technician","count":1,"pct":100.0}],"teammates":[{"label":"Froslass","count":1,"pct":100.0},{"label":"Milotic","count":1,"pct":100.0},{"label":"Samurott-Hisui","count":1,"pct":100.0},{"label":"Aerodactyl-Mega","count":1,"pct":100.0},{"label":"Sneasler","count":1,"pct":100.0}]},"Scizor-Mega":{"items":[{"label":"Scizorite","count":1,"pct":100.0}],"moves":[{"label":"Bullet Punch","count":1,"pct":100.0},{"label":"Close Combat","count":1,"pct":100.0},{"label":"Swords Dance","count":1,"pct":100.0},{"label":"Protect","count":1,"pct":100.0}],"abilities":[{"label":"Technician","count":1,"pct":100.0}],"teammates":[{"label":"Dragonite","count":1,"pct":100.0},{"label":"Basculegion","count":1,"pct":100.0},{"label":"Archaludon","count":1,"pct":100.0},{"label":"Pelipper","count":1,"pct":100.0},{"label":"Incineroar","count":1,"pct":100.0}]},"Scovillain":{"items":[{"label":"Scovillainite","count":1,"pct":100.0}],"moves":[{"label":"Leech Seed","count":1,"pct":100.0},{"label":"Overheat","count":1,"pct":100.0},{"label":"Rage Powder","count":1,"pct":100.0},{"label":"Protect","count":1,"pct":100.0}],"abilities":[{"label":"Moody","count":1,"pct":100.0}],"teammates":[{"label":"Aerodactyl-Mega","count":1,"pct":100.0},{"label":"Sneasler","count":1,"pct":100.0},{"label":"Basculegion","count":1,"pct":100.0},{"label":"Pelipper","count":1,"pct":100.0},{"label":"Archaludon","count":1,"pct":100.0}]},"Sinistcha":{"items":[{"label":"Colbur Berry","count":1,"pct":100.0}],"moves":[{"label":"Matcha Gotcha","count":1,"pct":100.0},{"label":"Rage Powder","count":1,"pct":100.0},{"label":"Trick Room","count":1,"pct":100.0},{"label":"Protect","count":1,"pct":100.0}],"abilities":[{"label":"Hospitality","count":1,"pct":100.0}],"teammates":[{"label":"Gengar-Mega","count":1,"pct":100.0},{"label":"Archaludon","count":1,"pct":100.0},{"label":"Incineroar","count":1,"pct":100.0},{"label":"Sableye","count":1,"pct":100.0},{"label":"Politoed","count":1,"pct":100.0}]},"Skarmory":{"items":[{"label":"Skarmorite","count":1,"pct":100.0}],"moves":[{"label":"Brave Bird","count":1,"pct":100.0},{"label":"Iron Head","count":1,"pct":100.0},{"label":"Rock Slide","count":1,"pct":100.0},{"label":"Protect","count":1,"pct":100.0}],"abilities":[{"label":"Sturdy","count":1,"pct":100.0}],"teammates":[{"label":"Kingambit","count":1,"pct":100.0},{"label":"Basculegion","count":1,"pct":100.0},{"label":"Whimsicott","count":1,"pct":100.0},{"label":"Garchomp","count":1,"pct":100.0},{"label":"Charizard-Mega-Y","count":1,"pct":100.0}]},"Sneasler":{"items":[{"label":"White Herb","count":5,"pct":100.0}],"moves":[{"label":"Fake Out","count":5,"pct":100.0},{"label":"Close Combat","count":5,"pct":100.0},{"label":"Dire Claw","count":4,"pct":80.0},{"label":"Protect","count":3,"pct":60.0},{"label":"Coaching","count":1,"pct":20.0},{"label":"Quick Guard","count":1,"pct":20.0},{"label":"Gunk Shot","count":1,"pct":20.0}],"abilities":[{"label":"Unburden","count":5,"pct":100.0}],"teammates":[{"label":"Aerodactyl-Mega","count":3,"pct":60.0},{"label":"Froslass","count":2,"pct":40.0},{"label":"Kingambit","count":2,"pct":40.0},{"label":"Basculegion","count":2,"pct":40.0},{"label":"Garchomp","count":1,"pct":20.0},{"label":"Talonflame","count":1,"pct":20.0},{"label":"Rotom-Wash","count":1,"pct":20.0},{"label":"Milotic","count":1,"pct":20.0},{"label":"Samurott-Hisui","count":1,"pct":20.0},{"label":"Scizor","count":1,"pct":20.0}]},"Sylveon":{"items":[{"label":"Fairy Feather","count":3,"pct":100.0}],"moves":[{"label":"Hyper Voice","count":3,"pct":100.0},{"label":"Hyper Beam","count":3,"pct":100.0},{"label":"Quick Attack","count":3,"pct":100.0},{"label":"Detect","count":2,"pct":66.67},{"label":"Protect","count":1,"pct":33.33}],"abilities":[{"label":"Pixilate","count":3,"pct":100.0}],"teammates":[{"label":"Charizard-Mega-Y","count":3,"pct":100.0},{"label":"Aerodactyl-Mega","count":3,"pct":100.0},{"label":"Basculegion","count":3,"pct":100.0},{"label":"Garchomp","count":3,"pct":100.0},{"label":"Kingambit","count":2,"pct":66.67},{"label":"Farigiraf","count":1,"pct":33.33}]},"Talonflame":{"items":[{"label":"No Item","count":1,"pct":100.0}],"moves":[{"label":"Acrobatics","count":1,"pct":100.0},{"label":"Tailwind","count":1,"pct":100.0},{"label":"Flare Blitz","count":1,"pct":100.0},{"label":"Protect","count":1,"pct":100.0}],"abilities":[{"label":"Gale Wings","count":1,"pct":100.0}],"teammates":[{"label":"Froslass","count":1,"pct":100.0},{"label":"Garchomp","count":1,"pct":100.0},{"label":"Sneasler","count":1,"pct":100.0},{"label":"Rotom-Wash","count":1,"pct":100.0},{"label":"Kingambit","count":1,"pct":100.0}]},"Tauros":{"items":[{"label":"Mystic Water","count":1,"pct":100.0}],"moves":[{"label":"Wave Crash","count":1,"pct":100.0},{"label":"Close Combat","count":1,"pct":100.0},{"label":"Protect","count":1,"pct":100.0},{"label":"Aqua Jet","count":1,"pct":100.0}],"abilities":[{"label":"Intimidate","count":1,"pct":100.0}],"teammates":[{"label":"Charizard-Mega-Y","count":1,"pct":100.0},{"label":"Whimsicott","count":1,"pct":100.0},{"label":"Garchomp","count":1,"pct":100.0},{"label":"Kingambit","count":1,"pct":100.0},{"label":"Farigiraf","count":1,"pct":100.0}]},"Tsareena":{"items":[{"label":"Choice Scarf","count":1,"pct":100.0}],"moves":[{"label":"Trop Kick","count":1,"pct":100.0},{"label":"Triple Axel","count":1,"pct":100.0},{"label":"Low Kick","count":1,"pct":100.0},{"label":"U-turn","count":1,"pct":100.0}],"abilities":[{"label":"Queenly Majesty","count":1,"pct":100.0}],"teammates":[{"label":"Chandelure","count":1,"pct":100.0},{"label":"Kommo-o","count":1,"pct":100.0},{"label":"Kingambit","count":1,"pct":100.0},{"label":"Aerodactyl-Mega","count":1,"pct":100.0},{"label":"Sneasler","count":1,"pct":100.0}]},"Tyranitar":{"items":[{"label":"Focus Sash","count":1,"pct":100.0}],"moves":[{"label":"Rock Slide","count":1,"pct":100.0},{"label":"Knock Off","count":1,"pct":100.0},{"label":"Protect","count":1,"pct":100.0},{"label":"High Horsepower","count":1,"pct":100.0}],"abilities":[{"label":"Sand Stream","count":1,"pct":100.0}],"teammates":[{"label":"Whimsicott","count":1,"pct":100.0},{"label":"Incineroar","count":1,"pct":100.0},{"label":"Floette-Eternal","count":1,"pct":100.0},{"label":"Garchomp","count":1,"pct":100.0},{"label":"Charizard-Mega-Y","count":1,"pct":100.0}]},"Tyranitar-Mega":{"items":[{"label":"Tyranitarite","count":1,"pct":100.0}],"moves":[{"label":"Rock Slide","count":1,"pct":100.0},{"label":"Knock Off","count":1,"pct":100.0},{"label":"Low Kick","count":1,"pct":100.0},{"label":"Protect","count":1,"pct":100.0}],"abilities":[{"label":"Sand Stream","count":1,"pct":100.0}],"teammates":[{"label":"Excadrill","count":1,"pct":100.0},{"label":"Corviknight","count":1,"pct":100.0},{"label":"Hydreigon","count":1,"pct":100.0},{"label":"Rotom-Wash","count":1,"pct":100.0},{"label":"Mimikyu","count":1,"pct":100.0}]},"Volcarona":{"items":[{"label":"Leftovers","count":1,"pct":100.0}],"moves":[{"label":"Heat Wave","count":1,"pct":100.0},{"label":"Giga Drain","count":1,"pct":100.0},{"label":"Protect","count":1,"pct":100.0},{"label":"Quiver Dance","count":1,"pct":100.0}],"abilities":[{"label":"Flame Body","count":1,"pct":100.0}],"teammates":[{"label":"Lopunny-Mega","count":1,"pct":100.0},{"label":"Primarina","count":1,"pct":100.0},{"label":"Meowscarada","count":1,"pct":100.0},{"label":"Dragonite","count":1,"pct":100.0},{"label":"Orthworm","count":1,"pct":100.0}]},"Weavile":{"items":[{"label":"Focus Sash","count":1,"pct":100.0}],"moves":[{"label":"Fake Out","count":1,"pct":100.0},{"label":"Knock Off","count":1,"pct":100.0},{"label":"Icicle Crash","count":1,"pct":100.0},{"label":"Taunt","count":1,"pct":100.0}],"abilities":[{"label":"Pickpocket","count":1,"pct":100.0}],"teammates":[{"label":"Sneasler","count":1,"pct":100.0},{"label":"Glimmora","count":1,"pct":100.0},{"label":"Charizard-Mega-Y","count":1,"pct":100.0},{"label":"Basculegion","count":1,"pct":100.0},{"label":"Whimsicott","count":1,"pct":100.0}]},"Whimsicott":{"items":[{"label":"Focus Sash","count":2,"pct":33.33},{"label":"Fairy Feather","count":2,"pct":33.33},{"label":"Sitrus Berry","count":1,"pct":16.67},{"label":"Occa Berry","count":1,"pct":16.67}],"moves":[{"label":"Moonblast","count":6,"pct":100.0},{"label":"Tailwind","count":6,"pct":100.0},{"label":"Encore","count":6,"pct":100.0},{"label":"Protect","count":5,"pct":83.33},{"label":"Endeavor","count":1,"pct":16.67}],"abilities":[{"label":"Prankster","count":6,"pct":100.0}],"teammates":[{"label":"Charizard-Mega-Y","count":6,"pct":100.0},{"label":"Garchomp","count":5,"pct":83.33},{"label":"Kingambit","count":4,"pct":66.67},{"label":"Basculegion","count":4,"pct":66.67},{"label":"Glimmora","count":3,"pct":50.0},{"label":"Skarmory","count":1,"pct":16.67},{"label":"Incineroar","count":1,"pct":16.67},{"label":"Floette-Eternal","count":1,"pct":16.67},{"label":"Tyranitar","count":1,"pct":16.67},{"label":"Weavile","count":1,"pct":16.67}]}},"topTeams":[{"team_rank":1,"author":"Altkyle","record":"12 - 0 - 0","event_name":"*Sitrus-Series*|Champions|$50 to winner|#58","event_rank":1,"win_rate":100.0,"pokemon":["Dragonite","Basculegion","Scizor-Mega","Archaludon","Pelipper","Incineroar"],"team_source_url":"https://play.limitlesstcg.com/tournament/69fc7a39e23aab068aadd155/player/altkyle/teamlist"},{"team_rank":2,"author":"Ksomon","record":"10 - 0 - 0","event_name":"Champions Collective #9","event_rank":1,"win_rate":100.0,"pokemon":["Charizard-Mega-Y","Aerodactyl-Mega","Sylveon","Kingambit","Basculegion","Garchomp"],"team_source_url":"https://play.limitlesstcg.com/tournament/69e3bf4078b359b789d65f50/player/ksomon/teamlist"},{"team_rank":3,"author":"BatCoach","record":"10 - 0 - 0","event_name":"Unova Champions League #5 / POK\u00c9MON CHAMPIONS","event_rank":1,"win_rate":100.0,"pokemon":["Froslass","Garchomp","Talonflame","Sneasler","Rotom-Wash","Kingambit"],"team_source_url":"https://play.limitlesstcg.com/tournament/6a0059b2dfbdf089cbbd6e9e/player/batcoach/teamlist"},{"team_rank":4,"author":"TurboMatt","record":"11 - 1 - 0","event_name":"Coupe Critique Champions VGC #2 - 200\u20ac prize","event_rank":1,"win_rate":91.67,"pokemon":["Gengar-Mega","Sinistcha","Archaludon","Incineroar","Sableye","Politoed"],"team_source_url":"https://play.limitlesstcg.com/tournament/69f0e7f6e23aab068aad44a1/player/turbomatt/teamlist"},{"team_rank":5,"author":"sword","record":"11 - 2 - 0","event_name":"SpearPillar Champions Tour #4 | Reg M-A $100 Prize","event_rank":1,"win_rate":84.62,"pokemon":["Kingambit","Basculegion","Whimsicott","Garchomp","Skarmory","Charizard-Mega-Y"],"team_source_url":"https://play.limitlesstcg.com/tournament/69cd6904d478313a15a39215/player/sword/teamlist"},{"team_rank":6,"author":"ShrimpTheShrimp","record":"11 - 2 - 0","event_name":"SpearPillar Champions Tour #3 | Reg M-A $100 Prize","event_rank":1,"win_rate":84.62,"pokemon":["Whimsicott","Incineroar","Floette-Eternal","Tyranitar","Garchomp","Charizard-Mega-Y"],"team_source_url":"https://play.limitlesstcg.com/tournament/69cd689636f5b5c303dc45b3/player/shrimptheshrimp/teamlist"},{"team_rank":7,"author":"BadassFroslass","record":"12 - 1 - 0","event_name":"SpearPillar Champions Tour #4 | Reg M-A $100 Prize","event_rank":2,"win_rate":92.31,"pokemon":["Froslass","Milotic","Samurott-Hisui","Aerodactyl-Mega","Sneasler","Scizor"],"team_source_url":"https://play.limitlesstcg.com/tournament/69cd6904d478313a15a39215/player/badassfroslass/teamlist"},{"team_rank":8,"author":"SableyeVGC","record":"10 - 1 - 0","event_name":"Talon's FIGHT CLUB #83 POKEMON CHAMPIONS","event_rank":1,"win_rate":90.91,"pokemon":["Gengar-Mega","Incineroar","Basculegion","Kingambit","Dragonite","Ninetales-Alola"],"team_source_url":"https://play.limitlesstcg.com/tournament/69e2b29c78b359b789d64d2e/player/sableyevgc/teamlist"},{"team_rank":9,"author":"Gioc1902","record":"9 - 1 - 0","event_name":"Wolfey Patreon Tournament - Pok\u00e9mon Champions #3","event_rank":1,"win_rate":90.0,"pokemon":["Garchomp","Glimmora","Charizard-Mega-Y","Basculegion","Whimsicott","Kingambit"],"team_source_url":"https://play.limitlesstcg.com/tournament/69f21d93e23aab068aad52b6/player/gioc1902/teamlist"},{"team_rank":10,"author":"merrypasta","record":"6 - 0 - 0","event_name":"VGC UU Champions (Regulation M-A) Weekly #2","event_rank":1,"win_rate":100.0,"pokemon":["Lopunny-Mega","Volcarona","Primarina","Meowscarada","Dragonite","Orthworm"],"team_source_url":"https://play.limitlesstcg.com/tournament/6a02c3b713f957d6d4b4673c/player/merrypasta/teamlist"},{"team_rank":11,"author":"Duxlemon","record":"9 - 1 - 0","event_name":"Mt. Moon Champions VGC Weekly #1 2026","event_rank":1,"win_rate":90.0,"pokemon":["Aerodactyl-Mega","Garchomp","Charizard-Mega-Y","Basculegion","Sylveon","Kingambit"],"team_source_url":"https://play.limitlesstcg.com/tournament/69feb07edfbdf089cbbd5716/player/duxlemon/teamlist"},{"team_rank":12,"author":"Limitester","record":"9 - 1 - 0","event_name":"Tenki's Cart - Champions M-A","event_rank":1,"win_rate":90.0,"pokemon":["Gengar-Mega","Incineroar","Kingambit","Blastoise","Ninetales-Alola","Dragonite"],"team_source_url":"https://play.limitlesstcg.com/tournament/69f8714be23aab068aada743/player/limitester/teamlist"}]}},"usageIndexBySnapshot":{"2026-05-20":{"Sneasler":43.8,"Garchomp":40.4,"Kingambit":38.21,"Basculegion":38.16,"Incineroar":35.84,"Sinistcha":26.87,"Floette-Mega":21.37,"Charizard-Mega-Y":17.86,"Pelipper":15.69,"Aerodactyl":15.26,"Archaludon":13.81,"Rotom-Wash":13.46,"Farigiraf":13.23,"Milotic":10.83,"Whimsicott":10.64,"Froslass-Mega":9.37,"Aegislash":8.32,"Sylveon":8.01,"Aerodactyl-Mega":7.94,"Talonflame":7.57,"Tyranitar-Mega":7.08,"Maushold":6.85,"Delphox-Mega":6.51,"Gengar-Mega":6.47,"Corviknight":5.93}}}</script>
+  <script>
+    const dashboardData = JSON.parse(document.getElementById('dashboard-data').textContent);
+
+    const state = {
+      snapshot: dashboardData.selectedSnapshot,
+      coreSize: '2',
+      comboType: 'pairing',
+      pokemon: '',
+    };
+
+    const colorScale = ['#d65a31', '#1f7a8c', '#7d8f2a', '#bc6c25', '#2d6a4f', '#7b2cbf'];
+
+    function snapshotData() {
+      return dashboardData.snapshotData[state.snapshot] || {};
+    }
+
+    function formatPct(value) {
+      return `${Number(value || 0).toFixed(2)}%`;
+    }
+
+    function escapeHtml(value) {
+      return String(value || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function showEmpty(containerId, message) {
+      document.getElementById(containerId).innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
+    }
+
+    function renderSummary() {
+      const summary = snapshotData().summary || {};
+      const cards = [
+        {
+          label: 'Usage Leader',
+          value: summary.usage_leader || 'Unavailable',
+          subvalue: summary.usage_leader ? `${formatPct(summary.usage_leader_pct)} source usage` : 'No usage rows in this snapshot',
+        },
+        {
+          label: 'Sampled Teams',
+          value: String(summary.sample_teams || 0),
+          subvalue: `${summary.source || 'Source'} top-team sample`,
+        },
+        {
+          label: 'Most Common Anchor',
+          value: summary.anchor || 'Unavailable',
+          subvalue: summary.anchor ? `${formatPct(summary.anchor_presence)} presence, ${formatPct(summary.anchor_win_rate)} win rate` : 'No top-team aggregate rows',
+        },
+        {
+          label: 'Best Pairing Signal',
+          value: summary.best_pairing || 'Unavailable',
+          subvalue: summary.best_pairing ? `${formatPct(summary.best_pairing_win_rate)} combined win rate` : 'No observed pairings',
+        },
+      ];
+
+      document.getElementById('summary-grid').innerHTML = cards.map((card) => `
+        <div class="summary-card">
+          <p class="summary-label">${escapeHtml(card.label)}</p>
+          <p class="summary-value">${escapeHtml(card.value)}</p>
+          <p class="summary-subvalue">${escapeHtml(card.subvalue)}</p>
+        </div>
+      `).join('');
+    }
+
+    function renderBarChart(containerId, rows, options = {}) {
+      if (!rows || !rows.length) {
+        showEmpty(containerId, options.emptyMessage || 'No chart data available.');
+        return;
+      }
+
+      const maxValue = Math.max(...rows.map((row) => Number(row[options.valueKey] || 0)), 1);
+      const fillClass = options.fillClass || '';
+      document.getElementById(containerId).innerHTML = `
+        <div class="bar-chart">
+          ${rows.map((row) => {
+            const value = Number(row[options.valueKey] || 0);
+            const width = Math.max((value / maxValue) * 100, value > 0 ? 4 : 0);
+            const label = options.labelRenderer ? options.labelRenderer(row) : row.label;
+            const valueText = options.valueRenderer ? options.valueRenderer(row) : String(value);
+            return `
+              <div class="bar-row">
+                <div class="bar-label">${escapeHtml(label)}</div>
+                <div class="bar-track"><div class="bar-fill ${fillClass}" style="width:${width}%"></div></div>
+                <div class="bar-value">${escapeHtml(valueText)}</div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      `;
+    }
+
+    function renderScatterPlot(containerId, rows) {
+      if (!rows || !rows.length) {
+        showEmpty(containerId, 'No team performance data available for this snapshot.');
+        return;
+      }
+
+      const width = 640;
+      const height = 320;
+      const padding = { top: 18, right: 18, bottom: 42, left: 52 };
+      const plotWidth = width - padding.left - padding.right;
+      const plotHeight = height - padding.top - padding.bottom;
+      const xMax = Math.max(...rows.map((row) => Number(row.team_appearance_pct || 0)), 1);
+      const yMin = Math.min(...rows.map((row) => Number(row.win_rate || 0)), 0);
+      const yMax = Math.max(...rows.map((row) => Number(row.win_rate || 0)), 100);
+      const sizeMax = Math.max(...rows.map((row) => Number(row.team_appearances || 0)), 1);
+
+      const gridLines = [0.25, 0.5, 0.75, 1].map((ratio) => {
+        const y = padding.top + plotHeight * ratio;
+        return `<line x1="${padding.left}" y1="${y}" x2="${width - padding.right}" y2="${y}" stroke="rgba(74,53,32,0.12)" stroke-width="1" />`;
+      }).join('');
+
+      const circles = rows.map((row, index) => {
+        const x = padding.left + (Number(row.team_appearance_pct || 0) / xMax) * plotWidth;
+        const y = padding.top + (1 - ((Number(row.win_rate || 0) - yMin) / Math.max(yMax - yMin, 1))) * plotHeight;
+        const radius = 8 + (Number(row.team_appearances || 0) / sizeMax) * 18;
+        const color = colorScale[index % colorScale.length];
+        const tooltip = `${row.pokemon}: ${formatPct(row.team_appearance_pct)} presence, ${formatPct(row.win_rate)} win rate, ${row.team_appearances} teams`;
+        return `
+          <g>
+            <circle cx="${x}" cy="${y}" r="${radius}" fill="${color}" fill-opacity="0.72"></circle>
+            <title>${escapeHtml(tooltip)}</title>
+            <text x="${x}" y="${y + 4}" text-anchor="middle" font-size="10" fill="#21180f">${escapeHtml(row.pokemon)}</text>
+          </g>
+        `;
+      }).join('');
+
+      document.getElementById(containerId).innerHTML = `
+        <svg class="chart-svg" viewBox="0 0 ${width} ${height}" role="img" aria-label="Top team performance scatter plot">
+          ${gridLines}
+          <line x1="${padding.left}" y1="${height - padding.bottom}" x2="${width - padding.right}" y2="${height - padding.bottom}" stroke="#715c49" stroke-width="1.5"></line>
+          <line x1="${padding.left}" y1="${padding.top}" x2="${padding.left}" y2="${height - padding.bottom}" stroke="#715c49" stroke-width="1.5"></line>
+          ${circles}
+          <text x="${width / 2}" y="${height - 10}" text-anchor="middle" font-size="12" fill="#715c49">Team appearance percentage</text>
+          <text x="18" y="${height / 2}" text-anchor="middle" font-size="12" fill="#715c49" transform="rotate(-90 18 ${height / 2})">Win rate</text>
+        </svg>
+      `;
+    }
+
+    function renderTimeline(containerId) {
+      const usageRows = snapshotData().usage || [];
+      if (!usageRows.length || dashboardData.snapshots.length === 0) {
+        showEmpty(containerId, 'No usage timeline data available.');
+        return;
+      }
+
+      const focusPokemon = usageRows.slice(0, Math.min(5, usageRows.length)).map((row) => row.pokemon);
+      const width = 720;
+      const height = 320;
+      const padding = { top: 18, right: 18, bottom: 42, left: 42 };
+      const plotWidth = width - padding.left - padding.right;
+      const plotHeight = height - padding.top - padding.bottom;
+      const allValues = [];
+      focusPokemon.forEach((pokemon) => {
+        dashboardData.snapshots.forEach((snapshot) => {
+          allValues.push(Number((dashboardData.usageIndexBySnapshot[snapshot] || {})[pokemon] || 0));
+        });
+      });
+      const maxValue = Math.max(...allValues, 1);
+      const xStep = dashboardData.snapshots.length > 1 ? plotWidth / (dashboardData.snapshots.length - 1) : 0;
+
+      const lines = focusPokemon.map((pokemon, index) => {
+        const points = dashboardData.snapshots.map((snapshot, snapshotIndex) => {
+          const value = Number((dashboardData.usageIndexBySnapshot[snapshot] || {})[pokemon] || 0);
+          const x = padding.left + xStep * snapshotIndex;
+          const y = padding.top + (1 - value / maxValue) * plotHeight;
+          return { x, y, value };
+        });
+        const path = points.map((point, pointIndex) => `${pointIndex === 0 ? 'M' : 'L'} ${point.x} ${point.y}`).join(' ');
+        const color = colorScale[index % colorScale.length];
+        const dots = points.map((point) => `
+          <g>
+            <circle cx="${point.x}" cy="${point.y}" r="4" fill="${color}"></circle>
+            <title>${escapeHtml(`${pokemon}: ${formatPct(point.value)}`)}</title>
+          </g>
+        `).join('');
+        return `<path d="${path}" fill="none" stroke="${color}" stroke-width="3"></path>${dots}`;
+      }).join('');
+
+      const labels = dashboardData.snapshots.map((snapshot, index) => {
+        const x = padding.left + xStep * index;
+        return `<text x="${x}" y="${height - 18}" text-anchor="middle" font-size="11" fill="#715c49">${escapeHtml(snapshot)}</text>`;
+      }).join('');
+
+      document.getElementById(containerId).innerHTML = `
+        <svg class="chart-svg" viewBox="0 0 ${width} ${height}" role="img" aria-label="Usage trend lines">
+          <line x1="${padding.left}" y1="${height - padding.bottom}" x2="${width - padding.right}" y2="${height - padding.bottom}" stroke="#715c49" stroke-width="1.5"></line>
+          <line x1="${padding.left}" y1="${padding.top}" x2="${padding.left}" y2="${height - padding.bottom}" stroke="#715c49" stroke-width="1.5"></line>
+          ${lines}
+          ${labels}
+        </svg>
+        <div class="chart-legend">
+          ${focusPokemon.map((pokemon, index) => `
+            <span class="legend-chip">
+              <span class="legend-dot" style="background:${colorScale[index % colorScale.length]}"></span>
+              ${escapeHtml(pokemon)}
+            </span>
+          `).join('')}
+        </div>
+      `;
+    }
+
+    function renderTeamCards() {
+      const teams = snapshotData().topTeams || [];
+      if (!teams.length) {
+        showEmpty('team-grid', 'No top team rows are available for this snapshot.');
+        return;
+      }
+
+      document.getElementById('team-grid').innerHTML = teams.map((team) => `
+        <article class="team-card">
+          <div class="team-head">
+            <div>
+              <div class="team-rank">#${team.team_rank}</div>
+            </div>
+            <div style="flex:1">
+              <strong>${escapeHtml(team.author)}</strong>
+              <div class="team-meta">${escapeHtml(team.record)} · ${formatPct(team.win_rate)} win rate</div>
+              <div class="team-meta">${escapeHtml(team.event_name)}${team.event_rank ? ` · Event rank #${team.event_rank}` : ''}</div>
+            </div>
+          </div>
+          <div class="team-members">
+            ${team.pokemon.map((pokemon) => `<span class="member-chip">${escapeHtml(pokemon)}</span>`).join('')}
+          </div>
+          ${team.team_source_url ? `<a class="team-link" href="${escapeHtml(team.team_source_url)}" target="_blank" rel="noreferrer">Open source teamlist</a>` : ''}
+        </article>
+      `).join('');
+    }
+
+    function renderSourceCores() {
+      const rows = (snapshotData().sourceCores || {})[state.coreSize] || [];
+      renderBarChart('core-chart', rows, {
+        valueKey: 'usage_pct',
+        fillClass: 'secondary',
+        emptyMessage: 'No source core rows are available for this core size.',
+        valueRenderer: (row) => `${formatPct(row.usage_pct)} · ${row.team_count} teams`,
+      });
+    }
+
+    function renderObservedCombinations() {
+      const rows = (snapshotData().observedCombinations || {})[state.comboType] || [];
+      renderBarChart('combo-chart', rows, {
+        valueKey: 'team_appearance_pct',
+        fillClass: 'olive',
+        emptyMessage: 'No observed combination rows are available for this view.',
+        valueRenderer: (row) => `${formatPct(row.team_appearance_pct)} · ${row.team_appearances} teams · ${formatPct(row.win_rate)} WR`,
+      });
+    }
+
+    function renderSetExplorer() {
+      const setBreakdown = snapshotData().setBreakdown || {};
+      const pokemon = state.pokemon;
+      const details = setBreakdown[pokemon] || {};
+      renderBarChart('item-chart', details.items || [], {
+        valueKey: 'count',
+        emptyMessage: 'No item data is available for this Pokemon.',
+        valueRenderer: (row) => `${row.count} teams · ${formatPct(row.pct)}`,
+      });
+      renderBarChart('move-chart', details.moves || [], {
+        valueKey: 'count',
+        fillClass: 'secondary',
+        emptyMessage: 'No move data is available for this Pokemon.',
+        valueRenderer: (row) => `${row.count} uses · ${formatPct(row.pct)}`,
+      });
+      renderBarChart('ability-chart', details.abilities || [], {
+        valueKey: 'count',
+        fillClass: 'olive',
+        emptyMessage: 'No ability data is available for this Pokemon.',
+        valueRenderer: (row) => `${row.count} teams · ${formatPct(row.pct)}`,
+      });
+      renderBarChart('teammate-chart', details.teammates || [], {
+        valueKey: 'count',
+        fillClass: 'secondary',
+        emptyMessage: 'No teammate data is available for this Pokemon.',
+        valueRenderer: (row) => `${row.count} shared teams · ${formatPct(row.pct)}`,
+      });
+    }
+
+    function syncPokemonSelect() {
+      const setBreakdown = snapshotData().setBreakdown || {};
+      const pokemonNames = Object.keys(setBreakdown).sort((left, right) => left.localeCompare(right));
+      const select = document.getElementById('pokemon-select');
+      const nextPokemon = pokemonNames.includes(state.pokemon) ? state.pokemon : (pokemonNames[0] || '');
+      state.pokemon = nextPokemon;
+      select.innerHTML = pokemonNames.map((pokemon) => `
+        <option value="${escapeHtml(pokemon)}" ${pokemon === nextPokemon ? 'selected' : ''}>${escapeHtml(pokemon)}</option>
+      `).join('');
+      select.disabled = pokemonNames.length === 0;
+    }
+
+    function renderUsageChart() {
+      renderBarChart('usage-chart', snapshotData().usage || [], {
+        valueKey: 'usage_pct',
+        emptyMessage: 'No usage rows are available for this snapshot.',
+        labelRenderer: (row) => `#${row.rank} ${row.pokemon}`,
+        valueRenderer: (row) => formatPct(row.usage_pct),
+      });
+    }
+
+    function renderAll() {
+      renderSummary();
+      renderUsageChart();
+      renderScatterPlot('performance-chart', snapshotData().teamPerformance || []);
+      renderSourceCores();
+      renderObservedCombinations();
+      renderTimeline('timeline-chart');
+      syncPokemonSelect();
+      renderSetExplorer();
+      renderTeamCards();
+    }
+
+    function renderPills(containerId, items, selectedValue, onClick) {
+      document.getElementById(containerId).innerHTML = items.map((item) => `
+        <button class="pill ${item.value === selectedValue ? 'active' : ''}" type="button" data-value="${item.value}">${escapeHtml(item.label)}</button>
+      `).join('');
+      document.querySelectorAll(`#${containerId} .pill`).forEach((button) => {
+        button.addEventListener('click', () => onClick(button.dataset.value));
+      });
+    }
+
+    function initControls() {
+      const snapshotSelect = document.getElementById('snapshot-select');
+      snapshotSelect.innerHTML = dashboardData.snapshots.map((snapshot) => `
+        <option value="${snapshot}" ${snapshot === state.snapshot ? 'selected' : ''}>${snapshot}</option>
+      `).join('');
+      snapshotSelect.addEventListener('change', (event) => {
+        state.snapshot = event.target.value;
+        renderAll();
+      });
+
+      document.getElementById('pokemon-select').addEventListener('change', (event) => {
+        state.pokemon = event.target.value;
+        renderSetExplorer();
+      });
+
+      renderPills('core-filter', [
+        { value: '2', label: '2-Pokemon Cores' },
+        { value: '3', label: '3-Pokemon Cores' },
+        { value: '4', label: '4-Pokemon Cores' },
+      ], state.coreSize, (value) => {
+        state.coreSize = value;
+        renderPills('core-filter', [
+          { value: '2', label: '2-Pokemon Cores' },
+          { value: '3', label: '3-Pokemon Cores' },
+          { value: '4', label: '4-Pokemon Cores' },
+        ], state.coreSize, arguments.callee);
+        renderSourceCores();
+      });
+
+      renderPills('combo-filter', [
+        { value: 'pairing', label: 'Pairings' },
+        { value: 'trio', label: 'Trios' },
+        { value: 'full_team', label: 'Full Teams' },
+      ], state.comboType, (value) => {
+        state.comboType = value;
+        renderPills('combo-filter', [
+          { value: 'pairing', label: 'Pairings' },
+          { value: 'trio', label: 'Trios' },
+          { value: 'full_team', label: 'Full Teams' },
+        ], state.comboType, arguments.callee);
+        renderObservedCombinations();
+      });
+    }
+
+    initControls();
+    renderAll();
+  </script>
+</body>
+</html>

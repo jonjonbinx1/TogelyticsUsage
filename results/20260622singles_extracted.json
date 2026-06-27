@@ -1,0 +1,4429 @@
+{
+  "folder": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\data\\singles\\20260622singles",
+  "date": "2026-06-22",
+  "format": "singles",
+  "model": "qwen3-vl:30b-a3b",
+  "prefilled_name_authority": {
+    "1": "garchomp",
+    "2": "archaludon",
+    "4": "meowscarada",
+    "5": "raichu",
+    "6": "staraptor",
+    "7": "metagross",
+    "8": "charizard",
+    "9": "corviknight",
+    "10": "swampert"
+  },
+  "prefilled_name_conflicts": [],
+  "raw_extracted": [
+    {
+      "image": "image3.jpeg",
+      "data": {
+        "screen_type": "Ability",
+        "pokemon": "Archaludon",
+        "usage": 2,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "Stamina",
+          "Sturdy",
+          "Stalwart"
+        ],
+        "ability_usage": [
+          "75.0%",
+          "24.8%",
+          "0.2%"
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image4.jpeg",
+      "data": {
+        "screen_type": "Moves",
+        "pokemon": "Archaludon",
+        "usage": 2,
+        "moves": [
+          "Flash Cannon",
+          "Draco Meteor",
+          "Thunderbolt",
+          "Electro Shot",
+          "Stealth Rock"
+        ],
+        "move_usage": [
+          "74.0%",
+          "73.2%",
+          "47.6%",
+          "41.9%",
+          "36.7%"
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image5.jpeg",
+      "data": {
+        "screen_type": "Held Item",
+        "pokemon": "Garchomp",
+        "usage": 1,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "Focus Sash",
+          "Choice Scarf",
+          "Sitrus Berry",
+          "Lum Berry",
+          "Life Orb"
+        ],
+        "item_usage": [
+          39.9,
+          29.0,
+          16.6,
+          4.7,
+          4.7
+        ]
+      }
+    },
+    {
+      "image": "image6.jpeg",
+      "data": {
+        "screen_type": "Stat Alignment",
+        "pokemon": "Garchomp",
+        "usage": 1,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "Jolly",
+          "Adamant",
+          "Impish",
+          "Careful",
+          "Naive"
+        ],
+        "nature_usage": [
+          "60.3%",
+          "25.5%",
+          "11.2%",
+          "1.4%",
+          "0.4%"
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image8.jpeg",
+      "data": {
+        "screen_type": "Ability",
+        "pokemon": "Garchomp",
+        "usage": 1,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "Rough Skin",
+          "Sand Veil"
+        ],
+        "ability_usage": [
+          99.2,
+          0.8
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image9.jpeg",
+      "data": {
+        "screen_type": "Moves",
+        "pokemon": "Garchomp",
+        "usage": 1,
+        "moves": [
+          "Earthquake",
+          "Outrage",
+          "Stealth Rock",
+          "Rock Tomb",
+          "Scale Shot"
+        ],
+        "move_usage": [
+          99.6,
+          51.6,
+          45.7,
+          37.5,
+          32.2
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image10.jpeg",
+      "data": {
+        "screen_type": "Held Item",
+        "pokemon": "Meowscarada",
+        "usage": 4,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "Choice Scarf",
+          "Focus Sash",
+          "Life Orb",
+          "Expert Belt",
+          "Sitrus Berry"
+        ],
+        "item_usage": [
+          73.6,
+          18.5,
+          4.0,
+          1.0,
+          0.4
+        ]
+      }
+    },
+    {
+      "image": "image11.jpeg",
+      "data": {
+        "screen_type": "Stat Alignment",
+        "pokemon": "Meowscarada",
+        "usage": 4,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "Jolly",
+          "Adamant",
+          "Naive",
+          "Naughty",
+          "Hasty"
+        ],
+        "nature_usage": [
+          59.1,
+          34.5,
+          1.9,
+          1.1,
+          0.8
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image12.jpeg",
+      "data": {
+        "screen_type": "Stat Points",
+        "pokemon": "Meowscarada",
+        "usage": 4,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            0,
+            32,
+            0,
+            0,
+            2,
+            32
+          ],
+          [
+            4,
+            0,
+            32,
+            1,
+            0,
+            1,
+            32
+          ],
+          [
+            5,
+            0,
+            32,
+            0,
+            0,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          "62.4%",
+          "10.1%",
+          "5.2%",
+          "3.5%",
+          "2.1%"
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image13.jpeg",
+      "data": {
+        "screen_type": "Ability",
+        "pokemon": "Meowscarada",
+        "usage": 4,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "Protean",
+          "Overgrow"
+        ],
+        "ability_usage": [
+          95.5,
+          4.5
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image14.jpeg",
+      "data": {
+        "screen_type": "Moves",
+        "pokemon": "Meowscarada",
+        "usage": 4,
+        "moves": [
+          "Flower Trick",
+          "Triple Axel",
+          "U-turn",
+          "Knock Off",
+          "Thunder Punch"
+        ],
+        "move_usage": [
+          98.2,
+          88.5,
+          72.1,
+          68.1,
+          15.3
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image15.jpeg",
+      "data": {
+        "screen_type": "Held Item",
+        "pokemon": "Mimikyu",
+        "usage": 3,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "Life Orb",
+          "Lum Berry",
+          "Scope Lens",
+          "Spell Tag",
+          "Fairy Feather"
+        ],
+        "item_usage": [
+          81.8,
+          5.2,
+          3.4,
+          2.8,
+          1.3
+        ]
+      }
+    },
+    {
+      "image": "image16.jpeg",
+      "data": {
+        "screen_type": "Stat Alignment",
+        "pokemon": "Mimikyu",
+        "usage": 3,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "Adamant",
+          "Jolly",
+          "Brave",
+          "Impish",
+          "Naughty"
+        ],
+        "nature_usage": [
+          77.2,
+          16.5,
+          3.2,
+          0.7,
+          0.4
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image17.jpeg",
+      "data": {
+        "screen_type": "Stat Points",
+        "pokemon": "Mimikyu",
+        "usage": 3,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            1,
+            32,
+            1,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            32,
+            32,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            29,
+            32,
+            5,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          "21.4%",
+          "19.8%",
+          "6.3%",
+          "4.9%",
+          "4.3%"
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image18.jpeg",
+      "data": {
+        "screen_type": "Ability",
+        "pokemon": "Mimikyu",
+        "usage": 3,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "Disguise"
+        ],
+        "ability_usage": [
+          100.0
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image19.jpeg",
+      "data": {
+        "screen_type": "Moves",
+        "pokemon": "Mimikyu",
+        "usage": 3,
+        "moves": [
+          "Shadow Sneak",
+          "Play Rough",
+          "Swords Dance",
+          "Shadow Claw",
+          "Curse"
+        ],
+        "move_usage": [
+          95.9,
+          95.0,
+          78.9,
+          60.4,
+          17.0
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image20.jpeg",
+      "data": {
+        "screen_type": "Held Item",
+        "pokemon": "Staraptor",
+        "usage": 6,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "Starapite",
+          "Choice Scarf",
+          "Life Orb",
+          "Focus Sash",
+          "Sitrus Berry"
+        ],
+        "item_usage": [
+          95.5,
+          3.7,
+          0.1,
+          0.1,
+          0.1
+        ]
+      }
+    },
+    {
+      "image": "image21.jpeg",
+      "data": {
+        "screen_type": "Stat Alignment",
+        "pokemon": "Staraptor",
+        "usage": 6,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "Jolly",
+          "Adamant",
+          "Careful",
+          "Impish",
+          "Naive"
+        ],
+        "nature_usage": [
+          77.5,
+          17.4,
+          1.8,
+          1.8,
+          0.3
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image23.jpeg",
+      "data": {
+        "screen_type": "Ability",
+        "pokemon": "Staraptor",
+        "usage": 6,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "Intimidate",
+          "Reckless"
+        ],
+        "ability_usage": [
+          97.1,
+          2.9
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image24.jpeg",
+      "data": {
+        "screen_type": "Moves",
+        "pokemon": "Staraptor",
+        "usage": 6,
+        "moves": [
+          "Close Combat",
+          "Brave Bird",
+          "Roost",
+          "Blaze Kick",
+          "Whirlwind"
+        ],
+        "move_usage": [
+          98.6,
+          91.3,
+          91.2,
+          53.1,
+          16.9
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image25.jpeg",
+      "data": {
+        "screen_type": "Held Item",
+        "pokemon": "Raichu",
+        "usage": 5,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "Raichunite Y",
+          "Raichunite X",
+          "Focus Sash",
+          "Choice Scarf",
+          "Life Orb"
+        ],
+        "item_usage": [
+          96.4,
+          2.8,
+          0.3,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "image": "image26.jpeg",
+      "data": {
+        "screen_type": "Stat Alignment",
+        "pokemon": "Raichu",
+        "usage": 5,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "Timid",
+          "Modest",
+          "Jolly",
+          "Hasty",
+          "Naive"
+        ],
+        "nature_usage": [
+          76.4,
+          17.1,
+          4.2,
+          0.8,
+          0.5
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image28.jpeg",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "raichu",
+        "usage": 5,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "lightning rod",
+          "static"
+        ],
+        "ability_usage": [
+          87.4,
+          12.6
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image29.jpeg",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "raichu",
+        "usage": 5,
+        "moves": [
+          "zap cannon",
+          "focus blast",
+          "grass knot",
+          "volt switch",
+          "substitute"
+        ],
+        "move_usage": [
+          96.0,
+          95.4,
+          74.6,
+          27.6,
+          20.7
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image30.jpeg",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "charizard",
+        "usage": 8,
+        "items": [
+          "charizardite y",
+          "charizardite x",
+          "choice scarf",
+          "life orb",
+          "focus sash"
+        ],
+        "item_usage": [
+          77.5,
+          21.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      }
+    },
+    {
+      "image": "image31.jpeg",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "charizard",
+        "usage": 8,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "modest",
+          "timid",
+          "adamant",
+          "jolly",
+          "bold"
+        ],
+        "nature_usage": [
+          43.1,
+          32.8,
+          15.2,
+          6.3,
+          0.8
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image33.jpeg",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "charizard",
+        "usage": 8,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "blaze",
+          "solar power"
+        ],
+        "ability_usage": [
+          84.7,
+          15.3
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image34.jpeg",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "charizard",
+        "usage": 8,
+        "moves": [
+          "solar beam",
+          "flamethrower",
+          "air slash",
+          "overheat",
+          "flame charge"
+        ],
+        "move_usage": [
+          76.4,
+          47.2,
+          45.5,
+          31.1,
+          26.9
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image35.jpeg",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "metagross",
+        "usage": 7,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "metagrossite",
+          "life orb",
+          "sitrus berry",
+          "shuca berry",
+          "leftovers"
+        ],
+        "item_usage": [
+          96.7,
+          0.7,
+          0.5,
+          0.3,
+          0.3
+        ]
+      }
+    },
+    {
+      "image": "image36.jpeg",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "metagross",
+        "usage": 7,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "jolly",
+          "adamant",
+          "impish",
+          "naive",
+          "careful"
+        ],
+        "nature_usage": [
+          59.7,
+          37.1,
+          1.0,
+          0.5,
+          0.4
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image37.jpeg",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "metagross",
+        "usage": 7,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            12,
+            22,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            32,
+            32,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            4,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            5,
+            32,
+            32,
+            1,
+            0,
+            1,
+            0
+          ]
+        ],
+        "spread_usage": [
+          39.5,
+          8.6,
+          4.2,
+          3.1,
+          3.0
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image38.jpeg",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "metagross",
+        "usage": 7,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "clear body",
+          "light metal"
+        ],
+        "ability_usage": [
+          99.2,
+          0.8
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image39.jpeg",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "metagross",
+        "usage": 7,
+        "moves": [
+          "psychic fangs",
+          "bullet punch",
+          "earthquake",
+          "ice punch",
+          "iron head"
+        ],
+        "move_usage": [
+          85.7,
+          80.3,
+          75.1,
+          60.0,
+          26.5
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image40.jpeg",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "swampert",
+        "usage": 10,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "swampertite",
+          "sitrus berry",
+          "leftovers",
+          "rindo berry",
+          "focus sash"
+        ],
+        "item_usage": [
+          75.8,
+          13.1,
+          4.8,
+          3.5,
+          1.3
+        ]
+      }
+    },
+    {
+      "image": "image41.jpeg",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "swampert",
+        "usage": 10,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "adamant",
+          "jolly",
+          "impish",
+          "relaxed",
+          "careful"
+        ],
+        "nature_usage": [
+          58.6,
+          19.3,
+          8.1,
+          6.7,
+          2.6
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image42.jpeg",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "swampert",
+        "usage": 10,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            32,
+            0,
+            32,
+            0,
+            2,
+            0
+          ],
+          [
+            4,
+            0,
+            32,
+            0,
+            0,
+            2,
+            32
+          ],
+          [
+            5,
+            8,
+            32,
+            0,
+            0,
+            0,
+            26
+          ]
+        ],
+        "spread_usage": [
+          42.6,
+          9.1,
+          7.3,
+          3.6,
+          3.3
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image43.jpeg",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "swampert",
+        "usage": 10,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "torrent",
+          "damp"
+        ],
+        "ability_usage": [
+          76.5,
+          23.5
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image44.jpeg",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "swampert",
+        "usage": 10,
+        "moves": [
+          "earthquake",
+          "wave crash",
+          "ice punch",
+          "flip turn",
+          "stealth rock"
+        ],
+        "move_usage": [
+          92.7,
+          75.3,
+          72.7,
+          64.5,
+          21.6
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image45.jpeg",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "corviknight",
+        "usage": 9,
+        "items": [
+          "leftovers",
+          "sitrus berry",
+          "bright powder",
+          "lum berry",
+          "occa berry"
+        ],
+        "item_usage": [
+          69.1,
+          26.7,
+          1.2,
+          1.0,
+          0.2
+        ],
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": []
+      }
+    },
+    {
+      "image": "image46.jpeg",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "corviknight",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "impish",
+          "relaxed",
+          "careful",
+          "sassy",
+          "bold"
+        ],
+        "nature_usage": [
+          64.4,
+          23.8,
+          6.5,
+          1.8,
+          1.4
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image47.jpeg",
+      "data": {
+        "screen_type": "Stat Points",
+        "pokemon": "Corviknight",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            32,
+            0,
+            32,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            32,
+            0,
+            32,
+            0,
+            0,
+            2
+          ],
+          [
+            3,
+            32,
+            0,
+            2,
+            0,
+            32,
+            0
+          ],
+          [
+            4,
+            32,
+            2,
+            32,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            32,
+            0,
+            18,
+            0,
+            16,
+            0
+          ]
+        ],
+        "spread_usage": [
+          52.9,
+          10.6,
+          3.3,
+          2.9,
+          2.6
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image48.jpeg",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "corviknight",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "pressure",
+          "mirror armor",
+          "unnerve"
+        ],
+        "ability_usage": [
+          61.4,
+          36.8,
+          1.8
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image49.jpeg",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "corviknight",
+        "usage": 9,
+        "moves": [
+          "roost",
+          "body press",
+          "iron defense",
+          "u-turn",
+          "iron head"
+        ],
+        "move_usage": [
+          98.2,
+          86.7,
+          81.1,
+          66.2,
+          24.6
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    }
+  ],
+  "autocorrected_extracted": [
+    {
+      "image": "image3.jpeg",
+      "data": {
+        "screen_type": "Ability",
+        "pokemon": "archaludon",
+        "usage": 2,
+        "moves": [
+          "Flash Cannon",
+          "Draco Meteor",
+          "Thunderbolt",
+          "Electro Shot",
+          "Stealth Rock"
+        ],
+        "move_usage": [
+          "74.0%",
+          "73.2%",
+          "47.6%",
+          "41.9%",
+          "36.7%"
+        ],
+        "abilities": [
+          "Stamina",
+          "Sturdy",
+          "Stalwart"
+        ],
+        "ability_usage": [
+          "75.0%",
+          "24.8%",
+          "0.2%"
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image4.jpeg",
+      "data": {
+        "screen_type": "Moves",
+        "pokemon": "archaludon",
+        "usage": 2,
+        "moves": [
+          "Flash Cannon",
+          "Draco Meteor",
+          "Thunderbolt",
+          "Electro Shot",
+          "Stealth Rock"
+        ],
+        "move_usage": [
+          "74.0%",
+          "73.2%",
+          "47.6%",
+          "41.9%",
+          "36.7%"
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image5.jpeg",
+      "data": {
+        "screen_type": "Held Item",
+        "pokemon": "garchomp",
+        "usage": 1,
+        "moves": [
+          "Earthquake",
+          "Outrage",
+          "Stealth Rock",
+          "Rock Tomb",
+          "Scale Shot"
+        ],
+        "move_usage": [
+          99.6,
+          51.6,
+          45.7,
+          37.5,
+          32.2
+        ],
+        "abilities": [
+          "Rough Skin",
+          "Sand Veil"
+        ],
+        "ability_usage": [
+          99.2,
+          0.8
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "Jolly",
+          "Adamant",
+          "Impish",
+          "Careful",
+          "Naive"
+        ],
+        "nature_usage": [
+          "60.3%",
+          "25.5%",
+          "11.2%",
+          "1.4%",
+          "0.4%"
+        ],
+        "items": [
+          "Focus Sash",
+          "Choice Scarf",
+          "Sitrus Berry",
+          "Lum Berry",
+          "Life Orb"
+        ],
+        "item_usage": [
+          39.9,
+          29.0,
+          16.6,
+          4.7,
+          4.7
+        ]
+      }
+    },
+    {
+      "image": "image6.jpeg",
+      "data": {
+        "screen_type": "Stat Alignment",
+        "pokemon": "garchomp",
+        "usage": 1,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "Jolly",
+          "Adamant",
+          "Impish",
+          "Careful",
+          "Naive"
+        ],
+        "nature_usage": [
+          "60.3%",
+          "25.5%",
+          "11.2%",
+          "1.4%",
+          "0.4%"
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image8.jpeg",
+      "data": {
+        "screen_type": "Ability",
+        "pokemon": "garchomp",
+        "usage": 1,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "Rough Skin",
+          "Sand Veil"
+        ],
+        "ability_usage": [
+          99.2,
+          0.8
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image9.jpeg",
+      "data": {
+        "screen_type": "Moves",
+        "pokemon": "garchomp",
+        "usage": 1,
+        "moves": [
+          "Earthquake",
+          "Outrage",
+          "Stealth Rock",
+          "Rock Tomb",
+          "Scale Shot"
+        ],
+        "move_usage": [
+          99.6,
+          51.6,
+          45.7,
+          37.5,
+          32.2
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image10.jpeg",
+      "data": {
+        "screen_type": "Held Item",
+        "pokemon": "meowscarada",
+        "usage": 4,
+        "moves": [
+          "Flower Trick",
+          "Triple Axel",
+          "U-turn",
+          "Knock Off",
+          "Thunder Punch"
+        ],
+        "move_usage": [
+          98.2,
+          88.5,
+          72.1,
+          68.1,
+          15.3
+        ],
+        "abilities": [
+          "Protean",
+          "Overgrow"
+        ],
+        "ability_usage": [
+          95.5,
+          4.5
+        ],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            0,
+            32,
+            0,
+            0,
+            2,
+            32
+          ],
+          [
+            4,
+            0,
+            32,
+            1,
+            0,
+            1,
+            32
+          ],
+          [
+            5,
+            0,
+            32,
+            0,
+            0,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          "62.4%",
+          "10.1%",
+          "5.2%",
+          "3.5%",
+          "2.1%"
+        ],
+        "natures": [
+          "Jolly",
+          "Adamant",
+          "Naive",
+          "Naughty",
+          "Hasty"
+        ],
+        "nature_usage": [
+          59.1,
+          34.5,
+          1.9,
+          1.1,
+          0.8
+        ],
+        "items": [
+          "Choice Scarf",
+          "Focus Sash",
+          "Life Orb",
+          "Expert Belt",
+          "Sitrus Berry"
+        ],
+        "item_usage": [
+          73.6,
+          18.5,
+          4.0,
+          1.0,
+          0.4
+        ]
+      }
+    },
+    {
+      "image": "image11.jpeg",
+      "data": {
+        "screen_type": "Stat Alignment",
+        "pokemon": "meowscarada",
+        "usage": 4,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "Jolly",
+          "Adamant",
+          "Naive",
+          "Naughty",
+          "Hasty"
+        ],
+        "nature_usage": [
+          59.1,
+          34.5,
+          1.9,
+          1.1,
+          0.8
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image12.jpeg",
+      "data": {
+        "screen_type": "Stat Points",
+        "pokemon": "meowscarada",
+        "usage": 4,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            0,
+            32,
+            0,
+            0,
+            2,
+            32
+          ],
+          [
+            4,
+            0,
+            32,
+            1,
+            0,
+            1,
+            32
+          ],
+          [
+            5,
+            0,
+            32,
+            0,
+            0,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          "62.4%",
+          "10.1%",
+          "5.2%",
+          "3.5%",
+          "2.1%"
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image13.jpeg",
+      "data": {
+        "screen_type": "Ability",
+        "pokemon": "meowscarada",
+        "usage": 4,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "Protean",
+          "Overgrow"
+        ],
+        "ability_usage": [
+          95.5,
+          4.5
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image14.jpeg",
+      "data": {
+        "screen_type": "Moves",
+        "pokemon": "meowscarada",
+        "usage": 4,
+        "moves": [
+          "Flower Trick",
+          "Triple Axel",
+          "U-turn",
+          "Knock Off",
+          "Thunder Punch"
+        ],
+        "move_usage": [
+          98.2,
+          88.5,
+          72.1,
+          68.1,
+          15.3
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image15.jpeg",
+      "data": {
+        "screen_type": "Held Item",
+        "pokemon": "Mimikyu",
+        "usage": 3,
+        "moves": [
+          "Shadow Sneak",
+          "Play Rough",
+          "Swords Dance",
+          "Shadow Claw",
+          "Curse"
+        ],
+        "move_usage": [
+          95.9,
+          95.0,
+          78.9,
+          60.4,
+          17.0
+        ],
+        "abilities": [
+          "Disguise"
+        ],
+        "ability_usage": [
+          100.0
+        ],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            1,
+            32,
+            1,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            32,
+            32,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            29,
+            32,
+            5,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          "21.4%",
+          "19.8%",
+          "6.3%",
+          "4.9%",
+          "4.3%"
+        ],
+        "natures": [
+          "Adamant",
+          "Jolly",
+          "Brave",
+          "Impish",
+          "Naughty"
+        ],
+        "nature_usage": [
+          77.2,
+          16.5,
+          3.2,
+          0.7,
+          0.4
+        ],
+        "items": [
+          "Life Orb",
+          "Lum Berry",
+          "Scope Lens",
+          "Spell Tag",
+          "Fairy Feather"
+        ],
+        "item_usage": [
+          81.8,
+          5.2,
+          3.4,
+          2.8,
+          1.3
+        ]
+      }
+    },
+    {
+      "image": "image16.jpeg",
+      "data": {
+        "screen_type": "Stat Alignment",
+        "pokemon": "Mimikyu",
+        "usage": 3,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "Adamant",
+          "Jolly",
+          "Brave",
+          "Impish",
+          "Naughty"
+        ],
+        "nature_usage": [
+          77.2,
+          16.5,
+          3.2,
+          0.7,
+          0.4
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image17.jpeg",
+      "data": {
+        "screen_type": "Stat Points",
+        "pokemon": "Mimikyu",
+        "usage": 3,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            1,
+            32,
+            1,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            32,
+            32,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            29,
+            32,
+            5,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          "21.4%",
+          "19.8%",
+          "6.3%",
+          "4.9%",
+          "4.3%"
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image18.jpeg",
+      "data": {
+        "screen_type": "Ability",
+        "pokemon": "Mimikyu",
+        "usage": 3,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "Disguise"
+        ],
+        "ability_usage": [
+          100.0
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image19.jpeg",
+      "data": {
+        "screen_type": "Moves",
+        "pokemon": "Mimikyu",
+        "usage": 3,
+        "moves": [
+          "Shadow Sneak",
+          "Play Rough",
+          "Swords Dance",
+          "Shadow Claw",
+          "Curse"
+        ],
+        "move_usage": [
+          95.9,
+          95.0,
+          78.9,
+          60.4,
+          17.0
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image20.jpeg",
+      "data": {
+        "screen_type": "Held Item",
+        "pokemon": "staraptor",
+        "usage": 6,
+        "moves": [
+          "Close Combat",
+          "Brave Bird",
+          "Roost",
+          "Blaze Kick",
+          "Whirlwind"
+        ],
+        "move_usage": [
+          98.6,
+          91.3,
+          91.2,
+          53.1,
+          16.9
+        ],
+        "abilities": [
+          "Intimidate",
+          "Reckless"
+        ],
+        "ability_usage": [
+          97.1,
+          2.9
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "Jolly",
+          "Adamant",
+          "Careful",
+          "Impish",
+          "Naive"
+        ],
+        "nature_usage": [
+          77.5,
+          17.4,
+          1.8,
+          1.8,
+          0.3
+        ],
+        "items": [
+          "Starapite",
+          "Choice Scarf",
+          "Life Orb",
+          "Focus Sash",
+          "Sitrus Berry"
+        ],
+        "item_usage": [
+          95.5,
+          3.7,
+          0.1,
+          0.1,
+          0.1
+        ]
+      }
+    },
+    {
+      "image": "image21.jpeg",
+      "data": {
+        "screen_type": "Stat Alignment",
+        "pokemon": "staraptor",
+        "usage": 6,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "Jolly",
+          "Adamant",
+          "Careful",
+          "Impish",
+          "Naive"
+        ],
+        "nature_usage": [
+          77.5,
+          17.4,
+          1.8,
+          1.8,
+          0.3
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image23.jpeg",
+      "data": {
+        "screen_type": "Ability",
+        "pokemon": "staraptor",
+        "usage": 6,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "Intimidate",
+          "Reckless"
+        ],
+        "ability_usage": [
+          97.1,
+          2.9
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image24.jpeg",
+      "data": {
+        "screen_type": "Moves",
+        "pokemon": "staraptor",
+        "usage": 6,
+        "moves": [
+          "Close Combat",
+          "Brave Bird",
+          "Roost",
+          "Blaze Kick",
+          "Whirlwind"
+        ],
+        "move_usage": [
+          98.6,
+          91.3,
+          91.2,
+          53.1,
+          16.9
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image25.jpeg",
+      "data": {
+        "screen_type": "Held Item",
+        "pokemon": "raichu",
+        "usage": 5,
+        "moves": [
+          "zap cannon",
+          "focus blast",
+          "grass knot",
+          "volt switch",
+          "substitute"
+        ],
+        "move_usage": [
+          96.0,
+          95.4,
+          74.6,
+          27.6,
+          20.7
+        ],
+        "abilities": [
+          "lightning rod",
+          "static"
+        ],
+        "ability_usage": [
+          87.4,
+          12.6
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "Timid",
+          "Modest",
+          "Jolly",
+          "Hasty",
+          "Naive"
+        ],
+        "nature_usage": [
+          76.4,
+          17.1,
+          4.2,
+          0.8,
+          0.5
+        ],
+        "items": [
+          "Raichunite Y",
+          "Raichunite X",
+          "Focus Sash",
+          "Choice Scarf",
+          "Life Orb"
+        ],
+        "item_usage": [
+          96.4,
+          2.8,
+          0.3,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "image": "image26.jpeg",
+      "data": {
+        "screen_type": "Stat Alignment",
+        "pokemon": "raichu",
+        "usage": 5,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "Timid",
+          "Modest",
+          "Jolly",
+          "Hasty",
+          "Naive"
+        ],
+        "nature_usage": [
+          76.4,
+          17.1,
+          4.2,
+          0.8,
+          0.5
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image28.jpeg",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "raichu",
+        "usage": 5,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "lightning rod",
+          "static"
+        ],
+        "ability_usage": [
+          87.4,
+          12.6
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image29.jpeg",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "raichu",
+        "usage": 5,
+        "moves": [
+          "zap cannon",
+          "focus blast",
+          "grass knot",
+          "volt switch",
+          "substitute"
+        ],
+        "move_usage": [
+          96.0,
+          95.4,
+          74.6,
+          27.6,
+          20.7
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image30.jpeg",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "charizard",
+        "usage": 8,
+        "items": [
+          "charizardite y",
+          "charizardite x",
+          "choice scarf",
+          "life orb",
+          "focus sash"
+        ],
+        "item_usage": [
+          77.5,
+          21.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "natures": [
+          "modest",
+          "timid",
+          "adamant",
+          "jolly",
+          "bold"
+        ],
+        "nature_usage": [
+          43.1,
+          32.8,
+          15.2,
+          6.3,
+          0.8
+        ],
+        "abilities": [
+          "blaze",
+          "solar power"
+        ],
+        "ability_usage": [
+          84.7,
+          15.3
+        ],
+        "moves": [
+          "solar beam",
+          "flamethrower",
+          "air slash",
+          "overheat",
+          "flame charge"
+        ],
+        "move_usage": [
+          76.4,
+          47.2,
+          45.5,
+          31.1,
+          26.9
+        ]
+      }
+    },
+    {
+      "image": "image31.jpeg",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "charizard",
+        "usage": 8,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "modest",
+          "timid",
+          "adamant",
+          "jolly",
+          "bold"
+        ],
+        "nature_usage": [
+          43.1,
+          32.8,
+          15.2,
+          6.3,
+          0.8
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image33.jpeg",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "charizard",
+        "usage": 8,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "blaze",
+          "solar power"
+        ],
+        "ability_usage": [
+          84.7,
+          15.3
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image34.jpeg",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "charizard",
+        "usage": 8,
+        "moves": [
+          "solar beam",
+          "flamethrower",
+          "air slash",
+          "overheat",
+          "flame charge"
+        ],
+        "move_usage": [
+          76.4,
+          47.2,
+          45.5,
+          31.1,
+          26.9
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image35.jpeg",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "metagross",
+        "usage": 7,
+        "moves": [
+          "psychic fangs",
+          "bullet punch",
+          "earthquake",
+          "ice punch",
+          "iron head"
+        ],
+        "move_usage": [
+          85.7,
+          80.3,
+          75.1,
+          60.0,
+          26.5
+        ],
+        "abilities": [
+          "clear body",
+          "light metal"
+        ],
+        "ability_usage": [
+          99.2,
+          0.8
+        ],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            12,
+            22,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            32,
+            32,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            4,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            5,
+            32,
+            32,
+            1,
+            0,
+            1,
+            0
+          ]
+        ],
+        "spread_usage": [
+          39.5,
+          8.6,
+          4.2,
+          3.1,
+          3.0
+        ],
+        "natures": [
+          "jolly",
+          "adamant",
+          "impish",
+          "naive",
+          "careful"
+        ],
+        "nature_usage": [
+          59.7,
+          37.1,
+          1.0,
+          0.5,
+          0.4
+        ],
+        "items": [
+          "metagrossite",
+          "life orb",
+          "sitrus berry",
+          "shuca berry",
+          "leftovers"
+        ],
+        "item_usage": [
+          96.7,
+          0.7,
+          0.5,
+          0.3,
+          0.3
+        ]
+      }
+    },
+    {
+      "image": "image36.jpeg",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "metagross",
+        "usage": 7,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "jolly",
+          "adamant",
+          "impish",
+          "naive",
+          "careful"
+        ],
+        "nature_usage": [
+          59.7,
+          37.1,
+          1.0,
+          0.5,
+          0.4
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image37.jpeg",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "metagross",
+        "usage": 7,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            12,
+            22,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            32,
+            32,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            4,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            5,
+            32,
+            32,
+            1,
+            0,
+            1,
+            0
+          ]
+        ],
+        "spread_usage": [
+          39.5,
+          8.6,
+          4.2,
+          3.1,
+          3.0
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image38.jpeg",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "metagross",
+        "usage": 7,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "clear body",
+          "light metal"
+        ],
+        "ability_usage": [
+          99.2,
+          0.8
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image39.jpeg",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "metagross",
+        "usage": 7,
+        "moves": [
+          "psychic fangs",
+          "bullet punch",
+          "earthquake",
+          "ice punch",
+          "iron head"
+        ],
+        "move_usage": [
+          85.7,
+          80.3,
+          75.1,
+          60.0,
+          26.5
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image40.jpeg",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "swampert",
+        "usage": 10,
+        "moves": [
+          "earthquake",
+          "wave crash",
+          "ice punch",
+          "flip turn",
+          "stealth rock"
+        ],
+        "move_usage": [
+          92.7,
+          75.3,
+          72.7,
+          64.5,
+          21.6
+        ],
+        "abilities": [
+          "torrent",
+          "damp"
+        ],
+        "ability_usage": [
+          76.5,
+          23.5
+        ],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            32,
+            0,
+            32,
+            0,
+            2,
+            0
+          ],
+          [
+            4,
+            0,
+            32,
+            0,
+            0,
+            2,
+            32
+          ],
+          [
+            5,
+            8,
+            32,
+            0,
+            0,
+            0,
+            26
+          ]
+        ],
+        "spread_usage": [
+          42.6,
+          9.1,
+          7.3,
+          3.6,
+          3.3
+        ],
+        "natures": [
+          "adamant",
+          "jolly",
+          "impish",
+          "relaxed",
+          "careful"
+        ],
+        "nature_usage": [
+          58.6,
+          19.3,
+          8.1,
+          6.7,
+          2.6
+        ],
+        "items": [
+          "swampertite",
+          "sitrus berry",
+          "leftovers",
+          "rindo berry",
+          "focus sash"
+        ],
+        "item_usage": [
+          75.8,
+          13.1,
+          4.8,
+          3.5,
+          1.3
+        ]
+      }
+    },
+    {
+      "image": "image41.jpeg",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "swampert",
+        "usage": 10,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "adamant",
+          "jolly",
+          "impish",
+          "relaxed",
+          "careful"
+        ],
+        "nature_usage": [
+          58.6,
+          19.3,
+          8.1,
+          6.7,
+          2.6
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image42.jpeg",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "swampert",
+        "usage": 10,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            32,
+            0,
+            32,
+            0,
+            2,
+            0
+          ],
+          [
+            4,
+            0,
+            32,
+            0,
+            0,
+            2,
+            32
+          ],
+          [
+            5,
+            8,
+            32,
+            0,
+            0,
+            0,
+            26
+          ]
+        ],
+        "spread_usage": [
+          42.6,
+          9.1,
+          7.3,
+          3.6,
+          3.3
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image43.jpeg",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "swampert",
+        "usage": 10,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "torrent",
+          "damp"
+        ],
+        "ability_usage": [
+          76.5,
+          23.5
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image44.jpeg",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "swampert",
+        "usage": 10,
+        "moves": [
+          "earthquake",
+          "wave crash",
+          "ice punch",
+          "flip turn",
+          "stealth rock"
+        ],
+        "move_usage": [
+          92.7,
+          75.3,
+          72.7,
+          64.5,
+          21.6
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image45.jpeg",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "corviknight",
+        "usage": 9,
+        "items": [
+          "leftovers",
+          "sitrus berry",
+          "bright powder",
+          "lum berry",
+          "occa berry"
+        ],
+        "item_usage": [
+          69.1,
+          26.7,
+          1.2,
+          1.0,
+          0.2
+        ],
+        "moves": [
+          "roost",
+          "body press",
+          "iron defense",
+          "u-turn",
+          "iron head"
+        ],
+        "move_usage": [
+          98.2,
+          86.7,
+          81.1,
+          66.2,
+          24.6
+        ],
+        "abilities": [
+          "pressure",
+          "mirror armor",
+          "unnerve"
+        ],
+        "ability_usage": [
+          61.4,
+          36.8,
+          1.8
+        ],
+        "spread_values": [
+          [
+            1,
+            32,
+            0,
+            32,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            32,
+            0,
+            32,
+            0,
+            0,
+            2
+          ],
+          [
+            3,
+            32,
+            0,
+            2,
+            0,
+            32,
+            0
+          ],
+          [
+            4,
+            32,
+            2,
+            32,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            32,
+            0,
+            18,
+            0,
+            16,
+            0
+          ]
+        ],
+        "spread_usage": [
+          52.9,
+          10.6,
+          3.3,
+          2.9,
+          2.6
+        ],
+        "natures": [
+          "impish",
+          "relaxed",
+          "careful",
+          "sassy",
+          "bold"
+        ],
+        "nature_usage": [
+          64.4,
+          23.8,
+          6.5,
+          1.8,
+          1.4
+        ]
+      }
+    },
+    {
+      "image": "image46.jpeg",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "corviknight",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "impish",
+          "relaxed",
+          "careful",
+          "sassy",
+          "bold"
+        ],
+        "nature_usage": [
+          64.4,
+          23.8,
+          6.5,
+          1.8,
+          1.4
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image47.jpeg",
+      "data": {
+        "screen_type": "Stat Points",
+        "pokemon": "corviknight",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            32,
+            0,
+            32,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            32,
+            0,
+            32,
+            0,
+            0,
+            2
+          ],
+          [
+            3,
+            32,
+            0,
+            2,
+            0,
+            32,
+            0
+          ],
+          [
+            4,
+            32,
+            2,
+            32,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            32,
+            0,
+            18,
+            0,
+            16,
+            0
+          ]
+        ],
+        "spread_usage": [
+          52.9,
+          10.6,
+          3.3,
+          2.9,
+          2.6
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image48.jpeg",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "corviknight",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "pressure",
+          "mirror armor",
+          "unnerve"
+        ],
+        "ability_usage": [
+          61.4,
+          36.8,
+          1.8
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image49.jpeg",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "corviknight",
+        "usage": 9,
+        "moves": [
+          "roost",
+          "body press",
+          "iron defense",
+          "u-turn",
+          "iron head"
+        ],
+        "move_usage": [
+          98.2,
+          86.7,
+          81.1,
+          66.2,
+          24.6
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    }
+  ],
+  "autocorrections": [
+    {
+      "image": "image3.jpeg",
+      "usage": "2",
+      "field": "pokemon",
+      "from": "Archaludon",
+      "to": "archaludon",
+      "score": 100.0,
+      "reason": "prefilled_name_rank"
+    },
+    {
+      "image": "image4.jpeg",
+      "usage": "2",
+      "field": "pokemon",
+      "from": "Archaludon",
+      "to": "archaludon",
+      "score": 100.0,
+      "reason": "prefilled_name_rank"
+    },
+    {
+      "image": "image5.jpeg",
+      "usage": "1",
+      "field": "pokemon",
+      "from": "Garchomp",
+      "to": "garchomp",
+      "score": 100.0,
+      "reason": "prefilled_name_rank"
+    },
+    {
+      "image": "image6.jpeg",
+      "usage": "1",
+      "field": "pokemon",
+      "from": "Garchomp",
+      "to": "garchomp",
+      "score": 100.0,
+      "reason": "prefilled_name_rank"
+    },
+    {
+      "image": "image8.jpeg",
+      "usage": "1",
+      "field": "pokemon",
+      "from": "Garchomp",
+      "to": "garchomp",
+      "score": 100.0,
+      "reason": "prefilled_name_rank"
+    },
+    {
+      "image": "image9.jpeg",
+      "usage": "1",
+      "field": "pokemon",
+      "from": "Garchomp",
+      "to": "garchomp",
+      "score": 100.0,
+      "reason": "prefilled_name_rank"
+    },
+    {
+      "image": "image10.jpeg",
+      "usage": "4",
+      "field": "pokemon",
+      "from": "Meowscarada",
+      "to": "meowscarada",
+      "score": 100.0,
+      "reason": "prefilled_name_rank"
+    },
+    {
+      "image": "image11.jpeg",
+      "usage": "4",
+      "field": "pokemon",
+      "from": "Meowscarada",
+      "to": "meowscarada",
+      "score": 100.0,
+      "reason": "prefilled_name_rank"
+    },
+    {
+      "image": "image12.jpeg",
+      "usage": "4",
+      "field": "pokemon",
+      "from": "Meowscarada",
+      "to": "meowscarada",
+      "score": 100.0,
+      "reason": "prefilled_name_rank"
+    },
+    {
+      "image": "image13.jpeg",
+      "usage": "4",
+      "field": "pokemon",
+      "from": "Meowscarada",
+      "to": "meowscarada",
+      "score": 100.0,
+      "reason": "prefilled_name_rank"
+    },
+    {
+      "image": "image14.jpeg",
+      "usage": "4",
+      "field": "pokemon",
+      "from": "Meowscarada",
+      "to": "meowscarada",
+      "score": 100.0,
+      "reason": "prefilled_name_rank"
+    },
+    {
+      "image": "image20.jpeg",
+      "usage": "6",
+      "field": "pokemon",
+      "from": "Staraptor",
+      "to": "staraptor",
+      "score": 100.0,
+      "reason": "prefilled_name_rank"
+    },
+    {
+      "image": "image21.jpeg",
+      "usage": "6",
+      "field": "pokemon",
+      "from": "Staraptor",
+      "to": "staraptor",
+      "score": 100.0,
+      "reason": "prefilled_name_rank"
+    },
+    {
+      "image": "image23.jpeg",
+      "usage": "6",
+      "field": "pokemon",
+      "from": "Staraptor",
+      "to": "staraptor",
+      "score": 100.0,
+      "reason": "prefilled_name_rank"
+    },
+    {
+      "image": "image24.jpeg",
+      "usage": "6",
+      "field": "pokemon",
+      "from": "Staraptor",
+      "to": "staraptor",
+      "score": 100.0,
+      "reason": "prefilled_name_rank"
+    },
+    {
+      "image": "image25.jpeg",
+      "usage": "5",
+      "field": "pokemon",
+      "from": "Raichu",
+      "to": "raichu",
+      "score": 100.0,
+      "reason": "prefilled_name_rank"
+    },
+    {
+      "image": "image26.jpeg",
+      "usage": "5",
+      "field": "pokemon",
+      "from": "Raichu",
+      "to": "raichu",
+      "score": 100.0,
+      "reason": "prefilled_name_rank"
+    },
+    {
+      "image": "image47.jpeg",
+      "usage": "9",
+      "field": "pokemon",
+      "from": "Corviknight",
+      "to": "corviknight",
+      "score": 100.0,
+      "reason": "prefilled_name_rank"
+    }
+  ],
+  "extracted": [
+    {
+      "image": "image3.jpeg",
+      "data": {
+        "screen_type": "Ability",
+        "pokemon": "archaludon",
+        "usage": 2,
+        "moves": [
+          "Flash Cannon",
+          "Draco Meteor",
+          "Thunderbolt",
+          "Electro Shot",
+          "Stealth Rock"
+        ],
+        "move_usage": [
+          "74.0%",
+          "73.2%",
+          "47.6%",
+          "41.9%",
+          "36.7%"
+        ],
+        "abilities": [
+          "Stamina",
+          "Sturdy",
+          "Stalwart"
+        ],
+        "ability_usage": [
+          "75.0%",
+          "24.8%",
+          "0.2%"
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "image5.jpeg",
+      "data": {
+        "screen_type": "Held Item",
+        "pokemon": "garchomp",
+        "usage": 1,
+        "moves": [
+          "Earthquake",
+          "Outrage",
+          "Stealth Rock",
+          "Rock Tomb",
+          "Scale Shot"
+        ],
+        "move_usage": [
+          99.6,
+          51.6,
+          45.7,
+          37.5,
+          32.2
+        ],
+        "abilities": [
+          "Rough Skin",
+          "Sand Veil"
+        ],
+        "ability_usage": [
+          99.2,
+          0.8
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "Jolly",
+          "Adamant",
+          "Impish",
+          "Careful",
+          "Naive"
+        ],
+        "nature_usage": [
+          "60.3%",
+          "25.5%",
+          "11.2%",
+          "1.4%",
+          "0.4%"
+        ],
+        "items": [
+          "Focus Sash",
+          "Choice Scarf",
+          "Sitrus Berry",
+          "Lum Berry",
+          "Life Orb"
+        ],
+        "item_usage": [
+          39.9,
+          29.0,
+          16.6,
+          4.7,
+          4.7
+        ]
+      }
+    },
+    {
+      "image": "image10.jpeg",
+      "data": {
+        "screen_type": "Held Item",
+        "pokemon": "meowscarada",
+        "usage": 4,
+        "moves": [
+          "Flower Trick",
+          "Triple Axel",
+          "U-turn",
+          "Knock Off",
+          "Thunder Punch"
+        ],
+        "move_usage": [
+          98.2,
+          88.5,
+          72.1,
+          68.1,
+          15.3
+        ],
+        "abilities": [
+          "Protean",
+          "Overgrow"
+        ],
+        "ability_usage": [
+          95.5,
+          4.5
+        ],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            0,
+            32,
+            0,
+            0,
+            2,
+            32
+          ],
+          [
+            4,
+            0,
+            32,
+            1,
+            0,
+            1,
+            32
+          ],
+          [
+            5,
+            0,
+            32,
+            0,
+            0,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          "62.4%",
+          "10.1%",
+          "5.2%",
+          "3.5%",
+          "2.1%"
+        ],
+        "natures": [
+          "Jolly",
+          "Adamant",
+          "Naive",
+          "Naughty",
+          "Hasty"
+        ],
+        "nature_usage": [
+          59.1,
+          34.5,
+          1.9,
+          1.1,
+          0.8
+        ],
+        "items": [
+          "Choice Scarf",
+          "Focus Sash",
+          "Life Orb",
+          "Expert Belt",
+          "Sitrus Berry"
+        ],
+        "item_usage": [
+          73.6,
+          18.5,
+          4.0,
+          1.0,
+          0.4
+        ]
+      }
+    },
+    {
+      "image": "image15.jpeg",
+      "data": {
+        "screen_type": "Held Item",
+        "pokemon": "Mimikyu",
+        "usage": 3,
+        "moves": [
+          "Shadow Sneak",
+          "Play Rough",
+          "Swords Dance",
+          "Shadow Claw",
+          "Curse"
+        ],
+        "move_usage": [
+          95.9,
+          95.0,
+          78.9,
+          60.4,
+          17.0
+        ],
+        "abilities": [
+          "Disguise"
+        ],
+        "ability_usage": [
+          100.0
+        ],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            1,
+            32,
+            1,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            32,
+            32,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            29,
+            32,
+            5,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          "21.4%",
+          "19.8%",
+          "6.3%",
+          "4.9%",
+          "4.3%"
+        ],
+        "natures": [
+          "Adamant",
+          "Jolly",
+          "Brave",
+          "Impish",
+          "Naughty"
+        ],
+        "nature_usage": [
+          77.2,
+          16.5,
+          3.2,
+          0.7,
+          0.4
+        ],
+        "items": [
+          "Life Orb",
+          "Lum Berry",
+          "Scope Lens",
+          "Spell Tag",
+          "Fairy Feather"
+        ],
+        "item_usage": [
+          81.8,
+          5.2,
+          3.4,
+          2.8,
+          1.3
+        ]
+      }
+    },
+    {
+      "image": "image20.jpeg",
+      "data": {
+        "screen_type": "Held Item",
+        "pokemon": "staraptor",
+        "usage": 6,
+        "moves": [
+          "Close Combat",
+          "Brave Bird",
+          "Roost",
+          "Blaze Kick",
+          "Whirlwind"
+        ],
+        "move_usage": [
+          98.6,
+          91.3,
+          91.2,
+          53.1,
+          16.9
+        ],
+        "abilities": [
+          "Intimidate",
+          "Reckless"
+        ],
+        "ability_usage": [
+          97.1,
+          2.9
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "Jolly",
+          "Adamant",
+          "Careful",
+          "Impish",
+          "Naive"
+        ],
+        "nature_usage": [
+          77.5,
+          17.4,
+          1.8,
+          1.8,
+          0.3
+        ],
+        "items": [
+          "Starapite",
+          "Choice Scarf",
+          "Life Orb",
+          "Focus Sash",
+          "Sitrus Berry"
+        ],
+        "item_usage": [
+          95.5,
+          3.7,
+          0.1,
+          0.1,
+          0.1
+        ]
+      }
+    },
+    {
+      "image": "image25.jpeg",
+      "data": {
+        "screen_type": "Held Item",
+        "pokemon": "raichu",
+        "usage": 5,
+        "moves": [
+          "zap cannon",
+          "focus blast",
+          "grass knot",
+          "volt switch",
+          "substitute"
+        ],
+        "move_usage": [
+          96.0,
+          95.4,
+          74.6,
+          27.6,
+          20.7
+        ],
+        "abilities": [
+          "lightning rod",
+          "static"
+        ],
+        "ability_usage": [
+          87.4,
+          12.6
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "Timid",
+          "Modest",
+          "Jolly",
+          "Hasty",
+          "Naive"
+        ],
+        "nature_usage": [
+          76.4,
+          17.1,
+          4.2,
+          0.8,
+          0.5
+        ],
+        "items": [
+          "Raichunite Y",
+          "Raichunite X",
+          "Focus Sash",
+          "Choice Scarf",
+          "Life Orb"
+        ],
+        "item_usage": [
+          96.4,
+          2.8,
+          0.3,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "image": "image30.jpeg",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "charizard",
+        "usage": 8,
+        "items": [
+          "charizardite y",
+          "charizardite x",
+          "choice scarf",
+          "life orb",
+          "focus sash"
+        ],
+        "item_usage": [
+          77.5,
+          21.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "natures": [
+          "modest",
+          "timid",
+          "adamant",
+          "jolly",
+          "bold"
+        ],
+        "nature_usage": [
+          43.1,
+          32.8,
+          15.2,
+          6.3,
+          0.8
+        ],
+        "abilities": [
+          "blaze",
+          "solar power"
+        ],
+        "ability_usage": [
+          84.7,
+          15.3
+        ],
+        "moves": [
+          "solar beam",
+          "flamethrower",
+          "air slash",
+          "overheat",
+          "flame charge"
+        ],
+        "move_usage": [
+          76.4,
+          47.2,
+          45.5,
+          31.1,
+          26.9
+        ]
+      }
+    },
+    {
+      "image": "image35.jpeg",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "metagross",
+        "usage": 7,
+        "moves": [
+          "psychic fangs",
+          "bullet punch",
+          "earthquake",
+          "ice punch",
+          "iron head"
+        ],
+        "move_usage": [
+          85.7,
+          80.3,
+          75.1,
+          60.0,
+          26.5
+        ],
+        "abilities": [
+          "clear body",
+          "light metal"
+        ],
+        "ability_usage": [
+          99.2,
+          0.8
+        ],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            12,
+            22,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            32,
+            32,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            4,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            5,
+            32,
+            32,
+            1,
+            0,
+            1,
+            0
+          ]
+        ],
+        "spread_usage": [
+          39.5,
+          8.6,
+          4.2,
+          3.1,
+          3.0
+        ],
+        "natures": [
+          "jolly",
+          "adamant",
+          "impish",
+          "naive",
+          "careful"
+        ],
+        "nature_usage": [
+          59.7,
+          37.1,
+          1.0,
+          0.5,
+          0.4
+        ],
+        "items": [
+          "metagrossite",
+          "life orb",
+          "sitrus berry",
+          "shuca berry",
+          "leftovers"
+        ],
+        "item_usage": [
+          96.7,
+          0.7,
+          0.5,
+          0.3,
+          0.3
+        ]
+      }
+    },
+    {
+      "image": "image40.jpeg",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "swampert",
+        "usage": 10,
+        "moves": [
+          "earthquake",
+          "wave crash",
+          "ice punch",
+          "flip turn",
+          "stealth rock"
+        ],
+        "move_usage": [
+          92.7,
+          75.3,
+          72.7,
+          64.5,
+          21.6
+        ],
+        "abilities": [
+          "torrent",
+          "damp"
+        ],
+        "ability_usage": [
+          76.5,
+          23.5
+        ],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            32,
+            0,
+            32,
+            0,
+            2,
+            0
+          ],
+          [
+            4,
+            0,
+            32,
+            0,
+            0,
+            2,
+            32
+          ],
+          [
+            5,
+            8,
+            32,
+            0,
+            0,
+            0,
+            26
+          ]
+        ],
+        "spread_usage": [
+          42.6,
+          9.1,
+          7.3,
+          3.6,
+          3.3
+        ],
+        "natures": [
+          "adamant",
+          "jolly",
+          "impish",
+          "relaxed",
+          "careful"
+        ],
+        "nature_usage": [
+          58.6,
+          19.3,
+          8.1,
+          6.7,
+          2.6
+        ],
+        "items": [
+          "swampertite",
+          "sitrus berry",
+          "leftovers",
+          "rindo berry",
+          "focus sash"
+        ],
+        "item_usage": [
+          75.8,
+          13.1,
+          4.8,
+          3.5,
+          1.3
+        ]
+      }
+    },
+    {
+      "image": "image45.jpeg",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "corviknight",
+        "usage": 9,
+        "items": [
+          "leftovers",
+          "sitrus berry",
+          "bright powder",
+          "lum berry",
+          "occa berry"
+        ],
+        "item_usage": [
+          69.1,
+          26.7,
+          1.2,
+          1.0,
+          0.2
+        ],
+        "moves": [
+          "roost",
+          "body press",
+          "iron defense",
+          "u-turn",
+          "iron head"
+        ],
+        "move_usage": [
+          98.2,
+          86.7,
+          81.1,
+          66.2,
+          24.6
+        ],
+        "abilities": [
+          "pressure",
+          "mirror armor",
+          "unnerve"
+        ],
+        "ability_usage": [
+          61.4,
+          36.8,
+          1.8
+        ],
+        "spread_values": [
+          [
+            1,
+            32,
+            0,
+            32,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            32,
+            0,
+            32,
+            0,
+            0,
+            2
+          ],
+          [
+            3,
+            32,
+            0,
+            2,
+            0,
+            32,
+            0
+          ],
+          [
+            4,
+            32,
+            2,
+            32,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            32,
+            0,
+            18,
+            0,
+            16,
+            0
+          ]
+        ],
+        "spread_usage": [
+          52.9,
+          10.6,
+          3.3,
+          2.9,
+          2.6
+        ],
+        "natures": [
+          "impish",
+          "relaxed",
+          "careful",
+          "sassy",
+          "bold"
+        ],
+        "nature_usage": [
+          64.4,
+          23.8,
+          6.5,
+          1.8,
+          1.4
+        ]
+      }
+    }
+  ],
+  "errors": [
+    "image0.jpeg",
+    "image1.jpeg",
+    "image2.jpeg",
+    "image7.jpeg",
+    "image22.jpeg",
+    "image27.jpeg",
+    "image32.jpeg"
+  ]
+}

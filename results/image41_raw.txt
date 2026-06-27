@@ -1,0 +1,15 @@
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "swampert",
+  "usage": 10,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": ["adamant", "jolly", "impish", "relaxed", "careful"],
+  "nature_usage": [58.6, 19.3, 8.1, 6.7, 2.6],
+  "items": [],
+  "item_usage": []
+}

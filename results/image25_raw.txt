@@ -1,0 +1,1 @@
+{"screen_type": "Held Item", "pokemon": "Raichu", "usage": 5, "moves": [], "move_usage": [], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": ["Raichunite Y", "Raichunite X", "Focus Sash", "Choice Scarf", "Life Orb"], "item_usage": [96.4, 2.8, 0.3, 0.0, 0.0]}

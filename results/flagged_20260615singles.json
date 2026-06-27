@@ -1,0 +1,34 @@
+{
+  "source_results": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\results\\20260615singles_extracted.json",
+  "date": "2026-06-15",
+  "format": "singles",
+  "threshold": 80.0,
+  "validated_at": "2026-06-15T15:56:01",
+  "total_images": 47,
+  "screen_type_counts": {
+    "Ability": 1,
+    "moves": 8,
+    "stat_alignment": 8,
+    "held_item": 9,
+    "Stat Points": 7,
+    "ability": 10,
+    "Moves": 1,
+    "stat_points": 2,
+    "Stat Alignment": 1
+  },
+  "flagged_count": 1,
+  "flags": [
+    {
+      "image": "image11.jpeg",
+      "screen_type": "Stat Points",
+      "pokemon": "Basculigion",
+      "usage": 6,
+      "field": "spread_values[4]",
+      "extracted": "[0, 32, 0, 0, 0, 32]",
+      "issue": "spread_sum_mismatch",
+      "best_match": "",
+      "score": 0.0,
+      "note": "Stat values [0, 32, 0, 0, 0, 32] sum to 64, expected 66"
+    }
+  ]
+}

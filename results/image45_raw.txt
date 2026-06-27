@@ -1,0 +1,15 @@
+{
+  "screen_type": "held_item",
+  "pokemon": "corviknight",
+  "usage": 9,
+  "items": ["leftovers", "sitrus berry", "bright powder", "lum berry", "occa berry"],
+  "item_usage": [69.1, 26.7, 1.2, 1.0, 0.2],
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": []
+}

@@ -1,0 +1,15 @@
+{
+  "screen_type": "moves",
+  "pokemon": "garchomp",
+  "usage": 2,
+  "moves": ["earthquake", "dragon claw", "rock slide", "protect", "stomping tantrum"],
+  "move_usage": [85.5, 76.6, 76.6, 60.5, 34.4],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

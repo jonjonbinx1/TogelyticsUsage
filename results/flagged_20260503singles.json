@@ -1,0 +1,43 @@
+{
+  "source_results": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\results\\20260503singles_extracted.json",
+  "date": "2026-05-03",
+  "format": "singles",
+  "threshold": 80.0,
+  "validated_at": "2026-05-04T00:36:14",
+  "total_images": 50,
+  "screen_type_counts": {
+    "held_item": 10,
+    "moves": 10,
+    "stat_alignment": 10,
+    "ability": 10,
+    "stat_points": 9,
+    "Stat Points": 1
+  },
+  "flagged_count": 2,
+  "flags": [
+    {
+      "image": "image12.jpeg",
+      "screen_type": "stat_points",
+      "pokemon": "comknigh",
+      "usage": 5,
+      "field": "pokemon",
+      "extracted": "comknigh",
+      "issue": "low_confidence_name",
+      "best_match": "corviknight",
+      "score": 73.7,
+      "note": "Score 74 < 80.0; suggested: 'corviknight'"
+    },
+    {
+      "image": "image24.jpeg",
+      "screen_type": "moves",
+      "pokemon": "pkmnina",
+      "usage": 2,
+      "field": "pokemon",
+      "extracted": "pkmnina",
+      "issue": "low_confidence_name",
+      "best_match": "munna",
+      "score": 66.7,
+      "note": "Score 67 < 80.0; suggested: 'munna'"
+    }
+  ]
+}

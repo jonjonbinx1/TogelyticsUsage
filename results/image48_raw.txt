@@ -1,0 +1,15 @@
+{
+  "screen_type": "ability",
+  "pokemon": "corviknight",
+  "usage": 9,
+  "moves": [],
+  "move_usage": [],
+  "abilities": ["pressure", "mirror armor", "unnerve"],
+  "ability_usage": [61.4, 36.8, 1.8],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

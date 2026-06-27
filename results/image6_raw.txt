@@ -1,0 +1,1 @@
+{"screen_type": "Stat Alignment", "pokemon": "Garchomp", "usage": 1, "moves": [], "move_usage": [], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": ["Jolly", "Adamant", "Impish", "Careful", "Naive"], "nature_usage": ["60.3%", "25.5%", "11.2%", "1.4%", "0.4%"], "items": [], "item_usage": []}

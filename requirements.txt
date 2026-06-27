@@ -1,0 +1,8 @@
+# Pokemon Usage Stats Extractor — Python dependencies
+# Install with:  pip install -r requirements.txt
+
+requests>=2.31.0
+rapidfuzz>=3.0.0
+Pillow>=10.0.0
+beautifulsoup4>=4.12.0
+matplotlib>=3.8.0

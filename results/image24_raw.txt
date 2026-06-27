@@ -1,0 +1,1 @@
+{"screen_type": "Moves", "pokemon": "Staraptor", "usage": 6, "moves": ["Close Combat", "Brave Bird", "Roost", "Blaze Kick", "Whirlwind"], "move_usage": [98.6, 91.3, 91.2, 53.1, 16.9], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": [], "item_usage": []}

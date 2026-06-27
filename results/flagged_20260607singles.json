@@ -1,0 +1,19 @@
+{
+  "source_results": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\results\\20260607singles_extracted.json",
+  "date": "2026-06-07",
+  "format": "singles",
+  "threshold": 80.0,
+  "validated_at": "2026-06-08T10:51:30",
+  "total_images": 47,
+  "screen_type_counts": {
+    "stat_alignment": 8,
+    "held_item": 10,
+    "moves": 9,
+    "ability": 9,
+    "Stat Points": 6,
+    "stat_points": 3,
+    "Stat Alignment": 2
+  },
+  "flagged_count": 0,
+  "flags": []
+}

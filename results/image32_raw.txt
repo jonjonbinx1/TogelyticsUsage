@@ -1,0 +1,24 @@
+{
+  "screen_type": "Stat Points",
+  "pokemon": "Charizard",
+  "usage": 8,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [
+    [1, 2, 0, 0, 32, 0, 32],
+    [2, 2, 32, 0, 0, 0, 32],
+    [3, 0, 0, 2, 32, 0, 32],
+    [4, 14, 0, 12, 21, 0, 19],
+    [5, 32, 0, 20, 11, 0, 3]
+  ],
+  "spread_usage": [
+    41.5,
+    11.6,
+    4.7,
+    2.9,
+    2.8
+  ],
+  "natures": [],
+  "nature

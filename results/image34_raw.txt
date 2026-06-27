@@ -1,0 +1,15 @@
+{
+  "screen_type": "moves",
+  "pokemon": "charizard",
+  "usage": 8,
+  "moves": ["solar beam", "flamethrower", "air slash", "overheat", "flame charge"],
+  "move_usage": [76.4, 47.2, 45.5, 31.1, 26.9],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

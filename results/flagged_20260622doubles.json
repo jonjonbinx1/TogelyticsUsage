@@ -1,0 +1,46 @@
+{
+  "source_results": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\results\\20260622doubles_extracted.json",
+  "date": "2026-06-22",
+  "format": "doubles",
+  "threshold": 80.0,
+  "validated_at": "2026-06-22T14:35:34",
+  "total_images": 48,
+  "screen_type_counts": {
+    "moves": 9,
+    "ability": 9,
+    "Stat Points": 6,
+    "stat_alignment": 10,
+    "held_item": 9,
+    "stat_points": 2,
+    "Held Item": 1,
+    "Moves": 1,
+    "Ability": 1
+  },
+  "flagged_count": 2,
+  "flags": [
+    {
+      "image": "image10.jpeg",
+      "screen_type": "moves",
+      "pokemon": "staraptor",
+      "usage": 7,
+      "field": "items['starapite']",
+      "extracted": "starapite",
+      "issue": "unknown_item",
+      "best_match": "star-piece",
+      "score": 73.7,
+      "note": "Score 74; suggested: 'star-piece'"
+    },
+    {
+      "image": "image14.jpeg",
+      "screen_type": "held_item",
+      "pokemon": "staraptor",
+      "usage": 7,
+      "field": "items['starapite']",
+      "extracted": "starapite",
+      "issue": "unknown_item",
+      "best_match": "star-piece",
+      "score": 73.7,
+      "note": "Score 74; suggested: 'star-piece'"
+    }
+  ]
+}

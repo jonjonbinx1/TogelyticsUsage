@@ -1,0 +1,59 @@
+{
+  "source_results": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\results\\20260622singles_extracted.json",
+  "date": "2026-06-22",
+  "format": "singles",
+  "threshold": 80.0,
+  "validated_at": "2026-06-23T04:59:28",
+  "total_images": 43,
+  "screen_type_counts": {
+    "Ability": 5,
+    "Moves": 5,
+    "Held Item": 5,
+    "Stat Alignment": 5,
+    "Stat Points": 3,
+    "ability": 5,
+    "moves": 5,
+    "held_item": 4,
+    "stat_alignment": 4,
+    "stat_points": 2
+  },
+  "flagged_count": 3,
+  "flags": [
+    {
+      "image": "image10.jpeg",
+      "screen_type": "Held Item",
+      "pokemon": "meowscarada",
+      "usage": 4,
+      "field": "spread_values[4]",
+      "extracted": "[0, 32, 0, 0, 0, 32]",
+      "issue": "spread_sum_mismatch",
+      "best_match": "",
+      "score": 0.0,
+      "note": "Stat values [0, 32, 0, 0, 0, 32] sum to 64, expected 66"
+    },
+    {
+      "image": "image12.jpeg",
+      "screen_type": "Stat Points",
+      "pokemon": "meowscarada",
+      "usage": 4,
+      "field": "spread_values[4]",
+      "extracted": "[0, 32, 0, 0, 0, 32]",
+      "issue": "spread_sum_mismatch",
+      "best_match": "",
+      "score": 0.0,
+      "note": "Stat values [0, 32, 0, 0, 0, 32] sum to 64, expected 66"
+    },
+    {
+      "image": "image20.jpeg",
+      "screen_type": "Held Item",
+      "pokemon": "staraptor",
+      "usage": 6,
+      "field": "items['Starapite']",
+      "extracted": "Starapite",
+      "issue": "unknown_item",
+      "best_match": "star-piece",
+      "score": 73.7,
+      "note": "Score 74; suggested: 'star-piece'"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "screen_type": "moves",
+  "pokemon": "metagross",
+  "usage": 7,
+  "moves": ["psychic fangs", "bullet punch", "earthquake", "ice punch", "iron head"],
+  "move_usage": [85.7, 80.3, 75.1, 60.0, 26.5],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

@@ -1,0 +1,27 @@
+{
+  "screen_type": "Stat Points",
+  "pokemon": "Corviknight",
+  "usage": 9,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [
+    [1, 32, 0, 32, 0, 2, 0],
+    [2, 32, 0, 32, 0, 0, 2],
+    [3, 32, 0, 2, 0, 32, 0],
+    [4, 32, 2, 32, 0, 0, 0],
+    [5, 32, 0, 18, 0, 16, 0]
+  ],
+  "spread_usage": [
+    52.9,
+    10.6,
+    3.3,
+    2.9,
+    2.6
+  ],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

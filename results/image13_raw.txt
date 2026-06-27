@@ -1,0 +1,1 @@
+{"screen_type": "Ability", "pokemon": "Meowscarada", "usage": 4, "moves": [], "move_usage": [], "abilities": ["Protean", "Overgrow"], "ability_usage": [95.5, 4.5], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": [], "item_usage": []}

@@ -1,0 +1,1 @@
+{"screen_type": "Stat Alignment", "pokemon": "Raichu", "usage": 5, "moves": [], "move_usage": [], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": ["Timid", "Modest", "Jolly", "Hasty", "Naive"], "nature_usage": [76.4, 17.1, 4.2, 0.8, 0.5], "items": [], "item_usage": []}

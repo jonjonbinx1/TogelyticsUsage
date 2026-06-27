@@ -1,0 +1,15 @@
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "corviknight",
+  "usage": 9,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": ["impish", "relaxed", "careful", "sassy", "bold"],
+  "nature_usage": [64.4, 23.8, 6.5, 1.8, 1.4],
+  "items": [],
+  "item_usage": []
+}

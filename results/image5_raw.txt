@@ -1,0 +1,1 @@
+{"screen_type": "Held Item", "pokemon": "Garchomp", "usage": 1, "moves": [], "move_usage": [], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": ["Focus Sash", "Choice Scarf", "Sitrus Berry", "Lum Berry", "Life Orb"], "item_usage": [39.9, 29.0, 16.6, 4.7, 4.7]}

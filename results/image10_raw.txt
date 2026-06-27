@@ -1,0 +1,1 @@
+{"screen_type": "Held Item", "pokemon": "Meowscarada", "usage": 4, "moves": [], "move_usage": [], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": ["Choice Scarf", "Focus Sash", "Life Orb", "Expert Belt", "Sitrus Berry"], "item_usage": [73.6, 18.5, 4.0, 1.0, 0.4]}

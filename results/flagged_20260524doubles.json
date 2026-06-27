@@ -1,0 +1,18 @@
+{
+  "source_results": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\results\\20260524doubles_extracted.json",
+  "date": "2026-05-24",
+  "format": "doubles",
+  "threshold": 80.0,
+  "validated_at": "2026-05-24T23:26:59",
+  "total_images": 50,
+  "screen_type_counts": {
+    "moves": 10,
+    "ability": 10,
+    "Stat Points": 9,
+    "stat_alignment": 10,
+    "held_item": 10,
+    "stat_points": 1
+  },
+  "flagged_count": 0,
+  "flags": []
+}

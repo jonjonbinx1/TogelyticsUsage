@@ -1,0 +1,1 @@
+{"screen_type": "Ability", "pokemon": "Staraptor", "usage": 6, "moves": [], "move_usage": [], "abilities": ["Intimidate", "Reckless"], "ability_usage": [97.1, 2.9], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": [], "item_usage": []}

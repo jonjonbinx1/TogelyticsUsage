@@ -1,0 +1,15 @@
+{
+  "screen_type": "held_item",
+  "pokemon": "metagross",
+  "usage": 7,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": ["metagrossite", "life orb", "sitrus berry", "shuca berry", "leftovers"],
+  "item_usage": [96.7, 0.7, 0.5, 0.3, 0.3]
+}

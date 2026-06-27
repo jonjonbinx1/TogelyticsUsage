@@ -1,0 +1,1 @@
+{"screen_type": "Moves", "pokemon": "Garchomp", "usage": 1, "moves": ["Earthquake", "Outrage", "Stealth Rock", "Rock Tomb", "Scale Shot"], "move_usage": [99.6, 51.6, 45.7, 37.5, 32.2], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": [], "item_usage": []}

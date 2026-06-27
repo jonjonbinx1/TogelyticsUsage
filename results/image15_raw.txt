@@ -1,0 +1,1 @@
+{"screen_type": "Held Item", "pokemon": "Mimikyu", "usage": 3, "moves": [], "move_usage": [], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": ["Life Orb", "Lum Berry", "Scope Lens", "Spell Tag", "Fairy Feather"], "item_usage": [81.8, 5.2, 3.4, 2.8, 1.3]}

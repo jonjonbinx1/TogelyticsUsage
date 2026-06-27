@@ -1,0 +1,1 @@
+{"screen_type": "Moves", "pokemon": "Meowscarada", "usage": 4, "moves": ["Flower Trick", "Triple Axel", "U-turn", "Knock Off", "Thunder Punch"], "move_usage": [98.2, 88.5, 72.1, 68.1, 15.3], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": [], "item_usage": []}
