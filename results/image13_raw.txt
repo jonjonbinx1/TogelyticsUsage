@@ -1,1 +1,27 @@
-{"screen_type": "Ability", "pokemon": "Meowscarada", "usage": 4, "moves": [], "move_usage": [], "abilities": ["Protean", "Overgrow"], "ability_usage": [95.5, 4.5], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": [], "item_usage": []}
+{
+  "screen_type": "Stat Points",
+  "pokemon": "Charizard",
+  "usage": 7,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [
+    [1, 2, 0, 0, 32, 0, 32],
+    [2, 2, 32, 0, 0, 0, 32],
+    [3, 0, 0, 2, 32, 0, 32],
+    [4, 14, 0, 12, 21, 0, 19],
+    [5, 12, 0, 20, 16, 0, 18]
+  ],
+  "spread_usage": [
+    "41.0%",
+    "12.2%",
+    "4.7%",
+    "3.1%",
+    "2.5%"
+  ],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

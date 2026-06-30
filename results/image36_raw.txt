@@ -1,15 +1,1 @@
-{
-  "screen_type": "stat_alignment",
-  "pokemon": "metagross",
-  "usage": 7,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": ["jolly", "adamant", "impish", "naive", "careful"],
-  "nature_usage": [59.7, 37.1, 1.0, 0.5, 0.4],
-  "items": [],
-  "item_usage": []
-}
+{"screen_type": "Stat Points", "pokemon": "Archaludon", "usage": 4, "moves": [], "move_usage": [], "abilities": [], "ability_usage": [], "spread_values": [[1, 2, 0, 0, 32, 0, 32], [2, 32, 0, 2, 0, 32, 0], [3, 32, 0, 0, 32, 0, 2], [4, 32, 0, 2, 32, 0, 0], [5, 32, 0, 32, 0, 2, 0]], "spread_usage": ["24.1%", "8.2%", "3.5%", "3.5%", "3.4%"], "natures": [], "nature_usage": [], "items": [], "item_usage": []}

@@ -1,1 +1,15 @@
-{"screen_type": "Held Item", "pokemon": "Mimikyu", "usage": 3, "moves": [], "move_usage": [], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": ["Life Orb", "Lum Berry", "Scope Lens", "Spell Tag", "Fairy Feather"], "item_usage": [81.8, 5.2, 3.4, 2.8, 1.3]}
+{
+  "screen_type": "moves",
+  "pokemon": "sylveon",
+  "usage": 8,
+  "moves": ["hyper voice", "quick attack", "hyper beam", "detect", "protect"],
+  "move_usage": [99.6, 71.3, 66.9, 50.5, 43.7],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

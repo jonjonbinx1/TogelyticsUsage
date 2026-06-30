@@ -1,15 +1,1 @@
-{
-  "screen_type": "moves",
-  "pokemon": "raichu",
-  "usage": 5,
-  "moves": ["zap cannon", "focus blast", "grass knot", "volt switch", "substitute"],
-  "move_usage": [96.0, 95.4, 74.6, 27.6, 20.7],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
-}
+{"screen_type": "Held Item", "pokemon": "Raichu", "usage": 6, "moves": [], "move_usage": [], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": ["Raichunite Y", "Raichunite X", "Focus Sash", "Choice Scarf", "Life Orb"], "item_usage": ["96.3%", "2.8%", "0.3%", "0.0%", "0.0%"]}

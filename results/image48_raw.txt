@@ -1,15 +1,15 @@
 {
-  "screen_type": "ability",
-  "pokemon": "corviknight",
-  "usage": 9,
+  "screen_type": "held_item",
+  "pokemon": "mimikyu",
+  "usage": 2,
   "moves": [],
   "move_usage": [],
-  "abilities": ["pressure", "mirror armor", "unnerve"],
-  "ability_usage": [61.4, 36.8, 1.8],
+  "abilities": [],
+  "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],
   "nature_usage": [],
-  "items": [],
-  "item_usage": []
+  "items": ["life orb", "lum berry", "scope lens", "spell tag", "fairy feather"],
+  "item_usage": [84.4, 4.0, 2.8, 2.4, 0.9]
 }

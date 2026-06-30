@@ -112,19 +112,26 @@ SCREEN TYPE IDENTIFICATION (read the large white title text):
 Lists move names with a rank number and usage percentage.
 → Fill "moves" and "move_usage". All other lists stay empty.
 Example row: "1 / 96.3% / Flower Trick"  →  moves=["flower trick"], move_usage=[96.3]
+CRITICAL: "moves" must be a list of plain strings — NOT sub-lists. Each entry is just the move name.
 
 --- SCREEN: "Ability" ---
 Lists ability names with rank and usage percentage.
 → Fill "abilities" and "ability_usage". All other lists stay empty.
+CRITICAL: "abilities" must be a list of plain strings — NOT sub-lists. Each entry is just the ability name.
 
 --- SCREEN: "Held Item" ---
 Lists item names (with coloured item icons) with rank and usage percentage.
 → Fill "items" and "item_usage". All other lists stay empty.
+CRITICAL: "items" must be a list of plain strings — NOT sub-lists. Each entry is just the item name.
+DO NOT include rank numbers or percentages in the items list. Example:
+  CORRECT:   items=["sitrus berry", "kasib berry", "leftovers"]
+  WRONG:     items=[[1, "Sitrus Berry", 31.8], [2, "Kasib Berry", 23.5]]
 
 --- SCREEN: "Stat Alignment" (= Nature) ---
 Lists nature names (Jolly, Adamant, Timid, etc.) with rank and usage %.
 Each row also shows which stat is boosted (red up-arrow ∧) and which is lowered (blue down-arrow ∨) — ignore those arrows, only extract the nature name.
 → Fill "natures" and "nature_usage". All other lists stay empty.
+CRITICAL: "natures" must be a list of plain strings — NOT sub-lists. Each entry is just the nature name.
 
 --- SCREEN: "Stat Points" (= EV Spreads) ---
 Each visible row has exactly 8 values left to right:
@@ -164,6 +171,9 @@ GLOBAL RULES (apply to all screen types):
 - Percentages: decimal number only, no percent sign  e.g. 99.5 not "99.5%"
 - Include ALL visible rows in the image
 - Fields for other screen types: use empty list []
+- CRITICAL: moves, abilities, items, and natures MUST be lists of plain strings.
+  DO NOT nest sub-lists like [1, "name", 31.8] or [1, "name"].
+  Each entry is just the name string: ["sitrus berry", "leftovers"]
 
 Return ONLY the JSON object. Nothing before or after it.
 """
@@ -377,6 +387,8 @@ Example row "1  55.6%  2  32  0  0  0  32" → spread_values entry [1, 2, 32, 0,
 
 "usage" is the Pokemon rank shown as #N at the top-left of the screen (an integer).
 All list fields not relevant to the detected screen_type must be [].
+CRITICAL: moves, abilities, items, and natures MUST be lists of plain strings.
+  DO NOT nest sub-lists. Each entry is just the name: ["sitrus berry", "leftovers"]
 Return ONLY the JSON — no markdown, no explanation.
 """
 
@@ -421,7 +433,7 @@ def call_vision_model(image_path: Path, model: str, max_retries: int = 2) -> dic
             cleaned = m.group(0)
 
         try:
-            return json.loads(cleaned)
+            return _normalize_name_lists(json.loads(cleaned))
         except json.JSONDecodeError as e:
             logger.error(f"  JSON parse error (attempt {attempt}) for {image_path.name}: {e}")
             logger.debug(f"  Cleaned snippet: {cleaned[:1000]}")
@@ -429,6 +441,60 @@ def call_vision_model(image_path: Path, model: str, max_retries: int = 2) -> dic
                 return None
 
     return None
+
+
+def _normalize_name_lists(data: dict) -> dict:
+    """Fix model output where name lists contain sub-lists instead of plain strings.
+
+    The model sometimes returns items/moves/abilities/natures as nested lists:
+      [[1, "Sitrus Berry", 31.8], [2, "Kasib Berry", 23.5]]
+    instead of:
+      ["sitrus berry", "kasib berry"]
+
+    This extracts just the name string from each sub-list entry.
+    Also strips percent signs from usage values that were returned as strings.
+    """
+    _NAME_FIELDS = ("moves", "abilities", "items", "natures")
+    _USAGE_FIELDS = ("move_usage", "ability_usage", "item_usage", "nature_usage", "spread_usage")
+
+    for field in _NAME_FIELDS:
+        raw = data.get(field)
+        if not isinstance(raw, list):
+            continue
+        cleaned = []
+        for entry in raw:
+            if isinstance(entry, str):
+                cleaned.append(entry)
+            elif isinstance(entry, list):
+                # Sub-list: pick the longest string element as the name
+                names = [x for x in entry if isinstance(x, str)]
+                if names:
+                    cleaned.append(max(names, key=len))
+                # else: skip entries with no string
+            # else: skip non-string, non-list entries
+        data[field] = cleaned
+
+    for field in _USAGE_FIELDS:
+        raw = data.get(field)
+        if not isinstance(raw, list):
+            continue
+        cleaned = []
+        for entry in raw:
+            if isinstance(entry, (int, float)):
+                cleaned.append(entry)
+            elif isinstance(entry, str):
+                # Strip percent sign and convert
+                cleaned.append(entry.rstrip("%"))
+            elif isinstance(entry, list):
+                # Sub-list: pick the last numeric element as the percentage
+                nums = [x for x in entry if isinstance(x, (int, float))]
+                if nums:
+                    cleaned.append(nums[-1])
+                # else: skip
+            # else: skip
+        data[field] = cleaned
+
+    return data
 
 
 # ---------------------------------------------------------------------------
@@ -483,14 +549,19 @@ def _join(lst: list) -> str:
     return ":".join(str(x) for x in lst) if lst else ""
 
 
+def _join_lower(lst: list) -> str:
+    """Join list items as lowercase colon-separated string."""
+    return ":".join(str(x).strip().lower() for x in lst) if lst else ""
+
+
 def format_for_csv(data: dict) -> dict:
     """Convert extracted dict to a flat CSV-row dict using CORE_FIELDS keys."""
     return {
         "pokemon":        data.get("pokemon", "").lower().strip(),
         "usage":          str(data.get("usage", "")).strip(),
-        "moves":          _join(data.get("moves", [])),
+        "moves":          _join_lower(data.get("moves", [])),
         "move usage":     _join(data.get("move_usage", [])),
-        "ability":        _join(data.get("abilities", [])),
+        "ability":        _join_lower(data.get("abilities", [])),
         "ability usage":  _join(data.get("ability_usage", [])),
         "sp":             _join(
             # Prefer raw spread_values (model outputs 6 numbers; Python names the stats)
@@ -500,9 +571,9 @@ def format_for_csv(data: dict) -> dict:
             else [_normalize_spread(s) for s in data.get("spreads", [])]
         ),
         "sp usage":       _join(data.get("spread_usage", [])),
-        "nature":         _join(data.get("natures", [])),
+        "nature":         _join_lower(data.get("natures", [])),
         "nature usage":   _join(data.get("nature_usage", [])),
-        "item":           _join(data.get("items", [])),
+        "item":           _join_lower(data.get("items", [])),
         "item usage":     _join(data.get("item_usage", [])),
     }
 

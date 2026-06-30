@@ -1,15 +1,1 @@
-{
-  "screen_type": "held_item",
-  "pokemon": "swampert",
-  "usage": 10,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": ["swampertite", "sitrus berry", "leftovers", "rindo berry", "focus sash"],
-  "item_usage": [75.8, 13.1, 4.8, 3.5, 1.3]
-}
+{"screen_type": "Ability", "pokemon": "Garchomp", "usage": 1, "moves": [], "move_usage": [], "abilities": ["Rough Skin", "Sand Veil"], "ability_usage": [99.1, 0.9], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": [], "item_usage": []}

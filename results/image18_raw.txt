@@ -1,1 +1,15 @@
-{"screen_type": "Ability", "pokemon": "Mimikyu", "usage": 3, "moves": [], "move_usage": [], "abilities": ["Disguise"], "ability_usage": [100.0], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": [], "item_usage": []}
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "sylveon",
+  "usage": 8,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": ["modest", "quiet", "timid", "bold", "calm"],
+  "nature_usage": [80.3, 13.9, 2.1, 1.6, 0.6],
+  "items": [],
+  "item_usage": []
+}

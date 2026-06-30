@@ -1,1 +1,0 @@
-{"screen_type": "Moves", "pokemon": "Archaludon", "usage": 2, "moves": ["Flash Cannon", "Draco Meteor", "Thunderbolt", "Electro Shot", "Stealth Rock"], "move_usage": ["74.0%", "73.2%", "47.6%", "41.9%", "36.7%"], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": [], "item_usage": []}

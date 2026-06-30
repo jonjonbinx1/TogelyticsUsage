@@ -1,9 +1,9 @@
 {
   "screen_type": "moves",
-  "pokemon": "charizard",
-  "usage": 9,
-  "moves": ["protect", "heat wave", "solar beam", "weather ball", "air slash"],
-  "move_usage": [96.5, 95.8, 93.1, 74.7, 11.3],
+  "pokemon": "garchomp",
+  "usage": 1,
+  "moves": ["earthquake", "stealth rock", "outrage", "rock tomb", "scale shot"],
+  "move_usage": [99.5, 48.5, 46.4, 34.8, 30.7],
   "abilities": [],
   "ability_usage": [],
   "spread_values": [],

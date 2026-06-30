@@ -1,0 +1,1 @@
+{"screen_type": "Stat Points", "pokemon": "Incineroar", "usage": 6, "moves": [], "move_usage": [], "abilities": [], "ability_usage": [], "spread_values": [[1, 32, 0, 14, 0, 20, 0], [2, 32, 32, 2, 0, 0, 0], [3, 32, 32, 0, 0, 2, 0], [4, 32, 0, 16, 0, 18, 0], [5, 32, 32, 0, 0, 0, 2]], "spread_usage": [], "natures": [], "nature_usage": [], "items": [], "item_usage": []}

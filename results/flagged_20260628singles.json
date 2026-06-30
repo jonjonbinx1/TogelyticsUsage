@@ -1,0 +1,34 @@
+{
+  "source_results": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\results\\20260628singles_extracted.json",
+  "date": "2026-06-28",
+  "format": "singles",
+  "threshold": 80.0,
+  "validated_at": "2026-06-29T15:10:37",
+  "total_images": 40,
+  "screen_type_counts": {
+    "moves": 5,
+    "ability": 5,
+    "Stat Points": 7,
+    "held_item": 4,
+    "Moves": 5,
+    "stat_alignment": 2,
+    "Held Item": 5,
+    "Ability": 5,
+    "Stat Alignment": 2
+  },
+  "flagged_count": 1,
+  "flags": [
+    {
+      "image": "image30.jpeg",
+      "screen_type": "Stat Points",
+      "pokemon": "meowscarada",
+      "usage": 3,
+      "field": "spread_values[4]",
+      "extracted": "[0, 32, 0, 0, 0, 32]",
+      "issue": "spread_sum_mismatch",
+      "best_match": "",
+      "score": 0.0,
+      "note": "Stat values [0, 32, 0, 0, 0, 32] sum to 64, expected 66"
+    }
+  ]
+}

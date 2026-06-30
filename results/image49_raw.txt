@@ -1,9 +1,9 @@
 {
   "screen_type": "moves",
-  "pokemon": "corviknight",
-  "usage": 9,
-  "moves": ["roost", "body press", "iron defense", "u-turn", "iron head"],
-  "move_usage": [98.2, 86.7, 81.1, 66.2, 24.6],
+  "pokemon": "meowscarada",
+  "usage": 3,
+  "moves": ["flower trick", "triple axel", "u-turn", "knock off", "sucker punch"],
+  "move_usage": [98.3, 89.7, 71.7, 68.6, 16.0],
   "abilities": [],
   "ability_usage": [],
   "spread_values": [],

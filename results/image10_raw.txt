@@ -1,1 +1,15 @@
-{"screen_type": "Held Item", "pokemon": "Meowscarada", "usage": 4, "moves": [], "move_usage": [], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": ["Choice Scarf", "Focus Sash", "Life Orb", "Expert Belt", "Sitrus Berry"], "item_usage": [73.6, 18.5, 4.0, 1.0, 0.4]}
+{
+  "screen_type": "held_item",
+  "pokemon": "ninetales",
+  "usage": 10,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": ["light clay", "focus sash", "never-melt ice", "sitrus berry", "choice scarf"],
+  "item_usage": [90.2, 2.9, 2.7, 0.9, 0.7]
+}

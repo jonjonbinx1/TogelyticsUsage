@@ -1,15 +1,1 @@
-{
-  "screen_type": "ability",
-  "pokemon": "charizard",
-  "usage": 8,
-  "moves": [],
-  "move_usage": [],
-  "abilities": ["blaze", "solar power"],
-  "ability_usage": [84.7, 15.3],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
-}
+{"screen_type": "Held Item", "pokemon": "Meowscarada", "usage": 3, "moves": [], "move_usage": [], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": ["Choice Scarf", "Focus Sash", "Life Orb", "Expert Belt", "Sitrus Berry"], "item_usage": ["71.7%", "18.6%", "4.5%", "1.2%", "0.7%"]}

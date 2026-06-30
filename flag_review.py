@@ -80,6 +80,8 @@ def setup_logging(verbose: bool = False) -> None:
 # ---------------------------------------------------------------------------
 def normalize(name: str) -> str:
     """Lowercase, drop apostrophes, replace hyphens/underscores with spaces."""
+    if name is None:
+        return ""
     name = name.lower()
     name = name.replace("'", "").replace("\u2019", "")   # straight + curly apostrophe
     name = re.sub(r"[-_]", " ", name)
@@ -155,6 +157,10 @@ def fuzzy_check(extracted: str, lookup: dict, threshold: float) -> tuple:
     if not extracted:
         return ("", 0.0, False)
 
+    # Guard against sub-lists (model sometimes returns [1, "name", 31.8] instead of "name")
+    if not isinstance(extracted, str):
+        return ("(non-string value)", 0.0, False)
+
     norm = normalize(extracted)
 
     # Exact hit after normalization
@@ -177,6 +183,8 @@ def fuzzy_check(extracted: str, lookup: dict, threshold: float) -> tuple:
 
 def fuzzy_check_nature(extracted: str) -> tuple:
     """Check a nature name against the fixed VALID_NATURES set."""
+    if not isinstance(extracted, str):
+        return ("(non-string value)", 0.0, False)
     norm = normalize(extracted)
     if norm in VALID_NATURES:
         return (norm, 100.0, True)

@@ -1,15 +1,15 @@
 {
-  "screen_type": "held_item",
-  "pokemon": "metagross",
-  "usage": 7,
+  "screen_type": "ability",
+  "pokemon": "archaludon",
+  "usage": 4,
   "moves": [],
   "move_usage": [],
-  "abilities": [],
-  "ability_usage": [],
+  "abilities": ["stamina", "sturdy", "stalwart"],
+  "ability_usage": [77.0, 22.7, 0.3],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],
   "nature_usage": [],
-  "items": ["metagrossite", "life orb", "sitrus berry", "shuca berry", "leftovers"],
-  "item_usage": [96.7, 0.7, 0.5, 0.3, 0.3]
+  "items": [],
+  "item_usage": []
 }

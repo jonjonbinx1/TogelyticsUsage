@@ -1,15 +1,1 @@
-{
-  "screen_type": "ability",
-  "pokemon": "raichu",
-  "usage": 5,
-  "moves": [],
-  "move_usage": [],
-  "abilities": ["lightning rod", "static"],
-  "ability_usage": [87.4, 12.6],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
-}
+{"screen_type": "Stat Alignment", "pokemon": "Incineroar", "usage": 6, "moves": [], "move_usage": [], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": [], "item_usage": []}
