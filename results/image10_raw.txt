@@ -1,15 +1,27 @@
 {
-  "screen_type": "held_item",
-  "pokemon": "ninetales",
-  "usage": 10,
-  "moves": [],
-  "move_usage": [],
+  "screen_type": "moves",
+  "pokemon": "charizard",
+  "usage": 7,
+  "moves": [
+    "solar beam",
+    "flamethrower",
+    "air slash",
+    "overheat",
+    "flame charge"
+  ],
+  "move_usage": [
+    73.5,
+    45.7,
+    43.4,
+    30.5,
+    24.7
+  ],
   "abilities": [],
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],
   "nature_usage": [],
-  "items": ["light clay", "focus sash", "never-melt ice", "sitrus berry", "choice scarf"],
-  "item_usage": [90.2, 2.9, 2.7, 0.9, 0.7]
+  "items": [],
+  "item_usage": []
 }

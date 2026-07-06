@@ -1,1 +1,27 @@
-{"screen_type": "Stat Alignment", "pokemon": "Incineroar", "usage": 6, "moves": [], "move_usage": [], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": [], "item_usage": []}
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "hippowdon",
+  "usage": 6,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [
+    "impish",
+    "careful",
+    "relaxed",
+    "sassy",
+    "adamant"
+  ],
+  "nature_usage": [
+    70.3,
+    15.8,
+    8.3,
+    1.7,
+    1.5
+  ],
+  "items": [],
+  "item_usage": []
+}

@@ -1,1 +1,21 @@
-{"screen_type": "Moves", "pokemon": "Staraptor", "usage": 8, "moves": ["Close Combat", "Brave Bird", "Roost", "Blaze Kick", "Whirlwind"], "move_usage": ["98.2%", "91.4%", "90.0%", "53.6%", "16.3%"], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": [], "item_usage": []}
+{
+  "screen_type": "ability",
+  "pokemon": "raichu",
+  "usage": 8,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [
+    "lightning rod",
+    "static"
+  ],
+  "ability_usage": [
+    86.5,
+    13.5
+  ],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

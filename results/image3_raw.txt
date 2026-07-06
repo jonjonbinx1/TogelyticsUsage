@@ -1,1 +1,27 @@
-{"screen_type": "Stat Points", "pokemon": "Corviknight", "usage": 9, "moves": [], "move_usage": [], "abilities": [], "ability_usage": [], "spread_values": [[1, 32, 0, 32, 0, 2, 0], [2, 32, 0, 32, 0, 0, 2], [3, 32, 0, 18, 0, 16, 0], [4, 32, 0, 2, 0, 32, 0], [5, 32, 2, 32, 0, 0, 0]], "spread_usage": [53.4, 10.3, 3.3, 3.1, 2.9], "natures": [], "nature_usage": [], "items": [], "item_usage": []}
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "ninetales",
+  "usage": 9,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [
+    "timid",
+    "bold",
+    "modest",
+    "calm",
+    "mild"
+  ],
+  "nature_usage": [
+    82.9,
+    7.8,
+    6.3,
+    1.5,
+    0.4
+  ],
+  "items": [],
+  "item_usage": []
+}

@@ -1,13 +1,25 @@
 {
-  "screen_type": "ability",
-  "pokemon": "corviknight",
+  "screen_type": "stat_points",
+  "pokemon": "ninetales",
   "usage": 9,
   "moves": [],
   "move_usage": [],
-  "abilities": ["pressure", "mirror armor", "unnerve"],
-  "ability_usage": [58.3, 39.7, 2.0],
-  "spread_values": [],
-  "spread_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [
+    [1, 1, 2, 0, 0, 32, 0, 32],
+    [2, 31, 0, 9, 0, 0, 26],
+    [3, 32, 0, 0, 2, 0, 32],
+    [4, 1, 0, 1, 32, 0, 32],
+    [5, 32, 0, 2, 0, 0, 32]
+  ],
+  "spread_usage": [
+    23.0,
+    7.0,
+    5.0,
+    4.5,
+    3.7
+  ],
   "natures": [],
   "nature_usage": [],
   "items": [],

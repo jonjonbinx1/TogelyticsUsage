@@ -1,1 +1,27 @@
-{"screen_type": "Held Item", "pokemon": "Raichu", "usage": 6, "moves": [], "move_usage": [], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": ["Raichunite Y", "Raichunite X", "Focus Sash", "Choice Scarf", "Life Orb"], "item_usage": ["96.3%", "2.8%", "0.3%", "0.0%", "0.0%"]}
+{
+  "screen_type": "held_item",
+  "pokemon": "hippowdon",
+  "usage": 6,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [
+    "sitrus berry",
+    "leftovers",
+    "smooth rock",
+    "lum berry",
+    "quick claw"
+  ],
+  "item_usage": [
+    55.5,
+    40.4,
+    1.2,
+    0.5,
+    0.4
+  ]
+}

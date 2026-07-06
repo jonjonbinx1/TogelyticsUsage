@@ -1,1 +1,27 @@
-{"screen_type": "Held Item", "pokemon": "Meowscarada", "usage": 3, "moves": [], "move_usage": [], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": ["Choice Scarf", "Focus Sash", "Life Orb", "Expert Belt", "Sitrus Berry"], "item_usage": ["71.7%", "18.6%", "4.5%", "1.2%", "0.7%"]}
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "meowscarada",
+  "usage": 3,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [
+    "jolly",
+    "adamant",
+    "naive",
+    "naughty",
+    "hasty"
+  ],
+  "nature_usage": [
+    59.7,
+    33.2,
+    2.0,
+    1.1,
+    1.0
+  ],
+  "items": [],
+  "item_usage": []
+}

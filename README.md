@@ -1,7 +1,7 @@
 # Pokemon Champions Usage Extractor
 
-Extracts competitive Pokemon usage statistics from screenshot images using the
-**Ollama** vision model (`qwen3-vl:30b-a3b`) and upserts the data into the
+Extracts competitive Pokemon usage statistics from screenshot images using a
+configurable AI vision provider and upserts the data into the
 `champions_singles.csv` / `champions_doubles.csv` files.
 
 ---
@@ -9,7 +9,8 @@ Extracts competitive Pokemon usage statistics from screenshot images using the
 ## Requirements
 
 - Python 3.10+
-- [Ollama](https://ollama.com) running locally with `qwen3-vl:30b-a3b` pulled
+- Either [Ollama](https://ollama.com) running locally or an OpenAI-compatible
+  vision endpoint
 - `requests` library
 
 ```bash
@@ -44,10 +45,59 @@ python extractor.py data/doubles/20260427doubles --apply
 
 # Singles
 python extractor.py data/singles/20260503singles --apply
+
+# Use a different provider/model for one run
+python extractor.py data/doubles/20260427doubles --apply --provider openai --model gpt-4o-mini
 ```
 
 Raw extraction results are always saved to `results/<foldername>_extracted.json`
 regardless of `--apply`.
+
+### AI provider configuration
+
+The extractor reads a local untracked `.env` file if present in the workspace
+root or alongside `extractor.py`.
+
+Supported variables:
+
+- `AI_PROVIDER=ollama`, `AI_PROVIDER=openai`, or `AI_PROVIDER=openrouter`
+- `AI_MODEL=<model name>` to override the default model name
+- `OLLAMA_URL=http://localhost:11434`
+- `OLLAMA_MODEL=qwen3-vl:30b-a3b`
+- `OPENAI_BASE_URL=https://api.openai.com/v1`
+- `OPENAI_API_KEY=...`
+- `OPENAI_MODEL=gpt-4o-mini`
+- `OPENROUTER_BASE_URL=https://openrouter.ai/api/v1`
+- `OPENROUTER_API_KEY=...`
+- `OPENROUTER_MODEL=openai/gpt-4o-mini`
+- `OPENROUTER_HTTP_REFERER=https://your-site.example`
+- `OPENROUTER_X_TITLE=Your App Name`
+
+Examples:
+
+```env
+AI_PROVIDER=ollama
+OLLAMA_MODEL=qwen3-vl:30b-a3b
+```
+
+```env
+AI_PROVIDER=openai
+OPENAI_API_KEY=your_key_here
+OPENAI_MODEL=gpt-4o-mini
+OPENAI_BASE_URL=https://api.openai.com/v1
+```
+
+```env
+AI_PROVIDER=openrouter
+OPENROUTER_API_KEY=your_key_here
+OPENROUTER_MODEL=openai/gpt-4o-mini
+OPENROUTER_BASE_URL=https://openrouter.ai/api/v1
+OPENROUTER_HTTP_REFERER=https://your-site.example
+OPENROUTER_X_TITLE=Your App Name
+```
+
+You can still override both values from the command line with `--provider` and
+`--model`.
 
 When you omit the `folder` argument, the extractor discovers known folders under
 `data/singles` and `data/doubles`. It first prefers the most recently extracted

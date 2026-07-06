@@ -1,1 +1,27 @@
-{"screen_type": "Moves", "pokemon": "Archaludon", "usage": 4, "moves": ["Flash Cannon", "Draco Meteor", "Thunderbolt", "Stealth Rock", "Electro Shot"], "move_usage": ["74.8%", "71.3%", "49.1%", "39.0%", "37.4%"], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": [], "item_usage": []}
+{
+  "screen_type": "held_item",
+  "pokemon": "meowscarada",
+  "usage": 3,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [
+    "choice scarf",
+    "focus sash",
+    "life orb",
+    "expert belt",
+    "quick claw"
+  ],
+  "item_usage": [
+    69.0,
+    19.9,
+    4.9,
+    1.4,
+    0.8
+  ]
+}

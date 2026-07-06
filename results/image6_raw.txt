@@ -1,1 +1,21 @@
-{"screen_type": "Moves", "pokemon": "Ninetales", "usage": 10, "moves": ["Aurora Veil", "Freeze-Dry", "Blizzard", "Encore", "Moonblast"], "move_usage": ["98.0%", "84.9%", "75.0%", "54.2%", "50.0%"], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": [], "item_usage": []}
+{
+  "screen_type": "ability",
+  "pokemon": "blaziken",
+  "usage": 10,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [
+    "speed boost",
+    "blaze"
+  ],
+  "ability_usage": [
+    97.6,
+    2.4
+  ],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

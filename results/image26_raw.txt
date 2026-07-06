@@ -1,1 +1,15 @@
-{"screen_type": "Ability", "pokemon": "Raichu", "usage": 6, "moves": [], "move_usage": [], "abilities": ["Lightning Rod", "Static"], "ability_usage": [87.0, 13.0], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": [], "item_usage": []}
+{
+  "screen_type": "ability",
+  "pokemon": "hippowdon",
+  "usage": 6,
+  "moves": [],
+  "move_usage": [],
+  "abilities": ["sand stream", "sand force"],
+  "ability_usage": [99.5, 0.5],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

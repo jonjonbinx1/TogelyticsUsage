@@ -1,15 +1,27 @@
 {
-  "screen_type": "moves",
-  "pokemon": "meowscarada",
-  "usage": 3,
-  "moves": ["flower trick", "triple axel", "u-turn", "knock off", "sucker punch"],
-  "move_usage": [98.3, 89.7, 71.7, 68.6, 16.0],
+  "screen_type": "held_item",
+  "pokemon": "mimikyu",
+  "usage": 2,
+  "moves": [],
+  "move_usage": [],
   "abilities": [],
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],
   "nature_usage": [],
-  "items": [],
-  "item_usage": []
+  "items": [
+    "life orb",
+    "lum berry",
+    "scope lens",
+    "spell tag",
+    "sitrus berry"
+  ],
+  "item_usage": [
+    84.8,
+    3.7,
+    2.6,
+    2.3,
+    0.9
+  ]
 }

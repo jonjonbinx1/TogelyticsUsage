@@ -1,13 +1,25 @@
 {
-  "screen_type": "moves",
-  "pokemon": "garchomp",
+  "screen_type": "stat_points",
+  "pokemon": "sinistcha",
   "usage": 2,
-  "moves": ["earthquake", "dragon claw", "rock slide", "protect", "stomping tantrum"],
-  "move_usage": [85.5, 76.6, 76.6, 60.5, 34.4],
+  "moves": [],
+  "move_usage": [],
   "abilities": [],
   "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
+  "spread_values": [
+    [1, 1, 32, 0, 14, 0, 20],
+    [2, 2, 32, 0, 4, 0, 30],
+    [3, 3, 32, 0, 2, 0, 32],
+    [4, 4, 31, 0, 14, 0, 21],
+    [5, 5, 32, 0, 32, 0, 2]
+  ],
+  "spread_usage": [
+    17.7,
+    12.7,
+    5.2,
+    4.0,
+    3.1
+  ],
   "natures": [],
   "nature_usage": [],
   "items": [],

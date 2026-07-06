@@ -1,1 +1,27 @@
-{"screen_type": "Moves", "pokemon": "Metagross", "usage": 5, "moves": ["Psychic Fangs", "Bullet Punch", "Earthquake", "Ice Punch", "Thunder Punch"], "move_usage": [90.4, 86.3, 75.9, 59.6, 31.6], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": [], "item_usage": []}
+{
+  "screen_type": "held_item",
+  "pokemon": "metagross",
+  "usage": 4,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [
+    "metagrossite",
+    "life orb",
+    "sitrus berry",
+    "shuca berry",
+    "leftovers"
+  ],
+  "item_usage": [
+    97.4,
+    0.5,
+    0.4,
+    0.2,
+    0.2
+  ]
+}

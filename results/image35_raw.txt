@@ -1,11 +1,23 @@
 {
-  "screen_type": "ability",
-  "pokemon": "archaludon",
+  "screen_type": "Moves",
+  "pokemon": 4,
   "usage": 4,
-  "moves": [],
-  "move_usage": [],
-  "abilities": ["stamina", "sturdy", "stalwart"],
-  "ability_usage": [77.0, 22.7, 0.3],
+  "moves": [
+    "Psychic Fangs",
+    "Bullet Punch",
+    "Earthquake",
+    "Ice Punch",
+    "Thunder Punch"
+  ],
+  "move_usage": [
+    "91.6%",
+    "88.8%",
+    "75.3%",
+    "60.7%",
+    "33.1%"
+  ],
+  "abilities": [],
+  "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

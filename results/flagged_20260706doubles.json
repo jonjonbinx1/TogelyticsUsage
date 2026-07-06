@@ -1,0 +1,42 @@
+{
+  "source_results": "results\\20260706doubles_extracted.json",
+  "date": "2026-07-06",
+  "format": "doubles",
+  "threshold": 80.0,
+  "validated_at": "2026-07-06T12:57:51",
+  "total_images": 51,
+  "screen_type_counts": {
+    "held_item": 10,
+    "stat_alignment": 11,
+    "moves": 11,
+    "ability": 10,
+    "stat_points": 9
+  },
+  "flagged_count": 2,
+  "flags": [
+    {
+      "image": "image22.jpeg",
+      "screen_type": "stat_alignment",
+      "pokemon": "whimsicott",
+      "usage": 4,
+      "field": "spread_values[3]",
+      "extracted": "[0, 0, 0, 32, 0, 32]",
+      "issue": "spread_sum_mismatch",
+      "best_match": "",
+      "score": 0.0,
+      "note": "Stat values [0, 0, 0, 32, 0, 32] sum to 64, expected 66"
+    },
+    {
+      "image": "image41.jpeg",
+      "screen_type": "stat_points",
+      "pokemon": "whimsicott",
+      "usage": 4,
+      "field": "spread_values[3]",
+      "extracted": "[0, 0, 0, 32, 0, 32]",
+      "issue": "spread_sum_mismatch",
+      "best_match": "",
+      "score": 0.0,
+      "note": "Stat values [0, 0, 0, 32, 0, 32] sum to 64, expected 66"
+    }
+  ]
+}

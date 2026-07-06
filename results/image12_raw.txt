@@ -1,13 +1,25 @@
 {
-  "screen_type": "ability",
+  "screen_type": "stat_points",
   "pokemon": "charizard",
   "usage": 7,
   "moves": [],
   "move_usage": [],
-  "abilities": ["blaze", "solar power"],
-  "ability_usage": [84.1, 15.9],
-  "spread_values": [],
-  "spread_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [
+    [1, 1, 0, 0, 32, 0, 32],
+    [2, 2, 32, 0, 0, 0, 32],
+    [3, 0, 0, 2, 32, 0, 32],
+    [4, 14, 0, 12, 21, 0, 19],
+    [5, 0, 0, 0, 32, 2, 32]
+  ],
+  "spread_usage": [
+    39.9,
+    12.7,
+    4.8,
+    3.5,
+    2.3
+  ],
   "natures": [],
   "nature_usage": [],
   "items": [],

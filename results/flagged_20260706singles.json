@@ -1,0 +1,90 @@
+{
+  "source_results": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\results\\20260706singles_extracted.json",
+  "date": "2026-07-06",
+  "format": "singles",
+  "threshold": 80.0,
+  "validated_at": "2026-07-06T17:56:34",
+  "total_images": 50,
+  "screen_type_counts": {
+    "moves": 10,
+    "ability": 10,
+    "stat_points": 10,
+    "stat_alignment": 10,
+    "held_item": 10
+  },
+  "flagged_count": 6,
+  "flags": [
+    {
+      "image": "image5.jpeg",
+      "screen_type": "moves",
+      "pokemon": "blaziken",
+      "usage": 10,
+      "field": "spread_values[0]",
+      "extracted": "[1, 32, 0, 0, 0, 32]",
+      "issue": "spread_sum_mismatch",
+      "best_match": "",
+      "score": 0.0,
+      "note": "Stat values [1, 32, 0, 0, 0, 32] sum to 65, expected 66"
+    },
+    {
+      "image": "image7.jpeg",
+      "screen_type": "stat_points",
+      "pokemon": "blaziken",
+      "usage": 10,
+      "field": "spread_values[0]",
+      "extracted": "[1, 32, 0, 0, 0, 32]",
+      "issue": "spread_sum_mismatch",
+      "best_match": "",
+      "score": 0.0,
+      "note": "Stat values [1, 32, 0, 0, 0, 32] sum to 65, expected 66"
+    },
+    {
+      "image": "image15.jpeg",
+      "screen_type": "moves",
+      "pokemon": "raichu",
+      "usage": 8,
+      "field": "spread_values[4]",
+      "extracted": "[0, 0, 0, 32, 0, 32]",
+      "issue": "spread_sum_mismatch",
+      "best_match": "",
+      "score": 0.0,
+      "note": "Stat values [0, 0, 0, 32, 0, 32] sum to 64, expected 66"
+    },
+    {
+      "image": "image17.jpeg",
+      "screen_type": "stat_points",
+      "pokemon": "raichu",
+      "usage": 8,
+      "field": "spread_values[4]",
+      "extracted": "[0, 0, 0, 32, 0, 32]",
+      "issue": "spread_sum_mismatch",
+      "best_match": "",
+      "score": 0.0,
+      "note": "Stat values [0, 0, 0, 32, 0, 32] sum to 64, expected 66"
+    },
+    {
+      "image": "image30.jpeg",
+      "screen_type": "moves",
+      "pokemon": "meowscarada",
+      "usage": 3,
+      "field": "spread_values[4]",
+      "extracted": "[0, 32, 0, 0, 0, 32]",
+      "issue": "spread_sum_mismatch",
+      "best_match": "",
+      "score": 0.0,
+      "note": "Stat values [0, 32, 0, 0, 0, 32] sum to 64, expected 66"
+    },
+    {
+      "image": "image32.jpeg",
+      "screen_type": "stat_points",
+      "pokemon": "meowscarada",
+      "usage": 3,
+      "field": "spread_values[4]",
+      "extracted": "[0, 32, 0, 0, 0, 32]",
+      "issue": "spread_sum_mismatch",
+      "best_match": "",
+      "score": 0.0,
+      "note": "Stat values [0, 32, 0, 0, 0, 32] sum to 64, expected 66"
+    }
+  ]
+}

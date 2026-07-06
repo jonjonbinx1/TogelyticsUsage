@@ -1,6 +1,6 @@
 {
-  "screen_type": "stat_alignment",
-  "pokemon": "ninetales",
+  "screen_type": "held_item",
+  "pokemon": "blaziken",
   "usage": 10,
   "moves": [],
   "move_usage": [],
@@ -8,8 +8,20 @@
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
-  "natures": ["timid", "bold", "modest", "calm", "hasty"],
-  "nature_usage": [82.5, 8.4, 6.3, 1.3, 0.3],
-  "items": [],
-  "item_usage": []
+  "natures": [],
+  "nature_usage": [],
+  "items": [
+    "blazikenite",
+    "focus sash",
+    "life orb",
+    "sitrus berry",
+    "leftovers"
+  ],
+  "item_usage": [
+    76.8,
+    13.4,
+    4.6,
+    1.9,
+    0.6
+  ]
 }

@@ -1,9 +1,21 @@
 {
   "screen_type": "moves",
-  "pokemon": "garchomp",
-  "usage": 1,
-  "moves": ["earthquake", "stealth rock", "outrage", "rock tomb", "scale shot"],
-  "move_usage": [99.5, 48.5, 46.4, 34.8, 30.7],
+  "pokemon": "ninetales",
+  "usage": 9,
+  "moves": [
+    "aurora veil",
+    "freeze-dry",
+    "blizzard",
+    "encore",
+    "moonblast"
+  ],
+  "move_usage": [
+    98.1,
+    83.7,
+    74.6,
+    55.8,
+    49.5
+  ],
   "abilities": [],
   "ability_usage": [],
   "spread_values": [],

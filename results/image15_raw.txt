@@ -1,9 +1,21 @@
 {
   "screen_type": "moves",
-  "pokemon": "sylveon",
+  "pokemon": "raichu",
   "usage": 8,
-  "moves": ["hyper voice", "quick attack", "hyper beam", "detect", "protect"],
-  "move_usage": [99.6, 71.3, 66.9, 50.5, 43.7],
+  "moves": [
+    "zap cannon",
+    "focus blast",
+    "grass knot",
+    "volt switch",
+    "substitute"
+  ],
+  "move_usage": [
+    95.4,
+    94.8,
+    72.6,
+    29.0,
+    20.6
+  ],
   "abilities": [],
   "ability_usage": [],
   "spread_values": [],

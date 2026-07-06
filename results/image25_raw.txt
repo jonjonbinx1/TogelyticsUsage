@@ -1,1 +1,27 @@
-{"screen_type": "Moves", "pokemon": "Raichu", "usage": 6, "moves": ["Zap Cannon", "Focus Blast", "Grass Knot", "Volt Switch", "Substitute"], "move_usage": [95.8, 95.2, 73.5, 28.9, 20.6], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": [], "item_usage": []}
+{
+  "screen_type": "moves",
+  "pokemon": "hippowdon",
+  "usage": 6,
+  "moves": [
+    "earthquake",
+    "yawn",
+    "stealth rock",
+    "slack off",
+    "whirlwind"
+  ],
+  "move_usage": [
+    97.7,
+    93.7,
+    83.2,
+    63.6,
+    32.3
+  ],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

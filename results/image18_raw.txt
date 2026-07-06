@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "sylveon",
+  "pokemon": "raichu",
   "usage": 8,
   "moves": [],
   "move_usage": [],
@@ -8,8 +8,20 @@
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
-  "natures": ["modest", "quiet", "timid", "bold", "calm"],
-  "nature_usage": [80.3, 13.9, 2.1, 1.6, 0.6],
+  "natures": [
+    "timid",
+    "modest",
+    "jolly",
+    "hasty",
+    "naive"
+  ],
+  "nature_usage": [
+    75.7,
+    16.3,
+    5.0,
+    1.0,
+    0.8
+  ],
   "items": [],
   "item_usage": []
 }

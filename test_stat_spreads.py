@@ -18,6 +18,7 @@ Run with:
 
 import sys
 import traceback
+from copy import deepcopy
 from pathlib import Path
 
 # ---------------------------------------------------------------------------
@@ -29,13 +30,16 @@ sys.path.insert(0, str(SCRIPT_DIR))
 from extractor import (
     CORE_FIELDS,
     _values_to_spread,
+    _coerce_usage_rank,
     autocorrect_pokemon_names,
     build_known_pokemon_names,
+    build_historical_spread_reference,
     build_prefilled_name_index,
     format_for_csv,
     merge_duplicate_csv_rows,
     rectify_existing_rows_from_prefill,
     rectify_pokemon_names_from_prefill,
+    sanitize_extracted_entry,
 )
 from flag_review import validate_entry, EXPECTED_SP_SUM
 
@@ -122,6 +126,13 @@ section("_values_to_spread — wrong lengths return empty string")
 check("5-element",  _values_to_spread([0, 0, 32, 0, 32]), "")
 check("8-element",  _values_to_spread([1, 0, 0, 32, 0, 32, 0, 0]), "")
 check("empty list", _values_to_spread([]), "")
+
+section("_coerce_usage_rank — reject malformed OCR ranks")
+check("integer preserved", _coerce_usage_rank(7), 7)
+check("digit string parsed", _coerce_usage_rank("10"), 10)
+check("float-like integer parsed", _coerce_usage_rank("4.0"), 4)
+check("non-integer float rejected", _coerce_usage_rank("67.9"), None)
+check("blank rejected", _coerce_usage_rank(""), None)
 
 
 # ===========================================================================
@@ -360,6 +371,112 @@ bad_len_entry = {
 flags_len = validate_entry(bad_len_entry, {"pokemon": {}, "moves": {}, "abilities": {}, "items": {}}, threshold=85)
 len_flags = [f for f in flags_len if f["issue"] == "spread_wrong_length"]
 check("wrong-length spread flagged", len(len_flags), 1)
+
+
+# ===========================================================================
+# 6. sanitize_extracted_entry
+# ===========================================================================
+section("sanitize_extracted_entry — clears irrelevant fields and repairs spreads")
+
+noisy_moves_entry = {
+    "pokemon": "charizard",
+    "usage": 7,
+    "screen_type": "moves",
+    "moves": ["heat wave", "protect", "solar beam", "weather ball", "air slash"],
+    "move_usage": [95.3, 95.1, 92.9, 72.6, 11.0],
+    "abilities": ["blaze", "solar power"],
+    "ability_usage": [74.4, 25.6],
+    "spread_values": [
+        [1, 1, 2, 0, 0, 32, 0, 32],
+        [2, 2, 0, 0, 2, 32, 0, 32],
+    ],
+    "spread_usage": [34.3, 5.1],
+    "natures": [],
+    "nature_usage": [],
+    "items": [],
+    "item_usage": [],
+}
+clean_moves = sanitize_extracted_entry(noisy_moves_entry)
+check("moves screen keeps moves", clean_moves["moves"], noisy_moves_entry["moves"])
+check("moves screen drops leaked spread rows", clean_moves["spread_values"], [])
+check("moves screen drops leaked abilities", clean_moves["abilities"], [])
+
+historical_rows = [
+    csv_row("2026-06-28", "sinistcha", 4, sp="32 HP / 14 Def / 20 SpD:32 HP / 4 Def / 30 SpD:32 HP / 2 Def / 32 SpD:31 HP / 14 Def / 21 SpD:32 HP / 24 Def / 10 SpD"),
+]
+historical_ref = build_historical_spread_reference(historical_rows, before_date="2026-07-06")
+bad_stat_points = {
+    "pokemon": "sinistcha",
+    "usage": 2,
+    "screen_type": "stat_points",
+    "moves": ["matcha gotcha"],
+    "move_usage": [98.9],
+    "abilities": [],
+    "ability_usage": [],
+    "spread_values": [
+        [1, 1, 32, 0, 14, 0, 20, 0],
+        [2, 2, 32, 0, 4, 0, 30, 0],
+        [3, 3, 32, 0, 2, 0, 32, 0],
+    ],
+    "spread_usage": [17.7, 12.7, 5.2],
+    "natures": ["bold"],
+    "nature_usage": [43.9],
+    "items": [],
+    "item_usage": [],
+}
+clean_stats = sanitize_extracted_entry(bad_stat_points, historical_spreads=historical_ref["sinistcha"])
+check(
+    "stat_points repairs duplicated-rank rows from history",
+    clean_stats["spread_values"],
+    [
+        [1, 32, 0, 14, 0, 20, 0],
+        [2, 32, 0, 4, 0, 30, 0],
+        [3, 32, 0, 2, 0, 32, 0],
+    ],
+)
+check("stat_points drops leaked moves", clean_stats["moves"], [])
+check("stat_points drops leaked natures", clean_stats["natures"], [])
+
+garchomp_stats = {
+    "pokemon": "garchomp",
+    "usage": 1,
+    "screen_type": "stat_points",
+    "spread_values": [
+        [1, 48, 5, 32, 0, 0, 32],
+        [2, 0, 32, 2, 0, 0, 32],
+        [3, 0, 32, 0, 0, 2, 32],
+        [4, 0, 30, 4, 0, 0, 32],
+        [5, 31, 14, 4, 0, 3, 14],
+    ],
+    "spread_usage": [48.2, 5.0, 4.9, 4.5, 1.6],
+    "moves": [], "move_usage": [], "abilities": [], "ability_usage": [],
+    "natures": [], "nature_usage": [], "items": [], "item_usage": [],
+}
+garchomp_history_rows = [
+    csv_row("2026-06-28", "garchomp", 1, sp="2 HP / 32 Atk / 32 Spe:32 Atk / 2 Def / 32 Spe:32 Atk / 2 SpD / 32 Spe:30 Atk / 4 Def / 32 Spe:22 HP / 10 Atk / 2 SpD / 32 Spe"),
+]
+garchomp_ref = build_historical_spread_reference(garchomp_history_rows, before_date="2026-07-06")
+clean_garchomp = sanitize_extracted_entry(garchomp_stats, historical_spreads=garchomp_ref["garchomp"])
+check(
+    "valid spread rows are preserved even if unusual",
+    clean_garchomp["spread_values"],
+    [
+        [1, 2, 32, 0, 0, 0, 32],
+        [2, 0, 32, 2, 0, 0, 32],
+        [3, 0, 32, 0, 0, 2, 32],
+        [4, 0, 30, 4, 0, 0, 32],
+        [5, 31, 14, 4, 0, 3, 14],
+    ],
+)
+
+garchomp_bad_row = deepcopy(garchomp_stats)
+garchomp_bad_row["spread_values"][-1] = [5, 48, 14, 4, 0, 3, 14]
+clean_garchomp_bad = sanitize_extracted_entry(garchomp_bad_row, historical_spreads=garchomp_ref["garchomp"])
+check(
+    "historical fallback repairs impossible spread rows",
+    clean_garchomp_bad["spread_values"][-1],
+    [5, 22, 10, 0, 0, 2, 32],
+)
 
 
 # ===========================================================================

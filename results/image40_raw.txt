@@ -1,1 +1,27 @@
-{"screen_type": "Ability", "pokemon": "Garchomp", "usage": 1, "moves": [], "move_usage": [], "abilities": ["Rough Skin", "Sand Veil"], "ability_usage": [99.1, 0.9], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": [], "item_usage": []}
+{
+  "screen_type": "moves",
+  "pokemon": "garchomp",
+  "usage": 1,
+  "moves": [
+    "earthquake",
+    "stealth rock",
+    "outrage",
+    "rock tomb",
+    "scale shot"
+  ],
+  "move_usage": [
+    99.4,
+    49.0,
+    44.5,
+    34.0,
+    30.7
+  ],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

@@ -1,1 +1,27 @@
-{"screen_type": "Held Item", "pokemon": "Archaludon", "usage": 4, "moves": [], "move_usage": [], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": ["Sitrus Berry", "Leftovers", "White Herb", "Choice Scarf", "Scope Lens"], "item_usage": [31.1, 29.6, 18.6, 9.7, 1.7]}
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "metagross",
+  "usage": 4,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [
+    "jolly",
+    "adamant",
+    "impish",
+    "careful",
+    "brave"
+  ],
+  "nature_usage": [
+    54.6,
+    41.6,
+    1.2,
+    0.7,
+    0.5
+  ],
+  "items": [],
+  "item_usage": []
+}

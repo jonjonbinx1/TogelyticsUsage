@@ -1,5 +1,5 @@
 {
-  "screen_type": "held_item",
+  "screen_type": "stat_alignment",
   "pokemon": "mimikyu",
   "usage": 2,
   "moves": [],
@@ -8,8 +8,20 @@
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": ["life orb", "lum berry", "scope lens", "spell tag", "fairy feather"],
-  "item_usage": [84.4, 4.0, 2.8, 2.4, 0.9]
+  "natures": [
+    "adamant",
+    "jolly",
+    "brave",
+    "impish",
+    "lonely"
+  ],
+  "nature_usage": [
+    76.5,
+    17.2,
+    2.6,
+    0.7,
+    0.6
+  ],
+  "items": [],
+  "item_usage": []
 }

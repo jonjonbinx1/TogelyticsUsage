@@ -43,12 +43,54 @@ from pathlib import Path
 
 import requests
 
+# Load local .env files without requiring an extra dependency.
+def _load_env_file(path: Path) -> None:
+    if not path.is_file():
+        return
+
+    try:
+        with open(path, encoding="utf-8") as f:
+            for raw_line in f:
+                line = raw_line.strip()
+                if not line or line.startswith("#"):
+                    continue
+                if line.startswith("export "):
+                    line = line[7:].lstrip()
+                if "=" not in line:
+                    continue
+
+                key, value = line.split("=", 1)
+                key = key.strip()
+                value = value.strip()
+                if not key:
+                    continue
+
+                if (value.startswith('"') and value.endswith('"')) or (value.startswith("'") and value.endswith("'")):
+                    value = value[1:-1]
+
+                os.environ.setdefault(key, value)
+    except OSError:
+        return
+
+
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
 SCRIPT_DIR = Path(__file__).parent
-OLLAMA_URL = "http://localhost:11434"
-VISION_MODEL = "qwen3-vl:30b-a3b"
+for _env_path in (Path.cwd() / ".env", SCRIPT_DIR / ".env"):
+    _load_env_file(_env_path)
+
+AI_PROVIDER = os.getenv("AI_PROVIDER", "ollama").strip().lower()
+OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434").strip()
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "qwen3-vl:30b-a3b").strip()
+OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1").strip()
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "").strip()
+OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini").strip()
+OPENROUTER_BASE_URL = os.getenv("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1").strip()
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "").strip()
+OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL", "openai/gpt-4o-mini").strip()
+OPENROUTER_HTTP_REFERER = os.getenv("OPENROUTER_HTTP_REFERER", "").strip()
+OPENROUTER_X_TITLE = os.getenv("OPENROUTER_X_TITLE", "").strip()
 RESULTS_DIR = SCRIPT_DIR / "results"
 
 DEFAULT_CSV = {
@@ -76,6 +118,12 @@ TRAILING_COLS = {
 AUTO_POKEMON_CONSENSUS_MIN_COUNT = 2
 AUTO_POKEMON_CONSENSUS_MIN_SCORE = 60.0
 AUTO_POKEMON_REVIEW_THRESHOLD = 80.0
+
+DEFAULT_AI_MODEL = os.getenv("AI_MODEL", "").strip() or (
+    OLLAMA_MODEL if AI_PROVIDER == "ollama" else (
+        OPENROUTER_MODEL if AI_PROVIDER == "openrouter" else OPENAI_MODEL
+    )
+)
 
 # ---------------------------------------------------------------------------
 # Extraction prompt
@@ -135,7 +183,7 @@ CRITICAL: "natures" must be a list of plain strings — NOT sub-lists. Each entr
 
 --- SCREEN: "Stat Points" (= EV Spreads) ---
 Each visible row has exactly 8 values left to right:
-  col 1 = ROW RANK   (an integer: 1, 2, 3, 4, 5)
+  col 1 = ROW RANK   (an integer: 1, 2, 3, 4, 5) This is stacked above the usage %
   col 2 = USAGE %    → store in spread_usage
   col 3 to col 8     = 6 stat numbers, read strictly left to right
 
@@ -144,6 +192,8 @@ INCLUDE the row rank in the output. For EACH row output a 7-integer list:
 
 DO NOT name or label the stats. DO NOT skip any number. Read every number you
 see in the row from left to right, keeping the row rank as the first element.
+IMPORTANT: the row rank is only a label. Do NOT treat it as HP or merge it into
+the first stat. The 6 stat values start after the usage percentage.
 
 Example: row reads "1  28.3%  2  0  0  32  0  32"
   USAGE=28.3 → spread_usage
@@ -341,6 +391,15 @@ def encode_image(path: Path) -> str:
 # ---------------------------------------------------------------------------
 # Ollama vision inference
 # ---------------------------------------------------------------------------
+def _image_media_type(image_path: Path) -> str:
+    suffix = image_path.suffix.lower()
+    if suffix in {".jpg", ".jpeg"}:
+        return "image/jpeg"
+    if suffix == ".png":
+        return "image/png"
+    return "image/jpeg"
+
+
 def _call_ollama(image_path: Path, model: str, prompt: str, attempt: int) -> str:
     """Raw Ollama call; returns the response text (may be empty)."""
     logger = logging.getLogger(__name__)
@@ -367,6 +426,62 @@ def _call_ollama(image_path: Path, model: str, prompt: str, attempt: int) -> str
         return resp.text or ""
 
 
+def _call_openai_compatible(
+    image_path: Path,
+    model: str,
+    prompt: str,
+    attempt: int,
+    base_url: str,
+    headers: dict | None = None,
+) -> str:
+    """Raw OpenAI-compatible vision call; returns the response text (may be empty)."""
+    logger = logging.getLogger(__name__)
+    image_b64 = encode_image(image_path)
+    payload = {
+        "model": model,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {"type": "text", "text": prompt},
+                    {
+                        "type": "image_url",
+                        "image_url": {
+                            "url": f"data:{_image_media_type(image_path)};base64,{image_b64}"
+                        },
+                    },
+                ],
+            }
+        ],
+        "temperature": 0.1,
+        "max_tokens": 2048,
+    }
+    request_headers = {"Content-Type": "application/json"}
+    if headers:
+        request_headers.update(headers)
+
+    if not base_url.endswith("/v1"):
+        base_url = f"{base_url}/v1"
+
+    start = time.time()
+    resp = requests.post(f"{base_url}/chat/completions", json=payload, headers=request_headers, timeout=300)
+    resp.raise_for_status()
+    elapsed = time.time() - start
+    logger.debug(f"  attempt={attempt} HTTP {resp.status_code} in {elapsed:.2f}s")
+    try:
+        j = resp.json()
+        choices = j.get("choices", []) if isinstance(j, dict) else []
+        if choices:
+            message = choices[0].get("message", {}) or {}
+            content = message.get("content", "")
+            if isinstance(content, list):
+                return "".join(block.get("text", "") for block in content if isinstance(block, dict))
+            return content or ""
+        return resp.text or ""
+    except ValueError:
+        return resp.text or ""
+
+
 # Retry prompt used when the first attempt returns an empty response.
 # More forceful, focuses the model on the screen title to get it started.
 RETRY_PROMPT = """/no_think
@@ -383,6 +498,7 @@ For the "Stat Points" screen, each visible row has 8 values left to right:
 INCLUDE the row rank in the output. For each row output a 7-integer list:
   [ROW_RANK, stat1, stat2, stat3, stat4, stat5, stat6]
 DO NOT name the stats — just include the rank then read the 6 numbers left to right.
+IMPORTANT: the row rank is not HP and must never be copied into the first stat.
 Example row "1  55.6%  2  32  0  0  0  32" → spread_values entry [1, 2, 32, 0, 0, 0, 32].
 
 "usage" is the Pokemon rank shown as #N at the top-left of the screen (an integer).
@@ -393,14 +509,45 @@ Return ONLY the JSON — no markdown, no explanation.
 """
 
 
-def call_vision_model(image_path: Path, model: str, max_retries: int = 2) -> dict | None:
+def call_vision_model(image_path: Path, provider: str, model: str, max_retries: int = 2) -> dict | None:
     """Send image to Ollama; retry on empty response; return parsed JSON or None."""
     logger = logging.getLogger(__name__)
+
+    provider = provider.strip().lower()
+    if provider not in {"ollama", "openai", "openrouter"}:
+        raise ValueError(f"Unsupported AI provider: {provider}")
 
     for attempt in range(1, max_retries + 1):
         prompt = EXTRACTION_PROMPT if attempt == 1 else RETRY_PROMPT
         try:
-            raw = _call_ollama(image_path, model, prompt, attempt).strip()
+            if provider == "ollama":
+                raw = _call_ollama(image_path, model, prompt, attempt).strip()
+            elif provider == "openrouter":
+                headers = {"Authorization": f"Bearer {OPENROUTER_API_KEY}"}
+                if OPENROUTER_HTTP_REFERER:
+                    headers["HTTP-Referer"] = OPENROUTER_HTTP_REFERER
+                if OPENROUTER_X_TITLE:
+                    headers["X-Title"] = OPENROUTER_X_TITLE
+                raw = _call_openai_compatible(
+                    image_path,
+                    model,
+                    prompt,
+                    attempt,
+                    OPENROUTER_BASE_URL,
+                    headers=headers,
+                ).strip()
+            else:
+                headers = {}
+                if OPENAI_API_KEY:
+                    headers["Authorization"] = f"Bearer {OPENAI_API_KEY}"
+                raw = _call_openai_compatible(
+                    image_path,
+                    model,
+                    prompt,
+                    attempt,
+                    OPENAI_BASE_URL,
+                    headers=headers,
+                ).strip()
         except requests.exceptions.RequestException as e:
             logger.error(f"  HTTP error (attempt {attempt}) for {image_path.name}: {e}")
             if attempt == max_retries:
@@ -497,6 +644,186 @@ def _normalize_name_lists(data: dict) -> dict:
     return data
 
 
+_SCREEN_ALLOWED_FIELDS = {
+    "moves": {"moves", "move_usage"},
+    "ability": {"abilities", "ability_usage"},
+    "held_item": {"items", "item_usage"},
+    "stat_alignment": {"natures", "nature_usage"},
+    "stat_points": {"spread_values", "spread_usage"},
+}
+
+
+def _parse_spread_text_values(spread: str) -> list[int] | None:
+    """Parse a CSV spread string into [HP, Atk, Def, SpA, SpD, Spe]."""
+    values = [0] * 6
+    index_by_stat = {name.lower(): idx for idx, name in enumerate(_STAT_NAMES)}
+
+    for part in str(spread or "").split("/"):
+        token = part.strip()
+        if not token:
+            continue
+        m = re.match(r"^(\d+)\s+([A-Za-z]+)$", token)
+        if not m:
+            return None
+        val = int(m.group(1))
+        stat_idx = index_by_stat.get(m.group(2).lower())
+        if stat_idx is None:
+            return None
+        values[stat_idx] = val
+
+    return values
+
+
+def build_historical_spread_reference(rows: list, before_date: str) -> dict:
+    """Map pokemon name -> most recent prior list of 6-stat spread rows."""
+    latest_by_pokemon = {}
+
+    for row in rows:
+        row_date = str(row.get("date", "")).strip()
+        if not row_date or row_date >= before_date:
+            continue
+
+        pokemon = _normalize_pokemon_name(row.get("pokemon", ""))
+        spread_text = str(row.get("sp", "")).strip()
+        if not pokemon or not spread_text:
+            continue
+
+        parsed_spreads = []
+        parse_failed = False
+        for spread in spread_text.split(":"):
+            parsed = _parse_spread_text_values(spread)
+            if parsed is None:
+                parse_failed = True
+                break
+            parsed_spreads.append(parsed)
+
+        if parse_failed or not parsed_spreads:
+            continue
+
+        current = latest_by_pokemon.get(pokemon)
+        if current is None or row_date > current["date"]:
+            latest_by_pokemon[pokemon] = {"date": row_date, "spreads": parsed_spreads}
+
+    return {pokemon: info["spreads"] for pokemon, info in latest_by_pokemon.items()}
+
+
+def _looks_like_valid_spread_stats(values: list) -> bool:
+    if len(values) != 6:
+        return False
+    try:
+        ints = [int(v) for v in values]
+    except (TypeError, ValueError):
+        return False
+    return all(0 <= v <= 32 for v in ints) and sum(ints) == 66
+
+
+def _normalize_spread_row(row, expected_rank: int, historical_rows: list | None = None) -> list[int] | None:
+    """Repair common OCR spread row mistakes into [rank, HP, Atk, Def, SpA, SpD, Spe]."""
+    if not isinstance(row, list):
+        return None
+
+    try:
+        raw = [int(v) for v in row]
+    except (TypeError, ValueError):
+        raw = []
+
+    candidates = []
+
+    if len(raw) == 6:
+        candidates.append([expected_rank] + raw)
+    elif len(raw) == 7:
+        candidates.append(raw)
+        if raw and raw[0] == expected_rank:
+            # OCR duplicated the row rank as the first stat and dropped the trailing zero.
+            candidates.append([expected_rank] + raw[2:] + [0])
+            # OCR captured an extra trailing stat-like number; drop it and pad the tail.
+            candidates.append([expected_rank] + raw[1:-1] + [0])
+    elif len(raw) == 8 and raw and raw[0] == expected_rank:
+        # Common pattern: [rank, rank, hp, atk, def, spa, spd, spe]
+        candidates.append([expected_rank] + raw[2:])
+    elif len(raw) == 9 and raw and raw[0] == expected_rank:
+        # Common pattern: [rank, usage_tens, usage_ones, hp, atk, def, spa, spd, spe]
+        candidates.append([expected_rank] + raw[3:])
+
+    for candidate in candidates:
+        if len(candidate) != 7:
+            continue
+        if candidate[0] != expected_rank:
+            continue
+        if _looks_like_valid_spread_stats(candidate[1:]):
+            return candidate
+
+    if historical_rows and 0 <= expected_rank - 1 < len(historical_rows):
+        historical = historical_rows[expected_rank - 1]
+        if _looks_like_valid_spread_stats(historical):
+            return [expected_rank] + [int(v) for v in historical]
+
+    return raw if len(raw) in (6, 7) else None
+
+
+def _infer_screen_type(data: dict) -> str:
+    screen_type = str(data.get("screen_type", "")).strip().lower()
+    if screen_type in _SCREEN_ALLOWED_FIELDS:
+        return screen_type
+
+    populated = []
+    if data.get("moves"):
+        populated.append("moves")
+    if data.get("abilities"):
+        populated.append("ability")
+    if data.get("items"):
+        populated.append("held_item")
+    if data.get("natures"):
+        populated.append("stat_alignment")
+    if data.get("spread_values"):
+        populated.append("stat_points")
+
+    if len(populated) == 1:
+        return populated[0]
+
+    # When the model overfills several sections at once, prefer the simpler
+    # title-driven screens over noisy stat spreads.
+    for candidate in ("moves", "ability", "held_item", "stat_alignment", "stat_points"):
+        if candidate in populated:
+            return candidate
+
+    return screen_type
+
+
+def sanitize_extracted_entry(data: dict, historical_spreads: list | None = None) -> dict:
+    """Keep only fields relevant to the detected screen and repair spread rows."""
+    cleaned = deepcopy(data)
+
+    screen_type = _infer_screen_type(cleaned)
+    if screen_type:
+        cleaned["screen_type"] = screen_type
+
+    if screen_type in _SCREEN_ALLOWED_FIELDS:
+        allowed = _SCREEN_ALLOWED_FIELDS[screen_type]
+        for fields in _SCREEN_ALLOWED_FIELDS.values():
+            for field in fields:
+                if field not in allowed:
+                    cleaned[field] = []
+
+    if cleaned.get("screen_type") == "stat_points":
+        rows = cleaned.get("spread_values", [])
+        repaired_rows = []
+        for idx, row in enumerate(rows):
+            repaired = _normalize_spread_row(row, idx + 1, historical_rows=historical_spreads)
+            if repaired is not None:
+                repaired_rows.append(repaired)
+        cleaned["spread_values"] = repaired_rows
+
+        spread_usage = cleaned.get("spread_usage", [])
+        if isinstance(spread_usage, list):
+            cleaned["spread_usage"] = spread_usage[:len(repaired_rows)]
+    else:
+        cleaned["spread_values"] = []
+        cleaned["spread_usage"] = []
+
+    return cleaned
+
+
 # ---------------------------------------------------------------------------
 # Data formatting
 # ---------------------------------------------------------------------------
@@ -554,11 +881,37 @@ def _join_lower(lst: list) -> str:
     return ":".join(str(x).strip().lower() for x in lst) if lst else ""
 
 
+def _normalize_pokemon_name(value) -> str:
+    """Coerce a Pokemon name-like value to a safe lowercase string."""
+    return str(value or "").strip().lower()
+
+
+def _coerce_usage_rank(value) -> int | None:
+    """Return an integer rank when the value cleanly represents one."""
+    if isinstance(value, bool):
+        return None
+    if isinstance(value, int):
+        return value
+    if isinstance(value, float):
+        return int(value) if value.is_integer() else None
+
+    text = str(value or "").strip()
+    if not text:
+        return None
+
+    if re.fullmatch(r"\d+", text):
+        return int(text)
+    if re.fullmatch(r"\d+\.0+", text):
+        return int(float(text))
+    return None
+
+
 def format_for_csv(data: dict) -> dict:
     """Convert extracted dict to a flat CSV-row dict using CORE_FIELDS keys."""
+    usage_rank = _coerce_usage_rank(data.get("usage", ""))
     return {
-        "pokemon":        data.get("pokemon", "").lower().strip(),
-        "usage":          str(data.get("usage", "")).strip(),
+        "pokemon":        _normalize_pokemon_name(data.get("pokemon", "")),
+        "usage":          str(usage_rank) if usage_rank is not None else "",
         "moves":          _join_lower(data.get("moves", [])),
         "move usage":     _join(data.get("move_usage", [])),
         "ability":        _join_lower(data.get("abilities", [])),
@@ -957,7 +1310,7 @@ def deduplicate(extracted_list: list) -> list:
 
     for entry in extracted_list:
         data = entry["data"]
-        key = (data.get("pokemon", "").lower(), str(data.get("usage", "")))
+        key = (_normalize_pokemon_name(data.get("pokemon", "")), str(data.get("usage", "")))
 
         if key in seen:
             idx = seen[key]
@@ -997,9 +1350,15 @@ def main() -> None:
         help="Override the target CSV file path",
     )
     parser.add_argument(
+        "--provider",
+        default=AI_PROVIDER,
+        choices=["ollama", "openai", "openrouter"],
+        help=f"AI provider to use (default: {AI_PROVIDER})",
+    )
+    parser.add_argument(
         "--model",
-        default=VISION_MODEL,
-        help=f"Ollama model to use (default: {VISION_MODEL})",
+        default=DEFAULT_AI_MODEL,
+        help=f"AI model to use (default: {DEFAULT_AI_MODEL})",
     )
     parser.add_argument(
         "--start",
@@ -1057,6 +1416,7 @@ def main() -> None:
     csv_path = Path(args.csv).resolve() if args.csv else DEFAULT_CSV[fmt_type]
     trailing = TRAILING_COLS[fmt_type]
     logger.info(f"CSV      : {csv_path}")
+    logger.info(f"AI       : {args.provider} / {args.model}")
     logger.info(f"Mode     : {'APPLY' if args.apply else 'DRY RUN (use --apply to write CSV)'}")
 
     existing, loaded_trailing = load_csv(csv_path)
@@ -1065,6 +1425,7 @@ def main() -> None:
 
     pokemon_lookup = _load_pokemon_name_lookup()
     known_pokemon_names = build_known_pokemon_names(existing, exclude_date=date_str)
+    historical_spread_reference = build_historical_spread_reference(existing, before_date=date_str)
     prefilled_name_index, prefilled_name_conflicts = build_prefilled_name_index(
         existing,
         date_str,
@@ -1110,13 +1471,20 @@ def main() -> None:
             break
 
         logger.info(f"[{img_idx:>3}] {img_path.name} …")
-        data = call_vision_model(img_path, args.model)
+        data = call_vision_model(img_path, args.provider, args.model)
 
         if data is None:
             logger.warning(f"      ✗ Failed to extract data")
             errors.append(img_path.name)
             processed += 1
             continue
+
+        data = sanitize_extracted_entry(
+            data,
+            historical_spreads=historical_spread_reference.get(
+                _normalize_pokemon_name(data.get("pokemon", ""))
+            ),
+        )
 
         pokemon = data.get("pokemon", "?")
         usage = data.get("usage", "?")
@@ -1164,6 +1532,7 @@ def main() -> None:
         "folder": str(folder),
         "date": date_str,
         "format": fmt_type,
+        "provider": args.provider,
         "model": args.model,
         "prefilled_name_authority": prefilled_name_index,
         "prefilled_name_conflicts": prefilled_name_conflicts,
@@ -1192,9 +1561,10 @@ def main() -> None:
         return
 
     logger.info(f"\nExtracted {len(csv_rows)} Pokemon entries:")
-    for row in sorted(csv_rows, key=lambda r: int(r.get("usage") or 0)):
+    for row in sorted(csv_rows, key=lambda r: _coerce_usage_rank(r.get("usage")) or 0):
         moves_preview = row["moves"].split(":")[0] if row["moves"] else "—"
-        logger.info(f"  Rank {int(row['usage']):>2}: {row['pokemon']:<20}  first move: {moves_preview}")
+        rank = _coerce_usage_rank(row.get("usage")) or 0
+        logger.info(f"  Rank {rank:>2}: {row['pokemon']:<20}  first move: {moves_preview}")
 
     # ---- Upsert into CSV ----
     existing_for_upsert, existing_name_corrections = rectify_existing_rows_from_prefill(

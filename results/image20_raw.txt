@@ -1,1 +1,27 @@
-{"screen_type": "Moves", "pokemon": "Kingambit", "usage": 5, "moves": ["Sucker Punch", "Kowtow Cleave", "Iron Head", "Protect", "Low Kick"], "move_usage": ["98.4%", "95.3%", "83.3%", "69.4%", "34.2%"], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": [], "item_usage": []}
+{
+  "screen_type": "moves",
+  "pokemon": "archaludon",
+  "usage": 5,
+  "moves": [
+    "flash cannon",
+    "draco meteor",
+    "thunderbolt",
+    "stealth rock",
+    "electro shot"
+  ],
+  "move_usage": [
+    74.2,
+    70.6,
+    50.4,
+    41.0,
+    33.8
+  ],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

@@ -1,1 +1,27 @@
-{"screen_type": "Held Item", "pokemon": "Sylveon", "usage": 8, "moves": [], "move_usage": [], "abilities": [], "ability_usage": [], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": [[1, "Fairy Feather"], [2, "Life Orb"], [3, "Leftovers"], [4, "Sitrus Berry"], [5, "Quick Claw"]], "item_usage": ["85.7%", "5.1%", "2.5%", "2.4%", "1.3%"]}
+{
+  "screen_type": "held_item",
+  "pokemon": "raichu",
+  "usage": 8,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [
+    "raichunite y",
+    "raichunite x",
+    "focus sash",
+    "choice scarf",
+    "life orb"
+  ],
+  "item_usage": [
+    96.0,
+    3.0,
+    0.3,
+    0.1,
+    0.1
+  ]
+}

@@ -1,1 +1,27 @@
-{"screen_type": "Ability", "pokemon": "Staraptor", "usage": 6, "moves": [], "move_usage": [], "abilities": ["Intimidate", "Reckless"], "ability_usage": [97.1, 2.9], "spread_values": [], "spread_usage": [], "natures": [], "nature_usage": [], "items": [], "item_usage": []}
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "archaludon",
+  "usage": 5,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [
+    "modest",
+    "bold",
+    "calm",
+    "timid",
+    "impish"
+  ],
+  "nature_usage": [
+    47.1,
+    17.5,
+    12.8,
+    11.7,
+    2.9
+  ],
+  "items": [],
+  "item_usage": []
+}

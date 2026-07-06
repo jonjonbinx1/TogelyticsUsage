@@ -1,13 +1,25 @@
 {
-  "screen_type": "ability",
-  "pokemon": "ninetales",
+  "screen_type": "stat_points",
+  "pokemon": "blaziken",
   "usage": 10,
   "moves": [],
   "move_usage": [],
-  "abilities": ["snow warning", "snow cloak"],
-  "ability_usage": [99.6, 0.4],
-  "spread_values": [],
-  "spread_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [
+    [1, 1, 32, 0, 0, 0, 32],
+    [2, 2, 16, 32, 0, 0, 18],
+    [3, 3, 10, 32, 0, 0, 24],
+    [4, 4, 0, 32, 2, 0, 32],
+    [5, 5, 0, 32, 0, 2, 32]
+  ],
+  "spread_usage": [
+    46.0,
+    7.0,
+    5.8,
+    4.3,
+    2.6
+  ],
   "natures": [],
   "nature_usage": [],
   "items": [],

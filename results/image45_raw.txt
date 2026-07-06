@@ -1,15 +1,23 @@
 {
-  "screen_type": "ability",
+  "screen_type": "moves",
   "pokemon": "mimikyu",
   "usage": 2,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [
-    "disguise"
+  "moves": [
+    "play rough",
+    "shadow sneak",
+    "swords dance",
+    "shadow claw",
+    "curse"
   ],
-  "ability_usage": [
-    100.0
+  "move_usage": [
+    96.7,
+    96.2,
+    81.5,
+    62.7,
+    13.9
   ],
+  "abilities": [],
+  "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],
