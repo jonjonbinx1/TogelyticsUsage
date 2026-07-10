@@ -37,6 +37,7 @@ from extractor import (
     build_prefilled_name_index,
     format_for_csv,
     merge_duplicate_csv_rows,
+    merge_ranked_extractions,
     rectify_existing_rows_from_prefill,
     rectify_pokemon_names_from_prefill,
     sanitize_extracted_entry,
@@ -284,6 +285,22 @@ check("merged row keeps authoritative prefilled name", rank7_rows[0]["pokemon"],
 check("merged row keeps previously extracted data", rank7_rows[0]["moves"], "last respects")
 check("one existing row rewritten to authoritative name", len(prefilled_existing_corrections), 1)
 check("one duplicate existing row merged away", merged_existing_count, 1)
+
+
+# ===========================================================================
+# 4b. per-rank extraction merging
+# ===========================================================================
+section("ranked extraction merge — majority pokemon name")
+
+ranked_entries = [
+    {"image": "a.png", "data": {"pokemon": "farigiraf", "usage": 4, "moves": ["trick room"]}},
+    {"image": "b.png", "data": {"pokemon": "farigiraf", "usage": 4, "abilities": ["armor tail"]}},
+    {"image": "c.png", "data": {"pokemon": "girafarig", "usage": 4, "items": ["sitrus berry"]}},
+]
+merged_ranked_entries = merge_ranked_extractions(ranked_entries)
+check("one entry produced per usage rank", len(merged_ranked_entries), 1)
+check("majority name wins for rank merge", merged_ranked_entries[0]["data"]["pokemon"], "farigiraf")
+check("rank merge keeps data from all entries", merged_ranked_entries[0]["data"]["items"], ["sitrus berry"])
 
 
 # ===========================================================================

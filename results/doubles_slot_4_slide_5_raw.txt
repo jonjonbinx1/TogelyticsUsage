@@ -1,0 +1,15 @@
+{
+  "screen_type": "held_item",
+  "pokemon": "charizard",
+  "usage": 4,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": ["charizardite y", "charizardite x", "charcoal", "choice scarf", "focus sash"],
+  "item_usage": [98.0, 1.6, 0.2, 0.1, 0.0]
+}

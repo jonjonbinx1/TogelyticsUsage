@@ -1,0 +1,15 @@
+{
+  "screen_type": "held_item",
+  "pokemon": "whimsicott",
+  "usage": 9,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": ["focus sash", "life orb", "fairy feather", "mental herb", "sitrus berry"],
+  "item_usage": [80.9, 6.9, 4.0, 2.5, 1.5]
+}

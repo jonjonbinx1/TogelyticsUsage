@@ -1,0 +1,15 @@
+{
+  "screen_type": "moves",
+  "pokemon": "charizard",
+  "usage": 4,
+  "moves": ["protect", "heat wave", "solar beam", "weather ball", "helping hand"],
+  "move_usage": [98.6, 98.0, 90.0, 86.8, 5.4],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

@@ -1,0 +1,15 @@
+{
+  "screen_type": "held_item",
+  "pokemon": "basculigion",
+  "usage": 7,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": ["choice scarf", "mystic water", "focus sash", "life orb", "sitrus berry"],
+  "item_usage": [37.9, 21.0, 16.5, 14.6, 7.6]
+}

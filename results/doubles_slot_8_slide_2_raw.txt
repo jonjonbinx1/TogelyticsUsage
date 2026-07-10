@@ -1,0 +1,15 @@
+{
+  "screen_type": "ability",
+  "pokemon": "sylveon",
+  "usage": 8,
+  "moves": [],
+  "move_usage": [],
+  "abilities": ["pixilate", "cute charm"],
+  "ability_usage": [99.9, 0.1],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

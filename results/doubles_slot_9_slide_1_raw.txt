@@ -1,0 +1,15 @@
+{
+  "screen_type": "moves",
+  "pokemon": "whimsicott",
+  "usage": 9,
+  "moves": ["tailwind", "moonblast", "encore", "protect", "sunny day"],
+  "move_usage": [96.5, 91.3, 71.3, 61.5, 15.3],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

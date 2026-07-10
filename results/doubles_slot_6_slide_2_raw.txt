@@ -1,0 +1,15 @@
+{
+  "screen_type": "ability",
+  "pokemon": "sinistcha",
+  "usage": 6,
+  "moves": [],
+  "move_usage": [],
+  "abilities": ["hospitality", "heatproof"],
+  "ability_usage": [99.3, 0.7],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

@@ -1,0 +1,15 @@
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "whimsicott",
+  "usage": 9,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": ["timid", "modest", "bold", "calm", "quiet"],
+  "nature_usage": [79.1, 14.6, 3.5, 1.4, 0.5],
+  "items": [],
+  "item_usage": []
+}

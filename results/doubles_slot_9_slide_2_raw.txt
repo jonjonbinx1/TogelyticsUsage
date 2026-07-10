@@ -1,0 +1,15 @@
+{
+  "screen_type": "ability",
+  "pokemon": "whimsicott",
+  "usage": 9,
+  "moves": [],
+  "move_usage": [],
+  "abilities": ["prankster", "chlorophyll", "infiltrator"],
+  "ability_usage": [99.1, 0.7, 0.2],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

@@ -6,7 +6,13 @@ import tempfile
 import time
 from pathlib import Path
 
-from extractor import discover_input_folders, discover_recent_results_folder, resolve_input_folder
+from extractor import (
+    discover_input_folders,
+    discover_recent_results_folder,
+    get_images,
+    parse_image_filename,
+    resolve_input_folder,
+)
 
 
 PASS = "\033[32mPASS\033[0m"
@@ -152,6 +158,28 @@ with tempfile.TemporaryDirectory() as temp_dir:
         "interactive prompt explains selected folder",
         inferred_note,
         "No folder provided; selected 20260524doubles",
+    )
+
+
+section("filename metadata parsing")
+with tempfile.TemporaryDirectory() as temp_dir:
+    root = Path(temp_dir)
+    folder = root / "images"
+    folder.mkdir()
+    (folder / "doubles_slot_1_slide_3.png").write_bytes(b"x")
+    (folder / "image12.png").write_bytes(b"x")
+    (folder / "doubles_slot_2_slide_5.jpg").write_bytes(b"x")
+
+    meta = parse_image_filename(folder / "doubles_slot_1_slide_3.png")
+    check("slot parsed from filename", meta["slot"], 1)
+    check("slide parsed from filename", meta["slide"], 3)
+    check("slide mapped to stat_points", meta["screen_type"], "stat_points")
+
+    ordered = [p.name for p in get_images(folder)]
+    check(
+        "metadata filenames sort by slot first",
+        ordered,
+        ["doubles_slot_1_slide_3.png", "doubles_slot_2_slide_5.jpg", "image12.png"],
     )
 
 

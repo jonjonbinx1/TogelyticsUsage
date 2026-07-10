@@ -1,0 +1,15 @@
+{
+  "screen_type": "held_item",
+  "pokemon": "farigiraf",
+  "usage": 5,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": ["sitrus berry", "colbur berry", "mental herb", "leftovers", "focus sash"],
+  "item_usage": [70.0, 20.0, 3.1, 2.4, 1.8]
+}

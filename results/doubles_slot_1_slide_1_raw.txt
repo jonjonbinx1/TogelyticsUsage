@@ -1,0 +1,15 @@
+{
+  "screen_type": "moves",
+  "pokemon": "kingambit",
+  "usage": 1,
+  "moves": ["sucker punch", "kowtow cleave", "iron head", "protect", "low kick"],
+  "move_usage": [99.5, 98.4, 71.9, 63.2, 41.0],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

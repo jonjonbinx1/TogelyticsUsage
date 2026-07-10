@@ -1,0 +1,15 @@
+{
+  "screen_type": "moves",
+  "pokemon": "farigiraf",
+  "usage": 5,
+  "moves": ["trick room", "thunderbolt", "psychic", "helping hand", "protect"],
+  "move_usage": [96.8, 64.4, 55.1, 45.7, 36.7],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

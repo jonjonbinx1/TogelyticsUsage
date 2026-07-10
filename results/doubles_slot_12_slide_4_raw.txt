@@ -1,0 +1,15 @@
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "staraptor",
+  "usage": 12,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": ["jolly", "adamant", "careful", "naive", "impish"],
+  "nature_usage": [85.0, 11.4, 1.7, 0.4, 0.4],
+  "items": [],
+  "item_usage": []
+}

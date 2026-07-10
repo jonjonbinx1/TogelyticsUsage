@@ -1,0 +1,15 @@
+{
+  "screen_type": "moves",
+  "pokemon": "basculegion",
+  "usage": 7,
+  "moves": ["last respects", "aqua jet", "wave crash", "protect", "flip turn"],
+  "move_usage": [100.0, 95.5, 85.8, 60.7, 36.9],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

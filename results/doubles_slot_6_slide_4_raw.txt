@@ -1,0 +1,15 @@
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "sinistcha",
+  "usage": 6,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": ["bold", "calm", "relaxed", "sassy", "modest"],
+  "nature_usage": [54.8, 18.6, 14.7, 4.5, 4.4],
+  "items": [],
+  "item_usage": []
+}

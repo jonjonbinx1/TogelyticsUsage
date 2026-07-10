@@ -1,0 +1,27 @@
+{
+  "screen_type": "stat_points",
+  "pokemon": "aerodactyl",
+  "usage": 11,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [
+    [1, 2, 32, 0, 0, 0, 32],
+    [2, 22, 12, 0, 0, 0, 32],
+    [3, 28, 11, 9, 0, 1, 17],
+    [4, 26, 7, 1, 0, 0, 32],
+    [5, 0, 32, 2, 0, 0, 32]
+  ],
+  "spread_usage": [
+    35.0,
+    12.9,
+    10.6,
+    7.2,
+    4.3
+  ],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

@@ -1,0 +1,15 @@
+{
+  "screen_type": "held_item",
+  "pokemon": "sneasler",
+  "usage": 10,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": ["focus sash", "white herb", "life orb", "iron ball", "lum berry"],
+  "item_usage": [50.6, 42.5, 2.9, 1.7, 0.5]
+}

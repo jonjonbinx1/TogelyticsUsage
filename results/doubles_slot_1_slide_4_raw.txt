@@ -1,0 +1,15 @@
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "kingambit",
+  "usage": 1,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": ["adamant", "brave", "jolly", "impish", "naughty"],
+  "nature_usage": [87.4, 9.8, 1.9, 0.2, 0.2],
+  "items": [],
+  "item_usage": []
+}

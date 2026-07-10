@@ -1,0 +1,15 @@
+{
+  "screen_type": "held_item",
+  "pokemon": "kingambit",
+  "usage": 1,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": ["black glasses", "focus sash", "chople berry", "life orb", "occa berry"],
+  "item_usage": [38.0, 25.6, 20.6, 9.2, 5.0]
+}

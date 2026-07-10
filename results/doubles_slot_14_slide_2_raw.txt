@@ -1,0 +1,21 @@
+{
+  "screen_type": "ability",
+  "pokemon": "blastoise",
+  "usage": 14,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [
+    "rain dish",
+    "torrent"
+  ],
+  "ability_usage": [
+    80.6,
+    19.4
+  ],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

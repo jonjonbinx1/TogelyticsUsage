@@ -1,0 +1,15 @@
+{
+  "screen_type": "held_item",
+  "pokemon": "incineroar",
+  "usage": 3,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": ["sitrus berry", "passho berry", "chope berry", "life orb", "leftovers"],
+  "item_usage": [68.4, 9.8, 5.5, 4.5, 3.1]
+}

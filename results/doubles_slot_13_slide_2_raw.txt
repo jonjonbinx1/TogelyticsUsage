@@ -1,0 +1,1 @@
+{'abilities': ['Stamina', 'Sturdy', 'Stalwart'], 'ability_usage': {13: 'Stamina', 2: 'Sturdy', 3: 'Stalwart'}}

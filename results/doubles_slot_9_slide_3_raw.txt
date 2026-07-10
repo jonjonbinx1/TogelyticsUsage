@@ -1,0 +1,27 @@
+{
+  "screen_type": "stat_points",
+  "pokemon": "whimsicott",
+  "usage": 9,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [
+    [1, 2, 0, 0, 32, 0, 32],
+    [2, 0, 0, 2, 32, 0, 32],
+    [3, 14, 0, 0, 32, 0, 20],
+    [4, 0, 0, 0, 32, 2, 32],
+    [5, 0, 0, 0, 32, 0, 32]
+  ],
+  "spread_usage": [
+    56.6,
+    7.8,
+    5.3,
+    3.7,
+    1.6
+  ],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

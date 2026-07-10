@@ -1,0 +1,15 @@
+{
+  "screen_type": "moves",
+  "pokemon": "sylveon",
+  "usage": 8,
+  "moves": ["hyper voice", "quick attack", "hyper beam", "detect", "protect"],
+  "move_usage": [99.9, 85.2, 77.9, 68.8, 29.6],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

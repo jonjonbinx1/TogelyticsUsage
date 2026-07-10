@@ -1,0 +1,27 @@
+{
+  "screen_type": "stat_points",
+  "pokemon": "sylveon",
+  "usage": 8,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [
+    [1, 32, 0, 2, 32, 0, 0],
+    [2, 18, 0, 10, 21, 0, 17],
+    [3, 5, 0, 21, 30, 0, 10],
+    [4, 9, 0, 22, 30, 0, 5],
+    [5, 32, 0, 0, 32, 0, 2]
+  ],
+  "spread_usage": [
+    8.9,
+    8.2,
+    5.3,
+    4.6,
+    3.7
+  ],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

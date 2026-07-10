@@ -1,0 +1,15 @@
+{
+  "screen_type": "held_item",
+  "pokemon": "sinistcha",
+  "usage": 6,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": ["kasib berry", "sitrus berry", "colbur berry", "leftovers", "occa berry"],
+  "item_usage": [38.7, 20.5, 14.4, 7.2, 7.0]
+}

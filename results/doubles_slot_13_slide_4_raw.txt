@@ -1,0 +1,27 @@
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "archaludon",
+  "usage": 13,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [
+    "modest",
+    "calm",
+    "bold",
+    "timid",
+    "quiet"
+  ],
+  "nature_usage": [
+    71.6,
+    15.5,
+    8.9,
+    2.4,
+    1.1
+  ],
+  "items": [],
+  "item_usage": []
+}

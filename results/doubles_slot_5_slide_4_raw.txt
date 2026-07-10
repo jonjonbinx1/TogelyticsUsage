@@ -1,0 +1,15 @@
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "farigiraf",
+  "usage": 5,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": ["bold", "relaxed", "quiet", "modest", "sassy"],
+  "nature_usage": [32.2, 23.8, 16.7, 10.7, 9.1],
+  "items": [],
+  "item_usage": []
+}

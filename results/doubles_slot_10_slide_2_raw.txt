@@ -1,0 +1,15 @@
+{
+  "screen_type": "ability",
+  "pokemon": "sneasler",
+  "usage": 10,
+  "moves": [],
+  "move_usage": [],
+  "abilities": ["unburden", "poison touch", "pressure"],
+  "ability_usage": [52.4, 47.5, 0.1],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

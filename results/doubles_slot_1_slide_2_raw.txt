@@ -1,0 +1,15 @@
+{
+  "screen_type": "ability",
+  "pokemon": "kingambit",
+  "usage": 1,
+  "moves": [],
+  "move_usage": [],
+  "abilities": ["defiant", "supreme overlord", "pressure"],
+  "ability_usage": [96.7, 3.2, 0.1],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

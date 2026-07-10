@@ -1,0 +1,15 @@
+{
+  "screen_type": "moves",
+  "pokemon": "incineroar",
+  "usage": 3,
+  "moves": ["fake out", "flare blitz", "parting shot", "darkest lariat", "throat chop"],
+  "move_usage": [99.5, 93.0, 89.9, 42.1, 33.3],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

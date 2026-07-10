@@ -1,0 +1,15 @@
+{
+  "screen_type": "moves",
+  "pokemon": "sinistcha",
+  "usage": 6,
+  "moves": ["matcha gotcha", "rage powder", "protect", "trick room", "life dew"],
+  "move_usage": [98.7, 98.1, 69.7, 65.9, 43.5],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

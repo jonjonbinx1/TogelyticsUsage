@@ -1,0 +1,27 @@
+{
+  "screen_type": "stat_points",
+  "pokemon": "basculegion",
+  "usage": 7,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [
+    [1, 2, 32, 0, 0, 0, 32],
+    [2, 0, 32, 2, 0, 0, 32],
+    [3, 32, 32, 2, 0, 0, 0],
+    [4, 0, 18, 30, 0, 0, 18],
+    [5, 0, 32, 0, 0, 2, 32]
+  ],
+  "spread_usage": [
+    30.7,
+    21.1,
+    2.8,
+    2.8,
+    2.6
+  ],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

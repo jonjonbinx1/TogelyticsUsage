@@ -1,0 +1,15 @@
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "incinerroar",
+  "usage": 3,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": ["careful", "impish", "adamant", "brave", "sassy"],
+  "nature_usage": [37.0, 27.7, 15.2, 9.8, 5.1],
+  "items": [],
+  "item_usage": []
+}

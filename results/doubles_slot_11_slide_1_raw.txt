@@ -1,0 +1,15 @@
+{
+  "screen_type": "moves",
+  "pokemon": "aerodactyl",
+  "usage": 11,
+  "moves": ["rock slide", "tailwind", "dual wingbeat", "ice fang", "wide guard"],
+  "move_usage": [99.3, 94.1, 73.4, 58.7, 37.2],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

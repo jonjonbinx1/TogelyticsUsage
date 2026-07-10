@@ -1,0 +1,15 @@
+{
+  "screen_type": "ability",
+  "pokemon": "garchomp",
+  "usage": 2,
+  "moves": [],
+  "move_usage": [],
+  "abilities": ["rough skin", "sand veil"],
+  "ability_usage": [99.0, 1.0],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

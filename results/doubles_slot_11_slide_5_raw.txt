@@ -1,0 +1,15 @@
+{
+  "screen_type": "held_item",
+  "pokemon": "aerodactyl",
+  "usage": 11,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": ["aerodactylite", "focus sash", "wide lens", "king's rock", "mental herb"],
+  "item_usage": [71.6, 24.8, 0.7, 0.5, 0.4]
+}

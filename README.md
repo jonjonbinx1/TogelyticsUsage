@@ -60,7 +60,9 @@ root or alongside `extractor.py`.
 
 Supported variables:
 
-- `AI_PROVIDER=ollama`, `AI_PROVIDER=openai`, or `AI_PROVIDER=openrouter`
+- `API_PROVIDER=ollama`, `API_PROVIDER=openai`, or `API_PROVIDER=openrouter`
+- `API_PROVIDER=ollama,openrouter` to run both providers in parallel and use the first response
+- `AI_PROVIDER=...` is still accepted as a fallback alias
 - `AI_MODEL=<model name>` to override the default model name
 - `OLLAMA_URL=http://localhost:11434`
 - `OLLAMA_MODEL=qwen3-vl:30b-a3b`
@@ -76,24 +78,30 @@ Supported variables:
 Examples:
 
 ```env
-AI_PROVIDER=ollama
+API_PROVIDER=ollama
 OLLAMA_MODEL=qwen3-vl:30b-a3b
 ```
 
 ```env
-AI_PROVIDER=openai
+API_PROVIDER=openai
 OPENAI_API_KEY=your_key_here
 OPENAI_MODEL=gpt-4o-mini
 OPENAI_BASE_URL=https://api.openai.com/v1
 ```
 
 ```env
-AI_PROVIDER=openrouter
+API_PROVIDER=openrouter
 OPENROUTER_API_KEY=your_key_here
 OPENROUTER_MODEL=openai/gpt-4o-mini
 OPENROUTER_BASE_URL=https://openrouter.ai/api/v1
 OPENROUTER_HTTP_REFERER=https://your-site.example
 OPENROUTER_X_TITLE=Your App Name
+```
+
+Example parallel configuration:
+
+```env
+API_PROVIDER=openrouter,ollama
 ```
 
 You can still override both values from the command line with `--provider` and

@@ -1,0 +1,15 @@
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "charizard",
+  "usage": 4,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": ["modest", "timid", "adamant", "bold", "quiet"],
+  "nature_usage": [82.0, 14.6, 1.5, 0.7, 0.6],
+  "items": [],
+  "item_usage": []
+}

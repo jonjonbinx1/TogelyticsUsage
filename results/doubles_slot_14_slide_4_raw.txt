@@ -1,0 +1,27 @@
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "blastoise",
+  "usage": 14,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [
+    "modest",
+    "quiet",
+    "timid",
+    "calm",
+    "relaxed"
+  ],
+  "nature_usage": [
+    81.4,
+    13.8,
+    3.9,
+    0.2,
+    0.2
+  ],
+  "items": [],
+  "item_usage": []
+}

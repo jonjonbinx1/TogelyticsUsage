@@ -1,0 +1,15 @@
+{
+  "screen_type": "ability",
+  "pokemon": "farigiraf",
+  "usage": 5,
+  "moves": [],
+  "move_usage": [],
+  "abilities": ["armor tail", "sap sipper", "cud chew"],
+  "ability_usage": [99.6, 0.2, 0.2],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

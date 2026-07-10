@@ -1,0 +1,15 @@
+{
+  "screen_type": "moves",
+  "pokemon": "staraptor",
+  "usage": 12,
+  "moves": ["close combat", "protect", "brave bird", "roost", "dual wingbeat"],
+  "move_usage": [95.0, 81.2, 79.4, 60.4, 20.6],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}
