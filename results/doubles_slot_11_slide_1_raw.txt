@@ -2,8 +2,20 @@
   "screen_type": "moves",
   "pokemon": "aerodactyl",
   "usage": 11,
-  "moves": ["rock slide", "tailwind", "dual wingbeat", "ice fang", "wide guard"],
-  "move_usage": [99.3, 94.1, 73.4, 58.7, 37.2],
+  "moves": [
+    "rock slide",
+    "tailwind",
+    "dual wingbeat",
+    "ice fang",
+    "wide guard"
+  ],
+  "move_usage": [
+    99.1,
+    92.0,
+    72.9,
+    52.9,
+    39.4
+  ],
   "abilities": [],
   "ability_usage": [],
   "spread_values": [],

@@ -50,6 +50,8 @@ import sys
 import subprocess
 import threading
 import multiprocessing as mp
+import shutil
+import zipfile
 from collections import Counter
 from copy import deepcopy
 from pathlib import Path
@@ -461,6 +463,73 @@ def get_images(folder: Path) -> list:
     images = [p for p in folder.iterdir() if p.suffix.lower() in exts]
 
     return sorted(images, key=_image_sort_key)
+
+
+def folder_zip_path(folder: Path) -> Path:
+    """Return the sibling zip path used to archive an image folder."""
+    return folder.parent / f"{folder.name}.zip"
+
+
+def archive_folder_to_zip(
+    folder: Path,
+    zip_path: Path | None = None,
+    *,
+    remove_original: bool = True,
+) -> Path:
+    """Archive a folder to a sibling zip file and optionally remove the folder."""
+    folder = folder.resolve()
+    if not folder.is_dir():
+        raise FileNotFoundError(f"Folder not found: {folder}")
+
+    zip_path = (zip_path or folder_zip_path(folder)).resolve()
+    zip_path.parent.mkdir(parents=True, exist_ok=True)
+    temp_zip_path = zip_path.with_suffix(zip_path.suffix + ".tmp")
+
+    if temp_zip_path.exists():
+        temp_zip_path.unlink()
+
+    with zipfile.ZipFile(temp_zip_path, "w", compression=zipfile.ZIP_DEFLATED) as archive:
+        wrote_member = False
+        for child in sorted(folder.rglob("*")):
+            if child.is_dir():
+                continue
+            archive.write(child, arcname=child.relative_to(folder.parent))
+            wrote_member = True
+
+        if not wrote_member:
+            archive.writestr(f"{folder.name}/", "")
+
+    temp_zip_path.replace(zip_path)
+
+    if remove_original:
+        shutil.rmtree(folder)
+
+    return zip_path
+
+
+def ensure_folder_unzipped(folder: Path, zip_path: Path | None = None) -> tuple[Path, bool]:
+    """Ensure an archived image folder is available on disk.
+
+    Returns ``(folder_path, was_unzipped)``.
+    """
+    folder = folder.resolve()
+    if folder.is_dir():
+        return folder, False
+
+    zip_path = (zip_path or folder_zip_path(folder)).resolve()
+    if not zip_path.is_file():
+        raise FileNotFoundError(f"Neither folder nor zip archive exists for {folder}")
+
+    folder.parent.mkdir(parents=True, exist_ok=True)
+    with zipfile.ZipFile(zip_path, "r") as archive:
+        archive.extractall(folder.parent)
+
+    if not folder.is_dir():
+        raise FileNotFoundError(
+            f"Zip archive {zip_path} did not contain the expected folder {folder.name}"
+        )
+
+    return folder, True
 
 
 def encode_image(path: Path) -> str:
@@ -2842,6 +2911,14 @@ def main() -> None:
                 logger.error(f"Failed to run flag_review.py: {e}")
         else:
             logger.warning("flag_review.py not found; skipping validation step")
+
+    try:
+        archive_path = archive_folder_to_zip(folder)
+        logger.info(f"Image folder archived → {archive_path}")
+    except FileNotFoundError:
+        logger.warning(f"Image folder already archived or missing: {folder}")
+    except Exception as e:
+        logger.error(f"Failed to archive image folder {folder}: {e}")
 
 
 if __name__ == "__main__":

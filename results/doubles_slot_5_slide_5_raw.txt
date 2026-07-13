@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "farigiraf",
+  "pokemon": "sinistcha",
   "usage": 5,
   "moves": [],
   "move_usage": [],
@@ -10,6 +10,18 @@
   "spread_usage": [],
   "natures": [],
   "nature_usage": [],
-  "items": ["sitrus berry", "colbur berry", "mental herb", "leftovers", "focus sash"],
-  "item_usage": [70.0, 20.0, 3.1, 2.4, 1.8]
+  "items": [
+    "kasib berry",
+    "sitrus berry",
+    "colbur berry",
+    "leftovers",
+    "occa berry"
+  ],
+  "item_usage": [
+    33.2,
+    22.1,
+    13.0,
+    9.3,
+    7.6
+  ]
 }

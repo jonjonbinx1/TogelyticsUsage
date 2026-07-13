@@ -1,11 +1,17 @@
 {
   "screen_type": "ability",
-  "pokemon": "whimsicott",
+  "pokemon": "sylveon",
   "usage": 9,
   "moves": [],
   "move_usage": [],
-  "abilities": ["prankster", "chlorophyll", "infiltrator"],
-  "ability_usage": [99.1, 0.7, 0.2],
+  "abilities": [
+    "pixilate",
+    "cute charm"
+  ],
+  "ability_usage": [
+    99.9,
+    0.1
+  ],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

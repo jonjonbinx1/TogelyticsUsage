@@ -1,0 +1,15 @@
+{
+  "screen_type": "ability",
+  "pokemon": "delphox",
+  "usage": 19,
+  "moves": [],
+  "move_usage": [],
+  "abilities": ["blaze", "magician"],
+  "ability_usage": [91.2, 8.8],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

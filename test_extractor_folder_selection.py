@@ -7,8 +7,11 @@ import time
 from pathlib import Path
 
 from extractor import (
+    archive_folder_to_zip,
     discover_input_folders,
     discover_recent_results_folder,
+    ensure_folder_unzipped,
+    folder_zip_path,
     get_images,
     parse_image_filename,
     resolve_input_folder,
@@ -181,6 +184,33 @@ with tempfile.TemporaryDirectory() as temp_dir:
         ordered,
         ["doubles_slot_1_slide_3.png", "doubles_slot_2_slide_5.jpg", "image12.png"],
     )
+
+
+section("image folder archive round trip")
+with tempfile.TemporaryDirectory() as temp_dir:
+    root = Path(temp_dir)
+    folder = root / "data" / "singles" / "20260713singles"
+    folder.mkdir(parents=True)
+    nested = folder / "nested"
+    nested.mkdir()
+    (folder / "image1.png").write_bytes(b"png-data")
+    (nested / "notes.txt").write_text("hello", encoding="utf-8")
+
+    zip_path = folder_zip_path(folder)
+    archived_path = archive_folder_to_zip(folder)
+    check("archive path uses sibling zip", archived_path, zip_path)
+    check("folder removed after archive", folder.exists(), False)
+    check("zip file created", zip_path.exists(), True)
+
+    restored_folder, was_unzipped = ensure_folder_unzipped(folder)
+    check("ensure_folder_unzipped restores folder", restored_folder, folder.resolve())
+    check("ensure_folder_unzipped reports unzip", was_unzipped, True)
+    check("restored image content", (folder / "image1.png").read_bytes(), b"png-data")
+    check("restored nested file content", (nested / "notes.txt").read_text(encoding="utf-8"), "hello")
+
+    same_folder, still_unzipped = ensure_folder_unzipped(folder)
+    check("existing folder returned unchanged", same_folder, folder.resolve())
+    check("existing folder does not unzip again", still_unzipped, False)
 
 
 passed = sum(1 for result in _results if result)

@@ -10,6 +10,18 @@
   "spread_usage": [],
   "natures": [],
   "nature_usage": [],
-  "items": ["starapite", "choice scarf", "focus sash", "sharp beak", "sitrus berry"],
-  "item_usage": [82.4, 16.5, 0.3, 0.3, 0.2]
+  "items": [
+    "staraptite",
+    "choice scarf",
+    "focus sash",
+    "sharp beak",
+    "quick claw"
+  ],
+  "item_usage": [
+    84.5,
+    14.4,
+    0.2,
+    0.2,
+    0.1
+  ]
 }

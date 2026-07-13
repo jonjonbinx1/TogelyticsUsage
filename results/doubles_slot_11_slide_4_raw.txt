@@ -9,7 +9,7 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": ["jolly", "adamant", "hasty", "naive", "naughty"],
-  "nature_usage": [94.9, 4.4, 0.2, 0.2, 0.1],
+  "nature_usage": [92.3, 6.3, 0.3, 0.3, 0.2],
   "items": [],
   "item_usage": []
 }

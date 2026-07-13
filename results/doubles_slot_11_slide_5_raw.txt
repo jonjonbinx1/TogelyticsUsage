@@ -10,6 +10,18 @@
   "spread_usage": [],
   "natures": [],
   "nature_usage": [],
-  "items": ["aerodactylite", "focus sash", "wide lens", "king's rock", "mental herb"],
-  "item_usage": [71.6, 24.8, 0.7, 0.5, 0.4]
+  "items": [
+    "aerodactylite",
+    "focus sash",
+    "king's rock",
+    "wide lens",
+    "life orb"
+  ],
+  "item_usage": [
+    65.1,
+    29.2,
+    0.9,
+    0.8,
+    0.7
+  ]
 }

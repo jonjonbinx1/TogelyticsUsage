@@ -10,6 +10,18 @@
   "spread_usage": [],
   "natures": [],
   "nature_usage": [],
-  "items": ["charizardite y", "charizardite x", "charcoal", "choice scarf", "focus sash"],
-  "item_usage": [98.0, 1.6, 0.2, 0.1, 0.0]
+  "items": [
+    "charizardite y",
+    "charizardite x",
+    "charcoal",
+    "choice scarf",
+    "life orb"
+  ],
+  "item_usage": [
+    96.8,
+    2.3,
+    0.1,
+    0.1,
+    0.1
+  ]
 }

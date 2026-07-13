@@ -1,11 +1,19 @@
 {
   "screen_type": "ability",
-  "pokemon": "garchomp",
+  "pokemon": "kingambit",
   "usage": 2,
   "moves": [],
   "move_usage": [],
-  "abilities": ["rough skin", "sand veil"],
-  "ability_usage": [99.0, 1.0],
+  "abilities": [
+    "defiant",
+    "supreme overlord",
+    "pressure"
+  ],
+  "ability_usage": [
+    95.0,
+    4.8,
+    0.1
+  ],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

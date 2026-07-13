@@ -1,11 +1,19 @@
 {
   "screen_type": "ability",
-  "pokemon": "sinistcha",
+  "pokemon": "farigiraf",
   "usage": 6,
   "moves": [],
   "move_usage": [],
-  "abilities": ["hospitality", "heatproof"],
-  "ability_usage": [99.3, 0.7],
+  "abilities": [
+    "armor tail",
+    "sap sipper",
+    "cud chew"
+  ],
+  "ability_usage": [
+    99.5,
+    0.3,
+    0.2
+  ],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

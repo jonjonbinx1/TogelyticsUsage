@@ -5,7 +5,7 @@
   "moves": [],
   "move_usage": [],
   "abilities": ["unburden", "poison touch", "pressure"],
-  "ability_usage": [52.4, 47.5, 0.1],
+  "ability_usage": [54.9, 44.8, 0.3],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

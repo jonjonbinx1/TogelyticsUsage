@@ -10,6 +10,18 @@
   "spread_usage": [],
   "natures": [],
   "nature_usage": [],
-  "items": ["focus sash", "white herb", "life orb", "iron ball", "lum berry"],
-  "item_usage": [50.6, 42.5, 2.9, 1.7, 0.5]
+  "items": [
+    "white herb",
+    "focus sash",
+    "iron ball",
+    "life orb",
+    "lum berry"
+  ],
+  "item_usage": [
+    46.5,
+    45.3,
+    2.9,
+    2.4,
+    0.7
+  ]
 }

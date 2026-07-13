@@ -1,0 +1,27 @@
+{
+  "screen_type": "held_item",
+  "pokemon": "swampert",
+  "usage": 20,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [
+    "swampertite",
+    "sitrus berry",
+    "leftovers",
+    "rindo berry",
+    "life orb"
+  ],
+  "item_usage": [
+    97.0,
+    0.6,
+    0.5,
+    0.5,
+    0.3
+  ]
+}

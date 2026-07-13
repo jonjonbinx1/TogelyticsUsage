@@ -1,9 +1,21 @@
 {
   "screen_type": "moves",
-  "pokemon": "sylveon",
+  "pokemon": "whimsicott",
   "usage": 8,
-  "moves": ["hyper voice", "quick attack", "hyper beam", "detect", "protect"],
-  "move_usage": [99.9, 85.2, 77.9, 68.8, 29.6],
+  "moves": [
+    "tailwind",
+    "moonblast",
+    "encore",
+    "protect",
+    "charm"
+  ],
+  "move_usage": [
+    96.8,
+    89.9,
+    71.2,
+    55.9,
+    18.5
+  ],
   "abilities": [],
   "ability_usage": [],
   "spread_values": [],

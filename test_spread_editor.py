@@ -6,6 +6,7 @@ from pathlib import Path
 
 from extractor import load_csv
 from stat_spread_editor import (
+    StatSpreadEditorApp,
     analyze_spread_rows,
     build_spread_csv_values,
     build_value_csv_values,
@@ -198,6 +199,48 @@ with tempfile.TemporaryDirectory() as temp_dir:
     check("named row written", len(saved_rows), 1)
     check("named field saved", saved_rows[0]["moves"], "fake move:close combat")
     check("named usage saved", saved_rows[0]["move usage"], "61.5:59.2")
+
+
+section("editor unzip prep and cleanup")
+with tempfile.TemporaryDirectory() as temp_dir:
+    root = Path(temp_dir)
+    folder = root / "data" / "doubles" / "20260713doubles"
+    folder.mkdir(parents=True)
+    (folder / "doubles_slot_1_slide_3.png").write_bytes(b"img")
+    zip_path = folder.parent / f"{folder.name}.zip"
+
+    from extractor import archive_folder_to_zip
+
+    archive_folder_to_zip(folder)
+
+    app = StatSpreadEditorApp.__new__(StatSpreadEditorApp)
+    app.active_results_folder = None
+    app.active_results_folder_was_unzipped = False
+
+    payload = {"folder": str(folder), "format": "doubles"}
+    prepared = StatSpreadEditorApp._prepare_results_folder(app, payload)
+    check("prepare restores archived folder", folder.exists(), True)
+    check("prepare marks folder as unzipped", app.active_results_folder_was_unzipped, True)
+    check("prepared payload keeps folder path", prepared["folder"], str(folder.resolve()))
+
+    class _MessageBoxStub:
+        @staticmethod
+        def showwarning(_title, _message):
+            raise AssertionError("cleanup should not warn on successful archive")
+
+    import stat_spread_editor as spread_editor_module
+
+    original_messagebox = spread_editor_module.messagebox
+    try:
+        spread_editor_module.messagebox = _MessageBoxStub
+        StatSpreadEditorApp._cleanup_unzipped_results_folder(app)
+    finally:
+        spread_editor_module.messagebox = original_messagebox
+
+    check("cleanup re-archives folder", zip_path.exists(), True)
+    check("cleanup removes restored folder", folder.exists(), False)
+    check("cleanup clears active folder", app.active_results_folder, None)
+    check("cleanup clears unzip flag", app.active_results_folder_was_unzipped, False)
 
 
 passed = sum(1 for result in _results if result)

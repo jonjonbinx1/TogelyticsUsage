@@ -2,8 +2,20 @@
   "screen_type": "moves",
   "pokemon": "sneasler",
   "usage": 10,
-  "moves": ["close combat", "fake out", "dire claw", "protect", "quick guard"],
-  "move_usage": [99.2, 94.9, 65.5, 40.5, 31.8],
+  "moves": [
+    "close combat",
+    "fake out",
+    "dire claw",
+    "protect",
+    "quick guard"
+  ],
+  "move_usage": [
+    98.9,
+    94.8,
+    69.2,
+    42.9,
+    28.1
+  ],
   "abilities": [],
   "ability_usage": [],
   "spread_values": [],

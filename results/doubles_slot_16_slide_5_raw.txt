@@ -1,0 +1,27 @@
+{
+  "screen_type": "held_item",
+  "pokemon": "blastoise",
+  "usage": 16,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [
+    "blastoisinite",
+    "choice scarf",
+    "white herb",
+    "mystic water",
+    "leftovers"
+  ],
+  "item_usage": [
+    96.5,
+    0.7,
+    0.6,
+    0.4,
+    0.4
+  ]
+}

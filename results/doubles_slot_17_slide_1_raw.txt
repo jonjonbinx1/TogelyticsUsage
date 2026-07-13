@@ -1,0 +1,27 @@
+{
+  "screen_type": "moves",
+  "pokemon": "torkoal",
+  "usage": 17,
+  "moves": [
+    "eruption",
+    "protect",
+    "weather ball",
+    "heat wave",
+    "solar beam"
+  ],
+  "move_usage": [
+    90.0,
+    88.2,
+    61.3,
+    50.1,
+    28.1
+  ],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

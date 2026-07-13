@@ -1,0 +1,27 @@
+{
+  "screen_type": "moves",
+  "pokemon": "blastoise",
+  "usage": 16,
+  "moves": [
+    "water spout",
+    "dark pulse",
+    "shell smash",
+    "protect",
+    "aura sphere"
+  ],
+  "move_usage": [
+    94.9,
+    90.7,
+    73.7,
+    70.7,
+    26.5
+  ],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "blastoise",
+  "pokemon": "pelipper",
   "usage": 14,
   "moves": [],
   "move_usage": [],
@@ -8,20 +8,8 @@
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
-  "natures": [
-    "modest",
-    "quiet",
-    "timid",
-    "calm",
-    "relaxed"
-  ],
-  "nature_usage": [
-    81.4,
-    13.8,
-    3.9,
-    0.2,
-    0.2
-  ],
+  "natures": ["modest", "timid", "bold", "calm", "quiet"],
+  "nature_usage": [57.6, 20.7, 11.0, 5.3, 3.1],
   "items": [],
   "item_usage": []
 }

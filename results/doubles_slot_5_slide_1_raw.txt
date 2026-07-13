@@ -1,9 +1,21 @@
 {
   "screen_type": "moves",
-  "pokemon": "farigiraf",
+  "pokemon": "sinistcha",
   "usage": 5,
-  "moves": ["trick room", "thunderbolt", "psychic", "helping hand", "protect"],
-  "move_usage": [96.8, 64.4, 55.1, 45.7, 36.7],
+  "moves": [
+    "matcha gotcha",
+    "rage powder",
+    "trick room",
+    "protect",
+    "life dew"
+  ],
+  "move_usage": [
+    98.6,
+    97.0,
+    65.1,
+    64.5,
+    47.0
+  ],
   "abilities": [],
   "ability_usage": [],
   "spread_values": [],

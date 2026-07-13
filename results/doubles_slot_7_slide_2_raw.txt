@@ -1,11 +1,19 @@
 {
   "screen_type": "ability",
-  "pokemon": "basculgion",
+  "pokemon": "basculegion",
   "usage": 7,
   "moves": [],
   "move_usage": [],
-  "abilities": ["adaptability", "swift swim", "mold breaker"],
-  "ability_usage": [94.8, 5.1, 0.1],
+  "abilities": [
+    "adaptability",
+    "swift swim",
+    "mold breaker"
+  ],
+  "ability_usage": [
+    94.0,
+    5.8,
+    0.2
+  ],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

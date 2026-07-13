@@ -1,0 +1,27 @@
+{
+  "screen_type": "stat_points",
+  "pokemon": "venusaur",
+  "usage": 15,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [
+    [1, 2, 0, 0, 32, 0, 32],
+    [2, 30, 0, 0, 18, 0, 18],
+    [3, 4, 0, 12, 32, 0, 18],
+    [4, 32, 0, 0, 32, 0, 2],
+    [5, 32, 0, 2, 32, 0, 0]
+  ],
+  "spread_usage": [
+    27.1,
+    9.9,
+    3.8,
+    3.0,
+    2.7
+  ],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

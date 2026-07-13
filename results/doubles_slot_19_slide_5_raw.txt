@@ -1,0 +1,27 @@
+{
+  "screen_type": "held_item",
+  "pokemon": "delphox",
+  "usage": 19,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [
+    "delphoxite",
+    "focus sash",
+    "wise glasses",
+    "life orb",
+    "charcoal"
+  ],
+  "item_usage": [
+    99.2,
+    0.2,
+    0.1,
+    0.1,
+    0.1
+  ]
+}

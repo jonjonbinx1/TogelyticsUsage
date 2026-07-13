@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "blastoise",
+  "pokemon": "pelipper",
   "usage": 14,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "blastoisinite",
-    "choice scarf",
-    "white herb",
-    "mystic water",
-    "leftovers"
+    "focus sash",
+    "sitrus berry",
+    "damp rock",
+    "life orb",
+    "choice scarf"
   ],
   "item_usage": [
-    96.9,
-    1.0,
-    0.3,
-    0.3,
-    0.2
+    38.7,
+    35.0,
+    11.0,
+    6.4,
+    2.3
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "torkoal",
+  "usage": 17,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [
+    "quiet",
+    "modest",
+    "relaxed",
+    "sassy",
+    "bold"
+  ],
+  "nature_usage": [
+    83.1,
+    7.3,
+    6.2,
+    1.1,
+    1.1
+  ],
+  "items": [],
+  "item_usage": []
+}

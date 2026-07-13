@@ -2,8 +2,20 @@
   "screen_type": "moves",
   "pokemon": "incineroar",
   "usage": 3,
-  "moves": ["fake out", "flare blitz", "parting shot", "darkest lariat", "throat chop"],
-  "move_usage": [99.5, 93.0, 89.9, 42.1, 33.3],
+  "moves": [
+    "fake out",
+    "flare blitz",
+    "parting shot",
+    "darkest lariat",
+    "throat chop"
+  ],
+  "move_usage": [
+    99.4,
+    91.9,
+    90.5,
+    44.8,
+    31.8
+  ],
   "abilities": [],
   "ability_usage": [],
   "spread_values": [],

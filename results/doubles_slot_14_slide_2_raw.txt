@@ -1,16 +1,18 @@
 {
   "screen_type": "ability",
-  "pokemon": "blastoise",
+  "pokemon": "pelipper",
   "usage": 14,
   "moves": [],
   "move_usage": [],
   "abilities": [
-    "rain dish",
-    "torrent"
+    "drizzle",
+    "keen eye",
+    "rain dish"
   ],
   "ability_usage": [
-    80.6,
-    19.4
+    99.9,
+    0.1,
+    0.0
   ],
   "spread_values": [],
   "spread_usage": [],

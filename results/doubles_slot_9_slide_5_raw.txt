@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "whimsicott",
+  "pokemon": "sylveon",
   "usage": 9,
   "moves": [],
   "move_usage": [],
@@ -10,6 +10,18 @@
   "spread_usage": [],
   "natures": [],
   "nature_usage": [],
-  "items": ["focus sash", "life orb", "fairy feather", "mental herb", "sitrus berry"],
-  "item_usage": [80.9, 6.9, 4.0, 2.5, 1.5]
+  "items": [
+    "fairy feather",
+    "life orb",
+    "focus sash",
+    "leftovers",
+    "sitrus berry"
+  ],
+  "item_usage": [
+    89.8,
+    4.3,
+    1.7,
+    1.2,
+    1.0
+  ]
 }

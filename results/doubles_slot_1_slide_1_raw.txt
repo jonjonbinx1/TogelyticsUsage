@@ -1,9 +1,21 @@
 {
   "screen_type": "moves",
-  "pokemon": "kingambit",
+  "pokemon": "garchomp",
   "usage": 1,
-  "moves": ["sucker punch", "kowtow cleave", "iron head", "protect", "low kick"],
-  "move_usage": [99.5, 98.4, 71.9, 63.2, 41.0],
+  "moves": [
+    "dragon claw",
+    "earthquake",
+    "rock slide",
+    "protect",
+    "stomping tantrum"
+  ],
+  "move_usage": [
+    88.5,
+    85.0,
+    81.6,
+    79.1,
+    34.5
+  ],
   "abilities": [],
   "ability_usage": [],
   "spread_values": [],

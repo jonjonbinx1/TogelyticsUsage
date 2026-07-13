@@ -1,0 +1,27 @@
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "delphox",
+  "usage": 19,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [
+    "timid",
+    "modest",
+    "bold",
+    "mild",
+    "hasty"
+  ],
+  "nature_usage": [
+    56.5,
+    42.4,
+    0.3,
+    0.2,
+    0.1
+  ],
+  "items": [],
+  "item_usage": []
+}

@@ -27,9 +27,12 @@ from extractor import (
     TRAILING_COLS,
     _load_pokemon_name_lookup,
     _values_to_spread,
+    archive_folder_to_zip,
     build_known_pokemon_names,
     build_prefilled_name_index,
+    ensure_folder_unzipped,
     format_for_csv,
+    folder_zip_path,
     load_csv,
     merge_duplicate_csv_rows,
     rectify_existing_rows_from_prefill,
@@ -831,6 +834,8 @@ class StatSpreadEditorApp:
         self.trailing_cols = 0
         self.selected_images: dict[str, str] = {}
         self.current_image_options: list[tuple[str, Path]] = []
+        self.active_results_folder: Path | None = None
+        self.active_results_folder_was_unzipped = False
         self.entry_mode_var = tk.StringVar(value=entry_mode_label(DEFAULT_ENTRY_KIND))
         self.photo_image = None
         self.suspend_events = False
@@ -844,9 +849,56 @@ class StatSpreadEditorApp:
 
         self._build_ui()
         self.refresh_date_choices(preserve_current=bool(date_str))
+        self.root.protocol("WM_DELETE_WINDOW", self.on_close)
 
         if date_str:
             self.load_run()
+
+    def _cleanup_unzipped_results_folder(self) -> None:
+        folder = self.active_results_folder
+        was_unzipped = self.active_results_folder_was_unzipped
+        self.active_results_folder = None
+        self.active_results_folder_was_unzipped = False
+
+        if not was_unzipped or folder is None:
+            return
+
+        try:
+            archive_folder_to_zip(folder)
+        except FileNotFoundError:
+            return
+        except Exception as exc:
+            messagebox.showwarning(
+                "Archive warning",
+                f"Failed to re-archive image folder:\n{folder}\n\n{exc}",
+            )
+
+    def _prepare_results_folder(self, results_payload: dict) -> dict:
+        folder_text = str(results_payload.get("folder", "")).strip()
+        if not folder_text:
+            self.active_results_folder = None
+            self.active_results_folder_was_unzipped = False
+            return results_payload
+
+        folder = Path(folder_text)
+        try:
+            resolved_folder, was_unzipped = ensure_folder_unzipped(folder, folder_zip_path(folder))
+        except FileNotFoundError:
+            self.active_results_folder = None
+            self.active_results_folder_was_unzipped = False
+            return results_payload
+
+        updated_payload = dict(results_payload)
+        updated_payload["folder"] = str(resolved_folder)
+        self.active_results_folder = resolved_folder
+        self.active_results_folder_was_unzipped = was_unzipped
+        return updated_payload
+
+    def on_close(self) -> None:
+        if not self.confirm_discard_changes():
+            return
+        self._cleanup_unzipped_results_folder()
+        self.root.destroy()
 
     def _build_ui(self) -> None:
         root_frame = ttk.Frame(self.root, padding=10)
@@ -1080,6 +1132,8 @@ class StatSpreadEditorApp:
         if not self.confirm_discard_changes():
             return
 
+        self._cleanup_unzipped_results_folder()
+
         try:
             date_str = normalize_date(self.date_var.get())
         except ValueError as exc:
@@ -1095,7 +1149,7 @@ class StatSpreadEditorApp:
         if not self.results_path or normalize_date_from_path(self.results_path) != (date_str, fmt_type):
             self.results_path = auto_results_path if auto_results_path.exists() else None
 
-        self.results_payload = load_results_payload(self.results_path)
+        self.results_payload = self._prepare_results_folder(load_results_payload(self.results_path))
         self.results_path_var.set(str(self.results_path) if self.results_path else "No results JSON loaded")
         self.csv_path = DEFAULT_CSV[fmt_type]
         state = load_editor_state(date_str, fmt_type)

@@ -1,0 +1,27 @@
+{
+  "screen_type": "moves",
+  "pokemon": "delphox",
+  "usage": 19,
+  "moves": [
+    "heat wave",
+    "protect",
+    "nasty plot",
+    "psyshock",
+    "psychic"
+  ],
+  "move_usage": [
+    97.3,
+    96.9,
+    80.0,
+    59.3,
+    36.8
+  ],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

@@ -1,0 +1,23 @@
+{
+  "screen_type": "ability",
+  "pokemon": "torkoal",
+  "usage": 17,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [
+    "drought",
+    "white smoke",
+    "shell armor"
+  ],
+  "ability_usage": [
+    99.9,
+    0.1,
+    0.0
+  ],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}
