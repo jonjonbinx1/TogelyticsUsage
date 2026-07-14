@@ -4,8 +4,14 @@
   "usage": 20,
   "moves": [],
   "move_usage": [],
-  "abilities": ["torrent", "damp"],
-  "ability_usage": [58.3, 41.7],
+  "abilities": [
+    "torrent",
+    "damp"
+  ],
+  "ability_usage": [
+    59.2,
+    40.8
+  ],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "staraptite",
+    "staranptite",
     "choice scarf",
     "focus sash",
     "sharp beak",
-    "quick claw"
+    "life orb"
   ],
   "item_usage": [
-    84.5,
-    14.4,
+    85.0,
+    14.0,
     0.2,
-    0.2,
+    0.1,
     0.1
   ]
 }

@@ -4,8 +4,14 @@
   "usage": 1,
   "moves": [],
   "move_usage": [],
-  "abilities": ["rough skin", "sand veil"],
-  "ability_usage": [98.5, 1.5],
+  "abilities": [
+    "rough skin",
+    "sand veil"
+  ],
+  "ability_usage": [
+    98.3,
+    1.7
+  ],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "basculegion",
+  "pokemon": "farigiraf",
   "usage": 7,
   "moves": [],
   "move_usage": [],
@@ -9,18 +9,18 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
-    "adamant",
-    "jolly",
-    "brave",
-    "lonely",
-    "naive"
+    "bold",
+    "relaxed",
+    "quiet",
+    "modest",
+    "calm"
   ],
   "nature_usage": [
-    56.0,
-    40.1,
-    2.5,
-    0.3,
-    0.3
+    28.3,
+    21.8,
+    16.9,
+    11.5,
+    10.6
   ],
   "items": [],
   "item_usage": []

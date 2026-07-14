@@ -6,20 +6,8 @@
   "move_usage": [],
   "abilities": [],
   "ability_usage": [],
-  "spread_values": [
-    [1, 77, 77, 0, 0, 0, 0],
-    [2, 0, 0, 0, 0, 0, 0],
-    [3, 0, 0, 0, 0, 0, 0],
-    [4, 0, 0, 0, 0, 0, 0],
-    [5, 0, 0, 0, 0, 0, 0]
-  ],
-  "spread_usage": [
-    77.7,
-    15.0,
-    3.6,
-    2.2,
-    0.4
-  ],
+  "spread_values": [],
+  "spread_usage": [],
   "natures": [
     "timid",
     "modest",
@@ -28,10 +16,12 @@
     "quiet"
   ],
   "nature_usage": [
-    77.7,
-    15.0,
+    77.1,
+    15.4,
     3.6,
-    2.2,
+    2.4,
     0.4
-  ]
+  ],
+  "items": [],
+  "item_usage": []
 }

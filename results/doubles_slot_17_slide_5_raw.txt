@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "torkoal",
+  "pokemon": "blastoise",
   "usage": 17,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "charcoal",
-    "leftovers",
-    "heat rock",
-    "life orb",
-    "sitrus berry"
+    "blastoisinite",
+    "white herb",
+    "choice scarf",
+    "mystic water",
+    "leftovers"
   ],
   "item_usage": [
-    78.8,
-    6.8,
-    4.0,
-    3.9,
-    2.2
+    96.5,
+    0.7,
+    0.6,
+    0.5,
+    0.4
   ]
 }

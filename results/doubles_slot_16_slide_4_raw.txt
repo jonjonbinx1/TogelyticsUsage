@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "blastoise",
+  "pokemon": "torkoal",
   "usage": 16,
   "moves": [],
   "move_usage": [],
@@ -8,20 +8,8 @@
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
-  "natures": [
-    "modest",
-    "quiet",
-    "timid",
-    "calm",
-    "bold"
-  ],
-  "nature_usage": [
-    78.9,
-    15.1,
-    4.4,
-    0.4,
-    0.3
-  ],
+  "natures": ["quiet", "modest", "relaxed", "bold", "sassy"],
+  "nature_usage": [82.5, 7.7, 6.2, 1.2, 1.1],
   "items": [],
   "item_usage": []
 }

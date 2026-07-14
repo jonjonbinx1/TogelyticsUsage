@@ -12,16 +12,16 @@
   "nature_usage": [],
   "items": [
     "black glasses",
-    "chople berry",
     "focus sash",
+    "chople berry",
     "life orb",
     "occa berry"
   ],
   "item_usage": [
-    38.4,
-    22.2,
-    22.0,
-    10.1,
-    4.5
+    37.9,
+    22.3,
+    22.1,
+    10.3,
+    4.3
   ]
 }

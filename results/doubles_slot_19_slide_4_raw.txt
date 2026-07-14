@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "delphox",
+  "pokemon": "grimmsnarl",
   "usage": 19,
   "moves": [],
   "move_usage": [],
@@ -9,18 +9,18 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
-    "timid",
-    "modest",
-    "bold",
-    "mild",
-    "hasty"
+    "careful",
+    "impish",
+    "calm",
+    "sassy",
+    "adamant"
   ],
   "nature_usage": [
-    56.5,
-    42.4,
-    0.3,
-    0.2,
-    0.1
+    46.4,
+    20.2,
+    9.4,
+    9.4,
+    8.0
   ],
   "items": [],
   "item_usage": []

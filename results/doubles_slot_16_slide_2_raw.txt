@@ -1,11 +1,19 @@
 {
   "screen_type": "ability",
-  "pokemon": "blastoise",
+  "pokemon": "torkoal",
   "usage": 16,
   "moves": [],
   "move_usage": [],
-  "abilities": ["rain dish", "torrent"],
-  "ability_usage": [79.5, 20.5],
+  "abilities": [
+    "drought",
+    "white smoke",
+    "shell armor"
+  ],
+  "ability_usage": [
+    99.8,
+    0.1,
+    0.1
+  ],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

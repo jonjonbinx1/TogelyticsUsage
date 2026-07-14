@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "farigiraf",
+  "pokemon": "basculegion",
   "usage": 6,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "sitrus berry",
-    "colbur berry",
-    "mental herb",
-    "leftovers",
-    "focus sash"
+    "choice scarf",
+    "mystic water",
+    "focus sash",
+    "life orb",
+    "sitrus berry"
   ],
   "item_usage": [
-    66.8,
-    21.2,
-    3.8,
-    2.9,
-    2.3
+    42.8,
+    20.2,
+    13.9,
+    13.0,
+    7.0
   ]
 }

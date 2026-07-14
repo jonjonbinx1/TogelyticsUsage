@@ -14,13 +14,13 @@
     "sitrus berry",
     "passho berry",
     "chople berry",
-    "life orb",
-    "leftovers"
+    "leftovers",
+    "life orb"
   ],
   "item_usage": [
-    68.9,
-    8.6,
-    5.9,
+    69.2,
+    8.3,
+    6.0,
     3.9,
     3.8
   ]

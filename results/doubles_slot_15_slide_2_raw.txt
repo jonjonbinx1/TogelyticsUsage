@@ -4,14 +4,8 @@
   "usage": 15,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "chlorophyll",
-    "overgrow"
-  ],
-  "ability_usage": [
-    97.0,
-    3.0
-  ],
+  "abilities": ["chlorophyll", "overgrow"],
+  "ability_usage": [97.1, 2.9],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

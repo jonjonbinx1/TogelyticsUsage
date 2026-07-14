@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "basculegion",
+  "pokemon": "farigiraf",
   "usage": 7,
   "moves": [
-    "last respects",
-    "aqua jet",
-    "wave crash",
-    "protect",
-    "flip turn"
+    "trick room",
+    "thunderbolt",
+    "psychic",
+    "helping hand",
+    "protect"
   ],
   "move_usage": [
-    99.9,
-    92.7,
-    87.3,
-    56.4,
-    41.1
+    96.2,
+    61.1,
+    55.4,
+    50.4,
+    36.0
   ],
   "abilities": [],
   "ability_usage": [],

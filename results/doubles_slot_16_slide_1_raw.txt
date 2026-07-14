@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "blastoise",
+  "pokemon": "torkoal",
   "usage": 16,
   "moves": [
-    "water spout",
-    "dark pulse",
-    "shell smash",
+    "eruption",
     "protect",
-    "aura sphere"
+    "weather ball",
+    "heat wave",
+    "solar beam"
   ],
   "move_usage": [
-    94.9,
-    90.7,
-    73.7,
-    70.7,
-    26.5
+    90.1,
+    88.4,
+    60.1,
+    50.0,
+    28.8
   ],
   "abilities": [],
   "ability_usage": [],

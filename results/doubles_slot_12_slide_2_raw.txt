@@ -9,8 +9,8 @@
     "reckless"
   ],
   "ability_usage": [
-    96.6,
-    3.4
+    96.7,
+    3.3
   ],
   "spread_values": [],
   "spread_usage": [],

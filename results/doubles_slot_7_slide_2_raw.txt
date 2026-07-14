@@ -1,18 +1,18 @@
 {
   "screen_type": "ability",
-  "pokemon": "basculegion",
+  "pokemon": "farigiraf",
   "usage": 7,
   "moves": [],
   "move_usage": [],
   "abilities": [
-    "adaptability",
-    "swift swim",
-    "mold breaker"
+    "armor tail",
+    "sap sipper",
+    "cud chew"
   ],
   "ability_usage": [
-    94.0,
-    5.8,
-    0.2
+    99.4,
+    0.3,
+    0.3
   ],
   "spread_values": [],
   "spread_usage": [],
