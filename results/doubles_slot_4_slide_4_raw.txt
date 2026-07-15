@@ -13,11 +13,11 @@
     "timid",
     "adamant",
     "quiet",
-    "bold"
+    "jolly"
   ],
   "nature_usage": [
-    77.8,
-    17.0,
+    77.5,
+    17.1,
     2.2,
     1.0,
     0.6

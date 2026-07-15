@@ -1,19 +1,11 @@
 {
   "screen_type": "ability",
-  "pokemon": "torkoal",
+  "pokemon": "raichu",
   "usage": 16,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "drought",
-    "white smoke",
-    "shell armor"
-  ],
-  "ability_usage": [
-    99.8,
-    0.1,
-    0.1
-  ],
+  "abilities": ["lightning rod", "static"],
+  "ability_usage": [97.4, 2.6],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

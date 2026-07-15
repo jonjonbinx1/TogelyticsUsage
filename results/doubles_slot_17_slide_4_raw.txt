@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "blastoise",
+  "pokemon": "grimmsnarl",
   "usage": 17,
   "moves": [],
   "move_usage": [],
@@ -9,18 +9,18 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
-    "modest",
-    "quiet",
-    "timid",
+    "careful",
+    "impish",
+    "sassy",
     "calm",
-    "bold"
+    "adamant"
   ],
   "nature_usage": [
-    78.3,
-    15.5,
-    4.6,
-    0.4,
-    0.3
+    44.1,
+    19.3,
+    13.3,
+    8.8,
+    7.6
   ],
   "items": [],
   "item_usage": []

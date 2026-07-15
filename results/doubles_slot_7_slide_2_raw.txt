@@ -1,17 +1,17 @@
 {
   "screen_type": "ability",
-  "pokemon": "farigiraf",
+  "pokemon": "whimsicott",
   "usage": 7,
   "moves": [],
   "move_usage": [],
   "abilities": [
-    "armor tail",
-    "sap sipper",
-    "cud chew"
+    "prankster",
+    "chlorophyll",
+    "infiltrator"
   ],
   "ability_usage": [
-    99.4,
-    0.3,
+    99.2,
+    0.5,
     0.3
   ],
   "spread_values": [],

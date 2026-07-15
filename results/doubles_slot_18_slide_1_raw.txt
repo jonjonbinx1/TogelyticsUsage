@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "raichu",
+  "pokemon": "torkoal",
   "usage": 18,
   "moves": [
-    "zap cannon",
-    "focus blast",
+    "eruption",
     "protect",
-    "fake out",
-    "grass knot"
+    "weather ball",
+    "heat wave",
+    "solar beam"
   ],
   "move_usage": [
-    84.3,
-    83.8,
-    80.5,
-    74.2,
-    18.3
+    90.1,
+    88.2,
+    59.2,
+    50.3,
+    29.5
   ],
   "abilities": [],
   "ability_usage": [],

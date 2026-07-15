@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "grimmsnarl",
+  "pokemon": "blastoise",
   "usage": 19,
   "moves": [
-    "parting shot",
-    "reflect",
-    "light screen",
-    "spirit break",
-    "fake out"
+    "water spout",
+    "dark pulse",
+    "shell smash",
+    "protect",
+    "aura sphere"
   ],
   "move_usage": [
-    90.1,
-    84.1,
-    82.7,
-    54.4,
-    32.9
+    94.7,
+    89.8,
+    71.8,
+    69.9,
+    27.9
   ],
   "abilities": [],
   "ability_usage": [],

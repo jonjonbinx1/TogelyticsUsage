@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "raichu",
+  "pokemon": "torkoal",
   "usage": 18,
   "moves": [],
   "move_usage": [],
@@ -8,8 +8,20 @@
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
-  "natures": ["timid", "modest", "jolly", "hasty", "adamant"],
-  "nature_usage": [78.8, 12.0, 5.7, 0.8, 0.8],
+  "natures": [
+    "quiet",
+    "modest",
+    "relaxed",
+    "bold",
+    "sassy"
+  ],
+  "nature_usage": [
+    82.1,
+    8.1,
+    6.1,
+    1.2,
+    1.2
+  ],
   "items": [],
   "item_usage": []
 }

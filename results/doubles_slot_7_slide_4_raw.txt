@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "farigiraf",
+  "pokemon": "whimsicott",
   "usage": 7,
   "moves": [],
   "move_usage": [],
@@ -9,18 +9,18 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
-    "bold",
-    "relaxed",
-    "quiet",
+    "timid",
     "modest",
-    "calm"
+    "bold",
+    "calm",
+    "quiet"
   ],
   "nature_usage": [
-    28.3,
-    21.8,
-    16.9,
-    11.5,
-    10.6
+    76.5,
+    15.7,
+    3.7,
+    2.5,
+    0.4
   ],
   "items": [],
   "item_usage": []

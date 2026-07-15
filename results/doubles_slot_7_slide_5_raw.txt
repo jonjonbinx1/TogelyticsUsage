@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "farigiraf",
+  "pokemon": "whimsicott",
   "usage": 7,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "sitrus berry",
-    "colbur berry",
+    "focus sash",
+    "life orb",
+    "fairy feather",
     "mental herb",
-    "leftovers",
-    "focus sash"
+    "sitrus berry"
   ],
   "item_usage": [
-    66.7,
-    21.0,
-    3.8,
-    3.1,
-    2.3
+    80.4,
+    7.1,
+    3.3,
+    2.3,
+    1.7
   ]
 }

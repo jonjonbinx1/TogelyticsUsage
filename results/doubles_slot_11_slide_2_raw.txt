@@ -10,7 +10,7 @@
     "rock head"
   ],
   "ability_usage": [
-    96.6,
+    96.5,
     2.1,
     1.3
   ],

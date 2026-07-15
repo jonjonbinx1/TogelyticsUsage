@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "torkoal",
+  "pokemon": "raichu",
   "usage": 16,
   "moves": [],
   "move_usage": [],
@@ -10,6 +10,18 @@
   "spread_usage": [],
   "natures": [],
   "nature_usage": [],
-  "items": ["charcoal", "leftovers", "heat rock", "life orb", "sitrus berry"],
-  "item_usage": [78.7, 6.8, 4.0, 3.9, 2.2]
+  "items": [
+    "raichunite y",
+    "raichunite x",
+    "focus sash",
+    "shuca berry",
+    "magnet"
+  ],
+  "item_usage": [
+    84.1,
+    8.8,
+    3.7,
+    0.8,
+    0.5
+  ]
 }

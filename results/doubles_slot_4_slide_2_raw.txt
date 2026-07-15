@@ -9,8 +9,8 @@
     "solar power"
   ],
   "ability_usage": [
-    81.9,
-    18.1
+    81.6,
+    18.4
   ],
   "spread_values": [],
   "spread_usage": [],

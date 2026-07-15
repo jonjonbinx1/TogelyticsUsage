@@ -4,14 +4,8 @@
   "usage": 5,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "hospitality",
-    "heatproof"
-  ],
-  "ability_usage": [
-    99.2,
-    0.8
-  ],
+  "abilities": ["hospitality", "heatproof"],
+  "ability_usage": [99.1, 0.9],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

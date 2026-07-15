@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "grimmsnarl",
+  "pokemon": "blastoise",
   "usage": 19,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "light clay",
-    "roseli berry",
-    "sitrus berry",
-    "black glasses",
+    "blastoisinite",
+    "white herb",
+    "choice scarf",
+    "mystic water",
     "leftovers"
   ],
   "item_usage": [
-    78.5,
-    9.3,
-    3.9,
-    2.5,
-    1.1
+    96.4,
+    0.7,
+    0.5,
+    0.5,
+    0.4
   ]
 }

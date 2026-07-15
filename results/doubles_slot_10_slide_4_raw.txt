@@ -16,12 +16,12 @@
     "lonely"
   ],
   "nature_usage": [
-    65.5,
-    28.8,
-    3.0,
+    64.8,
+    29.3,
+    3.1,
     0.6,
-    0.5
+    0.6
   ],
-  "items": [],
-  "item_usage": []
+  "spread_values": [],
+  "spread_usage": []
 }

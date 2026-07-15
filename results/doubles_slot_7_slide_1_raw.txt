@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "farigiraf",
+  "pokemon": "whimsicott",
   "usage": 7,
   "moves": [
-    "trick room",
-    "thunderbolt",
-    "psychic",
-    "helping hand",
-    "protect"
+    "tailwind",
+    "moonblast",
+    "encore",
+    "protect",
+    "charm"
   ],
   "move_usage": [
     96.2,
-    61.1,
-    55.4,
-    50.4,
-    36.0
+    89.0,
+    70.8,
+    53.3,
+    19.9
   ],
   "abilities": [],
   "ability_usage": [],

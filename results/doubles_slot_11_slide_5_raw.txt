@@ -14,14 +14,14 @@
     "aerodactylite",
     "focus sash",
     "king's rock",
-    "wide lens",
-    "life orb"
+    "life orb",
+    "wide lens"
   ],
   "item_usage": [
-    65.2,
-    28.9,
+    65.0,
+    28.6,
+    1.0,
     0.9,
-    0.8,
     0.8
   ]
 }

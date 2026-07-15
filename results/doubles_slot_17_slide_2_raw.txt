@@ -1,17 +1,11 @@
 {
   "screen_type": "ability",
-  "pokemon": "blastoise",
+  "pokemon": "grimmsnarl",
   "usage": 17,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "rain dish",
-    "torrent"
-  ],
-  "ability_usage": [
-    79.3,
-    20.7
-  ],
+  "abilities": ["prankster", "frisk", "pickpocket"],
+  "ability_usage": [99.2, 0.4, 0.3],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],
