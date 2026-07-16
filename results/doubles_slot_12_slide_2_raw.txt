@@ -1,11 +1,19 @@
 {
   "screen_type": "ability",
-  "pokemon": "staraptor",
+  "pokemon": "archaludon",
   "usage": 12,
   "moves": [],
   "move_usage": [],
-  "abilities": ["intimidate", "reckless"],
-  "ability_usage": [96.7, 3.3],
+  "abilities": [
+    "stamina",
+    "sturdy",
+    "stalwart"
+  ],
+  "ability_usage": [
+    95.9,
+    3.2,
+    0.9
+  ],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

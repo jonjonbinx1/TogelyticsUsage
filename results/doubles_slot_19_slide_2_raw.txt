@@ -5,7 +5,7 @@
   "moves": [],
   "move_usage": [],
   "abilities": ["rain dish", "torrent"],
-  "ability_usage": [78.8, 21.2],
+  "ability_usage": [78.4, 21.6],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

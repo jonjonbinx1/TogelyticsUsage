@@ -9,8 +9,8 @@
     "damp"
   ],
   "ability_usage": [
-    60.1,
-    39.9
+    60.6,
+    39.4
   ],
   "spread_values": [],
   "spread_usage": [],

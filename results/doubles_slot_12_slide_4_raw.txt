@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "staraptor",
+  "pokemon": "archaludon",
   "usage": 12,
   "moves": [],
   "move_usage": [],
@@ -9,18 +9,18 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
-    "jolly",
-    "adamant",
-    "careful",
-    "impish",
-    "brave"
+    "modest",
+    "calm",
+    "bold",
+    "timid",
+    "quiet"
   ],
   "nature_usage": [
-    82.0,
-    14.2,
-    1.4,
-    0.5,
-    0.4
+    64.8,
+    21.6,
+    7.0,
+    3.4,
+    1.6
   ],
   "items": [],
   "item_usage": []

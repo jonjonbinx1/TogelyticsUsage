@@ -6,15 +6,15 @@
     "sludge bomb",
     "protect",
     "earth power",
-    "giga drain",
-    "sleep powder"
+    "sleep powder",
+    "giga drain"
   ],
   "move_usage": [
-    95.3,
-    87.3,
-    82.1,
-    45.3,
-    41.5
+    95.4,
+    87.4,
+    82.4,
+    44.8,
+    43.3
   ],
   "abilities": [],
   "ability_usage": [],

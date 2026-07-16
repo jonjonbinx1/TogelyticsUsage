@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "staraptor",
+  "pokemon": "archaludon",
   "usage": 12,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "staraptite",
+    "leftovers",
+    "sitrus berry",
+    "chople berry",
     "choice scarf",
-    "focus sash",
-    "life orb",
-    "sharp beak"
+    "white herb"
   ],
   "item_usage": [
-    85.3,
-    13.6,
-    0.2,
-    0.1,
-    0.1
+    87.0,
+    3.5,
+    2.3,
+    1.5,
+    1.2
   ]
 }

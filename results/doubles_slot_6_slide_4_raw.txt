@@ -8,20 +8,8 @@
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
-  "natures": [
-    "adamant",
-    "jolly",
-    "brave",
-    "lonely",
-    "naughty"
-  ],
-  "nature_usage": [
-    54.0,
-    42.3,
-    2.2,
-    0.3,
-    0.3
-  ],
+  "natures": ["adamant", "jolly", "brave", "lonely", "naughty"],
+  "nature_usage": [52.6, 43.7, 2.2, 0.3, 0.3],
   "items": [],
   "item_usage": []
 }

@@ -10,8 +10,8 @@
     "mold breaker"
   ],
   "ability_usage": [
-    93.5,
-    6.2,
+    93.4,
+    6.3,
     0.3
   ],
   "spread_values": [],

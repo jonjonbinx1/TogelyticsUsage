@@ -3,18 +3,18 @@
   "pokemon": "swampert",
   "usage": 20,
   "moves": [
-    "wave crash",
     "protect",
+    "wave crash",
     "ice punch",
     "earthquake",
     "high horsepower"
   ],
   "move_usage": [
-    91.7,
-    91.5,
+    91.3,
+    91.2,
     76.9,
-    71.8,
-    29.2
+    71.9,
+    28.7
   ],
   "abilities": [],
   "ability_usage": [],

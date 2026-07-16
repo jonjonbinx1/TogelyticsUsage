@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "archaludon",
+  "pokemon": "staraptor",
   "usage": 13,
   "moves": [
-    "electro shot",
+    "close combat",
     "protect",
-    "flash cannon",
-    "dragon pulse",
-    "draco meteor"
+    "brave bird",
+    "roost",
+    "dual wingbeat"
   ],
   "move_usage": [
-    96.0,
-    92.6,
-    92.5,
-    74.4,
-    16.8
+    96.8,
+    82.5,
+    80.4,
+    66.7,
+    19.2
   ],
   "abilities": [],
   "ability_usage": [],

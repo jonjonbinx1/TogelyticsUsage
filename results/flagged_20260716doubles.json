@@ -1,0 +1,30 @@
+{
+  "source_results": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\results\\20260716doubles_extracted.json",
+  "date": "2026-07-16",
+  "format": "doubles",
+  "threshold": 80.0,
+  "validated_at": "2026-07-16T07:48:07",
+  "total_images": 100,
+  "screen_type_counts": {
+    "moves": 20,
+    "ability": 20,
+    "stat_points": 20,
+    "stat_alignment": 20,
+    "held_item": 20
+  },
+  "flagged_count": 1,
+  "flags": [
+    {
+      "image": "doubles_slot_15_slide_2.png",
+      "screen_type": "ability",
+      "pokemon": 3,
+      "usage": 15,
+      "field": "pokemon",
+      "extracted": 3,
+      "issue": "low_confidence_name",
+      "best_match": "(non-string value)",
+      "score": 0.0,
+      "note": "Score 0 < 80.0; suggested: '(non-string value)'"
+    }
+  ]
+}
