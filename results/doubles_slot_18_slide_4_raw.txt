@@ -9,7 +9,7 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": ["quiet", "modest", "relaxed", "bold", "sassy"],
-  "nature_usage": [81.8, 8.2, 6.0, 1.2, 1.2],
+  "nature_usage": [81.3, 8.6, 5.9, 1.3, 1.3],
   "items": [],
   "item_usage": []
 }

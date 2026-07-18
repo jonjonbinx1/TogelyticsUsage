@@ -1,17 +1,11 @@
 {
-  "screen_type": "Ability",
-  "pokemon": 3,
+  "screen_type": "ability",
+  "pokemon": "venusaur",
   "usage": 15,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "Chlorophyll",
-    "Overgrow"
-  ],
-  "ability_usage": [
-    "97.2%",
-    "2.8%"
-  ],
+  "abilities": ["chlorophyll", "overgrow"],
+  "ability_usage": [97.2, 2.8],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

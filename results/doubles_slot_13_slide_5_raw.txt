@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "staraptor",
+  "pokemon": "pelipper",
   "usage": 13,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "staraptite",
-    "choice scarf",
+    "sitrus berry",
     "focus sash",
+    "damp rock",
     "life orb",
-    "quick claw"
+    "choice scarf"
   ],
   "item_usage": [
-    85.5,
-    13.4,
-    0.2,
-    0.1,
-    0.1
+    41.4,
+    34.7,
+    10.3,
+    5.1,
+    1.7
   ]
 }

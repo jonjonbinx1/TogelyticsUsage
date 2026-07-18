@@ -1,11 +1,17 @@
 {
   "screen_type": "ability",
-  "pokemon": "pelipper",
+  "pokemon": "staraptor",
   "usage": 14,
   "moves": [],
   "move_usage": [],
-  "abilities": ["drizzle", "keen eye", "rain dish"],
-  "ability_usage": [99.9, 0.1, 0.0],
+  "abilities": [
+    "intimidate",
+    "reckless"
+  ],
+  "ability_usage": [
+    96.9,
+    3.1
+  ],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

@@ -5,7 +5,7 @@
   "moves": [],
   "move_usage": [],
   "abilities": ["unnerve", "pressure", "rock head"],
-  "ability_usage": [96.3, 2.2, 1.4],
+  "ability_usage": [96.0, 2.4, 1.6],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

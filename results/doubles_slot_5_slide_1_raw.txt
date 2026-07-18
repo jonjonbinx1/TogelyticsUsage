@@ -5,16 +5,16 @@
   "moves": [
     "matcha gotcha",
     "rage powder",
-    "trick room",
     "protect",
+    "trick room",
     "life dew"
   ],
   "move_usage": [
-    98.8,
-    96.5,
-    63.6,
-    61.9,
-    48.7
+    98.9,
+    96.3,
+    61.6,
+    61.6,
+    49.8
   ],
   "abilities": [],
   "ability_usage": [],

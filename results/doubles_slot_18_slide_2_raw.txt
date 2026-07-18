@@ -10,8 +10,8 @@
     "shell armor"
   ],
   "ability_usage": [
-    99.8,
-    0.1,
+    99.7,
+    0.2,
     0.1
   ],
   "spread_values": [],

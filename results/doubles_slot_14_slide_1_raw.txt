@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "pelipper",
+  "pokemon": "staraptor",
   "usage": 14,
   "moves": [
-    "hurricane",
-    "tailwind",
-    "weather ball",
-    "wide guard",
-    "protect"
+    "close combat",
+    "protect",
+    "brave bird",
+    "roost",
+    "dual wingbeat"
   ],
   "move_usage": [
-    98.1,
-    85.5,
-    84.6,
-    64.5,
-    30.6
+    97.0,
+    82.3,
+    80.9,
+    65.4,
+    18.5
   ],
   "abilities": [],
   "ability_usage": [],

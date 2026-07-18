@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "pelipper",
+  "pokemon": "staraptor",
   "usage": 14,
   "moves": [],
   "move_usage": [],
@@ -9,18 +9,18 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
-    "modest",
-    "timid",
-    "bold",
-    "calm",
-    "quiet"
+    "jolly",
+    "adamant",
+    "careful",
+    "impish",
+    "brave"
   ],
   "nature_usage": [
-    60.2,
-    19.6,
-    9.9,
-    5.3,
-    2.6
+    81.1,
+    14.9,
+    1.4,
+    0.5,
+    0.4
   ],
   "items": [],
   "item_usage": []
