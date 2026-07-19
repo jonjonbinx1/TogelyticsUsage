@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "aerodactyl",
+  "pokemon": "archaludon",
   "usage": 11,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "aerodactylite",
-    "focus sash",
-    "king's rock",
-    "life orb",
-    "wide lens"
+    "leftovers",
+    "sitrus berry",
+    "chople berry",
+    "white herb",
+    "choice scarf"
   ],
   "item_usage": [
-    63.2,
-    29.5,
-    1.2,
-    1.0,
-    0.9
+    86.7,
+    3.6,
+    2.1,
+    1.4,
+    1.4
   ]
 }

@@ -4,8 +4,16 @@
   "usage": 16,
   "moves": [],
   "move_usage": [],
-  "abilities": ["prankster", "frisk", "pickpocket"],
-  "ability_usage": [99.3, 0.4, 0.3],
+  "abilities": [
+    "prankster",
+    "frisk",
+    "pickpocket"
+  ],
+  "ability_usage": [
+    99.3,
+    0.4,
+    0.3
+  ],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

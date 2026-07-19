@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "aerodactyl",
+  "pokemon": "archaludon",
   "usage": 11,
   "moves": [
-    "rock slide",
-    "tailwind",
-    "dual wingbeat",
-    "ice fang",
-    "wide guard"
+    "electro shot",
+    "flash cannon",
+    "protect",
+    "dragon pulse",
+    "draco meteor"
   ],
   "move_usage": [
-    98.8,
-    91.8,
-    69.1,
-    50.9,
-    43.6
+    95.7,
+    93.0,
+    91.9,
+    74.6,
+    17.3
   ],
   "abilities": [],
   "ability_usage": [],

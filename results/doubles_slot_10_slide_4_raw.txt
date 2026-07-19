@@ -13,12 +13,12 @@
     "adamant",
     "brave",
     "naive",
-    "naughty"
+    "lonely"
   ],
   "nature_usage": [
     64.3,
     29.6,
-    2.8,
+    2.7,
     0.7,
     0.7
   ],

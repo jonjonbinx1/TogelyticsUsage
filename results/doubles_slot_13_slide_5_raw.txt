@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "pelipper",
+  "pokemon": "aerodactyl",
   "usage": 13,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "sitrus berry",
+    "aerodactylite",
     "focus sash",
-    "damp rock",
+    "king's rock",
     "life orb",
-    "choice scarf"
+    "wide lens"
   ],
   "item_usage": [
-    41.4,
-    34.7,
-    10.3,
-    5.1,
-    1.7
+    62.5,
+    29.9,
+    1.3,
+    1.1,
+    0.9
   ]
 }

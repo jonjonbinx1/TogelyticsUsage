@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "aerodactyl",
+  "pokemon": "archaludon",
   "usage": 11,
   "moves": [],
   "move_usage": [],
@@ -9,18 +9,18 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
-    "jolly",
-    "adamant",
-    "naive",
-    "hasty",
-    "naughty"
+    "modest",
+    "calm",
+    "bold",
+    "timid",
+    "quiet"
   ],
   "nature_usage": [
-    90.4,
-    7.4,
-    0.5,
-    0.4,
-    0.3
+    61.1,
+    24.5,
+    7.2,
+    3.6,
+    1.7
   ],
   "items": [],
   "item_usage": []

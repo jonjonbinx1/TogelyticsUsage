@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "pelipper",
+  "pokemon": "aerodactyl",
   "usage": 13,
   "moves": [
-    "hurricane",
+    "rock slide",
     "tailwind",
-    "weather ball",
-    "wide guard",
-    "protect"
+    "dual wingbeat",
+    "ice fang",
+    "wide guard"
   ],
   "move_usage": [
-    98.0,
-    85.9,
-    84.7,
-    65.8,
-    29.6
+    98.8,
+    91.7,
+    69.2,
+    50.2,
+    43.7
   ],
   "abilities": [],
   "ability_usage": [],

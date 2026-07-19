@@ -10,11 +10,11 @@
     "stomping tantrum"
   ],
   "move_usage": [
-    87.8,
+    87.4,
     84.1,
-    80.7,
-    78.4,
-    35.8
+    80.8,
+    78.0,
+    35.5
   ],
   "abilities": [],
   "ability_usage": [],

@@ -13,15 +13,17 @@
     "adamant",
     "brave",
     "impish",
-    "naive"
+    "hasty"
   ],
   "nature_usage": [
-    70.5,
-    26.9,
+    70.2,
+    27.1,
     0.9,
     0.3,
     0.2
   ],
+  "spreads": [],
+  "spread_usage": [],
   "items": [],
   "item_usage": []
 }

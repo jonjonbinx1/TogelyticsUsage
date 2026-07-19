@@ -9,8 +9,8 @@
     "static"
   ],
   "ability_usage": [
-    97.1,
-    2.9
+    97.0,
+    3.0
   ],
   "spread_values": [],
   "spread_usage": [],

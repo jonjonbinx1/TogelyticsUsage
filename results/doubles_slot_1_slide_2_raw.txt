@@ -9,8 +9,8 @@
     "sand veil"
   ],
   "ability_usage": [
-    98.0,
-    2.0
+    97.9,
+    2.1
   ],
   "spread_values": [],
   "spread_usage": [],

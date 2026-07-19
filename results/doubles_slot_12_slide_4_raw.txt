@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "archaludon",
+  "pokemon": "pelipper",
   "usage": 12,
   "moves": [],
   "move_usage": [],
@@ -8,8 +8,8 @@
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
-  "natures": ["modest", "calm", "bold", "timid", "quiet"],
-  "nature_usage": [62.0, 24.1, 6.9, 3.6, 1.7],
+  "natures": ["modest", "timid", "bold", "calm", "quiet"],
+  "nature_usage": [61.2, 19.0, 9.3, 5.3, 2.6],
   "items": [],
   "item_usage": []
 }

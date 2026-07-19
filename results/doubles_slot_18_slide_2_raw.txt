@@ -4,16 +4,8 @@
   "usage": 18,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "drought",
-    "white smoke",
-    "shell armor"
-  ],
-  "ability_usage": [
-    99.7,
-    0.2,
-    0.1
-  ],
+  "abilities": ["drought", "white smoke", "shell armor"],
+  "ability_usage": [99.7, 0.2, 0.1],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

@@ -1,19 +1,11 @@
 {
   "screen_type": "ability",
-  "pokemon": "archaludon",
+  "pokemon": "pelipper",
   "usage": 12,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "stamina",
-    "sturdy",
-    "stalwart"
-  ],
-  "ability_usage": [
-    95.9,
-    3.2,
-    0.9
-  ],
+  "abilities": ["drizzle", "keen eye", "rain dish"],
+  "ability_usage": [99.9, 0.1, 0.1],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

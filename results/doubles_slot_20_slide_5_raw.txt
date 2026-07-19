@@ -12,13 +12,13 @@
   "nature_usage": [],
   "items": [
     "swampertite",
-    "sitrus berry",
     "leftovers",
+    "sitrus berry",
     "life orb",
     "rindo berry"
   ],
   "item_usage": [
-    96.2,
+    96.1,
     0.6,
     0.6,
     0.6,

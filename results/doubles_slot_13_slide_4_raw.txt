@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "pelipper",
+  "pokemon": "aerodactyl",
   "usage": 13,
   "moves": [],
   "move_usage": [],
@@ -9,18 +9,18 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
-    "modest",
-    "timid",
-    "bold",
-    "calm",
-    "quiet"
+    "jolly",
+    "adamant",
+    "naive",
+    "hasty",
+    "naughty"
   ],
   "nature_usage": [
-    61.2,
-    19.0,
-    9.4,
-    5.3,
-    2.6
+    90.0,
+    7.6,
+    0.5,
+    0.5,
+    0.3
   ],
   "items": [],
   "item_usage": []

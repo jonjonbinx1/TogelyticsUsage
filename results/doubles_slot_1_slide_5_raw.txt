@@ -15,11 +15,11 @@
     "choice scarf",
     "sitrus berry",
     "roseli berry",
-    "focus sash"
+    "garchompite"
   ],
   "item_usage": [
-    68.3,
-    9.2,
+    67.8,
+    9.3,
     9.1,
     2.9,
     1.4

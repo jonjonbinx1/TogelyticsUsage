@@ -14,11 +14,11 @@
     "blastoisinite",
     "white herb",
     "mystic water",
-    "choice scarf",
-    "leftovers"
+    "leftovers",
+    "choice scarf"
   ],
   "item_usage": [
-    96.1,
+    96.0,
     0.9,
     0.6,
     0.5,

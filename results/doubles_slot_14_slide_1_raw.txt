@@ -10,11 +10,11 @@
     "dual wingbeat"
   ],
   "move_usage": [
-    97.0,
+    97.1,
     82.3,
-    80.9,
-    65.4,
-    18.5
+    81.1,
+    64.9,
+    18.3
   ],
   "abilities": [],
   "ability_usage": [],
