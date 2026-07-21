@@ -1,23 +1,15 @@
+```json
 {
-  "screen_type": "ability",
-  "pokemon": "grimmsnarl",
-  "usage": 16,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [
-    "prankster",
-    "frisk",
-    "pickpocket"
-  ],
-  "ability_usage": [
-    99.3,
-    0.4,
-    0.3
-  ],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
+    "abilities": [
+        "Prankster",
+        "Frisk",
+        "Pickpocket"
+    ],
+    "ability_usage": [
+        99.2,
+        0.4,
+        0.4
+    ],
+    "error": []
 }
+```

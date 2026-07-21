@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "blastoise",
+  "pokemon": "tyranitar",
   "usage": 19,
   "moves": [],
   "move_usage": [],
@@ -9,18 +9,18 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
-    "modest",
-    "quiet",
-    "timid",
-    "calm",
-    "bold"
+    "adamant",
+    "jolly",
+    "brave",
+    "impish",
+    "careful"
   ],
   "nature_usage": [
-    74.3,
-    19.1,
-    4.5,
-    0.5,
-    0.4
+    47.1,
+    37.4,
+    8.1,
+    2.7,
+    2.2
   ],
   "items": [],
   "item_usage": []

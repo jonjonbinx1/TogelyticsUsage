@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "aerodactyl",
+  "pokemon": "staraptor",
   "usage": 13,
   "moves": [],
   "move_usage": [],
@@ -11,16 +11,16 @@
   "natures": [
     "jolly",
     "adamant",
-    "naive",
-    "hasty",
-    "naughty"
+    "careful",
+    "impish",
+    "brave"
   ],
   "nature_usage": [
-    90.0,
-    7.6,
+    80.6,
+    15.1,
+    1.4,
     0.5,
-    0.5,
-    0.3
+    0.4
   ],
   "items": [],
   "item_usage": []

@@ -4,16 +4,8 @@
   "usage": 10,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "unburden",
-    "poison touch",
-    "pressure"
-  ],
-  "ability_usage": [
-    57.9,
-    41.7,
-    0.4
-  ],
+  "abilities": ["unburden", "poison touch", "pressure"],
+  "ability_usage": [58.4, 41.2, 0.4],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "blastoise",
+  "pokemon": "tyranitar",
   "usage": 19,
   "moves": [
-    "water spout",
-    "dark pulse",
-    "shell smash",
+    "rock slide",
+    "knock off",
     "protect",
-    "aura sphere"
+    "low kick",
+    "ice punch"
   ],
   "move_usage": [
-    94.1,
-    88.3,
-    68.0,
-    66.9,
-    31.5
+    95.2,
+    89.8,
+    76.0,
+    37.0,
+    32.0
   ],
   "abilities": [],
   "ability_usage": [],

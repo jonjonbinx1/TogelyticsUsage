@@ -10,11 +10,11 @@
     "fake out"
   ],
   "move_usage": [
-    90.5,
+    90.3,
     87.0,
     86.3,
-    63.7,
-    26.8
+    64.1,
+    26.6
   ],
   "abilities": [],
   "ability_usage": [],

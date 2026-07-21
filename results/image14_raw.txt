@@ -1,15 +1,1 @@
-{
-  "screen_type": "held_item",
-  "pokemon": "charizard",
-  "usage": 7,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": ["charizardite y", "charizardite x", "choice scarf", "life orb", "focus sash"],
-  "item_usage": [74.6, 24.0, 0.1, 0.1, 0.1]
-}
+{"error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502}}

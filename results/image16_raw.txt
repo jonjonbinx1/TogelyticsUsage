@@ -4,14 +4,8 @@
   "usage": 8,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "lightning rod",
-    "static"
-  ],
-  "ability_usage": [
-    86.5,
-    13.5
-  ],
+  "abilities": ["lightning rod", "static"],
+  "ability_usage": [86.5, 13.5],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

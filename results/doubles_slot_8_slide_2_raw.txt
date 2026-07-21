@@ -6,8 +6,8 @@
   "move_usage": [],
   "abilities": [
     "armor tail",
-    "cud chew",
-    "sap sipper"
+    "sap sipper",
+    "cud chew"
   ],
   "ability_usage": [
     99.2,

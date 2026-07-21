@@ -10,18 +10,6 @@
   "spread_usage": [],
   "natures": [],
   "nature_usage": [],
-  "items": [
-    "raichunite y",
-    "raichunite x",
-    "focus sash",
-    "choice scarf",
-    "life orb"
-  ],
-  "item_usage": [
-    96.0,
-    3.0,
-    0.3,
-    0.1,
-    0.1
-  ]
+  "items": ["raichunite y", "raichunite x", "focus sash", "choice scarf", "life orb"],
+  "item_usage": [96.0, 3.0, 0.3, 0.1, 0.1]
 }

@@ -10,11 +10,11 @@
     "draco meteor"
   ],
   "move_usage": [
-    95.7,
+    95.6,
     93.0,
-    91.9,
-    74.6,
-    17.3
+    91.5,
+    74.5,
+    17.5
   ],
   "abilities": [],
   "ability_usage": [],

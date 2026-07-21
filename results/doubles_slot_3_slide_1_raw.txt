@@ -4,17 +4,17 @@
   "usage": 3,
   "moves": [
     "fake out",
-    "flare blitz",
     "parting shot",
+    "flare blitz",
     "darkest lariat",
     "throat chop"
   ],
   "move_usage": [
     99.2,
-    91.1,
-    91.1,
-    49.5,
-    29.3
+    91.2,
+    90.8,
+    49.6,
+    29.4
   ],
   "abilities": [],
   "ability_usage": [],

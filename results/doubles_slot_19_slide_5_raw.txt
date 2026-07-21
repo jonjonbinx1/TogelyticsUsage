@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "blastoise",
+  "pokemon": "tyranitar",
   "usage": 19,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "blastoisinite",
-    "white herb",
-    "mystic water",
-    "leftovers",
-    "choice scarf"
+    "tyranitarite",
+    "choice scarf",
+    "chople berry",
+    "focus sash",
+    "life orb"
   ],
   "item_usage": [
-    96.0,
-    0.9,
-    0.6,
-    0.5,
-    0.5
+    63.6,
+    17.5,
+    4.6,
+    2.8,
+    2.4
   ]
 }

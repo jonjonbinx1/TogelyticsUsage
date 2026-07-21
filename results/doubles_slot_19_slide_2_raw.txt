@@ -1,16 +1,16 @@
 {
   "screen_type": "ability",
-  "pokemon": "blastoise",
+  "pokemon": "tyranitar",
   "usage": 19,
   "moves": [],
   "move_usage": [],
   "abilities": [
-    "rain dish",
-    "torrent"
+    "sand stream",
+    "unnerve"
   ],
   "ability_usage": [
-    77.0,
-    23.0
+    99.0,
+    1.0
   ],
   "spread_values": [],
   "spread_usage": [],
