@@ -5,7 +5,7 @@
   "moves": [],
   "move_usage": [],
   "abilities": ["prankster", "chlorophyll", "infiltrator"],
-  "ability_usage": [98.9, 0.8, 0.3],
+  "ability_usage": [98.8, 0.8, 0.3],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

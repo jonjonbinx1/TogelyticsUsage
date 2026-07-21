@@ -10,18 +10,6 @@
   "spread_usage": [],
   "natures": [],
   "nature_usage": [],
-  "items": [
-    "sitrus berry",
-    "focus sash",
-    "damp rock",
-    "life orb",
-    "choice scarf"
-  ],
-  "item_usage": [
-    41.0,
-    34.6,
-    10.5,
-    5.1,
-    1.6
-  ]
+  "items": ["sitrus berry", "focus sash", "damp rock", "life orb", "choice scarf"],
+  "item_usage": [41.0, 34.7, 10.6, 5.1, 1.6]
 }

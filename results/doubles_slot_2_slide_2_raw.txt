@@ -4,8 +4,16 @@
   "usage": 2,
   "moves": [],
   "move_usage": [],
-  "abilities": ["defiant", "supreme overlord", "pressure"],
-  "ability_usage": [93.4, 6.5, 0.2],
+  "abilities": [
+    "defiant",
+    "supreme overlord",
+    "pressure"
+  ],
+  "ability_usage": [
+    93.2,
+    6.7,
+    0.2
+  ],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

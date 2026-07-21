@@ -5,7 +5,7 @@
   "moves": [],
   "move_usage": [],
   "abilities": ["intimidate", "reckless"],
-  "ability_usage": [96.9, 3.1],
+  "ability_usage": [96.8, 3.2],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

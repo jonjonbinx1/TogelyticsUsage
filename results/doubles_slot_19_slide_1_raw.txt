@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "tyranitar",
+  "pokemon": "milotic",
   "usage": 19,
   "moves": [
-    "rock slide",
-    "knock off",
     "protect",
-    "low kick",
-    "ice punch"
+    "scald",
+    "muddy water",
+    "hypnosis",
+    "coil"
   ],
   "move_usage": [
-    95.2,
-    89.8,
-    76.0,
-    37.0,
-    32.0
+    69.3,
+    57.2,
+    42.8,
+    37.7,
+    37.3
   ],
   "abilities": [],
   "ability_usage": [],

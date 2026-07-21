@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "tyranitar",
+  "pokemon": "milotic",
   "usage": 19,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "tyranitarite",
-    "choice scarf",
-    "chople berry",
-    "focus sash",
+    "leftovers",
+    "sitrus berry",
+    "mystic water",
+    "wide lens",
     "life orb"
   ],
   "item_usage": [
-    63.6,
-    17.5,
-    4.6,
-    2.8,
-    2.4
+    72.2,
+    18.1,
+    2.2,
+    1.2,
+    0.9
   ]
 }

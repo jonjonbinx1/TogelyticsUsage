@@ -1,17 +1,27 @@
 {
-  "error": 0,
+  "screen_type": "held_item",
+  "pokemon": "torkoal",
+  "usage": 20,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
   "items": [
-    "Swampertite",
-    "Leftovers",
-    "Sitrus Berry",
-    "Life Orb",
-    "Rindo Berry"
+    "charcoal",
+    "leftovers",
+    "life orb",
+    "heat rock",
+    "sitrus berry"
   ],
   "item_usage": [
-    1,
-    2,
-    3,
-    4,
-    5
+    78.3,
+    6.4,
+    3.8,
+    3.7,
+    2.3
   ]
 }

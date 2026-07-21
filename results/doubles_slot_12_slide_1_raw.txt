@@ -1,18 +1,27 @@
 {
+  "screen_type": "moves",
+  "pokemon": "pelipper",
+  "usage": 12,
   "moves": [
-    "Hurricane",
-    "Tailwind",
-    "Weather Ball",
-    "Wide Guard",
-    "Protect"
+    "hurricane",
+    "tailwind",
+    "weather ball",
+    "wide guard",
+    "protect"
   ],
   "move_usage": [
     97.9,
-    85.9,
-    84.3,
+    86.1,
+    84.2,
     65.7,
-    29.6
+    29.5
   ],
-  "error": null,
-  "moves": null
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
 }

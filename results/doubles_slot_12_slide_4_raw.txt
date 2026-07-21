@@ -1,1 +1,15 @@
-{"error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502}}
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "pelipper",
+  "usage": 12,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": ["modest", "timid", "bold", "calm", "quiet"],
+  "nature_usage": [60.7, 19.0, 9.6, 5.3, 2.6],
+  "items": [],
+  "item_usage": []
+}

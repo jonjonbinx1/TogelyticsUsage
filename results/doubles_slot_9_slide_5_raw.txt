@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "sylveon",
+  "pokemon": "sneasler",
   "usage": 9,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "fairy feather",
+    "white herb",
+    "focus sash",
     "life orb",
-    "leftovers",
-    "sitrus berry",
-    "focus sash"
+    "iron ball",
+    "lum berry"
   ],
   "item_usage": [
-    88.2,
-    4.9,
-    1.6,
-    1.5,
-    1.2
+    51.1,
+    38.0,
+    4.1,
+    2.6,
+    0.7
   ]
 }

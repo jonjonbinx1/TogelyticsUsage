@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "tyranitar",
+  "pokemon": "milotic",
   "usage": 19,
   "moves": [],
   "move_usage": [],
@@ -9,16 +9,16 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
-    "adamant",
-    "jolly",
-    "brave",
-    "impish",
-    "careful"
+    "calm",
+    "modest",
+    "bold",
+    "quiet",
+    "timid"
   ],
   "nature_usage": [
-    47.1,
-    37.4,
-    8.1,
+    36.9,
+    29.5,
+    24.9,
     2.7,
     2.2
   ],

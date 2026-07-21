@@ -1,19 +1,11 @@
 {
-  "screen_type": "Ability",
-  "pokemon": 18,
+  "screen_type": "ability",
+  "pokemon": "tyranitar",
   "usage": 18,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "Drought",
-    "White Smoke",
-    "Shell Armor"
-  ],
-  "ability_usage": [
-    "99.7%",
-    "0.2%",
-    "0.1%"
-  ],
+  "abilities": ["sand stream", "unnerve"],
+  "ability_usage": [99.1, 0.9],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

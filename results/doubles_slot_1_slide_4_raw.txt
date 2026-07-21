@@ -6,21 +6,33 @@
   "move_usage": [],
   "abilities": [],
   "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
+  "spread_values": [
+    [1, 69.5, 0, 0, 0, 0, 0],
+    [2, 27.6, 0, 0, 0, 0, 0],
+    [3, 0.9, 0, 0, 0, 0, 0],
+    [4, 0.3, 0, 0, 0, 0, 0],
+    [5, 0.3, 0, 0, 0, 0, 0]
+  ],
+  "spread_usage": [
+    69.5,
+    27.6,
+    0.9,
+    0.3,
+    0.3
+  ],
   "natures": [
     "jolly",
     "adamant",
     "brave",
     "impish",
-    "naive"
+    "naughty"
   ],
   "nature_usage": [
-    69.8,
-    27.4,
+    69.5,
+    27.6,
     0.9,
     0.3,
-    0.2
+    0.3
   ],
   "items": [],
   "item_usage": []

@@ -4,8 +4,16 @@
   "usage": 12,
   "moves": [],
   "move_usage": [],
-  "abilities": ["drizzle", "keen eye", "rain dish"],
-  "ability_usage": [99.9, 0.1, 0.1],
+  "abilities": [
+    "drizzle",
+    "rain dish",
+    "keen eye"
+  ],
+  "ability_usage": [
+    99.9,
+    0.1,
+    0.1
+  ],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

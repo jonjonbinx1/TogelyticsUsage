@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "torkoal",
+  "pokemon": "tyranitar",
   "usage": 18,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "charcoal",
-    "leftovers",
-    "life orb",
-    "heat rock",
-    "sitrus berry"
+    "tyranitarite",
+    "choice scarf",
+    "chople berry",
+    "focus sash",
+    "life orb"
   ],
   "item_usage": [
-    78.4,
-    6.4,
-    3.8,
-    3.7,
-    2.3
+    63.8,
+    17.2,
+    4.5,
+    2.8,
+    2.5
   ]
 }

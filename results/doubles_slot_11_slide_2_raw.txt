@@ -11,7 +11,7 @@
   ],
   "ability_usage": [
     95.9,
-    3.1,
+    3.2,
     0.9
   ],
   "spread_values": [],

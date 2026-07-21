@@ -1,19 +1,19 @@
 {
   "screen_type": "moves",
-  "pokemon": "torkoal",
+  "pokemon": "tyranitar",
   "usage": 18,
   "moves": [
-    "eruption",
+    "rock slide",
+    "knock off",
     "protect",
-    "weather ball",
-    "heat wave",
-    "solar beam"
+    "low kick",
+    "ice punch"
   ],
   "move_usage": [
-    90.3,
-    87.5,
-    56.2,
-    50.2,
+    95.1,
+    89.9,
+    76.2,
+    36.5,
     31.7
   ],
   "abilities": [],

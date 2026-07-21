@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "sylveon",
+  "pokemon": "sneasler",
   "usage": 9,
   "moves": [],
   "move_usage": [],
@@ -9,18 +9,18 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
-    "modest",
-    "quiet",
-    "timid",
-    "bold",
-    "mild"
+    "jolly",
+    "adamant",
+    "brave",
+    "naive",
+    "naughty"
   ],
   "nature_usage": [
-    79.9,
-    14.4,
+    63.9,
+    30.0,
     2.6,
-    1.4,
-    0.4
+    0.7,
+    0.7
   ],
   "items": [],
   "item_usage": []
