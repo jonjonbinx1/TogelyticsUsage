@@ -1,0 +1,27 @@
+{
+  "screen_type": "stat_points",
+  "pokemon": "staraptor",
+  "usage": 11,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [
+    [1, 32, 2, 0, 0, 0, 32],
+    [2, 2, 32, 0, 0, 0, 32],
+    [3, 29, 1, 0, 0, 4, 32],
+    [4, 23, 17, 0, 0, 0, 26],
+    [5, 0, 32, 0, 0, 2, 32]
+  ],
+  "spread_usage": [
+    16.9,
+    16.1,
+    11.8,
+    5.4,
+    2.8
+  ],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

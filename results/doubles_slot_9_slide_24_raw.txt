@@ -1,0 +1,27 @@
+{
+  "screen_type": "held_item",
+  "pokemon": "pelipper",
+  "usage": 13,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [
+    "sitrus berry",
+    "focus sash",
+    "damp rock",
+    "life orb",
+    "choice scarf"
+  ],
+  "item_usage": [
+    39.6,
+    35.2,
+    11.1,
+    5.1,
+    1.5
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "screen_type": "held_item",
+  "pokemon": "staraptor",
+  "usage": 11,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [
+    "staraptite",
+    "choice scarf",
+    "focus sash",
+    "quick claw",
+    "life orb"
+  ],
+  "item_usage": [
+    86.7,
+    12.1,
+    0.2,
+    0.1,
+    0.1
+  ]
+}

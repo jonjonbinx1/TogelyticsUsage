@@ -1,0 +1,27 @@
+{
+  "screen_type": "held_item",
+  "pokemon": "archaludon",
+  "usage": 12,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [
+    "leftovers",
+    "sitrus berry",
+    "chople berry",
+    "white herb",
+    "choice scarf"
+  ],
+  "item_usage": [
+    85.6,
+    4.0,
+    2.1,
+    1.5,
+    1.5
+  ]
+}

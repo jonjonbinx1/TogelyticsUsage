@@ -1,0 +1,27 @@
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "pelipper",
+  "usage": 13,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [
+    "modest",
+    "timid",
+    "bold",
+    "calm",
+    "quiet"
+  ],
+  "nature_usage": [
+    59.6,
+    19.4,
+    10.0,
+    5.4,
+    2.6
+  ],
+  "items": [],
+  "item_usage": []
+}

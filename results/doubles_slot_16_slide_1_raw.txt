@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "grimmsnarl",
+  "pokemon": "tyranitar",
   "usage": 16,
   "moves": [
-    "parting shot",
-    "reflect",
-    "light screen",
-    "spirit break",
-    "fake out"
+    "rock slide",
+    "knock off",
+    "protect",
+    "low kick",
+    "ice punch"
   ],
   "move_usage": [
-    90.1,
-    86.9,
-    86.4,
-    64.4,
-    26.6
+    95.0,
+    90.4,
+    78.2,
+    33.4,
+    28.5
   ],
   "abilities": [],
   "ability_usage": [],

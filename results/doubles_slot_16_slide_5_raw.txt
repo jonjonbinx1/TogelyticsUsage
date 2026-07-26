@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "grimmsnarl",
+  "pokemon": "tyranitar",
   "usage": 16,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "light clay",
-    "roseli berry",
-    "sitrus berry",
-    "black glasses",
-    "leftovers"
+    "tyranitarite",
+    "choice scarf",
+    "chople berry",
+    "focus sash",
+    "life orb"
   ],
   "item_usage": [
-    82.6,
-    6.0,
-    3.7,
-    1.6,
-    1.5
+    65.7,
+    15.3,
+    4.2,
+    3.8,
+    2.6
   ]
 }

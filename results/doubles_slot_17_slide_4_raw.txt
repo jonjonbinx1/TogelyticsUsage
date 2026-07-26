@@ -1,27 +1,17 @@
 {
-  "screen_type": "stat_alignment",
-  "pokemon": "raichu",
-  "usage": 17,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
+  "slot": 17,
   "natures": [
-    "timid",
-    "modest",
-    "jolly",
-    "hasty",
-    "adamant"
+    "Light Clay",
+    "Roseli Berry",
+    "Sitrus Berry",
+    "Leftovers",
+    "Black Glasses"
   ],
   "nature_usage": [
-    74.1,
-    14.5,
-    7.3,
-    1.0,
-    1.0
-  ],
-  "items": [],
-  "item_usage": []
+    82.3,
+    5.5,
+    3.9,
+    1.7,
+    1.6
+  ]
 }

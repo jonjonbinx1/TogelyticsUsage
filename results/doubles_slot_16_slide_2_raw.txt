@@ -1,11 +1,17 @@
 {
   "screen_type": "ability",
-  "pokemon": "grimmsnarl",
+  "pokemon": "tyranitar",
   "usage": 16,
   "moves": [],
   "move_usage": [],
-  "abilities": ["prankster", "frisk", "pickpocket"],
-  "ability_usage": [99.2, 0.4, 0.4],
+  "abilities": [
+    "sand stream",
+    "unnerve"
+  ],
+  "ability_usage": [
+    99.2,
+    0.8
+  ],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

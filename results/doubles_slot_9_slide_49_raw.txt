@@ -1,0 +1,27 @@
+{
+  "screen_type": "held_item",
+  "pokemon": "milotic",
+  "usage": 18,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [
+    "leftovers",
+    "sitrus berry",
+    "mystic water",
+    "wide lens",
+    "quick claw"
+  ],
+  "item_usage": [
+    66.3,
+    24.3,
+    2.2,
+    1.1,
+    0.9
+  ]
+}

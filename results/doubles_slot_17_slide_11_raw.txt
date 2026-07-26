@@ -1,0 +1,15 @@
+{
+  "screen_type": "ability",
+  "pokemon": "raichu",
+  "usage": 19,
+  "moves": [],
+  "move_usage": [],
+  "abilities": ["lightning rod", "static"],
+  "ability_usage": [96.7, 3.3],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

@@ -1,0 +1,27 @@
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "grimmsnarl",
+  "usage": 16,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [
+    "careful",
+    "sassy",
+    "impish",
+    "adamant",
+    "calm"
+  ],
+  "nature_usage": [
+    38.6,
+    20.8,
+    17.9,
+    8.0,
+    7.2
+  ],
+  "items": [],
+  "item_usage": []
+}

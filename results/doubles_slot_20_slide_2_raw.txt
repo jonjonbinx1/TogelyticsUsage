@@ -1,11 +1,17 @@
 {
   "screen_type": "ability",
-  "pokemon": "torkoal",
+  "pokemon": "swampert",
   "usage": 20,
   "moves": [],
   "move_usage": [],
-  "abilities": ["drought", "white smoke", "shell armor"],
-  "ability_usage": [99.6, 0.2, 0.1],
+  "abilities": [
+    "torrent",
+    "damp"
+  ],
+  "ability_usage": [
+    62.7,
+    37.3
+  ],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

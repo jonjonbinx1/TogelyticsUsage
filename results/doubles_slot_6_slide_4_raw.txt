@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "basculegion",
+  "pokemon": "whimsicott",
   "usage": 6,
   "moves": [],
   "move_usage": [],
@@ -9,17 +9,17 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
-    "adamant",
-    "jolly",
-    "brave",
-    "naughty",
-    "lonely"
+    "timid",
+    "modest",
+    "bold",
+    "calm",
+    "quiet"
   ],
   "nature_usage": [
-    50.3,
-    45.9,
-    1.9,
-    0.4,
+    73.1,
+    17.9,
+    3.8,
+    3.1,
     0.4
   ],
   "items": [],

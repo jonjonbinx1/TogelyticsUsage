@@ -1,0 +1,27 @@
+{
+  "screen_type": "moves",
+  "pokemon": "milotic",
+  "usage": 18,
+  "moves": [
+    "protect",
+    "scald",
+    "muddy water",
+    "ice beam",
+    "icy wind"
+  ],
+  "move_usage": [
+    70.7,
+    62.5,
+    37.6,
+    35.9,
+    34.4
+  ],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

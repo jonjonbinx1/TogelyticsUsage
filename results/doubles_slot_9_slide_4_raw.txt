@@ -12,15 +12,15 @@
     "jolly",
     "adamant",
     "brave",
-    "naive",
-    "naughty"
+    "lonely",
+    "naive"
   ],
   "nature_usage": [
-    63.9,
-    30.0,
-    2.6,
-    0.7,
-    0.7
+    63.2,
+    30.5,
+    2.3,
+    0.8,
+    0.8
   ],
   "items": [],
   "item_usage": []

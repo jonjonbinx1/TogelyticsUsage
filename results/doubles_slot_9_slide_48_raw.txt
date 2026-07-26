@@ -1,0 +1,27 @@
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "milotic",
+  "usage": 18,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [
+    "calm",
+    "modest",
+    "bold",
+    "quiet",
+    "timid"
+  ],
+  "nature_usage": [
+    40.0,
+    28.1,
+    23.3,
+    2.6,
+    2.2
+  ],
+  "items": [],
+  "item_usage": []
+}

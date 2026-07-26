@@ -1,17 +1,11 @@
 {
   "screen_type": "ability",
-  "pokemon": "charizard",
+  "pokemon": "sinistcha",
   "usage": 4,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "blaze",
-    "solar power"
-  ],
-  "ability_usage": [
-    80.0,
-    20.0
-  ],
+  "abilities": ["hospitality", "heatproof"],
+  "ability_usage": [99.1, 0.9],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

@@ -1,0 +1,27 @@
+{
+  "screen_type": "moves",
+  "pokemon": "tyranitar",
+  "usage": 17,
+  "moves": [
+    "rock slide",
+    "knock off",
+    "protect",
+    "low kick",
+    "ice punch"
+  ],
+  "move_usage": [
+    95.0,
+    90.4,
+    78.1,
+    33.5,
+    28.7
+  ],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

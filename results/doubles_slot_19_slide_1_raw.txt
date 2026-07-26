@@ -6,15 +6,15 @@
     "protect",
     "scald",
     "muddy water",
-    "hypnosis",
-    "coil"
+    "ice beam",
+    "hypnosis"
   ],
   "move_usage": [
-    69.3,
-    57.2,
-    42.8,
-    37.7,
-    37.3
+    70.5,
+    61.3,
+    38.8,
+    36.0,
+    33.9
   ],
   "abilities": [],
   "ability_usage": [],

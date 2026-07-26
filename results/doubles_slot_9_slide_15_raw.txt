@@ -1,0 +1,27 @@
+{
+  "screen_type": "moves",
+  "pokemon": "archaludon",
+  "usage": 12,
+  "moves": [
+    "electro shot",
+    "flash cannon",
+    "protect",
+    "dragon pulse",
+    "draco meteor"
+  ],
+  "move_usage": [
+    95.4,
+    92.9,
+    90.7,
+    73.7,
+    18.2
+  ],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

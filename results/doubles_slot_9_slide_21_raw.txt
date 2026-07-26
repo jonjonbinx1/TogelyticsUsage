@@ -1,0 +1,23 @@
+{
+  "screen_type": "Ability",
+  "pokemon": 279,
+  "usage": 13,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [
+    "Drizzle",
+    "Rain Dish",
+    "Keen Eye"
+  ],
+  "ability_usage": [
+    "99.9%",
+    "0.1%",
+    "0.1%"
+  ],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

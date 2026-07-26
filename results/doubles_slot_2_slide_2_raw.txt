@@ -1,19 +1,11 @@
 {
   "screen_type": "ability",
-  "pokemon": "kingambit",
+  "pokemon": "incineroar",
   "usage": 2,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "defiant",
-    "supreme overlord",
-    "pressure"
-  ],
-  "ability_usage": [
-    93.2,
-    6.7,
-    0.2
-  ],
+  "abilities": ["intimidate", "blaze"],
+  "ability_usage": [99.6, 0.4],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

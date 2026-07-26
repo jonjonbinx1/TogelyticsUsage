@@ -1,0 +1,23 @@
+{
+  "screen_type": "ability",
+  "pokemon": "aerodactyl",
+  "usage": 14,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [
+    "unnerve",
+    "pressure",
+    "rock head"
+  ],
+  "ability_usage": [
+    95.0,
+    2.9,
+    2.1
+  ],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

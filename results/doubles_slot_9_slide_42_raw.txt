@@ -1,0 +1,27 @@
+{
+  "screen_type": "stat_points",
+  "pokemon": "tyranitar",
+  "usage": 17,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [
+    [1, 2, 32, 0, 0, 0, 32],
+    [2, 17, 18, 0, 0, 0, 31],
+    [3, 0, 32, 2, 0, 0, 32],
+    [4, 32, 32, 0, 0, 2, 0],
+    [5, 32, 32, 2, 0, 0, 0]
+  ],
+  "spread_usage": [
+    19.6,
+    12.8,
+    10.1,
+    6.8,
+    5.5
+  ],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

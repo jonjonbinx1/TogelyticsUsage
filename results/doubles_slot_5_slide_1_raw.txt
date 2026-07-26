@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "sinistcha",
+  "pokemon": "charizard",
   "usage": 5,
   "moves": [
-    "matcha gotcha",
-    "rage powder",
     "protect",
-    "trick room",
-    "life dew"
+    "heat wave",
+    "solar beam",
+    "weather ball",
+    "air slash"
   ],
   "move_usage": [
-    98.9,
-    96.0,
-    60.6,
-    60.1,
-    50.4
+    95.4,
+    95.2,
+    87.1,
+    77.3,
+    7.6
   ],
   "abilities": [],
   "ability_usage": [],

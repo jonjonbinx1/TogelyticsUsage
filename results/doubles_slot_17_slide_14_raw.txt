@@ -1,0 +1,27 @@
+{
+  "screen_type": "held_item",
+  "pokemon": "raichu",
+  "usage": 19,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [
+    "raichunite y",
+    "raichunite x",
+    "focus sash",
+    "shuca berry",
+    "magnet"
+  ],
+  "item_usage": [
+    81.3,
+    11.0,
+    3.7,
+    0.8,
+    0.7
+  ]
+}

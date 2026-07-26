@@ -1,0 +1,27 @@
+{
+  "screen_type": "moves",
+  "pokemon": "venusaur",
+  "usage": 15,
+  "moves": [
+    "sludge bomb",
+    "protect",
+    "earth power",
+    "sleep powder",
+    "giga drain"
+  ],
+  "move_usage": [
+    94.4,
+    85.3,
+    80.5,
+    49.0,
+    40.3
+  ],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

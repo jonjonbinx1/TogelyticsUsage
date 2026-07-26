@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "charizard",
+  "pokemon": "sinistcha",
   "usage": 4,
   "moves": [],
   "move_usage": [],
@@ -9,18 +9,18 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
+    "bold",
+    "calm",
+    "relaxed",
     "modest",
-    "timid",
-    "adamant",
-    "quiet",
-    "jolly"
+    "sassy"
   ],
   "nature_usage": [
-    75.9,
-    18.0,
-    2.7,
-    0.8,
-    0.7
+    49.7,
+    20.5,
+    10.9,
+    8.3,
+    5.3
   ],
   "items": [],
   "item_usage": []

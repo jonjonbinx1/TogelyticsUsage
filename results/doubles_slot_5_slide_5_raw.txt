@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "sinistcha",
+  "pokemon": "charizard",
   "usage": 5,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "kasib berry",
-    "sitrus berry",
-    "colbur berry",
-    "leftovers",
-    "occa berry"
+    "charizardite y",
+    "charizardite x",
+    "life orb",
+    "charcoal",
+    "choice scarf"
   ],
   "item_usage": [
-    25.4,
-    23.3,
-    16.5,
-    11.4,
-    6.9
+    95.7,
+    3.4,
+    0.1,
+    0.1,
+    0.1
   ]
 }

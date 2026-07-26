@@ -1,27 +1,12 @@
 {
-  "screen_type": "moves",
-  "pokemon": "raichu",
-  "usage": 17,
   "moves": [
-    "zap cannon",
-    "focus blast",
-    "protect",
-    "fake out",
-    "grass knot"
+    "Prankster",
+    "Pickpocket",
+    "Frisk"
   ],
   "move_usage": [
-    82.0,
-    81.5,
-    77.5,
-    73.5,
-    18.1
-  ],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
+    99.1,
+    0.4,
+    0.4
+  ]
 }

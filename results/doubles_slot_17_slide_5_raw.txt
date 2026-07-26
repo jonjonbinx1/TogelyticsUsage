@@ -1,27 +1,10 @@
 {
-  "screen_type": "held_item",
-  "pokemon": "raichu",
-  "usage": 17,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
+  "item_usage": "Milotic @ Mystic Water",
   "items": [
-    "raichunite y",
-    "raichunite x",
-    "focus sash",
-    "shuca berry",
-    "magnet"
-  ],
-  "item_usage": [
-    82.4,
-    10.0,
-    3.7,
-    0.8,
-    0.7
+    "Protect",
+    "Scald",
+    "Muddy Water",
+    "Ice Beam",
+    "Icy Wind"
   ]
 }

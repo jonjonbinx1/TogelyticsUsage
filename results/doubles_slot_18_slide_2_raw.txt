@@ -1,11 +1,17 @@
 {
   "screen_type": "ability",
-  "pokemon": "tyranitar",
+  "pokemon": "raichu",
   "usage": 18,
   "moves": [],
   "move_usage": [],
-  "abilities": ["sand stream", "unnerve"],
-  "ability_usage": [99.1, 0.9],
+  "abilities": [
+    "lightning rod",
+    "static"
+  ],
+  "ability_usage": [
+    96.7,
+    3.3
+  ],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

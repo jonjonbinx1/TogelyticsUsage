@@ -1,0 +1,27 @@
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "aerodactyl",
+  "usage": 14,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [
+    "jolly",
+    "adamant",
+    "naive",
+    "hasty",
+    "naughty"
+  ],
+  "nature_usage": [
+    88.3,
+    8.7,
+    0.7,
+    0.6,
+    0.4
+  ],
+  "items": [],
+  "item_usage": []
+}

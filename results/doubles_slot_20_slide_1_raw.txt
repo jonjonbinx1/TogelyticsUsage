@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "torkoal",
+  "pokemon": "swampert",
   "usage": 20,
   "moves": [
-    "eruption",
+    "wave crash",
     "protect",
-    "weather ball",
-    "heat wave",
-    "solar beam"
+    "ice punch",
+    "earthquake",
+    "high horsepower"
   ],
   "move_usage": [
-    90.3,
-    87.3,
-    56.0,
-    50.1,
-    31.8
+    89.7,
+    89.4,
+    77.4,
+    74.2,
+    25.5
   ],
   "abilities": [],
   "ability_usage": [],

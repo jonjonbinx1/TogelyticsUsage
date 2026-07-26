@@ -1,11 +1,19 @@
 {
   "screen_type": "ability",
-  "pokemon": "basculegion",
+  "pokemon": "whimsicott",
   "usage": 6,
   "moves": [],
   "move_usage": [],
-  "abilities": ["adaptability", "swift swim", "mold breaker"],
-  "ability_usage": [93.0, 6.7, 0.3],
+  "abilities": [
+    "prankster",
+    "chlorophyll",
+    "infiltrator"
+  ],
+  "ability_usage": [
+    98.7,
+    0.9,
+    0.3
+  ],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

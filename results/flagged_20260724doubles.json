@@ -1,0 +1,78 @@
+{
+  "source_results": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\results\\20260724doubles_extracted.json",
+  "date": "2026-07-24",
+  "format": "doubles",
+  "threshold": 80.0,
+  "validated_at": "2026-07-24T14:05:58",
+  "total_images": 100,
+  "screen_type_counts": {
+    "moves": 20,
+    "ability": 20,
+    "stat_points": 20,
+    "stat_alignment": 20,
+    "held_item": 20
+  },
+  "flagged_count": 5,
+  "flags": [
+    {
+      "image": "doubles_slot_3_slide_2.png",
+      "screen_type": "ability",
+      "pokemon": "",
+      "usage": 3,
+      "field": "abilities['Sucker Punch']",
+      "extracted": "Sucker Punch",
+      "issue": "unknown_ability",
+      "best_match": "super-luck",
+      "score": 63.6,
+      "note": "Score 64; suggested: 'super-luck'"
+    },
+    {
+      "image": "doubles_slot_3_slide_2.png",
+      "screen_type": "ability",
+      "pokemon": "",
+      "usage": 3,
+      "field": "abilities['Kowtow Cleave']",
+      "extracted": "Kowtow Cleave",
+      "issue": "unknown_ability",
+      "best_match": "levitate",
+      "score": 55.4,
+      "note": "Score 55; suggested: 'levitate'"
+    },
+    {
+      "image": "doubles_slot_3_slide_2.png",
+      "screen_type": "ability",
+      "pokemon": "",
+      "usage": 3,
+      "field": "abilities['Iron Head']",
+      "extracted": "Iron Head",
+      "issue": "unknown_ability",
+      "best_match": "rock-head",
+      "score": 77.8,
+      "note": "Score 78; suggested: 'rock-head'"
+    },
+    {
+      "image": "doubles_slot_3_slide_2.png",
+      "screen_type": "ability",
+      "pokemon": "",
+      "usage": 3,
+      "field": "abilities['Protect']",
+      "extracted": "Protect",
+      "issue": "unknown_ability",
+      "best_match": "protean",
+      "score": 71.4,
+      "note": "Score 71; suggested: 'protean'"
+    },
+    {
+      "image": "doubles_slot_3_slide_2.png",
+      "screen_type": "ability",
+      "pokemon": "",
+      "usage": 3,
+      "field": "abilities['Low Kick']",
+      "extracted": "Low Kick",
+      "issue": "unknown_ability",
+      "best_match": "snow-cloak",
+      "score": 55.6,
+      "note": "Score 56; suggested: 'snow-cloak'"
+    }
+  ]
+}

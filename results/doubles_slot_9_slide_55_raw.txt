@@ -1,0 +1,27 @@
+{
+  "screen_type": "moves",
+  "pokemon": "swampert",
+  "usage": 20,
+  "moves": [
+    "wave crash",
+    "protect",
+    "ice punch",
+    "earthquake",
+    "high horsepower"
+  ],
+  "move_usage": [
+    89.4,
+    89.1,
+    77.4,
+    74.4,
+    25.2
+  ],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "tyranitar",
+  "pokemon": "raichu",
   "usage": 18,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "tyranitarite",
-    "choice scarf",
-    "chople berry",
+    "raichunite y",
+    "raichunite x",
     "focus sash",
-    "life orb"
+    "shuca berry",
+    "magnet"
   ],
   "item_usage": [
-    63.8,
-    17.2,
-    4.5,
-    2.8,
-    2.5
+    81.6,
+    10.7,
+    3.6,
+    0.8,
+    0.7
   ]
 }

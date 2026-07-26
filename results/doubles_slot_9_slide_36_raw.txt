@@ -1,0 +1,15 @@
+{
+  "screen_type": "ability",
+  "pokemon": "grimmsnarl",
+  "usage": 16,
+  "moves": [],
+  "move_usage": [],
+  "abilities": ["prankster", "pickpocket", "frisk"],
+  "ability_usage": [99.1, 0.4, 0.4],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

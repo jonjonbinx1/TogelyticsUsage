@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "grimmsnarl",
+  "pokemon": "tyranitar",
   "usage": 16,
   "moves": [],
   "move_usage": [],
@@ -8,8 +8,20 @@
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
-  "natures": ["careful", "sassy", "impish", "calm", "adamant"],
-  "nature_usage": [39.2, 21.3, 17.5, 7.4, 7.4],
+  "natures": [
+    "adamant",
+    "jolly",
+    "brave",
+    "impish",
+    "careful"
+  ],
+  "nature_usage": [
+    44.3,
+    41.4,
+    7.2,
+    2.4,
+    2.1
+  ],
   "items": [],
   "item_usage": []
 }

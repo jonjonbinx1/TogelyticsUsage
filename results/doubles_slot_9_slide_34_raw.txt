@@ -1,0 +1,27 @@
+{
+  "screen_type": "held_item",
+  "pokemon": "venusaur",
+  "usage": 15,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [
+    "venusaurite",
+    "focus sash",
+    "life orb",
+    "wide lens",
+    "leftovers"
+  ],
+  "item_usage": [
+    33.7,
+    25.0,
+    22.9,
+    6.4,
+    3.3
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "screen_type": "held_item",
+  "pokemon": "tyranitar",
+  "usage": 17,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [
+    "tyranitarite",
+    "choice scarf",
+    "chople berry",
+    "focus sash",
+    "life orb"
+  ],
+  "item_usage": [
+    65.7,
+    15.3,
+    4.2,
+    3.7,
+    2.6
+  ]
+}

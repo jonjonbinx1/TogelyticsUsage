@@ -1,0 +1,150 @@
+{
+  "source_results": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\results\\20260726doubles_extracted.json",
+  "date": "2026-07-26",
+  "format": "doubles",
+  "threshold": 80.0,
+  "validated_at": "2026-07-26T12:13:30",
+  "total_images": 99,
+  "screen_type_counts": {
+    "moves": 19,
+    "ability": 20,
+    "stat_points": 20,
+    "stat_alignment": 20,
+    "held_item": 20
+  },
+  "flagged_count": 11,
+  "flags": [
+    {
+      "image": "doubles_slot_17_slide_1.png",
+      "screen_type": "moves",
+      "pokemon": "",
+      "usage": 17,
+      "field": "moves['Prankster']",
+      "extracted": "Prankster",
+      "issue": "unknown_move",
+      "best_match": "leer",
+      "score": 60.0,
+      "note": "Score 60; suggested: 'leer'"
+    },
+    {
+      "image": "doubles_slot_17_slide_1.png",
+      "screen_type": "moves",
+      "pokemon": "",
+      "usage": 17,
+      "field": "moves['Pickpocket']",
+      "extracted": "Pickpocket",
+      "issue": "unknown_move",
+      "best_match": "peck",
+      "score": 67.5,
+      "note": "Score 68; suggested: 'peck'"
+    },
+    {
+      "image": "doubles_slot_17_slide_1.png",
+      "screen_type": "moves",
+      "pokemon": "",
+      "usage": 17,
+      "field": "moves['Frisk']",
+      "extracted": "Frisk",
+      "issue": "unknown_move",
+      "best_match": "fishious-rend",
+      "score": 67.5,
+      "note": "Score 68; suggested: 'fishious-rend'"
+    },
+    {
+      "image": "doubles_slot_17_slide_2.png",
+      "screen_type": "ability",
+      "pokemon": "grimmsnarl",
+      "usage": 17,
+      "field": "abilities['picky eater']",
+      "extracted": "picky eater",
+      "issue": "unknown_ability",
+      "best_match": "pickup",
+      "score": 72.0,
+      "note": "Score 72; suggested: 'pickup'"
+    },
+    {
+      "image": "doubles_slot_17_slide_4.png",
+      "screen_type": "stat_alignment",
+      "pokemon": "",
+      "usage": 17,
+      "field": "natures['Light Clay']",
+      "extracted": "Light Clay",
+      "issue": "unknown_nature",
+      "best_match": "lax",
+      "score": 60.0,
+      "note": "'Light Clay' not in standard 25 natures; suggested: 'lax'"
+    },
+    {
+      "image": "doubles_slot_17_slide_4.png",
+      "screen_type": "stat_alignment",
+      "pokemon": "",
+      "usage": 17,
+      "field": "natures['Roseli Berry']",
+      "extracted": "Roseli Berry",
+      "issue": "unknown_nature",
+      "best_match": "serious",
+      "score": 54.0,
+      "note": "'Roseli Berry' not in standard 25 natures; suggested: 'serious'"
+    },
+    {
+      "image": "doubles_slot_17_slide_4.png",
+      "screen_type": "stat_alignment",
+      "pokemon": "",
+      "usage": 17,
+      "field": "natures['Sitrus Berry']",
+      "extracted": "Sitrus Berry",
+      "issue": "unknown_nature",
+      "best_match": "serious",
+      "score": 55.4,
+      "note": "'Sitrus Berry' not in standard 25 natures; suggested: 'serious'"
+    },
+    {
+      "image": "doubles_slot_17_slide_4.png",
+      "screen_type": "stat_alignment",
+      "pokemon": "",
+      "usage": 17,
+      "field": "natures['Leftovers']",
+      "extracted": "Leftovers",
+      "issue": "unknown_nature",
+      "best_match": "rash",
+      "score": 60.0,
+      "note": "'Leftovers' not in standard 25 natures; suggested: 'rash'"
+    },
+    {
+      "image": "doubles_slot_17_slide_4.png",
+      "screen_type": "stat_alignment",
+      "pokemon": "",
+      "usage": 17,
+      "field": "natures['Black Glasses']",
+      "extracted": "Black Glasses",
+      "issue": "unknown_nature",
+      "best_match": "bold",
+      "score": 60.0,
+      "note": "'Black Glasses' not in standard 25 natures; suggested: 'bold'"
+    },
+    {
+      "image": "doubles_slot_17_slide_5.png",
+      "screen_type": "held_item",
+      "pokemon": "",
+      "usage": 17,
+      "field": "items['Scald']",
+      "extracted": "Scald",
+      "issue": "unknown_item",
+      "best_match": "tatsugiri-scales",
+      "score": 76.0,
+      "note": "Score 76; suggested: 'tatsugiri-scales'"
+    },
+    {
+      "image": "doubles_slot_17_slide_5.png",
+      "screen_type": "held_item",
+      "pokemon": "",
+      "usage": 17,
+      "field": "items['Icy Wind']",
+      "extracted": "Icy Wind",
+      "issue": "unknown_item",
+      "best_match": "zinc",
+      "score": 60.0,
+      "note": "Score 60; suggested: 'zinc'"
+    }
+  ]
+}

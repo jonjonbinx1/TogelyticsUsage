@@ -1,0 +1,27 @@
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "raichu",
+  "usage": 19,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [
+    "timid",
+    "modest",
+    "jolly",
+    "adamant",
+    "hasty"
+  ],
+  "nature_usage": [
+    72.6,
+    14.7,
+    8.4,
+    1.0,
+    1.0
+  ],
+  "items": [],
+  "item_usage": []
+}
