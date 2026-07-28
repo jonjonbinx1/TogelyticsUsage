@@ -1,10 +1,27 @@
 {
-  "item_usage": "Milotic @ Mystic Water",
+  "screen_type": "held_item",
+  "pokemon": "milotic",
+  "usage": 17,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
   "items": [
-    "Protect",
-    "Scald",
-    "Muddy Water",
-    "Ice Beam",
-    "Icy Wind"
+    "leftovers",
+    "sitrus berry",
+    "mystic water",
+    "wide lens",
+    "quick claw"
+  ],
+  "item_usage": [
+    65.3,
+    25.4,
+    2.2,
+    1.1,
+    0.9
   ]
 }

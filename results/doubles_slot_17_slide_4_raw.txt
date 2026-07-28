@@ -1,17 +1,27 @@
 {
-  "slot": 17,
+  "screen_type": "stat_alignment",
+  "pokemon": "milotic",
+  "usage": 17,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
   "natures": [
-    "Light Clay",
-    "Roseli Berry",
-    "Sitrus Berry",
-    "Leftovers",
-    "Black Glasses"
+    "calm",
+    "modest",
+    "bold",
+    "quiet",
+    "timid"
   ],
   "nature_usage": [
-    82.3,
-    5.5,
-    3.9,
-    1.7,
-    1.6
-  ]
+    40.3,
+    27.8,
+    23.2,
+    2.7,
+    2.3
+  ],
+  "items": [],
+  "item_usage": []
 }

@@ -4,14 +4,8 @@
   "usage": 16,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "sand stream",
-    "unnerve"
-  ],
-  "ability_usage": [
-    99.2,
-    0.8
-  ],
+  "abilities": ["sand stream", "unnerve"],
+  "ability_usage": [99.2, 0.8],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

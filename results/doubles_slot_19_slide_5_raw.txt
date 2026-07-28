@@ -1,6 +1,7 @@
+w
 {
   "screen_type": "held_item",
-  "pokemon": "milotic",
+  "pokemon": "raichu",
   "usage": 19,
   "moves": [],
   "move_usage": [],
@@ -11,17 +12,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "leftovers",
-    "sitrus berry",
-    "mystic water",
-    "wide lens",
-    "life orb"
+    "raichunite y",
+    "raichunite x",
+    "focus sash",
+    "shuca berry",
+    "magnet"
   ],
   "item_usage": [
-    67.5,
-    23.1,
-    2.2,
-    1.1,
-    0.9
+    81.0,
+    11.2,
+    3.7,
+    0.8,
+    0.7
   ]
 }

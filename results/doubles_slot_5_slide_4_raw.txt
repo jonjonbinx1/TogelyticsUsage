@@ -12,12 +12,12 @@
     "modest",
     "timid",
     "adamant",
-    "quiet",
-    "jolly"
+    "jolly",
+    "quiet"
   ],
   "nature_usage": [
-    74.8,
-    18.6,
+    74.5,
+    18.7,
     3.0,
     0.8,
     0.8

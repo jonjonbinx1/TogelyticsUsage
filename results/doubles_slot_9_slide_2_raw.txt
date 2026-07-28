@@ -10,8 +10,8 @@
     "pressure"
   ],
   "ability_usage": [
-    60.1,
-    39.4,
+    60.5,
+    39.0,
     0.5
   ],
   "spread_values": [],

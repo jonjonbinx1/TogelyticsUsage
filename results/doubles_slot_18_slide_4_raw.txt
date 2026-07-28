@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "raichu",
+  "pokemon": "grimmsnarl",
   "usage": 18,
   "moves": [],
   "move_usage": [],
@@ -9,18 +9,18 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
-    "timid",
-    "modest",
-    "jolly",
+    "careful",
+    "sassy",
+    "impish",
     "adamant",
-    "hasty"
+    "calm"
   ],
   "nature_usage": [
-    73.0,
-    14.6,
+    38.4,
+    20.5,
+    18.1,
     8.1,
-    1.0,
-    1.0
+    7.1
   ],
   "items": [],
   "item_usage": []

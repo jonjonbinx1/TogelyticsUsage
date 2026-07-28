@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "milotic",
+  "pokemon": "raichu",
   "usage": 19,
   "moves": [],
   "move_usage": [],
@@ -9,18 +9,18 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
-    "calm",
+    "timid",
     "modest",
-    "bold",
-    "quiet",
-    "timid"
+    "jolly",
+    "adamant",
+    "hasty"
   ],
   "nature_usage": [
-    39.5,
-    28.5,
-    23.5,
-    2.6,
-    2.2
+    72.2,
+    14.7,
+    8.7,
+    1.1,
+    1.0
   ],
   "items": [],
   "item_usage": []

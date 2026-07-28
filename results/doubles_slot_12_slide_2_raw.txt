@@ -4,8 +4,16 @@
   "usage": 12,
   "moves": [],
   "move_usage": [],
-  "abilities": ["stamina", "sturdy", "stalwart"],
-  "ability_usage": [95.8, 3.2, 0.9],
+  "abilities": [
+    "stamina",
+    "sturdy",
+    "stalwart"
+  ],
+  "ability_usage": [
+    95.8,
+    3.3,
+    0.9
+  ],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

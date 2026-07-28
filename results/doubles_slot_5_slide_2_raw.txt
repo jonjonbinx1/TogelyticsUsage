@@ -1,7 +1,7 @@
 {
   "screen_type": "ability",
   "pokemon": "charizard",
-  "usage": 6,
+  "usage": 5,
   "moves": [],
   "move_usage": [],
   "abilities": [
@@ -9,8 +9,8 @@
     "solar power"
   ],
   "ability_usage": [
-    79.3,
-    20.7
+    79.0,
+    21.0
   ],
   "spread_values": [],
   "spread_usage": [],
