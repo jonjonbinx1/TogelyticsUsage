@@ -11,16 +11,16 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "kasib berry",
     "sitrus berry",
+    "kasib berry",
     "colbur berry",
     "leftovers",
     "occa berry"
   ],
   "item_usage": [
-    23.2,
     23.1,
-    19.2,
+    22.8,
+    19.5,
     11.5,
     6.4
   ]

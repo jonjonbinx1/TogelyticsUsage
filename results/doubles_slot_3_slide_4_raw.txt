@@ -1,37 +1,27 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "kingambit",
+  "pokemon": "incineroar",
   "usage": 3,
   "moves": [],
   "move_usage": [],
   "abilities": [],
   "ability_usage": [],
-  "spread_values": [
-    [1, 82, 6, 0, 0, 0, 0],
-    [2, 0, 0, 0, 0, 0, 0],
-    [3, 0, 0, 0, 0, 0, 0],
-    [4, 0, 0, 0, 0, 0, 0],
-    [5, 0, 0, 0, 0, 0, 0]
-  ],
-  "spread_usage": [
-    82.6,
-    13.2,
-    2.0,
-    0.5,
-    0.5
-  ],
+  "spread_values": [],
+  "spread_usage": [],
   "natures": [
+    "careful",
+    "impish",
     "adamant",
     "brave",
-    "jolly",
-    "impish",
-    "careful"
+    "sassy"
   ],
   "nature_usage": [
-    82.6,
-    13.2,
-    2.0,
-    0.5,
-    0.5
-  ]
+    33.8,
+    27.3,
+    18.5,
+    9.0,
+    3.8
+  ],
+  "items": [],
+  "item_usage": []
 }

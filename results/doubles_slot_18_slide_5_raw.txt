@@ -1,27 +1,13 @@
 {
-  "screen_type": "held_item",
-  "pokemon": "grimmsnarl",
-  "usage": 18,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [
-    "light clay",
-    "roseli berry",
-    "sitrus berry",
-    "leftovers",
-    "black glasses"
-  ],
+  "error": null,
   "item_usage": [
-    82.2,
-    5.5,
-    4.0,
-    1.7,
-    1.6
+    18
+  ],
+  "items": [
+    "Light Clay",
+    "Roseli Berry",
+    "Sitrus Berry",
+    "Leftovers",
+    "Black Glasses"
   ]
 }

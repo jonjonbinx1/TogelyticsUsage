@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "incineroar",
+  "pokemon": "kingambit",
   "usage": 2,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "sitrus berry",
-    "passho berry",
+    "black glasses",
     "chople berry",
+    "focus sash",
     "life orb",
-    "leftovers"
+    "occa berry"
   ],
   "item_usage": [
-    66.5,
-    8.2,
-    6.0,
-    5.0,
-    4.7
+    36.9,
+    23.1,
+    18.5,
+    13.2,
+    3.0
   ]
 }

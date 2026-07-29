@@ -5,16 +5,16 @@
   "moves": [
     "protect",
     "scald",
-    "muddy water",
+    "icy wind",
     "ice beam",
-    "icy wind"
+    "muddy water"
   ],
   "move_usage": [
-    70.8,
-    63.8,
-    36.3,
-    36.1,
-    35.9
+    71.0,
+    65.0,
+    37.0,
+    36.7,
+    35.2
   ],
   "abilities": [],
   "ability_usage": [],

@@ -14,14 +14,14 @@
     "focus sash",
     "life orb",
     "fairy feather",
-    "mental herb",
-    "occa berry"
+    "occa berry",
+    "mental herb"
   ],
   "item_usage": [
-    78.6,
+    78.2,
     5.7,
-    3.8,
-    2.4,
-    2.3
+    3.7,
+    2.8,
+    2.4
   ]
 }
