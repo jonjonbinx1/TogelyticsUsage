@@ -4,14 +4,8 @@
   "usage": 10,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "pixilate",
-    "cute charm"
-  ],
-  "ability_usage": [
-    99.8,
-    0.2
-  ],
+  "abilities": ["pixilate", "cute charm"],
+  "ability_usage": [99.8, 0.2],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

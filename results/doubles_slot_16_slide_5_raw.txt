@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "tyranitar",
+  "pokemon": "venusaur",
   "usage": 16,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "tyranitarite",
-    "choice scarf",
-    "chople berry",
+    "venusaurite",
     "focus sash",
-    "life orb"
+    "life orb",
+    "wide lens",
+    "leftovers"
   ],
   "item_usage": [
-    66.1,
-    15.1,
-    4.0,
-    3.9,
-    2.5
+    32.7,
+    24.5,
+    22.5,
+    6.7,
+    3.7
   ]
 }

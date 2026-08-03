@@ -4,16 +4,8 @@
   "usage": 6,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "prankster",
-    "chlorophyll",
-    "infiltrator"
-  ],
-  "ability_usage": [
-    98.7,
-    0.9,
-    0.4
-  ],
+  "abilities": ["prankster", "chlorophyll", "infiltrator"],
+  "ability_usage": [98.7, 1.0, 0.4],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

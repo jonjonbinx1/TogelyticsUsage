@@ -1,17 +1,11 @@
 {
   "screen_type": "ability",
-  "pokemon": "raichu",
+  "pokemon": "grimmsnarl",
   "usage": 19,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "lightning rod",
-    "static"
-  ],
-  "ability_usage": [
-    96.5,
-    3.5
-  ],
+  "abilities": ["prankster", "frisk", "pickpocket"],
+  "ability_usage": [99.0, 0.5, 0.5],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

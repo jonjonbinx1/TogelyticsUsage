@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "tyranitar",
+  "pokemon": "venusaur",
   "usage": 16,
   "moves": [],
   "move_usage": [],
@@ -9,18 +9,18 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
-    "adamant",
-    "jolly",
-    "brave",
-    "impish",
-    "careful"
+    "modest",
+    "timid",
+    "bold",
+    "calm",
+    "quiet"
   ],
   "nature_usage": [
-    43.4,
-    42.5,
-    7.0,
-    2.4,
-    2.1
+    81.7,
+    8.3,
+    4.0,
+    2.8,
+    1.4
   ],
   "items": [],
   "item_usage": []

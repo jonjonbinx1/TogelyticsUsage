@@ -1,17 +1,11 @@
 {
   "screen_type": "ability",
   "pokemon": "charizard",
-  "usage": 5,
+  "usage": 6,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "blaze",
-    "solar power"
-  ],
-  "ability_usage": [
-    78.8,
-    21.2
-  ],
+  "abilities": ["blaze", "solar power"],
+  "ability_usage": [78.3, 21.7],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

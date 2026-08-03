@@ -14,14 +14,14 @@
     "life orb",
     "choice scarf",
     "sitrus berry",
-    "roseli berry",
-    "garchompite"
+    "garchompite",
+    "roseli berry"
   ],
   "item_usage": [
-    64.2,
-    10.3,
-    9.5,
-    2.6,
+    62.8,
+    10.1,
+    9.4,
+    4.1,
     2.5
   ]
 }

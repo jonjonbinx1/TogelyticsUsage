@@ -1,16 +1,16 @@
 {
   "screen_type": "ability",
-  "pokemon": "venusaur",
+  "pokemon": "tyranitar",
   "usage": 15,
   "moves": [],
   "move_usage": [],
   "abilities": [
-    "chlorophyll",
-    "overgrow"
+    "sand stream",
+    "unnerve"
   ],
   "ability_usage": [
-    96.8,
-    3.2
+    99.2,
+    0.8
   ],
   "spread_values": [],
   "spread_usage": [],

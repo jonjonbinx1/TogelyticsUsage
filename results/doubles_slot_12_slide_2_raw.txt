@@ -10,8 +10,8 @@
     "stalwart"
   ],
   "ability_usage": [
-    95.8,
-    3.3,
+    95.6,
+    3.4,
     1.0
   ],
   "spread_values": [],

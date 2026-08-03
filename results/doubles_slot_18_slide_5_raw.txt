@@ -1,13 +1,27 @@
 {
-  "error": null,
-  "item_usage": [
-    18
-  ],
+  "screen_type": "held_item",
+  "pokemon": "raichu",
+  "usage": 18,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
   "items": [
-    "Light Clay",
-    "Roseli Berry",
-    "Sitrus Berry",
-    "Leftovers",
-    "Black Glasses"
+    "raichunite y",
+    "raichunite x",
+    "focus sash",
+    "shuca berry",
+    "magnet"
+  ],
+  "item_usage": [
+    80.6,
+    11.4,
+    3.6,
+    0.8,
+    0.7
   ]
 }

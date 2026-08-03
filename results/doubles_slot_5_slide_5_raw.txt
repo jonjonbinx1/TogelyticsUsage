@@ -14,12 +14,12 @@
     "charizardite y",
     "charizardite x",
     "life orb",
-    "charcoal",
-    "choice scarf"
+    "choice scarf",
+    "charcoal"
   ],
   "item_usage": [
-    95.4,
-    3.5,
+    95.2,
+    3.7,
     0.1,
     0.1,
     0.1

@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "grimmsnarl",
+  "pokemon": "raichu",
   "usage": 18,
   "moves": [
-    "parting shot",
-    "reflect",
-    "light screen",
-    "spirit break",
-    "fake out"
+    "zap cannon",
+    "focus blast",
+    "protect",
+    "fake out",
+    "grass knot"
   ],
   "move_usage": [
-    88.9,
-    86.0,
-    86.0,
-    64.9,
-    27.0
+    80.1,
+    79.4,
+    75.5,
+    73.6,
+    16.9
   ],
   "abilities": [],
   "ability_usage": [],

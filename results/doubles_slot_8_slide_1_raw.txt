@@ -5,16 +5,16 @@
   "moves": [
     "trick room",
     "psychic",
-    "thunderbolt",
     "helping hand",
+    "thunderbolt",
     "protect"
   ],
   "move_usage": [
-    95.1,
-    54.4,
-    54.0,
-    52.9,
-    36.3
+    95.0,
+    54.5,
+    53.1,
+    52.8,
+    36.4
   ],
   "abilities": [],
   "ability_usage": [],

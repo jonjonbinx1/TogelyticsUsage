@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "raichu",
+  "pokemon": "grimmsnarl",
   "usage": 19,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "raichunite y",
-    "raichunite x",
-    "focus sash",
-    "shuca berry",
-    "magnet"
+    "light clay",
+    "roseli berry",
+    "sitrus berry",
+    "leftovers",
+    "black glasses"
   ],
   "item_usage": [
-    80.9,
-    11.3,
-    3.6,
-    0.8,
-    0.7
+    81.5,
+    5.2,
+    4.2,
+    1.8,
+    1.7
   ]
 }

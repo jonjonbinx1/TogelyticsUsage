@@ -10,11 +10,11 @@
     "high horsepower"
   ],
   "move_usage": [
-    88.9,
     88.4,
-    77.3,
-    74.9,
-    24.6
+    87.6,
+    77.4,
+    75.2,
+    24.0
   ],
   "abilities": [],
   "ability_usage": [],

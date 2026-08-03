@@ -1,0 +1,42 @@
+{
+  "source_results": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\results\\20260801doubles_extracted.json",
+  "date": "2026-08-01",
+  "format": "doubles",
+  "threshold": 80.0,
+  "validated_at": "2026-08-01T19:09:33",
+  "total_images": 100,
+  "screen_type_counts": {
+    "moves": 20,
+    "ability": 20,
+    "stat_points": 20,
+    "stat_alignment": 20,
+    "held_item": 20
+  },
+  "flagged_count": 2,
+  "flags": [
+    {
+      "image": "doubles_slot_3_slide_3.png",
+      "screen_type": "stat_points",
+      "pokemon": "meowscarada",
+      "usage": 3,
+      "field": "spread_values[4]",
+      "extracted": "[0, 32, 0, 0, 0, 32]",
+      "issue": "spread_sum_mismatch",
+      "best_match": "",
+      "score": 0.0,
+      "note": "Stat values [0, 32, 0, 0, 0, 32] sum to 64, expected 66"
+    },
+    {
+      "image": "doubles_slot_4_slide_4.png",
+      "screen_type": "stat_alignment",
+      "pokemon": "hippowdon",
+      "usage": 4,
+      "field": "natures['impatient']",
+      "extracted": "impatient",
+      "issue": "unknown_nature",
+      "best_match": "gentle",
+      "score": 60.0,
+      "note": "'impatient' not in standard 25 natures; suggested: 'gentle'"
+    }
+  ]
+}

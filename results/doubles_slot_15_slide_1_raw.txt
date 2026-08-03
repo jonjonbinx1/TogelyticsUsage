@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "venusaur",
+  "pokemon": "tyranitar",
   "usage": 15,
   "moves": [
-    "sludge bomb",
+    "rock slide",
+    "knock off",
     "protect",
-    "earth power",
-    "sleep powder",
-    "giga drain"
+    "low kick",
+    "ice punch"
   ],
   "move_usage": [
-    94.1,
-    84.6,
-    79.8,
-    49.0,
-    40.9
+    94.7,
+    90.7,
+    76.0,
+    32.6,
+    29.5
   ],
   "abilities": [],
   "ability_usage": [],
