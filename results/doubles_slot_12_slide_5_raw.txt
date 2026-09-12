@@ -1,27 +1,16 @@
 {
-  "screen_type": "held_item",
-  "pokemon": "archaludon",
-  "usage": 12,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [
-    "leftovers",
-    "sitrus berry",
-    "chople berry",
-    "white herb",
-    "choice scarf"
-  ],
+  "error": 0,
   "item_usage": [
-    84.2,
-    4.5,
-    2.1,
-    1.6,
-    1.5
+    {
+      "slot": 12,
+      "usage": 1
+    }
+  ],
+  "items": [
+    "Garchompite Z",
+    "Life Orb",
+    "Choice Scarf",
+    "Sitrus Berry",
+    "Rocky Helmet"
   ]
 }

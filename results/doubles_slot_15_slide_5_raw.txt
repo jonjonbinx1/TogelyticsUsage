@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "tyranitar",
+  "pokemon": "charizard",
   "usage": 15,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "tyranitarite",
+    "charizardite y",
+    "charizardite x",
     "choice scarf",
-    "focus sash",
-    "chople berry",
+    "charcoal",
     "life orb"
   ],
   "item_usage": [
-    64.1,
-    17.3,
-    3.9,
-    3.9,
-    2.4
+    95.9,
+    3.7,
+    0.1,
+    0.1,
+    0.0
   ]
 }

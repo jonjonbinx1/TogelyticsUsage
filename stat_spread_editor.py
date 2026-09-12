@@ -711,19 +711,6 @@ def build_editor_entries(
     if not date_rows and results:
         date_rows = build_rows_from_results(results, date_str)
 
-    primary_max_usage = infer_primary_max_usage(results)
-    if primary_max_usage is not None:
-        filtered_rows = []
-        for row in date_rows:
-            try:
-                usage_value = int(str(row.get("usage", "")).strip())
-            except ValueError:
-                continue
-            if usage_value <= primary_max_usage:
-                filtered_rows.append(row)
-        if filtered_rows:
-            date_rows = filtered_rows
-
     grouped_rows: dict[str, list[dict]] = {}
     for row in date_rows:
         usage = str(row.get("usage", "")).strip()

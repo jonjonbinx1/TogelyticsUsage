@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "archaludon",
+  "pokemon": "garchomp",
   "usage": 12,
   "moves": [],
   "move_usage": [],
@@ -8,6 +8,20 @@
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
-  "natures": ["modest", "calm", "bold", "timid", "quiet"],
-  "nature_usage": [59.6, 23.6, 7.8, 4.5, 2.0]
+  "natures": [
+    "jolly",
+    "adamant",
+    "modest",
+    "timid",
+    "impish"
+  ],
+  "nature_usage": [
+    37.1,
+    25.9,
+    22.1,
+    12.2,
+    0.6
+  ],
+  "items": [],
+  "item_usage": []
 }

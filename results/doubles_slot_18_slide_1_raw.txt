@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "raichu",
+  "pokemon": "tyranitar",
   "usage": 18,
   "moves": [
-    "zap cannon",
-    "focus blast",
+    "rock slide",
+    "knock off",
     "protect",
-    "fake out",
-    "grass knot"
+    "low kick",
+    "ice punch"
   ],
   "move_usage": [
-    80.1,
-    79.4,
-    75.5,
-    73.6,
-    16.9
+    98.7,
+    95.8,
+    81.1,
+    60.8,
+    23.2
   ],
   "abilities": [],
   "ability_usage": [],

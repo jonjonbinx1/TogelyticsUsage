@@ -1,17 +1,11 @@
 {
   "screen_type": "ability",
-  "pokemon": "sinistcha",
+  "pokemon": "incineroar",
   "usage": 4,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "hospitality",
-    "heatproof"
-  ],
-  "ability_usage": [
-    99.0,
-    1.0
-  ],
+  "abilities": ["intimidate", "blaze"],
+  "ability_usage": [99.8, 0.2],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

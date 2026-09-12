@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "sinistcha",
+  "pokemon": "incineroar",
   "usage": 4,
   "moves": [],
   "move_usage": [],
@@ -12,16 +12,16 @@
   "nature_usage": [],
   "items": [
     "sitrus berry",
-    "kasib berry",
-    "colbur berry",
-    "leftovers",
-    "occa berry"
+    "rocky helmet",
+    "chople berry",
+    "life orb",
+    "passho berry"
   ],
   "item_usage": [
-    23.2,
-    21.9,
-    19.9,
-    11.7,
-    6.3
+    69.0,
+    6.3,
+    6.1,
+    4.9,
+    4.5
   ]
 }

@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "incineroar",
+  "pokemon": "salamence",
   "usage": 3,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "sitrus berry",
-    "passho berry",
-    "chople berry",
-    "leftovers",
-    "life orb"
+    "salamencite",
+    "life orb",
+    "choice scarf",
+    "focus sash",
+    "sitrus berry"
   ],
   "item_usage": [
-    66.2,
-    8.1,
-    6.1,
-    4.9,
-    4.7
+    98.8,
+    0.3,
+    0.2,
+    0.1,
+    0.1
   ]
 }

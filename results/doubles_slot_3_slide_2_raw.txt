@@ -1,17 +1,11 @@
 {
   "screen_type": "ability",
-  "pokemon": "incineroar",
+  "pokemon": "salamence",
   "usage": 3,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "intimidate",
-    "blaze"
-  ],
-  "ability_usage": [
-    99.5,
-    0.5
-  ],
+  "abilities": ["intimidate", "moxie"],
+  "ability_usage": [98.8, 1.2],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

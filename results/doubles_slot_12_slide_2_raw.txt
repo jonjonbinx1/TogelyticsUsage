@@ -1,23 +1,13 @@
 {
-  "screen_type": "ability",
-  "pokemon": "archaludon",
-  "usage": 12,
-  "moves": [],
-  "move_usage": [],
   "abilities": [
-    "stamina",
-    "sturdy",
-    "stalwart"
+    "Rough Skin",
+    "Sand Veil"
   ],
   "ability_usage": [
-    95.6,
-    3.4,
-    1.0
+    98.1,
+    1.9
   ],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
+  "slot": 12,
+  "slide": 2,
+  "error": ""
 }

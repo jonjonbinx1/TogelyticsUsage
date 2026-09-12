@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "kingambit",
+  "pokemon": "rillaboom",
   "usage": 2,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "black glasses",
-    "chople berry",
-    "focus sash",
+    "miracle seed",
     "life orb",
-    "occa berry"
+    "sitrus berry",
+    "occa berry",
+    "grassy seed"
   ],
   "item_usage": [
-    36.1,
-    24.9,
-    17.3,
+    49.5,
     13.4,
-    2.7
+    12.4,
+    7.8,
+    6.1
   ]
 }

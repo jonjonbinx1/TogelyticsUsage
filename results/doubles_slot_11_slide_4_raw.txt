@@ -1,27 +1,17 @@
 {
-  "screen_type": "stat_alignment",
-  "pokemon": "staraptor",
-  "usage": 11,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
+  "error": false,
   "natures": [
-    "jolly",
-    "adamant",
-    "careful",
-    "impish",
-    "naughty"
+    "Modest",
+    "Calm",
+    "Bold",
+    "Timid",
+    "Quiet"
   ],
   "nature_usage": [
-    81.3,
-    14.1,
-    1.4,
-    0.5,
-    0.5
-  ],
-  "items": [],
-  "item_usage": []
+    59.2,
+    26.8,
+    8.6,
+    2.9,
+    1.5
+  ]
 }

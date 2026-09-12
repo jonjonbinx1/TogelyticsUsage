@@ -1,37 +1,27 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "aerodactyl",
+  "pokemon": "floette",
   "usage": 14,
   "moves": [],
   "move_usage": [],
   "abilities": [],
   "ability_usage": [],
-  "spread_values": [
-    [1, 86, 0, 0, 0, 0],
-    [2, 0, 0, 0, 0, 0],
-    [3, 0, 0, 0, 0, 0],
-    [4, 0, 0, 0, 0, 0],
-    [5, 0, 0, 0, 0, 0]
-  ],
-  "spread_usage": [
-    86.9,
-    9.6,
-    0.8,
-    0.6,
-    0.5
-  ],
+  "spread_values": [],
+  "spread_usage": [],
   "natures": [
-    "jolly",
-    "adamant",
-    "naive",
-    "hasty",
-    "naughty"
+    "modest",
+    "timid",
+    "bold",
+    "quiet",
+    "jolly"
   ],
   "nature_usage": [
-    86.9,
-    9.6,
-    0.8,
-    0.6,
-    0.5
-  ]
+    59.0,
+    38.7,
+    1.9,
+    0.3,
+    0.1
+  ],
+  "items": [],
+  "item_usage": []
 }

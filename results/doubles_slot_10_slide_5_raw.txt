@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "sylveon",
+  "pokemon": "farigiraf",
   "usage": 10,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "fairy feather",
-    "life orb",
-    "leftovers",
     "sitrus berry",
-    "focus sash"
+    "colbur berry",
+    "grassy seed",
+    "mental herb",
+    "psychic seed"
   ],
   "item_usage": [
-    85.7,
-    5.2,
-    2.0,
-    1.9,
-    1.7
+    55.6,
+    23.3,
+    9.9,
+    2.3,
+    2.0
   ]
 }

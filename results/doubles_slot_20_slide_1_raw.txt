@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "swampert",
+  "pokemon": "sylveon",
   "usage": 20,
   "moves": [
-    "wave crash",
-    "protect",
-    "ice punch",
-    "earthquake",
-    "high horsepower"
+    "hyper voice",
+    "quick attack",
+    "hyper beam",
+    "detect",
+    "protect"
   ],
   "move_usage": [
-    88.4,
-    87.6,
-    77.4,
-    75.2,
-    24.0
+    100.0,
+    79.0,
+    75.5,
+    71.0,
+    27.1
   ],
   "abilities": [],
   "ability_usage": [],

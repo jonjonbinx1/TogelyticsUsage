@@ -1,19 +1,11 @@
 {
   "screen_type": "ability",
-  "pokemon": "sneasler",
+  "pokemon": "pelipper",
   "usage": 9,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "unburden",
-    "poison touch",
-    "pressure"
-  ],
-  "ability_usage": [
-    60.5,
-    39.0,
-    0.6
-  ],
+  "abilities": ["drizzle", "rain dish", "keen eye"],
+  "ability_usage": [100.0, 0.0, 0.0],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

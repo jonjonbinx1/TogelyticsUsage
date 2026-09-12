@@ -1,27 +1,18 @@
+```json
 {
-  "screen_type": "moves",
-  "pokemon": "milotic",
-  "usage": 17,
-  "moves": [
-    "protect",
-    "scald",
-    "icy wind",
-    "ice beam",
-    "muddy water"
-  ],
-  "move_usage": [
-    70.7,
-    66.5,
-    38.4,
-    38.4,
-    33.6
-  ],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
+    "moves": [
+        "Protect",
+        "Scald",
+        "Ice Beam",
+        "Icy Wind",
+        "Recover"
+    ],
+    "move_usage": [
+        79.9,
+        76.4,
+        62.2,
+        48.3,
+        29.4
+    ]
 }
+```

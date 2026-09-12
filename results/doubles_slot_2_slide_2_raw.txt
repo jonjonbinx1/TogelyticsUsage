@@ -1,15 +1,12 @@
+```json
 {
-  "screen_type": "ability",
-  "pokemon": "kingambit",
-  "usage": 2,
-  "moves": [],
-  "move_usage": [],
-  "abilities": ["defiant", "supreme overlord", "pressure"],
-  "ability_usage": [91.9, 7.9, 0.2],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
+    "abilities": [
+        "Grassy Surge",
+        "Overgrow"
+    ],
+    "ability_usage": [
+        0.999,
+        0.001
+    ]
 }
+```

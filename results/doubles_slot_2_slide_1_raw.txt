@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "kingambit",
+  "pokemon": "rillaboom",
   "usage": 2,
   "moves": [
-    "sucker punch",
-    "kowtow cleave",
-    "iron head",
-    "protect",
-    "low kick"
+    "grassy glide",
+    "fake out",
+    "wood hammer",
+    "u-turn",
+    "high horsepower"
   ],
   "move_usage": [
-    98.7,
-    97.0,
-    77.3,
-    67.6,
-    32.9
+    97.8,
+    96.2,
+    80.7,
+    56.3,
+    39.3
   ],
   "abilities": [],
   "ability_usage": [],

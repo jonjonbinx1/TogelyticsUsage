@@ -1,27 +1,13 @@
 {
-  "screen_type": "held_item",
-  "pokemon": "milotic",
-  "usage": 17,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [
-    "leftovers",
-    "sitrus berry",
-    "mystic water",
-    "wide lens",
-    "quick claw"
-  ],
+  "error": 0,
   "item_usage": [
-    63.3,
-    27.4,
-    2.2,
-    1.1,
-    0.9
+    17
+  ],
+  "items": [
+    "Leftovers",
+    "Sitrus Berry",
+    "Grassy Seed",
+    "Rindo Berry",
+    "Wide Lens"
   ]
 }

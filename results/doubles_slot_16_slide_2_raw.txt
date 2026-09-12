@@ -1,16 +1,16 @@
 {
   "screen_type": "ability",
-  "pokemon": "venusaur",
+  "pokemon": "armarouge",
   "usage": 16,
   "moves": [],
   "move_usage": [],
   "abilities": [
-    "chlorophyll",
-    "overgrow"
+    "flash fire",
+    "weak armor"
   ],
   "ability_usage": [
-    96.7,
-    3.3
+    87.1,
+    12.9
   ],
   "spread_values": [],
   "spread_usage": [],

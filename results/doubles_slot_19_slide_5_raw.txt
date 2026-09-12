@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "grimmsnarl",
+  "pokemon": "gholdengo",
   "usage": 19,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "light clay",
-    "roseli berry",
-    "sitrus berry",
+    "life orb",
+    "choice scarf",
     "leftovers",
-    "black glasses"
+    "grassy seed",
+    "focus sash"
   ],
   "item_usage": [
-    81.5,
-    5.2,
-    4.2,
-    1.8,
-    1.7
+    65.9,
+    8.3,
+    5.3,
+    5.1,
+    4.0
   ]
 }

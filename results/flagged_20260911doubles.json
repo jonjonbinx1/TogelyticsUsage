@@ -1,0 +1,42 @@
+{
+  "source_results": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\results\\20260911doubles_extracted.json",
+  "date": "2026-09-11",
+  "format": "doubles",
+  "threshold": 80.0,
+  "validated_at": "2026-09-11T23:12:11",
+  "total_images": 100,
+  "screen_type_counts": {
+    "moves": 20,
+    "ability": 20,
+    "stat_points": 20,
+    "stat_alignment": 20,
+    "held_item": 20
+  },
+  "flagged_count": 2,
+  "flags": [
+    {
+      "image": "doubles_slot_7_slide_3.png",
+      "screen_type": "stat_points",
+      "pokemon": "indeedee",
+      "usage": 7,
+      "field": "spread_values[4]",
+      "extracted": "[32, 0, 32, 0, 1, 0]",
+      "issue": "spread_sum_mismatch",
+      "best_match": "",
+      "score": 0.0,
+      "note": "Stat values [32, 0, 32, 0, 1, 0] sum to 65, expected 66"
+    },
+    {
+      "image": "doubles_slot_19_slide_3.png",
+      "screen_type": "stat_points",
+      "pokemon": "gholdengo",
+      "usage": 19,
+      "field": "spread_values[3]",
+      "extracted": "[32, 0, 0, 0, 0, 32]",
+      "issue": "spread_sum_mismatch",
+      "best_match": "",
+      "score": 0.0,
+      "note": "Stat values [32, 0, 0, 0, 0, 32] sum to 64, expected 66"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "venusaur",
+  "pokemon": "armarouge",
   "usage": 16,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "venusaurite",
-    "focus sash",
     "life orb",
-    "wide lens",
-    "leftovers"
+    "focus sash",
+    "psychic seed",
+    "twisted spoon",
+    "colbur berry"
   ],
   "item_usage": [
-    32.7,
-    24.5,
-    22.5,
-    6.7,
-    3.7
+    59.2,
+    15.2,
+    5.7,
+    5.7,
+    4.8
   ]
 }

@@ -1,27 +1,16 @@
 {
-  "screen_type": "moves",
-  "pokemon": "aerodactyl",
-  "usage": 14,
   "moves": [
-    "rock slide",
-    "tailwind",
-    "dual wingbeat",
-    "ice fang",
-    "wide guard"
+    "Protect",
+    "Dazzling Gleam",
+    "Moonblast",
+    "Calm Mind",
+    "Light of Ruin"
   ],
   "move_usage": [
-    98.4,
-    90.3,
-    71.1,
-    43.2,
-    42.4
-  ],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
+    98.8,
+    97.3,
+    72.6,
+    63.0,
+    38.3
+  ]
 }

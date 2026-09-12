@@ -1,15 +1,11 @@
+```json
 {
-  "screen_type": "ability",
-  "pokemon": "sylveon",
-  "usage": 10,
-  "moves": [],
-  "move_usage": [],
-  "abilities": ["pixilate", "cute charm"],
-  "ability_usage": [99.8, 0.2],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
+    "abilities": [
+        "Armor Tail",
+        "Sap Sipper",
+        "Cud Chew"
+    ],
+    "error": null,
+    "ability_usage": "10"
 }
+```

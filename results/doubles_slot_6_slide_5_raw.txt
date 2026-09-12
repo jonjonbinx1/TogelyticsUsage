@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "whimsicott",
+  "pokemon": "basculegion",
   "usage": 6,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "focus sash",
+    "choice scarf",
     "life orb",
-    "occa berry",
-    "fairy feather",
-    "mental herb"
+    "mystic water",
+    "focus sash",
+    "sitrus berry"
   ],
   "item_usage": [
-    76.4,
-    5.2,
-    4.9,
-    3.5,
-    2.4
+    39.7,
+    36.9,
+    10.9,
+    9.0,
+    1.8
   ]
 }

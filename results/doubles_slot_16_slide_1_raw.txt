@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "venusaur",
+  "pokemon": "armarouge",
   "usage": 16,
   "moves": [
-    "sludge bomb",
+    "expanding force",
+    "armor cannon",
     "protect",
-    "earth power",
-    "sleep powder",
-    "giga drain"
+    "trick room",
+    "wide guard"
   ],
   "move_usage": [
-    93.8,
-    83.8,
-    78.9,
-    49.2,
-    41.5
+    96.3,
+    69.5,
+    62.4,
+    46.6,
+    35.3
   ],
   "abilities": [],
   "ability_usage": [],

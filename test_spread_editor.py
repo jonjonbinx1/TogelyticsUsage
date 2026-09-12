@@ -9,6 +9,7 @@ from stat_spread_editor import (
     StatSpreadEditorApp,
     analyze_spread_rows,
     build_spread_csv_values,
+    build_editor_entries,
     build_value_csv_values,
     collect_stat_image_candidates,
     discover_available_dates,
@@ -154,6 +155,30 @@ results = {
     ]
 }
 check("primary max usage ignores one-off outlier ranks", infer_primary_max_usage(results), 3)
+
+
+section("build_editor_entries loads all CSV rows")
+with tempfile.TemporaryDirectory() as temp_dir:
+    csv_path = Path(temp_dir) / "champions_singles.csv"
+    csv_path.write_text(
+        "date,pokemon,usage,moves,move usage,ability,ability usage,sp,sp usage,nature,nature usage,item,item usage\n"
+        + "\n".join(
+            f"2026-05-18,pokemon-{index},{index},,,,,,,,,,"
+            for index in range(1, 13)
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    entries, conflicts, _, _ = build_editor_entries(
+        "2026-05-18",
+        "singles",
+        csv_path,
+        {},
+        {},
+    )
+    check("all 12 CSV rows loaded", len(entries), 12)
+    check("no conflicts for simple CSV", conflicts, [])
 
 
 section("save_spreads_to_csv")

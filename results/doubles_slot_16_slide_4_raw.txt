@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "venusaur",
+  "pokemon": "armarouge",
   "usage": 16,
   "moves": [],
   "move_usage": [],
@@ -8,20 +8,8 @@
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
-  "natures": [
-    "modest",
-    "timid",
-    "bold",
-    "calm",
-    "quiet"
-  ],
-  "nature_usage": [
-    81.7,
-    8.3,
-    4.0,
-    2.8,
-    1.4
-  ],
+  "natures": ["modest", "quiet", "timid", "bold", "relaxed"],
+  "nature_usage": [57.4, 37.1, 3.5, 0.9, 0.5],
   "items": [],
   "item_usage": []
 }

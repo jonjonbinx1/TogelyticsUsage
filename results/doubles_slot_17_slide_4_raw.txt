@@ -1,27 +1,20 @@
 {
-  "screen_type": "stat_alignment",
-  "pokemon": "milotic",
-  "usage": 17,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
+  "error": false,
   "natures": [
-    "calm",
-    "modest",
-    "bold",
-    "quiet",
-    "timid"
+    "Modest",
+    "Calm",
+    "Bold",
+    "Timid",
+    "Quiet"
   ],
   "nature_usage": [
-    40.5,
-    27.6,
-    22.9,
-    2.9,
-    2.3
+    38.3,
+    27.9,
+    27.8,
+    1.9,
+    1.8
   ],
-  "items": [],
-  "item_usage": []
+  "slot": 17,
+  "slide": 4,
+  "stat_alignment": true
 }

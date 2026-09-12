@@ -1,27 +1,17 @@
 {
-  "screen_type": "stat_alignment",
-  "pokemon": "tyranitar",
-  "usage": 15,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
+  "error": false,
   "natures": [
-    "jolly",
-    "adamant",
-    "brave",
-    "impish",
-    "careful"
+    "Modest",
+    "Timid",
+    "Adamant",
+    "Bold",
+    "Jolly"
   ],
   "nature_usage": [
-    44.6,
-    41.5,
-    6.7,
-    2.4,
-    2.1
-  ],
-  "items": [],
-  "item_usage": []
+    67.8,
+    25.2,
+    2.7,
+    2.1,
+    1.2
+  ]
 }

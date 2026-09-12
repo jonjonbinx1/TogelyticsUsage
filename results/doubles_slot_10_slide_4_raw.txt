@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "sylveon",
+  "pokemon": "farigiraf",
   "usage": 10,
   "moves": [],
   "move_usage": [],
@@ -9,18 +9,18 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
+    "bold",
+    "relaxed",
     "modest",
     "quiet",
-    "timid",
-    "bold",
-    "mild"
+    "calm"
   ],
   "nature_usage": [
-    77.8,
-    14.7,
-    3.4,
-    1.8,
-    0.5
+    36.3,
+    18.4,
+    15.4,
+    12.3,
+    10.0
   ],
   "items": [],
   "item_usage": []

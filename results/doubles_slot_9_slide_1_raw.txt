@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "sneasler",
+  "pokemon": "pelipper",
   "usage": 9,
   "moves": [
-    "close combat",
-    "fake out",
-    "dire claw",
-    "protect",
-    "poison jab"
+    "hurricane",
+    "weather ball",
+    "tailwind",
+    "wide guard",
+    "protect"
   ],
   "move_usage": [
-    98.2,
-    94.2,
-    77.5,
-    49.7,
-    18.7
+    98.3,
+    91.5,
+    80.6,
+    67.3,
+    31.9
   ],
   "abilities": [],
   "ability_usage": [],

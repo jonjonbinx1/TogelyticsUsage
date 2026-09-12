@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "aerodactyl",
+  "pokemon": "floette",
   "usage": 14,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "aerodactylite",
-    "focus sash",
-    "king's rock",
-    "wide lens",
-    "sitrus berry"
+    "floettite",
+    "choice scarf",
+    "grassy seed",
+    "life orb",
+    "babiri berry"
   ],
   "item_usage": [
-    56.2,
-    33.2,
-    1.7,
-    1.3,
-    1.3
+    99.0,
+    0.5,
+    0.1,
+    0.0,
+    0.0
   ]
 }

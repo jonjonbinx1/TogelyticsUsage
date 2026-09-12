@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "raichu",
+  "pokemon": "tyranitar",
   "usage": 18,
   "moves": [],
   "move_usage": [],
@@ -9,17 +9,17 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
-    "timid",
-    "modest",
-    "jolly",
     "adamant",
-    "hasty"
+    "jolly",
+    "brave",
+    "impish",
+    "careful"
   ],
   "nature_usage": [
-    71.5,
-    14.8,
-    9.1,
-    1.1,
+    58.9,
+    33.3,
+    4.5,
+    1.5,
     1.0
   ],
   "items": [],

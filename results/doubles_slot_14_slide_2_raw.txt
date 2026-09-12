@@ -1,23 +1,14 @@
+```json
 {
-  "screen_type": "ability",
-  "pokemon": "aerodactyl",
-  "usage": 14,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [
-    "unnerve",
-    "pressure",
-    "rock head"
-  ],
-  "ability_usage": [
-    94.3,
-    3.4,
-    2.3
-  ],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
+    "abilities": [
+        "Flower Veil",
+        "Symbiosis"
+    ],
+    "ability_usage": [
+        14,
+        1,
+        99.6,
+        0.4
+    ]
 }
+```

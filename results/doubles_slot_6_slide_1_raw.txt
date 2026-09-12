@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "whimsicott",
+  "pokemon": "basculegion",
   "usage": 6,
   "moves": [
-    "tailwind",
-    "moonblast",
-    "encore",
+    "last respects",
+    "aqua jet",
+    "wave crash",
     "protect",
-    "charm"
+    "flip turn"
   ],
   "move_usage": [
-    96.5,
-    87.4,
-    65.8,
-    45.7,
-    24.5
+    99.9,
+    95.6,
+    91.8,
+    58.8,
+    40.5
   ],
   "abilities": [],
   "ability_usage": [],

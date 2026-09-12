@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "swampert",
+  "pokemon": "sylveon",
   "usage": 20,
   "moves": [],
   "move_usage": [],
@@ -8,20 +8,8 @@
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
-  "natures": [
-    "adamant",
-    "jolly",
-    "brave",
-    "impish",
-    "careful"
-  ],
-  "nature_usage": [
-    85.4,
-    7.5,
-    1.9,
-    0.8,
-    0.7
-  ],
+  "natures": ["modest", "quiet", "bold", "timid", "relaxed"],
+  "nature_usage": [80.8, 15.4, 1.6, 1.3, 0.3],
   "items": [],
   "item_usage": []
 }

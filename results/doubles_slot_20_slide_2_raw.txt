@@ -1,21 +1,14 @@
+```json
 {
-  "screen_type": "ability",
-  "pokemon": "swampert",
-  "usage": 20,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [
-    "torrent",
-    "damp"
-  ],
-  "ability_usage": [
-    63.4,
-    36.6
-  ],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
+    "abilities": [
+        "Pixilate",
+        "Cute Charm"
+    ],
+    "ability_usage": [
+        100.0,
+        0.0
+    ],
+    "slot": 20,
+    "error": ""
 }
+```

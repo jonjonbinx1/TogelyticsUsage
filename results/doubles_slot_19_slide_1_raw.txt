@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "grimmsnarl",
+  "pokemon": "gholdengo",
   "usage": 19,
   "moves": [
-    "parting shot",
-    "light screen",
-    "reflect",
-    "spirit break",
-    "fake out"
+    "make it rain",
+    "shadow ball",
+    "protect",
+    "nasty plot",
+    "power gem"
   ],
   "move_usage": [
-    88.4,
-    85.7,
-    85.6,
-    65.0,
-    27.3
+    99.5,
+    99.4,
+    89.5,
+    74.7,
+    17.4
   ],
   "abilities": [],
   "ability_usage": [],

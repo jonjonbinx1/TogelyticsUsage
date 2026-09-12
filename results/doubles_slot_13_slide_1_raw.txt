@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "pelipper",
+  "pokemon": "gardevoir",
   "usage": 13,
   "moves": [
-    "hurricane",
-    "tailwind",
-    "weather ball",
-    "wide guard",
-    "protect"
+    "hyper voice",
+    "protect",
+    "expanding force",
+    "trick room",
+    "mystical fire"
   ],
   "move_usage": [
     97.5,
-    85.6,
-    82.2,
-    64.2,
-    29.8
+    96.6,
+    95.3,
+    43.7,
+    19.0
   ],
   "abilities": [],
   "ability_usage": [],

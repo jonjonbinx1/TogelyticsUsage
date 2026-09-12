@@ -1,27 +1,17 @@
 {
-  "screen_type": "stat_alignment",
-  "pokemon": "whimsicott",
-  "usage": 6,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
+  "error": false,
   "natures": [
-    "timid",
-    "modest",
-    "bold",
-    "calm",
-    "quiet"
+    "Adamant",
+    "Jolly",
+    "Brave",
+    "Naughty",
+    "Impish"
   ],
   "nature_usage": [
-    73.6,
-    17.2,
-    3.8,
-    3.2,
-    0.5
-  ],
-  "items": [],
-  "item_usage": []
+    60.0,
+    39.1,
+    0.5,
+    0.1,
+    0.1
+  ]
 }

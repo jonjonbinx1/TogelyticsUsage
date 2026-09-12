@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "farigiraf",
+  "pokemon": "golisopod",
   "usage": 8,
   "moves": [
-    "trick room",
-    "psychic",
-    "helping hand",
-    "thunderbolt",
-    "protect"
+    "leech life",
+    "iron head",
+    "protect",
+    "swords dance",
+    "sucker punch"
   ],
   "move_usage": [
-    95.0,
-    54.5,
-    53.1,
-    52.8,
-    36.4
+    91.8,
+    89.2,
+    64.0,
+    32.8,
+    27.5
   ],
   "abilities": [],
   "ability_usage": [],

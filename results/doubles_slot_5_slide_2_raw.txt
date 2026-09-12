@@ -1,15 +1,1 @@
-{
-  "screen_type": "ability",
-  "pokemon": "charizard",
-  "usage": 6,
-  "moves": [],
-  "move_usage": [],
-  "abilities": ["blaze", "solar power"],
-  "ability_usage": [78.3, 21.7],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
-}
+{"id":"gen-1789182658-oO2gcugTdFycFVqHMfH1","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}

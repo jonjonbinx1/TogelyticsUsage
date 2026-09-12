@@ -1,17 +1,11 @@
 {
   "screen_type": "ability",
-  "pokemon": "tyranitar",
+  "pokemon": "charizard",
   "usage": 15,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "sand stream",
-    "unnerve"
-  ],
-  "ability_usage": [
-    99.2,
-    0.8
-  ],
+  "abilities": ["blaze", "solar power"],
+  "ability_usage": [82.4, 17.6],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

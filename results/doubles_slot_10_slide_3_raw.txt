@@ -1,27 +1,68 @@
 {
-  "screen_type": "stat_points",
-  "pokemon": "sylveon",
-  "usage": 10,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [],
-  "ability_usage": [],
   "spread_values": [
-    [1, 32, 0, 2, 32, 0, 0],
-    [2, 18, 0, 10, 21, 0, 17],
-    [3, 32, 0, 0, 32, 0, 2],
-    [4, 32, 0, 0, 32, 2, 0],
-    [5, 9, 0, 22, 30, 0, 5]
+    {
+      "slot": 1,
+      "usage": 7.4,
+      "spread_value": [
+        27,
+        0,
+        20,
+        0,
+        19,
+        0
+      ]
+    },
+    {
+      "slot": 2,
+      "usage": 5.7,
+      "spread_value": [
+        29,
+        0,
+        21,
+        0,
+        16,
+        0
+      ]
+    },
+    {
+      "slot": 3,
+      "usage": 5.2,
+      "spread_value": [
+        32,
+        0,
+        20,
+        0,
+        14,
+        0
+      ]
+    },
+    {
+      "slot": 4,
+      "usage": 3.2,
+      "spread_value": [
+        32,
+        0,
+        22,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "slot": 5,
+      "usage": 2.9,
+      "spread_value": [
+        32,
+        0,
+        32,
+        0,
+        2,
+        0
+      ]
+    }
   ],
+  "error": "Missing required stat_points screen content for accurate extraction.",
   "spread_usage": [
-    13.8,
-    8.4,
-    7.4,
-    3.4,
-    3.2
-  ],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
+    10
+  ]
 }

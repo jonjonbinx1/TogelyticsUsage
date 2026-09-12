@@ -1,15 +1,1 @@
-{
-  "screen_type": "ability",
-  "pokemon": "staraptor",
-  "usage": 11,
-  "moves": [],
-  "move_usage": [],
-  "abilities": ["intimidate", "reckless"],
-  "ability_usage": [97.0, 3.0],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
-}
+{"id":"gen-1789182687-rJVPTTAHaexEABnomtCz","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}

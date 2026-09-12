@@ -1,27 +1,16 @@
 {
-  "screen_type": "moves",
-  "pokemon": "sinistcha",
-  "usage": 4,
   "moves": [
-    "matcha gotcha",
-    "rage powder",
-    "protect",
-    "trick room",
-    "life dew"
+    "Fake Out",
+    "Flare Blitz",
+    "Parting Shot",
+    "Throat Chop",
+    "Darkest Lariat"
   ],
   "move_usage": [
-    98.9,
-    95.1,
-    59.8,
-    56.0,
-    47.8
-  ],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
+    98.3,
+    94.5,
+    90.9,
+    43.1,
+    42.4
+  ]
 }

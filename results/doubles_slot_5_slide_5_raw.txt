@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "charizard",
+  "pokemon": "kingambit",
   "usage": 5,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "charizardite y",
-    "charizardite x",
+    "chople berry",
+    "black glasses",
     "life orb",
-    "choice scarf",
-    "charcoal"
+    "focus sash",
+    "occa berry"
   ],
   "item_usage": [
-    95.2,
-    3.7,
-    0.1,
-    0.1,
-    0.1
+    44.3,
+    19.3,
+    16.9,
+    13.4,
+    4.4
   ]
 }

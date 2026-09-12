@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "archaludon",
+  "pokemon": "garchomp",
   "usage": 12,
   "moves": [
-    "electro shot",
-    "flash cannon",
     "protect",
-    "dragon pulse",
-    "draco meteor"
+    "dragon claw",
+    "rock slide",
+    "earthquake",
+    "stomping tantrum"
   ],
   "move_usage": [
-    94.9,
-    92.4,
-    89.3,
-    72.1,
-    19.5
+    76.9,
+    56.9,
+    56.6,
+    47.8,
+    33.3
   ],
   "abilities": [],
   "ability_usage": [],

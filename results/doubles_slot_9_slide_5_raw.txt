@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "sneasler",
+  "pokemon": "pelipper",
   "usage": 9,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "white herb",
+    "sitrus berry",
     "focus sash",
+    "damp rock",
     "life orb",
-    "iron ball",
-    "lum berry"
+    "choice scarf"
   ],
   "item_usage": [
-    53.6,
-    35.2,
+    41.5,
+    39.4,
+    5.2,
     4.0,
-    2.4,
-    0.7
+    3.7
   ]
 }
