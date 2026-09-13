@@ -1,16 +1,27 @@
 {
+  "screen_type": "moves",
+  "pokemon": "kingambit",
+  "usage": 4,
   "moves": [
-    "Fake Out",
-    "Flare Blitz",
-    "Parting Shot",
-    "Throat Chop",
-    "Darkest Lariat"
+    "kowtow cleave",
+    "sucker punch",
+    "iron head",
+    "low kick",
+    "protect"
   ],
   "move_usage": [
-    98.3,
-    94.5,
-    90.9,
-    43.1,
-    42.4
-  ]
+    98.9,
+    97.9,
+    79.7,
+    54.2,
+    51.8
+  ],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
 }

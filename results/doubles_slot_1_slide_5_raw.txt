@@ -1,1 +1,27 @@
-{"id":"gen-1789182643-vawxJMm75GGMA9X0PvAP","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}
+{
+  "screen_type": "held_item",
+  "pokemon": "sneasler",
+  "usage": 1,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [
+    "psychic seed",
+    "grassy seed",
+    "white herb",
+    "focus sash",
+    "life orb"
+  ],
+  "item_usage": [
+    30.3,
+    27.0,
+    21.7,
+    17.9,
+    0.8
+  ]
+}

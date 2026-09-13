@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "tyranitar",
+  "pokemon": "gholdengo",
   "usage": 18,
   "moves": [],
   "move_usage": [],
@@ -9,18 +9,18 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
-    "adamant",
-    "jolly",
-    "brave",
-    "impish",
-    "careful"
+    "modest",
+    "timid",
+    "bold",
+    "quiet",
+    "calm"
   ],
   "nature_usage": [
-    58.9,
-    33.3,
-    4.5,
-    1.5,
-    1.0
+    77.0,
+    20.9,
+    0.9,
+    0.7,
+    0.2
   ],
   "items": [],
   "item_usage": []

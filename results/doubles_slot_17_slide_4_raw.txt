@@ -1,20 +1,37 @@
 {
-  "error": false,
+  "screen_type": "stat_alignment",
+  "pokemon": "floette",
+  "usage": 17,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [
+    [1, 60, 8, 0, 0, 0, 0],
+    [2, 36, 8, 0, 0, 0, 0],
+    [3, 1, 9, 0, 0, 0, 0],
+    [4, 0, 3, 0, 0, 0, 0],
+    [5, 0, 1, 0, 0, 0, 0]
+  ],
+  "spread_usage": [
+    60.8,
+    36.8,
+    1.9,
+    0.3,
+    0.1
+  ],
   "natures": [
-    "Modest",
-    "Calm",
-    "Bold",
-    "Timid",
-    "Quiet"
+    "modest",
+    "timid",
+    "bold",
+    "quiet",
+    "calm"
   ],
   "nature_usage": [
-    38.3,
-    27.9,
-    27.8,
+    60.8,
+    36.8,
     1.9,
-    1.8
-  ],
-  "slot": 17,
-  "slide": 4,
-  "stat_alignment": true
+    0.3,
+    0.1
+  ]
 }

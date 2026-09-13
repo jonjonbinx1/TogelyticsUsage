@@ -10,17 +10,17 @@
   "spread_usage": [],
   "natures": [
     "jolly",
-    "adamant",
     "modest",
+    "adamant",
     "timid",
     "impish"
   ],
   "nature_usage": [
-    37.1,
-    25.9,
-    22.1,
-    12.2,
-    0.6
+    35.2,
+    25.1,
+    24.4,
+    12.4,
+    0.8
   ],
   "items": [],
   "item_usage": []

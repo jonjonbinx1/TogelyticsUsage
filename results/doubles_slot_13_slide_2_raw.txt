@@ -4,8 +4,16 @@
   "usage": 13,
   "moves": [],
   "move_usage": [],
-  "abilities": ["trace", "telepathy", "synchronize"],
-  "ability_usage": [85.3, 9.5, 5.2],
+  "abilities": [
+    "trace",
+    "telepathy",
+    "synchronize"
+  ],
+  "ability_usage": [
+    85.5,
+    9.3,
+    5.2
+  ],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

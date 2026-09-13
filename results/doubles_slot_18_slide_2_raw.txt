@@ -1,1 +1,15 @@
-{"id":"gen-1789182721-WbpPF6oZEmPcboynUdjD","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}
+{
+  "screen_type": "ability",
+  "pokemon": "gholdengo",
+  "usage": 18,
+  "moves": [],
+  "move_usage": [],
+  "abilities": ["good as gold"],
+  "ability_usage": [100.0],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "kingambit",
+  "pokemon": "incineroar",
   "usage": 5,
   "moves": [
-    "kowtow cleave",
-    "sucker punch",
-    "iron head",
-    "low kick",
-    "protect"
+    "fake out",
+    "flare blitz",
+    "parting shot",
+    "darkest lariat",
+    "throat chop"
   ],
   "move_usage": [
-    99.1,
-    97.9,
-    79.4,
-    53.3,
-    52.3
+    98.1,
+    94.0,
+    90.4,
+    43.2,
+    41.9
   ],
   "abilities": [],
   "ability_usage": [],

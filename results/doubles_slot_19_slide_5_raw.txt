@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "gholdengo",
+  "pokemon": "tyranitar",
   "usage": 19,
   "moves": [],
   "move_usage": [],
@@ -10,18 +10,6 @@
   "spread_usage": [],
   "natures": [],
   "nature_usage": [],
-  "items": [
-    "life orb",
-    "choice scarf",
-    "leftovers",
-    "grassy seed",
-    "focus sash"
-  ],
-  "item_usage": [
-    65.9,
-    8.3,
-    5.3,
-    5.1,
-    4.0
-  ]
+  "items": ["tyranitarite", "choice scarf", "chople berry", "passho berry", "focus sash"],
+  "item_usage": [59.6, 13.8, 9.4, 5.3, 3.2]
 }

@@ -1,11 +1,15 @@
-```json
 {
-    "abilities": [
-        "Armor Tail",
-        "Sap Sipper",
-        "Cud Chew"
-    ],
-    "error": null,
-    "ability_usage": "10"
+  "screen_type": "ability",
+  "pokemon": "archaludon",
+  "usage": 10,
+  "moves": [],
+  "move_usage": [],
+  "abilities": ["stamina", "sturdy", "stalwart"],
+  "ability_usage": [96.1, 2.4, 1.5],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
 }
-```

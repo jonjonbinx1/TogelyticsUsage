@@ -1,1 +1,27 @@
-{"id":"gen-1789182674-DVyAgn4ooIHJDopV9CnR","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}
+{
+  "screen_type": "held_item",
+  "pokemon": "golisopod",
+  "usage": 8,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [
+    "golisopite",
+    "life orb",
+    "sitrus berry",
+    "silver powder",
+    "eject button"
+  ],
+  "item_usage": [
+    99.4,
+    0.2,
+    0.1,
+    0.1,
+    0.0
+  ]
+}

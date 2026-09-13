@@ -1,27 +1,18 @@
+```json
 {
-  "screen_type": "moves",
-  "pokemon": "sneasler",
-  "usage": 1,
-  "moves": [
-    "close combat",
-    "dire claw",
-    "protect",
-    "fake out",
-    "rock slide"
-  ],
-  "move_usage": [
-    99.6,
-    88.5,
-    60.9,
-    60.2,
-    24.6
-  ],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
+    "moves": [
+        "Close Combat",
+        "Dire Claw",
+        "Protect",
+        "Fake Out",
+        "Rock Slide"
+    ],
+    "move_usage": [
+        99.6,
+        89.5,
+        62.5,
+        59.9,
+        25.9
+    ]
 }
+```

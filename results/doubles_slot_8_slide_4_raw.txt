@@ -1,66 +1,39 @@
 {
-  "error": "missing natures",
-  "nature_usage": {
-    "Adamant": 53.6,
-    "Brave": 42.3,
-    "Careful": 1.6,
-    "Sassy": 1.3,
-    "Impish": 0.5
-  },
-  "natures": [
-    "Adamant",
-    "Brave",
-    "Careful",
-    "Sassy",
-    "Impish"
+  "screen_type": "stat_alignment",
+  "pokemon": "golisopod",
+  "usage": 8,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [
+    [1, 54, 9, 0, 0, 0, 0],
+    [2, 40, 7, 0, 0, 0, 0],
+    [3, 1, 7, 0, 0, 0, 0],
+    [4, 1, 1, 0, 0, 0, 0],
+    [5, 0, 7, 0, 0, 0, 0]
   ],
-  "slot": 8,
-  "slide": 4,
-  "stat_alignment": [
-    {
-      "nature": "Adamant",
-      "usage": 53.6,
-      "rank": 1,
-      "stats": [
-        "Attack",
-        "Sp. Atk"
-      ]
-    },
-    {
-      "nature": "Brave",
-      "usage": 42.3,
-      "rank": 2,
-      "stats": [
-        "Attack",
-        "Speed"
-      ]
-    },
-    {
-      "nature": "Careful",
-      "usage": 1.6,
-      "rank": 3,
-      "stats": [
-        "Sp. Def",
-        "Sp. Atk"
-      ]
-    },
-    {
-      "nature": "Sassy",
-      "usage": 1.3,
-      "rank": 4,
-      "stats": [
-        "Sp. Def",
-        "Speed"
-      ]
-    },
-    {
-      "nature": "Impish",
-      "usage": 0.5,
-      "rank": 5,
-      "stats": [
-        "Defense",
-        "Sp. Atk"
-      ]
-    }
-  ]
+  "spread_usage": [
+    54.9,
+    40.7,
+    1.7,
+    1.1,
+    0.7
+  ],
+  "natures": [
+    "adamant",
+    "brave",
+    "careful",
+    "sassy",
+    "impish"
+  ],
+  "nature_usage": [
+    54.9,
+    40.7,
+    1.7,
+    1.1,
+    0.7
+  ],
+  "items": [],
+  "item_usage": []
 }

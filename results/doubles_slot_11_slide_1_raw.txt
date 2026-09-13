@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "archaludon",
+  "pokemon": "farigiraf",
   "usage": 11,
   "moves": [
-    "electro shot",
-    "protect",
-    "flash cannon",
-    "dragon pulse",
-    "aura sphere"
+    "trick room",
+    "helping hand",
+    "psychic",
+    "thunderbolt",
+    "protect"
   ],
   "move_usage": [
-    97.3,
-    95.0,
-    90.9,
-    79.1,
-    15.9
+    96.3,
+    54.1,
+    53.2,
+    48.6,
+    40.7
   ],
   "abilities": [],
   "ability_usage": [],

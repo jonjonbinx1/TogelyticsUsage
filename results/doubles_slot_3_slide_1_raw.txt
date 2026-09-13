@@ -10,11 +10,11 @@
     "double-edge"
   ],
   "move_usage": [
-    95.6,
-    90.0,
-    66.4,
+    95.5,
+    90.5,
+    64.8,
     52.9,
-    31.7
+    29.9
   ],
   "abilities": [],
   "ability_usage": [],

@@ -1,14 +1,15 @@
-```json
 {
-    "abilities": [
-        "Flower Veil",
-        "Symbiosis"
-    ],
-    "ability_usage": [
-        14,
-        1,
-        99.6,
-        0.4
-    ]
+  "screen_type": "ability",
+  "pokemon": "charizard",
+  "usage": 14,
+  "moves": [],
+  "move_usage": [],
+  "abilities": ["blaze", "solar power"],
+  "ability_usage": [80.5, 19.5],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
 }
-```

@@ -14,14 +14,14 @@
     "fairy feather",
     "life orb",
     "leftovers",
-    "grassy seed",
-    "sitrus berry"
+    "sitrus berry",
+    "grassy seed"
   ],
   "item_usage": [
-    89.5,
-    5.3,
-    1.8,
-    1.0,
-    0.5
+    88.9,
+    5.4,
+    1.7,
+    0.9,
+    0.7
   ]
 }

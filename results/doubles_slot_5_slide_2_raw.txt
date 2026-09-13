@@ -1,1 +1,10 @@
-{"id":"gen-1789182658-oO2gcugTdFycFVqHMfH1","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}
+{
+  "abilities": [
+    "Intimidate",
+    "Blaze"
+  ],
+  "ability_usage": [
+    5,
+    2
+  ]
+}

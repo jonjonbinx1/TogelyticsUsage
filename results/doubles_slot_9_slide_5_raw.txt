@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "sitrus berry",
     "focus sash",
+    "sitrus berry",
     "damp rock",
     "life orb",
     "choice scarf"
   ],
   "item_usage": [
-    41.5,
-    39.4,
-    5.2,
-    4.0,
-    3.7
+    42.3,
+    38.3,
+    5.8,
+    3.8,
+    3.3
   ]
 }

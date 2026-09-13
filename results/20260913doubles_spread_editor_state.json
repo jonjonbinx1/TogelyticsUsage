@@ -1,0 +1,13 @@
+{
+  "selected_images": {
+    "16|moves": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\data\\doubles\\20260913doubles\\doubles_slot_16_slide_1.png",
+    "19|moves": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\data\\doubles\\20260913doubles\\doubles_slot_19_slide_1.png",
+    "1|ability": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\data\\doubles\\20260913doubles\\doubles_slot_1_slide_2.png",
+    "19|ability": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\data\\doubles\\20260913doubles\\doubles_slot_19_slide_2.png",
+    "3|held_item": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\data\\doubles\\20260913doubles\\doubles_slot_3_slide_5.png",
+    "13|held_item": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\data\\doubles\\20260913doubles\\doubles_slot_13_slide_5.png",
+    "2|stat_alignment": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\data\\doubles\\20260913doubles\\doubles_slot_2_slide_4.png",
+    "3|stat_alignment": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\data\\doubles\\20260913doubles\\doubles_slot_3_slide_4.png",
+    "7|stat_alignment": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\data\\doubles\\20260913doubles\\doubles_slot_7_slide_4.png"
+  }
+}

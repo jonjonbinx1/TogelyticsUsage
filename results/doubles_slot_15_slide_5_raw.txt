@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "charizard",
+  "pokemon": "milotic",
   "usage": 15,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "charizardite y",
-    "charizardite x",
-    "choice scarf",
-    "charcoal",
-    "life orb"
+    "leftovers",
+    "sitrus berry",
+    "grassy seed",
+    "rindo berry",
+    "rocky helmet"
   ],
   "item_usage": [
-    95.9,
-    3.7,
-    0.1,
-    0.1,
-    0.0
+    63.9,
+    24.6,
+    3.3,
+    1.3,
+    0.9
   ]
 }

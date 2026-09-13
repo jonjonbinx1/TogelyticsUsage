@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "farigiraf",
+  "pokemon": "archaludon",
   "usage": 10,
   "moves": [],
   "move_usage": [],
@@ -8,20 +8,8 @@
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
-  "natures": [
-    "bold",
-    "relaxed",
-    "modest",
-    "quiet",
-    "calm"
-  ],
-  "nature_usage": [
-    36.3,
-    18.4,
-    15.4,
-    12.3,
-    10.0
-  ],
+  "natures": ["modest", "calm", "bold", "timid", "quiet"],
+  "nature_usage": [58.6, 27.8, 7.8, 2.7, 1.7],
   "items": [],
   "item_usage": []
 }

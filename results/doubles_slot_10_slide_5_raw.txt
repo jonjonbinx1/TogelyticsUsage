@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "farigiraf",
+  "pokemon": "archaludon",
   "usage": 10,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
+    "leftovers",
+    "chople berry",
     "sitrus berry",
-    "colbur berry",
-    "grassy seed",
-    "mental herb",
+    "choice scarf",
     "psychic seed"
   ],
   "item_usage": [
-    55.6,
-    23.3,
-    9.9,
-    2.3,
-    2.0
+    88.9,
+    2.1,
+    2.0,
+    1.8,
+    1.6
   ]
 }

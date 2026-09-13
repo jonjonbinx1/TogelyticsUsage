@@ -13,15 +13,15 @@
   "items": [
     "life orb",
     "focus sash",
-    "psychic seed",
     "twisted spoon",
+    "psychic seed",
     "colbur berry"
   ],
   "item_usage": [
-    59.2,
-    15.2,
-    5.7,
-    5.7,
-    4.8
+    56.8,
+    17.1,
+    6.1,
+    5.5,
+    4.3
   ]
 }

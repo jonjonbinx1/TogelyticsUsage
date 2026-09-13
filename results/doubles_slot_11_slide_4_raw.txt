@@ -1,17 +1,15 @@
 {
-  "error": false,
-  "natures": [
-    "Modest",
-    "Calm",
-    "Bold",
-    "Timid",
-    "Quiet"
-  ],
-  "nature_usage": [
-    59.2,
-    26.8,
-    8.6,
-    2.9,
-    1.5
-  ]
+  "screen_type": "stat_alignment",
+  "pokemon": "farigiraf",
+  "usage": 11,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": ["bold", "relaxed", "modest", "quiet", "calm"],
+  "nature_usage": [37.4, 18.2, 15.6, 11.7, 9.4],
+  "items": [],
+  "item_usage": []
 }

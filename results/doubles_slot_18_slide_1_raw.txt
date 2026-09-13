@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "tyranitar",
+  "pokemon": "gholdengo",
   "usage": 18,
   "moves": [
-    "rock slide",
-    "knock off",
+    "shadow ball",
+    "make it rain",
     "protect",
-    "low kick",
-    "ice punch"
+    "nasty plot",
+    "power gem"
   ],
   "move_usage": [
-    98.7,
-    95.8,
-    81.1,
-    60.8,
-    23.2
+    99.4,
+    99.3,
+    89.5,
+    76.1,
+    15.8
   ],
   "abilities": [],
   "ability_usage": [],

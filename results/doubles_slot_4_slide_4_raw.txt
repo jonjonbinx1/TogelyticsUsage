@@ -1,11 +1,27 @@
 {
-  "error": "Not answerable",
-  "nature_usage": "Not answerable",
+  "screen_type": "stat_alignment",
+  "pokemon": "kingambit",
+  "usage": 4,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
   "natures": [
-    "Careful",
-    "Impish",
-    "Adamant",
-    "Brave",
-    "Sassy"
-  ]
+    "adamant",
+    "brave",
+    "jolly",
+    "careful",
+    "impish"
+  ],
+  "nature_usage": [
+    82.9,
+    15.7,
+    0.5,
+    0.3,
+    0.3
+  ],
+  "items": [],
+  "item_usage": []
 }

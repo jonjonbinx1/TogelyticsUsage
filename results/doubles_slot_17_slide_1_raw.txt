@@ -1,18 +1,27 @@
-```json
 {
-    "moves": [
-        "Protect",
-        "Scald",
-        "Ice Beam",
-        "Icy Wind",
-        "Recover"
-    ],
-    "move_usage": [
-        79.9,
-        76.4,
-        62.2,
-        48.3,
-        29.4
-    ]
+  "screen_type": "moves",
+  "pokemon": "floette",
+  "usage": 17,
+  "moves": [
+    "protect",
+    "dazzling gleam",
+    "moonblast",
+    "calm mind",
+    "light of ruin"
+  ],
+  "move_usage": [
+    98.5,
+    97.3,
+    72.6,
+    63.9,
+    37.6
+  ],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
 }
-```

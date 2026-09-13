@@ -1,1 +1,27 @@
-{"id":"gen-1789182648-5O0DZRKxvQipCiUSFJGb","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}
+{
+  "screen_type": "stat_points",
+  "pokemon": "salamence",
+  "usage": 3,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [
+    [1, 2, 0, 0, 32, 0, 32],
+    [2, 1, 0, 0, 32, 1, 32],
+    [3, 1, 21, 0, 15, 0, 29],
+    [4, 2, 32, 0, 0, 0, 32],
+    [5, 0, 0, 0, 32, 2, 32]
+  ],
+  "spread_usage": [
+    38.1,
+    6.9,
+    4.2,
+    3.8,
+    2.6
+  ],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

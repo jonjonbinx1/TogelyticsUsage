@@ -1,18 +1,16 @@
 {
   "screen_type": "ability",
-  "pokemon": "milotic",
+  "pokemon": "floette",
   "usage": 17,
   "moves": [],
   "move_usage": [],
   "abilities": [
-    "competitive",
-    "marvel scale",
-    "cute charm"
+    "flower veil",
+    "symbiosis"
   ],
   "ability_usage": [
-    99.7,
-    0.2,
-    0.1
+    99.4,
+    0.6
   ],
   "spread_values": [],
   "spread_usage": [],

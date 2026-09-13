@@ -1,13 +1,27 @@
 {
-  "error": 0,
-  "item_usage": [
-    17
-  ],
+  "screen_type": "held_item",
+  "pokemon": "floette",
+  "usage": 17,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
   "items": [
-    "Leftovers",
-    "Sitrus Berry",
-    "Grassy Seed",
-    "Rindo Berry",
-    "Wide Lens"
+    "floettite",
+    "choice scarf",
+    "fairy feather",
+    "grassy seed",
+    "babiri berry"
+  ],
+  "item_usage": [
+    99.0,
+    0.6,
+    0.1,
+    0.1,
+    0.0
   ]
 }

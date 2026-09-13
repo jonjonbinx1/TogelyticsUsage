@@ -1,14 +1,21 @@
-```json
 {
-    "abilities": [
-        "Pixilate",
-        "Cute Charm"
-    ],
-    "ability_usage": [
-        100.0,
-        0.0
-    ],
-    "slot": 20,
-    "error": ""
+  "screen_type": "ability",
+  "pokemon": "sylveon",
+  "usage": 20,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [
+    "pixilate",
+    "cute charm"
+  ],
+  "ability_usage": [
+    100.0,
+    0.0
+  ],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
 }
-```

@@ -4,16 +4,8 @@
   "usage": 6,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "adaptability",
-    "swift swim",
-    "mold breaker"
-  ],
-  "ability_usage": [
-    96.5,
-    3.5,
-    0.0
-  ],
+  "abilities": ["adaptability", "swift swim", "mold breaker"],
+  "ability_usage": [96.6, 3.4, 0.1],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

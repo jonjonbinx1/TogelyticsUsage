@@ -9,8 +9,8 @@
     "weak armor"
   ],
   "ability_usage": [
-    87.1,
-    12.9
+    86.3,
+    13.7
   ],
   "spread_values": [],
   "spread_usage": [],
