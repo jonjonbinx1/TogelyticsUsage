@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "charizard",
+  "pokemon": "farigiraf",
   "usage": 14,
   "moves": [],
   "move_usage": [],
@@ -8,20 +8,8 @@
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
-  "natures": [
-    "modest",
-    "timid",
-    "adamant",
-    "bold",
-    "jolly"
-  ],
-  "nature_usage": [
-    65.7,
-    27.3,
-    2.6,
-    1.7,
-    1.1
-  ],
+  "natures": ["bold", "relaxed", "modest", "calm", "quiet"],
+  "nature_usage": [35.0, 19.0, 14.2, 11.9, 11.8],
   "items": [],
   "item_usage": []
 }

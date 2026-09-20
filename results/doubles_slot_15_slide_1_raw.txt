@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "milotic",
+  "pokemon": "charizard",
   "usage": 15,
   "moves": [
     "protect",
-    "scald",
-    "ice beam",
-    "icy wind",
-    "recover"
+    "heat wave",
+    "weather ball",
+    "solar beam",
+    "ancient power"
   ],
   "move_usage": [
-    78.5,
-    77.2,
-    64.0,
-    46.6,
-    30.2
+    95.1,
+    94.0,
+    73.4,
+    60.7,
+    29.9
   ],
   "abilities": [],
   "ability_usage": [],

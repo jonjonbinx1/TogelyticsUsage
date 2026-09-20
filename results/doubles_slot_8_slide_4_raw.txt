@@ -6,20 +6,8 @@
   "move_usage": [],
   "abilities": [],
   "ability_usage": [],
-  "spread_values": [
-    [1, 54, 9, 0, 0, 0, 0],
-    [2, 40, 7, 0, 0, 0, 0],
-    [3, 1, 7, 0, 0, 0, 0],
-    [4, 1, 1, 0, 0, 0, 0],
-    [5, 0, 7, 0, 0, 0, 0]
-  ],
-  "spread_usage": [
-    54.9,
-    40.7,
-    1.7,
-    1.1,
-    0.7
-  ],
+  "spread_values": [],
+  "spread_usage": [],
   "natures": [
     "adamant",
     "brave",
@@ -28,11 +16,11 @@
     "impish"
   ],
   "nature_usage": [
-    54.9,
-    40.7,
-    1.7,
-    1.1,
-    0.7
+    58.5,
+    36.2,
+    2.1,
+    1.4,
+    0.6
   ],
   "items": [],
   "item_usage": []

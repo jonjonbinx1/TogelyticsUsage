@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "archaludon",
+  "pokemon": "gholdengo",
   "usage": 12,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "leftovers",
-    "sitrus berry",
-    "chople berry",
-    "white herb",
-    "choice scarf"
+    "life orb",
+    "choice scarf",
+    "grassy seed",
+    "focus sash",
+    "white herb"
   ],
   "item_usage": [
-    85.6,
-    4.0,
-    2.1,
-    1.5,
-    1.5
+    76.2,
+    6.0,
+    3.8,
+    2.8,
+    2.7
   ]
 }

@@ -1,1 +1,17 @@
-{"id":"gen-1789317032-yUFITPX4Isd3sZ9PnGhb","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}
+{
+  "error": "Not answerable",
+  "nature_usage": [
+    "Adamant",
+    "Jolly",
+    "Brave",
+    "Naughty",
+    "Lonely"
+  ],
+  "natures": [
+    "Attack",
+    "Sp. Atk",
+    "Speed",
+    "Sp. Def",
+    "Defense"
+  ]
+}

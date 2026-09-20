@@ -1,17 +1,11 @@
 {
   "screen_type": "ability",
-  "pokemon": "sylveon",
+  "pokemon": "armarouge",
   "usage": 20,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "pixilate",
-    "cute charm"
-  ],
-  "ability_usage": [
-    100.0,
-    0.0
-  ],
+  "abilities": ["flash fire", "weak armor"],
+  "ability_usage": [86.5, 13.5],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

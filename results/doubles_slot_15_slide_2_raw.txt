@@ -1,19 +1,11 @@
 {
   "screen_type": "ability",
-  "pokemon": "milotic",
+  "pokemon": "charizard",
   "usage": 15,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "competitive",
-    "marvel scale",
-    "cute charm"
-  ],
-  "ability_usage": [
-    99.6,
-    0.3,
-    0.1
-  ],
+  "abilities": ["blaze", "solar power"],
+  "ability_usage": [77.7, 22.3],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

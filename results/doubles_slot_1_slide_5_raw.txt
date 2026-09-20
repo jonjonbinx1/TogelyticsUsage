@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "sneasler",
+  "pokemon": "rillaboom",
   "usage": 1,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "psychic seed",
+    "miracle seed",
+    "life orb",
+    "sitrus berry",
     "grassy seed",
-    "white herb",
-    "focus sash",
-    "life orb"
+    "occa berry"
   ],
   "item_usage": [
-    30.3,
-    27.0,
-    21.7,
-    17.9,
-    0.8
+    56.1,
+    11.3,
+    11.2,
+    5.2,
+    3.9
   ]
 }

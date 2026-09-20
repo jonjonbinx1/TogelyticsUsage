@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "indeedee",
+  "pokemon": "basculegion",
   "usage": 7,
   "moves": [
-    "follow me",
-    "trick room",
-    "helping hand",
-    "psychic",
-    "terrain pulse"
+    "last respects",
+    "wave crash",
+    "aqua jet",
+    "protect",
+    "flip turn"
   ],
   "move_usage": [
-    98.9,
-    87.9,
-    81.9,
-    56.2,
-    24.1
+    99.9,
+    93.4,
+    92.0,
+    53.8,
+    44.6
   ],
   "abilities": [],
   "ability_usage": [],

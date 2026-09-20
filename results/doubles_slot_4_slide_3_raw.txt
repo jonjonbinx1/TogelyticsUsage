@@ -1,18 +1,27 @@
 {
-  "error": null,
+  "screen_type": "stat_points",
+  "pokemon": "incineroar",
+  "usage": 4,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
   "spread_values": [
-    32,
-    32,
-    0,
-    0,
-    2,
-    0
+    [1, 32, 0, 14, 0, 20, 0],
+    [2, 32, 0, 20, 0, 14, 0],
+    [3, 32, 0, 20, 0, 13, 1],
+    [4, 32, 32, 2, 0, 0, 0],
+    [5, 32, 32, 0, 0, 2, 0]
   ],
   "spread_usage": [
-    19.7,
-    6.8,
-    5.8,
-    5.4,
-    4.6
-  ]
+    9.4,
+    2.9,
+    2.7,
+    2.1,
+    2.1
+  ],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
 }

@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "sylveon",
+  "pokemon": "armarouge",
   "usage": 20,
   "moves": [],
   "move_usage": [],
@@ -8,8 +8,8 @@
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
-  "natures": ["modest", "quiet", "bold", "timid", "relaxed"],
-  "nature_usage": [80.9, 14.8, 1.9, 1.4, 0.3],
+  "natures": ["modest", "quiet", "timid", "bold", "calm"],
+  "nature_usage": [54.6, 36.5, 5.4, 1.3, 0.6],
   "items": [],
   "item_usage": []
 }

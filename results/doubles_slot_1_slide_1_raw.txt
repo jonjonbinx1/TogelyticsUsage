@@ -1,18 +1,1 @@
-```json
-{
-    "moves": [
-        "Close Combat",
-        "Dire Claw",
-        "Protect",
-        "Fake Out",
-        "Rock Slide"
-    ],
-    "move_usage": [
-        99.6,
-        89.5,
-        62.5,
-        59.9,
-        25.9
-    ]
-}
-```
+{"id":"gen-1789916598-CwIdKJ2SMLBbJ4aKGDeL","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}

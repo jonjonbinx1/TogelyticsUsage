@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "farigiraf",
+  "pokemon": "gholdego",
   "usage": 11,
   "moves": [],
   "move_usage": [],
@@ -8,8 +8,20 @@
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
-  "natures": ["bold", "relaxed", "modest", "quiet", "calm"],
-  "nature_usage": [37.4, 18.2, 15.6, 11.7, 9.4],
+  "natures": [
+    "modest",
+    "timid",
+    "bold",
+    "quiet",
+    "calm"
+  ],
+  "nature_usage": [
+    66.8,
+    31.2,
+    0.7,
+    0.6,
+    0.3
+  ],
   "items": [],
   "item_usage": []
 }

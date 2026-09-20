@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "armarouge",
+  "pokemon": "gardevoir",
   "usage": 16,
   "moves": [],
   "move_usage": [],
@@ -10,17 +10,17 @@
   "spread_usage": [],
   "natures": [
     "modest",
-    "quiet",
     "timid",
+    "quiet",
     "bold",
     "relaxed"
   ],
   "nature_usage": [
-    56.8,
-    36.7,
-    4.0,
-    1.1,
-    0.5
+    78.3,
+    10.4,
+    9.3,
+    0.9,
+    0.3
   ],
   "items": [],
   "item_usage": []

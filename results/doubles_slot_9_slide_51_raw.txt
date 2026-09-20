@@ -1,16 +1,18 @@
 {
   "screen_type": "ability",
-  "pokemon": "raichu",
+  "pokemon": "arcanine",
   "usage": 19,
   "moves": [],
   "move_usage": [],
   "abilities": [
-    "lightning rod",
-    "static"
+    "rock head",
+    "intimidate",
+    "flash fire"
   ],
   "ability_usage": [
-    96.7,
-    3.3
+    96.9,
+    2.8,
+    0.3
   ],
   "spread_values": [],
   "spread_usage": [],

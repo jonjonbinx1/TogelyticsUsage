@@ -1,21 +1,15 @@
 {
-  "screen_type": "ability",
-  "pokemon": "floette",
-  "usage": 17,
-  "moves": [],
-  "move_usage": [],
   "abilities": [
-    "flower veil",
-    "symbiosis"
+    "Rock Head",
+    "Intimidate",
+    "Flash Fire"
   ],
   "ability_usage": [
-    99.4,
-    0.6
+    97.0,
+    2.8,
+    0.2
   ],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
+  "slot": 17,
+  "slide": 2,
+  "error": ""
 }

@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "incineroar",
+  "pokemon": "kingambit",
   "usage": 5,
   "moves": [],
   "move_usage": [],
@@ -9,18 +9,18 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
-    "careful",
-    "impish",
     "adamant",
     "brave",
-    "sassy"
+    "jolly",
+    "careful",
+    "impish"
   ],
   "nature_usage": [
-    38.0,
-    25.4,
-    19.7,
-    6.9,
-    4.8
+    82.1,
+    15.7,
+    0.6,
+    0.4,
+    0.4
   ],
   "items": [],
   "item_usage": []

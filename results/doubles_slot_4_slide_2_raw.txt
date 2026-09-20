@@ -1,23 +1,13 @@
+```json
 {
-  "screen_type": "ability",
-  "pokemon": "kingambit",
-  "usage": 4,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [
-    "defiant",
-    "supreme overlord",
-    "pressure"
-  ],
-  "ability_usage": [
-    98.3,
-    1.7,
-    0.0
-  ],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
+    "abilities": [
+        "Intimidate",
+        "Blaze"
+    ],
+    "ability_usage": [
+        4,
+        1,
+        2
+    ]
 }
+```

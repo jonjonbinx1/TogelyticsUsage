@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "armarouge",
+  "pokemon": "gardevoir",
   "usage": 16,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "life orb",
+    "gardevoirite",
+    "choice scarf",
     "focus sash",
-    "twisted spoon",
-    "psychic seed",
-    "colbur berry"
+    "life orb",
+    "twisted spoon"
   ],
   "item_usage": [
-    56.8,
-    17.1,
-    6.1,
-    5.5,
-    4.3
+    97.5,
+    0.8,
+    0.3,
+    0.3,
+    0.2
   ]
 }

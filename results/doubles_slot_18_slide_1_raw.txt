@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "gholdengo",
+  "pokemon": "raichu",
   "usage": 18,
   "moves": [
-    "shadow ball",
-    "make it rain",
     "protect",
-    "nasty plot",
-    "power gem"
+    "zap cannon",
+    "focus blast",
+    "fake out",
+    "encore"
   ],
   "move_usage": [
-    99.4,
-    99.3,
-    89.5,
-    76.1,
-    15.8
+    86.7,
+    82.4,
+    82.0,
+    74.0,
+    22.8
   ],
   "abilities": [],
   "ability_usage": [],

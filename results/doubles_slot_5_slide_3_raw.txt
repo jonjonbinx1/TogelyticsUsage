@@ -1,17 +1,27 @@
 {
-  "error": null,
-  "spread_usage": [
-    0,
-    0,
-    0,
-    0,
-    5
-  ],
+  "screen_type": "stat_points",
+  "pokemon": "kingambit",
+  "usage": 5,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
   "spread_values": [
-    32,
-    32,
-    32,
-    32,
-    32
-  ]
+    [1, 32, 32, 0, 0, 2, 0],
+    [2, 32, 32, 2, 0, 0, 0],
+    [3, 2, 32, 0, 0, 0, 32],
+    [4, 32, 25, 2, 0, 6, 1],
+    [5, 32, 32, 0, 0, 0, 2]
+  ],
+  "spread_usage": [
+    19.6,
+    8.2,
+    6.6,
+    6.5,
+    5.4
+  ],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
 }

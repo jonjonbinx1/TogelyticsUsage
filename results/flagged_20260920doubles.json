@@ -1,0 +1,78 @@
+{
+  "source_results": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\results\\20260920doubles_extracted.json",
+  "date": "2026-09-20",
+  "format": "doubles",
+  "threshold": 80.0,
+  "validated_at": "2026-09-20T11:03:45",
+  "total_images": 100,
+  "screen_type_counts": {
+    "moves": 20,
+    "ability": 20,
+    "stat_points": 20,
+    "stat_alignment": 20,
+    "held_item": 20
+  },
+  "flagged_count": 5,
+  "flags": [
+    {
+      "image": "doubles_slot_7_slide_4.png",
+      "screen_type": "stat_alignment",
+      "pokemon": "",
+      "usage": 7,
+      "field": "natures['Attack']",
+      "extracted": "Attack",
+      "issue": "unknown_nature",
+      "best_match": "lax",
+      "score": 45.0,
+      "note": "'Attack' not in standard 25 natures; suggested: 'lax'"
+    },
+    {
+      "image": "doubles_slot_7_slide_4.png",
+      "screen_type": "stat_alignment",
+      "pokemon": "",
+      "usage": 7,
+      "field": "natures['Sp. Atk']",
+      "extracted": "Sp. Atk",
+      "issue": "unknown_nature",
+      "best_match": "lax",
+      "score": 42.8,
+      "note": "'Sp. Atk' not in standard 25 natures; suggested: 'lax'"
+    },
+    {
+      "image": "doubles_slot_7_slide_4.png",
+      "screen_type": "stat_alignment",
+      "pokemon": "",
+      "usage": 7,
+      "field": "natures['Speed']",
+      "extracted": "Speed",
+      "issue": "unknown_nature",
+      "best_match": "relaxed",
+      "score": 50.0,
+      "note": "'Speed' not in standard 25 natures; suggested: 'relaxed'"
+    },
+    {
+      "image": "doubles_slot_7_slide_4.png",
+      "screen_type": "stat_alignment",
+      "pokemon": "",
+      "usage": 7,
+      "field": "natures['Sp. Def']",
+      "extracted": "Sp. Def",
+      "issue": "unknown_nature",
+      "best_match": "modest",
+      "score": 43.8,
+      "note": "'Sp. Def' not in standard 25 natures; suggested: 'modest'"
+    },
+    {
+      "image": "doubles_slot_7_slide_4.png",
+      "screen_type": "stat_alignment",
+      "pokemon": "",
+      "usage": 7,
+      "field": "natures['Defense']",
+      "extracted": "Defense",
+      "issue": "unknown_nature",
+      "best_match": "gentle",
+      "score": 46.2,
+      "note": "'Defense' not in standard 25 natures; suggested: 'gentle'"
+    }
+  ]
+}

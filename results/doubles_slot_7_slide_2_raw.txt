@@ -1,23 +1,14 @@
 {
-  "screen_type": "ability",
-  "pokemon": "indeedee",
-  "usage": 7,
-  "moves": [],
-  "move_usage": [],
   "abilities": [
-    "psychic surge",
-    "synchronize",
-    "own tempo"
+    "Adaptability",
+    "Swift Swim",
+    "Mold Breaker"
   ],
   "ability_usage": [
-    99.8,
-    0.1,
-    0.0
+    95.5,
+    4.3,
+    0.2
   ],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
+  "slot": 7,
+  "error": ""
 }

@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "aerodactyl",
+  "pokemon": "milotic",
   "usage": 14,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "aerodactylite",
-    "focus sash",
-    "king's rock",
-    "life orb",
-    "wide lens"
+    "leftovers",
+    "sitrus berry",
+    "grassy seed",
+    "rindo berry",
+    "psychic seed"
   ],
   "item_usage": [
-    59.1,
-    31.7,
-    1.5,
+    65.6,
+    23.9,
+    2.6,
     1.2,
-    1.1
+    1.0
   ]
 }

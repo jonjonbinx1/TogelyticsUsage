@@ -1,37 +1,27 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "floette",
+  "pokemon": "arcanine",
   "usage": 17,
   "moves": [],
   "move_usage": [],
   "abilities": [],
   "ability_usage": [],
-  "spread_values": [
-    [1, 60, 8, 0, 0, 0, 0],
-    [2, 36, 8, 0, 0, 0, 0],
-    [3, 1, 9, 0, 0, 0, 0],
-    [4, 0, 3, 0, 0, 0, 0],
-    [5, 0, 1, 0, 0, 0, 0]
-  ],
-  "spread_usage": [
-    60.8,
-    36.8,
-    1.9,
-    0.3,
-    0.1
-  ],
+  "spread_values": [],
+  "spread_usage": [],
   "natures": [
-    "modest",
-    "timid",
-    "bold",
-    "quiet",
-    "calm"
+    "jolly",
+    "adamant",
+    "naughty",
+    "brave",
+    "lonely"
   ],
   "nature_usage": [
-    60.8,
-    36.8,
-    1.9,
+    78.2,
+    20.2,
     0.3,
-    0.1
-  ]
+    0.3,
+    0.2
+  ],
+  "items": [],
+  "item_usage": []
 }

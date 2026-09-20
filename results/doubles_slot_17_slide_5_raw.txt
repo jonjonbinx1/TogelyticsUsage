@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "floette",
+  "pokemon": "arcanine",
   "usage": 17,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "floettite",
+    "focus sash",
     "choice scarf",
-    "fairy feather",
-    "grassy seed",
-    "babiri berry"
+    "life orb",
+    "sitrus berry",
+    "wide lens"
   ],
   "item_usage": [
-    99.0,
-    0.6,
-    0.1,
-    0.1,
-    0.0
+    91.0,
+    3.1,
+    2.1,
+    0.7,
+    0.5
   ]
 }

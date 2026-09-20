@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "grimmsnarl",
+  "pokemon": "charizard",
   "usage": 16,
   "moves": [],
   "move_usage": [],
@@ -9,19 +9,17 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
-    "careful",
-    "sassy",
-    "impish",
+    "modest",
+    "timid",
     "adamant",
-    "calm"
+    "bold",
+    "jolly"
   ],
   "nature_usage": [
-    38.6,
-    20.8,
-    17.9,
-    8.0,
-    7.2
-  ],
-  "items": [],
-  "item_usage": []
+    64.0,
+    28.4,
+    2.9,
+    1.5,
+    1.1
+  ]
 }

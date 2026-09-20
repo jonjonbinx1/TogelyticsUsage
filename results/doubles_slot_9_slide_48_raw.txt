@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "milotic",
+  "pokemon": "sylveon",
   "usage": 18,
   "moves": [],
   "move_usage": [],
@@ -9,18 +9,18 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
-    "calm",
     "modest",
-    "bold",
     "quiet",
-    "timid"
+    "bold",
+    "timid",
+    "relaxed"
   ],
   "nature_usage": [
-    40.0,
-    28.1,
-    23.3,
-    2.6,
-    2.2
+    82.2,
+    12.7,
+    1.8,
+    1.7,
+    0.4
   ],
   "items": [],
   "item_usage": []

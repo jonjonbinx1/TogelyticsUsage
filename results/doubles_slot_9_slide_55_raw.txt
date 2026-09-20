@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "swampert",
+  "pokemon": "tyranitar",
   "usage": 20,
   "moves": [
-    "wave crash",
+    "rock slide",
+    "knock off",
     "protect",
-    "ice punch",
-    "earthquake",
-    "high horsepower"
+    "low kick",
+    "ice punch"
   ],
   "move_usage": [
-    89.4,
-    89.1,
-    77.4,
-    74.4,
-    25.2
+    97.7,
+    94.5,
+    85.2,
+    57.2,
+    19.5
   ],
   "abilities": [],
   "ability_usage": [],

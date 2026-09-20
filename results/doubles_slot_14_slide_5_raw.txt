@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "charizard",
+  "pokemon": "farigiraf",
   "usage": 14,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "charizardite y",
-    "charizardite x",
-    "choice scarf",
-    "life orb",
-    "charcoal"
+    "sitrus berry",
+    "colbur berry",
+    "grassy seed",
+    "leftovers",
+    "mental herb"
   ],
   "item_usage": [
-    95.5,
-    3.6,
-    0.2,
-    0.1,
-    0.1
+    57.9,
+    20.5,
+    8.5,
+    2.7,
+    2.7
   ]
 }

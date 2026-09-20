@@ -1,0 +1,67 @@
+{
+  "source_results": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\results\\20260917doubles_extracted.json",
+  "date": "2026-09-17",
+  "format": "doubles",
+  "threshold": 80.0,
+  "validated_at": "2026-09-17T10:04:38",
+  "total_images": 99,
+  "screen_type_counts": {
+    "moves": 13,
+    "ability": 14,
+    "stat_points": 14,
+    "stat_alignment": 15,
+    "held_item": 14,
+    "unknown": 29
+  },
+  "flagged_count": 4,
+  "flags": [
+    {
+      "image": "doubles_slot_9_slide_1.png",
+      "screen_type": "moves",
+      "pokemon": "",
+      "usage": 9,
+      "field": "moves['Drizzle']",
+      "extracted": "Drizzle",
+      "issue": "unknown_move",
+      "best_match": "dizzy-punch",
+      "score": 65.5,
+      "note": "Score 66; suggested: 'dizzy-punch'"
+    },
+    {
+      "image": "doubles_slot_9_slide_1.png",
+      "screen_type": "moves",
+      "pokemon": "",
+      "usage": 9,
+      "field": "moves['Keen Eye']",
+      "extracted": "Keen Eye",
+      "issue": "unknown_move",
+      "best_match": "extreme-speed",
+      "score": 56.2,
+      "note": "Score 56; suggested: 'extreme-speed'"
+    },
+    {
+      "image": "doubles_slot_9_slide_1.png",
+      "screen_type": "moves",
+      "pokemon": "",
+      "usage": 9,
+      "field": "moves['Rain Dish']",
+      "extracted": "Rain Dish",
+      "issue": "unknown_move",
+      "best_match": "wish",
+      "score": 77.1,
+      "note": "Score 77; suggested: 'wish'"
+    },
+    {
+      "image": "doubles_slot_9_slide_5.png",
+      "screen_type": "held_item",
+      "pokemon": "",
+      "usage": 9,
+      "field": "items['Earthquake']",
+      "extracted": "Earthquake",
+      "issue": "unknown_item",
+      "best_match": "tea",
+      "score": 72.0,
+      "note": "Score 72; suggested: 'tea'"
+    }
+  ]
+}

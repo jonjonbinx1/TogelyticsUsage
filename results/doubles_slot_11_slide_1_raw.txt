@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "farigiraf",
+  "pokemon": "gholdengo",
   "usage": 11,
   "moves": [
-    "trick room",
-    "helping hand",
-    "psychic",
-    "thunderbolt",
-    "protect"
+    "make it rain",
+    "shadow ball",
+    "protect",
+    "nasty plot",
+    "power gem"
   ],
   "move_usage": [
-    96.3,
-    54.1,
-    53.2,
-    48.6,
-    40.7
+    99.4,
+    99.0,
+    91.1,
+    81.1,
+    12.7
   ],
   "abilities": [],
   "ability_usage": [],

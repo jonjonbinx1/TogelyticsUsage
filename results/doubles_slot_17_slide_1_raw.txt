@@ -1,27 +1,17 @@
 {
-  "screen_type": "moves",
-  "pokemon": "floette",
-  "usage": 17,
   "moves": [
-    "protect",
-    "dazzling gleam",
-    "moonblast",
-    "calm mind",
-    "light of ruin"
+    "Flare Blitz",
+    "Head Smash",
+    "Protect",
+    "Extreme Speed",
+    "Rock Slide"
   ],
   "move_usage": [
-    98.5,
-    97.3,
-    72.6,
-    63.9,
-    37.6
+    99.7,
+    94.7,
+    93.6,
+    89.7,
+    10.2
   ],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
+  "error": null
 }

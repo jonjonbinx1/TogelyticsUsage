@@ -1539,7 +1539,7 @@ def normalize_date_from_path(path: Path | None) -> tuple[str, str] | None:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Manual stat spread editor")
     parser.add_argument("--date", help="Date to load (YYYY-MM-DD or YYYYMMDD)")
-    parser.add_argument("--format", choices=["singles", "doubles"], default="singles")
+    parser.add_argument("--format", choices=["singles", "doubles"], default="doubles")
     args = parser.parse_args()
 
     date_str = normalize_date(args.date) if args.date else ""

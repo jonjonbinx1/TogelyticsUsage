@@ -1,12 +1,23 @@
-```json
 {
-    "abilities": [
-        "Grassy Surge",
-        "Overgrow"
-    ],
-    "ability_usage": [
-        0.999,
-        0.001
-    ]
+  "screen_type": "ability",
+  "pokemon": "sneasler",
+  "usage": 2,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [
+    "unburden",
+    "poison touch",
+    "pressure"
+  ],
+  "ability_usage": [
+    88.8,
+    11.1,
+    0.1
+  ],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
 }
-```

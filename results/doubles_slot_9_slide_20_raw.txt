@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "pelipper",
+  "pokemon": "farigiraf",
   "usage": 13,
   "moves": [
-    "hurricane",
-    "tailwind",
-    "weather ball",
-    "wide guard",
+    "trick room",
+    "helping hand",
+    "psychic",
+    "thunderbolt",
     "protect"
   ],
   "move_usage": [
-    97.7,
-    86.0,
-    83.5,
-    65.3,
-    29.7
+    95.7,
+    54.8,
+    50.7,
+    46.9,
+    41.7
   ],
   "abilities": [],
   "ability_usage": [],

@@ -1,11 +1,19 @@
 {
   "screen_type": "ability",
-  "pokemon": "garchomp",
+  "pokemon": "archaludon",
   "usage": 12,
   "moves": [],
   "move_usage": [],
-  "abilities": ["rough skin", "sand veil"],
-  "ability_usage": [97.5, 2.5],
+  "abilities": [
+    "stamina",
+    "sturdy",
+    "stalwart"
+  ],
+  "ability_usage": [
+    96.4,
+    2.1,
+    1.5
+  ],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

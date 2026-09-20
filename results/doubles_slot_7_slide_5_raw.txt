@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "indeedee",
+  "pokemon": "basculegion",
   "usage": 7,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "rocky helmet",
-    "colbur berry",
-    "psychic seed",
-    "sitrus berry",
-    "focus sash"
+    "choice scarf",
+    "life orb",
+    "mystic water",
+    "focus sash",
+    "sitrus berry"
   ],
   "item_usage": [
-    26.3,
-    26.2,
-    24.8,
-    13.6,
-    3.4
+    44.2,
+    31.7,
+    13.1,
+    7.3,
+    1.8
   ]
 }

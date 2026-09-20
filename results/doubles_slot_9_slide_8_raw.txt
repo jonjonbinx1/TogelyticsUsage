@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "sylveon",
+  "pokemon": "garchomp",
   "usage": 10,
   "moves": [],
   "move_usage": [],
@@ -9,18 +9,18 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
+    "jolly",
     "modest",
-    "quiet",
+    "adamant",
     "timid",
-    "bold",
-    "mild"
+    "impish"
   ],
   "nature_usage": [
-    78.9,
-    14.7,
-    2.8,
-    1.6,
-    0.5
+    32.4,
+    31.9,
+    21.7,
+    10.7,
+    0.8
   ],
   "items": [],
   "item_usage": []

@@ -1,18 +1,18 @@
 {
   "screen_type": "ability",
-  "pokemon": "aerodactyl",
+  "pokemon": "milotic",
   "usage": 14,
   "moves": [],
   "move_usage": [],
   "abilities": [
-    "unnerve",
-    "pressure",
-    "rock head"
+    "competitive",
+    "marvel scale",
+    "cute charm"
   ],
   "ability_usage": [
-    95.0,
-    2.9,
-    2.1
+    99.5,
+    0.4,
+    0.2
   ],
   "spread_values": [],
   "spread_usage": [],

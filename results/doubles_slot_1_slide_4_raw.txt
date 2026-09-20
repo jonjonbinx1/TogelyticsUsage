@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "sneasler",
+  "pokemon": "rillaboom",
   "usage": 1,
   "moves": [],
   "move_usage": [],
@@ -8,8 +8,8 @@
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
-  "natures": ["adamant", "jolly", "brave", "naive", "naughty"],
-  "nature_usage": [57.2, 41.3, 0.3, 0.3, 0.2],
+  "natures": ["adamant", "brave", "careful", "sassy", "jolly"],
+  "nature_usage": [85.6, 4.4, 4.0, 2.5, 1.8],
   "items": [],
   "item_usage": []
 }

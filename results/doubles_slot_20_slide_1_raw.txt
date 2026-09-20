@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "sylveon",
+  "pokemon": "armarouge",
   "usage": 20,
   "moves": [
-    "hyper voice",
-    "quick attack",
-    "hyper beam",
-    "detect",
-    "protect"
+    "expanding force",
+    "armor cannon",
+    "protect",
+    "trick room",
+    "wide guard"
   ],
   "move_usage": [
-    99.9,
-    75.7,
-    74.9,
-    69.0,
-    28.4
+    94.8,
+    76.9,
+    61.0,
+    46.4,
+    40.8
   ],
   "abilities": [],
   "ability_usage": [],

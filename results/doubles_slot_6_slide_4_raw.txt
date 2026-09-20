@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "basculegion",
+  "pokemon": "indeedee",
   "usage": 6,
   "moves": [],
   "move_usage": [],
@@ -8,20 +8,8 @@
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
-  "natures": [
-    "adamant",
-    "jolly",
-    "brave",
-    "naughty",
-    "lonely"
-  ],
-  "nature_usage": [
-    57.7,
-    41.1,
-    0.5,
-    0.1,
-    0.1
-  ],
+  "natures": ["relaxed", "bold", "calm", "sassy", "modest"],
+  "nature_usage": [44.4, 36.3, 9.8, 3.2, 3.0],
   "items": [],
   "item_usage": []
 }

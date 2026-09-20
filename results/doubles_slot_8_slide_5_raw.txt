@@ -14,14 +14,14 @@
     "golisopite",
     "life orb",
     "sitrus berry",
-    "silver powder",
-    "eject button"
+    "leftovers",
+    "silver powder"
   ],
   "item_usage": [
-    99.4,
+    98.8,
+    0.3,
     0.2,
     0.1,
-    0.1,
-    0.0
+    0.1
   ]
 }

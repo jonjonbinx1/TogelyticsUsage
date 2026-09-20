@@ -1,31 +1,27 @@
 {
-  "error": null,
-  "item_usage": 13,
+  "screen_type": "held_item",
+  "pokemon": "milotic",
+  "usage": 13,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
   "items": [
-    {
-      "rank": 1,
-      "usage": 98.3,
-      "item": "Gardevoirite"
-    },
-    {
-      "rank": 2,
-      "usage": 0.7,
-      "item": "Choice Scarf"
-    },
-    {
-      "rank": 3,
-      "usage": 0.2,
-      "item": "Life Orb"
-    },
-    {
-      "rank": 4,
-      "usage": 0.2,
-      "item": "Twisted Spoon"
-    },
-    {
-      "rank": 5,
-      "usage": 0.2,
-      "item": "Focus Sash"
-    }
+    "leftovers",
+    "sitrus berry",
+    "grassy seed",
+    "psychic seed",
+    "rindo berry"
+  ],
+  "item_usage": [
+    65.9,
+    23.2,
+    2.4,
+    1.4,
+    1.3
   ]
 }

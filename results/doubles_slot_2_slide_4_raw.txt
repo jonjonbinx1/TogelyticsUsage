@@ -1,1 +1,27 @@
-{"id":"gen-1789317019-zuKu1MlIwMNzZioX4NiD","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}
+{
+  "screen_type": "stat_alignment",
+  "pokemon": "sneasler",
+  "usage": 2,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [
+    "adamant",
+    "jolly",
+    "brave",
+    "naughty",
+    "naive"
+  ],
+  "nature_usage": [
+    61.6,
+    36.5,
+    0.4,
+    0.3,
+    0.3
+  ],
+  "items": [],
+  "item_usage": []
+}

@@ -1,19 +1,11 @@
 {
   "screen_type": "ability",
-  "pokemon": "farigiraf",
+  "pokemon": "gholdengo",
   "usage": 11,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "armor tail",
-    "sap sipper",
-    "cud chew"
-  ],
-  "ability_usage": [
-    98.3,
-    1.3,
-    0.3
-  ],
+  "abilities": ["good as gold"],
+  "ability_usage": [100.0],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

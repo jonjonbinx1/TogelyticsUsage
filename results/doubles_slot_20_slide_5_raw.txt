@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "sylveon",
+  "pokemon": "armarouge",
   "usage": 20,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "fairy feather",
     "life orb",
-    "leftovers",
-    "sitrus berry",
-    "grassy seed"
+    "focus sash",
+    "twisted spoon",
+    "psychic seed",
+    "colbur berry"
   ],
   "item_usage": [
-    88.9,
-    5.4,
-    1.7,
-    0.9,
-    0.7
+    52.6,
+    20.3,
+    6.5,
+    4.8,
+    3.4
   ]
 }

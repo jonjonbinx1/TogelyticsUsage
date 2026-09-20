@@ -1,27 +1,16 @@
 {
-  "screen_type": "moves",
-  "pokemon": "archaludon",
-  "usage": 10,
   "moves": [
-    "electro shot",
-    "protect",
-    "flash cannon",
-    "dragon pulse",
-    "aura sphere"
+    "Protect",
+    "Rock Slide",
+    "Dragon Claw",
+    "Earthquake",
+    "Power Gem"
   ],
   "move_usage": [
-    96.8,
-    94.9,
-    89.8,
-    78.0,
-    16.6
-  ],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
+    81.0,
+    45.8,
+    45.1,
+    40.9,
+    35.5
+  ]
 }

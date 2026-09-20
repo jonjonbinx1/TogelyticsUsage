@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "archaludon",
+  "pokemon": "garchomp",
   "usage": 10,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "leftovers",
-    "chople berry",
-    "sitrus berry",
+    "garchompite z",
+    "life orb",
     "choice scarf",
-    "psychic seed"
+    "rocky helmet",
+    "sitrus berry"
   ],
   "item_usage": [
-    88.9,
-    2.1,
-    2.0,
-    1.8,
-    1.6
+    45.2,
+    27.0,
+    9.9,
+    4.0,
+    4.0
   ]
 }

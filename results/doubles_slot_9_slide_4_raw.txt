@@ -1,15 +1,1 @@
-{
-  "screen_type": "stat_alignment",
-  "pokemon": "pelipper",
-  "usage": 9,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": ["modest", "timid", "bold", "calm", "quiet"],
-  "nature_usage": [59.1, 17.0, 11.9, 5.8, 4.6],
-  "items": [],
-  "item_usage": []
-}
+{"id":"gen-1789916609-ddCEK4Go8e3EwH16wFxe","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}

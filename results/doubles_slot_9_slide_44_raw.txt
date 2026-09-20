@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "tyranitar",
+  "pokemon": "armarouge",
   "usage": 17,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "tyranitarite",
-    "choice scarf",
-    "chople berry",
+    "life orb",
     "focus sash",
-    "life orb"
+    "twisted spoon",
+    "psychic seed",
+    "colbur berry"
   ],
   "item_usage": [
-    65.7,
-    15.3,
-    4.2,
-    3.7,
-    2.6
+    53.1,
+    19.5,
+    6.6,
+    5.2,
+    3.7
   ]
 }

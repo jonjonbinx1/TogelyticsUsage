@@ -1,27 +1,13 @@
 {
-  "screen_type": "held_item",
-  "pokemon": "garchomp",
-  "usage": 12,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [
-    "garchompite z",
-    "life orb",
-    "choice scarf",
-    "sitrus berry",
-    "rocky helmet"
-  ],
+  "error": null,
   "item_usage": [
-    38.5,
-    30.1,
-    13.3,
-    4.8,
-    3.5
+    12
+  ],
+  "items": [
+    "Leftover",
+    "Sitrus Berry",
+    "Chople Berry",
+    "Choice Scarf",
+    "Psychic Seed"
   ]
 }

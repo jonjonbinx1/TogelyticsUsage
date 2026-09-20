@@ -1,15 +1,13 @@
 {
-  "screen_type": "held_item",
-  "pokemon": "tyranitar",
-  "usage": 19,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": ["tyranitarite", "choice scarf", "chople berry", "passho berry", "focus sash"],
-  "item_usage": [59.6, 13.8, 9.4, 5.3, 3.2]
+  "error": null,
+  "item_usage": [
+    19
+  ],
+  "items": [
+    "Fairy Feather",
+    "Life Orb",
+    "Leftovers",
+    "Sitrus Berry",
+    "Quick Claw"
+  ]
 }

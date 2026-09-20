@@ -1,1 +1,15 @@
-{"id":"gen-1789317015-YscvKXpQRuHucBwUpbSD","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}
+{
+  "screen_type": "ability",
+  "pokemon": "rillaboom",
+  "usage": 1,
+  "moves": [],
+  "move_usage": [],
+  "abilities": ["grassy surge", "overgrow"],
+  "ability_usage": [100.0, 0.0],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

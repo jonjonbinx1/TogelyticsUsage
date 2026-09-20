@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "gholdengo",
+  "pokemon": "raichu",
   "usage": 18,
   "moves": [],
   "move_usage": [],
@@ -9,18 +9,18 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
-    "modest",
     "timid",
-    "bold",
-    "quiet",
-    "calm"
+    "jolly",
+    "modest",
+    "adamant",
+    "hasty"
   ],
   "nature_usage": [
-    77.0,
-    20.9,
-    0.9,
-    0.7,
-    0.2
+    83.3,
+    6.6,
+    6.5,
+    1.7,
+    0.5
   ],
   "items": [],
   "item_usage": []

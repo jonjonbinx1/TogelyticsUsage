@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "milotic",
+  "pokemon": "sylveon",
   "usage": 18,
   "moves": [
-    "protect",
-    "scald",
-    "muddy water",
-    "ice beam",
-    "icy wind"
+    "hyper voice",
+    "hyper beam",
+    "quick attack",
+    "detect",
+    "protect"
   ],
   "move_usage": [
-    70.7,
-    62.5,
-    37.6,
-    35.9,
-    34.4
+    99.8,
+    75.9,
+    73.1,
+    68.0,
+    28.7
   ],
   "abilities": [],
   "ability_usage": [],

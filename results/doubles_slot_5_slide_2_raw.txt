@@ -1,10 +1,15 @@
 {
-  "abilities": [
-    "Intimidate",
-    "Blaze"
-  ],
-  "ability_usage": [
-    5,
-    2
-  ]
+  "screen_type": "ability",
+  "pokemon": "kingambit",
+  "usage": 5,
+  "moves": [],
+  "move_usage": [],
+  "abilities": ["defiant", "supreme overlord", "pressure"],
+  "ability_usage": [97.0, 2.9, 0.1],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
 }

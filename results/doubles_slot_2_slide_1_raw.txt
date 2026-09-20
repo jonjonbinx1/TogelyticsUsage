@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "rillaboom",
+  "pokemon": "sneasler",
   "usage": 2,
   "moves": [
-    "grassy glide",
+    "close combat",
+    "dire claw",
+    "protect",
     "fake out",
-    "wood hammer",
-    "u-turn",
-    "high horsepower"
+    "rock slide"
   ],
   "move_usage": [
-    97.8,
-    95.9,
-    80.1,
-    55.1,
-    41.0
+    99.4,
+    92.1,
+    63.7,
+    58.8,
+    29.0
   ],
   "abilities": [],
   "ability_usage": [],

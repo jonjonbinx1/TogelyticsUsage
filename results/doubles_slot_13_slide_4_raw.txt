@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "gardevoir",
+  "pokemon": "milotic",
   "usage": 13,
   "moves": [],
   "move_usage": [],
@@ -8,8 +8,20 @@
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
-  "natures": ["modest", "timid", "quiet", "bold", "relaxed"],
-  "nature_usage": [81.4, 9.5, 7.6, 0.7, 0.2],
+  "natures": [
+    "modest",
+    "calm",
+    "bold",
+    "timid",
+    "quiet"
+  ],
+  "nature_usage": [
+    35.6,
+    29.6,
+    27.4,
+    3.5,
+    1.6
+  ],
   "items": [],
   "item_usage": []
 }
