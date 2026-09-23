@@ -18,7 +18,7 @@
     "twisted spoon"
   ],
   "item_usage": [
-    97.5,
+    97.3,
     0.8,
     0.3,
     0.3,

@@ -1,1 +1,27 @@
-{"id":"gen-1789916615-CqCRHHbI7MPcK34I9sfE","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}
+{
+  "screen_type": "moves",
+  "pokemon": "milotic",
+  "usage": 13,
+  "moves": [
+    "protect",
+    "scald",
+    "ice beam",
+    "icy wind",
+    "muddy water"
+  ],
+  "move_usage": [
+    76.1,
+    69.0,
+    59.9,
+    42.9,
+    31.6
+  ],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

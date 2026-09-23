@@ -10,11 +10,11 @@
     "sucker punch"
   ],
   "move_usage": [
-    95.0,
-    83.9,
+    94.9,
+    83.0,
     63.8,
-    45.6,
-    32.0
+    45.3,
+    32.8
   ],
   "abilities": [],
   "ability_usage": [],

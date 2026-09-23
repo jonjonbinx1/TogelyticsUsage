@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "pelipper",
+  "pokemon": "garchomp",
   "usage": 9,
   "moves": [
-    "hurricane",
-    "weather ball",
-    "tailwind",
-    "wide guard",
-    "protect"
+    "protect",
+    "rock slide",
+    "dragon claw",
+    "earthquake",
+    "power gem"
   ],
   "move_usage": [
-    97.6,
-    87.6,
-    80.3,
-    67.5,
-    31.6
+    80.9,
+    45.3,
+    44.5,
+    41.1,
+    35.6
   ],
   "abilities": [],
   "ability_usage": [],

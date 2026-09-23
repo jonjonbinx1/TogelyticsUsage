@@ -1,1 +1,23 @@
-{"id":"gen-1789916616-I5p7PBQ0h4vv1Vejrlba","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}
+{
+  "screen_type": "ability",
+  "pokemon": "gardevoir",
+  "usage": 16,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [
+    "trace",
+    "telepathy",
+    "synchronize"
+  ],
+  "ability_usage": [
+    80.5,
+    10.8,
+    8.7
+  ],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

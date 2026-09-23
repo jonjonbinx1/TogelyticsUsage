@@ -1,15 +1,1 @@
-{
-  "screen_type": "ability",
-  "pokemon": "indeedee",
-  "usage": 6,
-  "moves": [],
-  "move_usage": [],
-  "abilities": ["psychic surge", "synchronize", "own tempo"],
-  "ability_usage": [99.8, 0.1, 0.0],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
-}
+{"id":"gen-1790131868-HSdRF4ZwjzciY1Rpcdub","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}

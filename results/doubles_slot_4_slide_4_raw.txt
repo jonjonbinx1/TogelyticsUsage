@@ -1,15 +1,1 @@
-{
-  "screen_type": "stat_alignment",
-  "pokemon": "incineroar",
-  "usage": 4,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": ["careful", "impish", "adamant", "brave", "sassy"],
-  "nature_usage": [37.6, 25.5, 19.0, 6.1, 5.5],
-  "items": [],
-  "item_usage": []
-}
+{"id":"gen-1790131866-DwhBjjAmMUD4Hx68VEFv","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}

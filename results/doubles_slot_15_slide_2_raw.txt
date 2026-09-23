@@ -4,8 +4,14 @@
   "usage": 15,
   "moves": [],
   "move_usage": [],
-  "abilities": ["blaze", "solar power"],
-  "ability_usage": [77.7, 22.3],
+  "abilities": [
+    "blaze",
+    "solar power"
+  ],
+  "ability_usage": [
+    77.1,
+    22.9
+  ],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

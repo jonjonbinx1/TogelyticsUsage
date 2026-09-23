@@ -1,16 +1,27 @@
 {
+  "screen_type": "moves",
+  "pokemon": "gholdengo",
+  "usage": 10,
   "moves": [
-    "Protect",
-    "Rock Slide",
-    "Dragon Claw",
-    "Earthquake",
-    "Power Gem"
+    "make it rain",
+    "shadow ball",
+    "protect",
+    "nasty plot",
+    "power gem"
   ],
   "move_usage": [
-    81.0,
-    45.8,
-    45.1,
-    40.9,
-    35.5
-  ]
+    99.5,
+    98.9,
+    90.8,
+    81.3,
+    12.3
+  ],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
 }

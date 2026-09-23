@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "raichu",
+  "pokemon": "arcanine",
   "usage": 18,
   "moves": [
+    "flare blitz",
+    "head smash",
     "protect",
-    "zap cannon",
-    "focus blast",
-    "fake out",
-    "encore"
+    "extreme speed",
+    "rock slide"
   ],
   "move_usage": [
-    86.7,
-    82.4,
-    82.0,
-    74.0,
-    22.8
+    99.6,
+    94.8,
+    93.4,
+    88.8,
+    10.7
   ],
   "abilities": [],
   "ability_usage": [],

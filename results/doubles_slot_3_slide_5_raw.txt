@@ -1,1 +1,27 @@
-{"id":"gen-1789916599-358FlRc6JXTDCR5NzDQS","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}
+{
+  "screen_type": "held_item",
+  "pokemon": "salamence",
+  "usage": 3,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [
+    "salamencite",
+    "life orb",
+    "choice scarf",
+    "focus sash",
+    "haban berry"
+  ],
+  "item_usage": [
+    98.0,
+    0.4,
+    0.2,
+    0.2,
+    0.2
+  ]
+}

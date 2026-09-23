@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "raichu",
+  "pokemon": "arcanine",
   "usage": 18,
   "moves": [],
   "move_usage": [],
@@ -8,20 +8,8 @@
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
-  "natures": [
-    "timid",
-    "jolly",
-    "modest",
-    "adamant",
-    "hasty"
-  ],
-  "nature_usage": [
-    83.3,
-    6.6,
-    6.5,
-    1.7,
-    0.5
-  ],
+  "natures": ["jolly", "adamant", "brave", "naughty", "lonely"],
+  "nature_usage": [78.2, 20.1, 0.3, 0.3, 0.2],
   "items": [],
   "item_usage": []
 }

@@ -1,15 +1,21 @@
 {
+  "screen_type": "ability",
+  "pokemon": "raichu",
+  "usage": 17,
+  "moves": [],
+  "move_usage": [],
   "abilities": [
-    "Rock Head",
-    "Intimidate",
-    "Flash Fire"
+    "lightning rod",
+    "static"
   ],
   "ability_usage": [
-    97.0,
-    2.8,
-    0.2
+    96.9,
+    3.1
   ],
-  "slot": 17,
-  "slide": 2,
-  "error": ""
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
 }

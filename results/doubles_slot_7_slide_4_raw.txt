@@ -1,17 +1,15 @@
 {
-  "error": "Not answerable",
-  "nature_usage": [
-    "Adamant",
-    "Jolly",
-    "Brave",
-    "Naughty",
-    "Lonely"
-  ],
-  "natures": [
-    "Attack",
-    "Sp. Atk",
-    "Speed",
-    "Sp. Def",
-    "Defense"
-  ]
+  "screen_type": "stat_alignment",
+  "pokemon": "basculegion",
+  "usage": 7,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": ["adamant", "jolly", "brave", "naughty", "lonely"],
+  "nature_usage": [54.6, 43.2, 0.7, 0.3, 0.3],
+  "items": [],
+  "item_usage": []
 }

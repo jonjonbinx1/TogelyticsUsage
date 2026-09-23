@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "gholdengo",
+  "pokemon": "pelipper",
   "usage": 11,
   "moves": [
-    "make it rain",
-    "shadow ball",
-    "protect",
-    "nasty plot",
-    "power gem"
+    "hurricane",
+    "weather ball",
+    "tailwind",
+    "wide guard",
+    "protect"
   ],
   "move_usage": [
-    99.4,
-    99.0,
-    91.1,
-    81.1,
-    12.7
+    97.5,
+    86.8,
+    79.8,
+    67.4,
+    31.3
   ],
   "abilities": [],
   "ability_usage": [],

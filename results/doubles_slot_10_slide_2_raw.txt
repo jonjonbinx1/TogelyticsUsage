@@ -1,21 +1,12 @@
 {
-  "screen_type": "ability",
-  "pokemon": "garchomp",
-  "usage": 10,
-  "moves": [],
-  "move_usage": [],
   "abilities": [
-    "rough skin",
-    "sand veil"
+    "Good as Gold"
   ],
   "ability_usage": [
-    97.3,
-    2.7
+    {
+      "slot": 10,
+      "usage": "100.0%"
+    }
   ],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
+  "error": []
 }

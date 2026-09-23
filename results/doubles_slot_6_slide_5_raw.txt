@@ -1,1 +1,27 @@
-{"id":"gen-1789916603-G4mFJLz9iEke1BX2JMil","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}
+{
+  "screen_type": "held_item",
+  "pokemon": "kingambit",
+  "usage": 6,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [
+    "chople berry",
+    "black glasses",
+    "focus sash",
+    "life orb",
+    "occa berry"
+  ],
+  "item_usage": [
+    43.8,
+    18.2,
+    17.6,
+    14.7,
+    3.0
+  ]
+}

@@ -10,6 +10,18 @@
   "spread_usage": [],
   "natures": [],
   "nature_usage": [],
-  "items": ["grassy seed", "psychic seed", "white herb", "focus sash", "normal gem"],
-  "item_usage": [28.6, 28.3, 24.5, 14.8, 0.9]
+  "items": [
+    "psychic seed",
+    "white herb",
+    "grassy seed",
+    "focus sash",
+    "normal gem"
+  ],
+  "item_usage": [
+    27.5,
+    27.3,
+    27.0,
+    14.2,
+    0.9
+  ]
 }

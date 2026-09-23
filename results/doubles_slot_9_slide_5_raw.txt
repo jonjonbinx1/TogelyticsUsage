@@ -1,1 +1,27 @@
-{"id":"gen-1789916610-cj0pUEtERFAHiej4UaGb","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}
+{
+  "screen_type": "held_item",
+  "pokemon": "garchomp",
+  "usage": 9,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [
+    "garchompite z",
+    "life orb",
+    "choice scarf",
+    "rocky helmet",
+    "sitrus berry"
+  ],
+  "item_usage": [
+    45.4,
+    26.9,
+    9.7,
+    4.2,
+    3.9
+  ]
+}

@@ -1,17 +1,27 @@
 {
+  "screen_type": "moves",
+  "pokemon": "raichu",
+  "usage": 17,
   "moves": [
-    "Flare Blitz",
-    "Head Smash",
-    "Protect",
-    "Extreme Speed",
-    "Rock Slide"
+    "protect",
+    "zap cannon",
+    "focus blast",
+    "fake out",
+    "encore"
   ],
   "move_usage": [
-    99.7,
-    94.7,
-    93.6,
-    89.7,
-    10.2
+    87.0,
+    83.2,
+    82.8,
+    74.8,
+    21.8
   ],
-  "error": null
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
 }

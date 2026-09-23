@@ -1,27 +1,31 @@
 {
-  "screen_type": "held_item",
-  "pokemon": "basculegion",
-  "usage": 7,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
+  "error": null,
+  "item_usage": 7,
   "items": [
-    "choice scarf",
-    "life orb",
-    "mystic water",
-    "focus sash",
-    "sitrus berry"
-  ],
-  "item_usage": [
-    44.2,
-    31.7,
-    13.1,
-    7.3,
-    1.8
+    {
+      "slot": 1,
+      "usage": 45.1,
+      "item": "Choice Scarf"
+    },
+    {
+      "slot": 2,
+      "usage": 30.5,
+      "item": "Life Orb"
+    },
+    {
+      "slot": 3,
+      "usage": 13.1,
+      "item": "Mystic Water"
+    },
+    {
+      "slot": 4,
+      "usage": 7.4,
+      "item": "Focus Sash"
+    },
+    {
+      "slot": 5,
+      "usage": 1.8,
+      "item": "Sitrus Berry"
+    }
   ]
 }

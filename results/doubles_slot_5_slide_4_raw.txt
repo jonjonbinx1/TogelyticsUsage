@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "kingambit",
+  "pokemon": "indeedee",
   "usage": 5,
   "moves": [],
   "move_usage": [],
@@ -9,18 +9,18 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
-    "adamant",
-    "brave",
-    "jolly",
-    "careful",
-    "impish"
+    "relaxed",
+    "bold",
+    "calm",
+    "modest",
+    "sassy"
   ],
   "nature_usage": [
-    82.1,
-    15.7,
-    0.6,
-    0.4,
-    0.4
+    43.9,
+    36.4,
+    9.6,
+    3.3,
+    3.2
   ],
   "items": [],
   "item_usage": []

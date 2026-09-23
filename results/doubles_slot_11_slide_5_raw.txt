@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "gholdengo",
+  "pokemon": "pelipper",
   "usage": 11,
   "moves": [],
   "move_usage": [],
@@ -10,6 +10,18 @@
   "spread_usage": [],
   "natures": [],
   "nature_usage": [],
-  "items": ["life orb", "choice scarf", "grassy seed", "white herb", "focus sash"],
-  "item_usage": [76.8, 6.1, 3.2, 2.8, 2.8]
+  "items": [
+    "focus sash",
+    "sitrus berry",
+    "damp rock",
+    "life orb",
+    "choice scarf"
+  ],
+  "item_usage": [
+    46.9,
+    32.0,
+    7.6,
+    3.3,
+    3.0
+  ]
 }

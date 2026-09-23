@@ -1,13 +1,21 @@
-```json
 {
-    "abilities": [
-        "Intimidate",
-        "Blaze"
-    ],
-    "ability_usage": [
-        4,
-        1,
-        2
-    ]
+  "screen_type": "ability",
+  "pokemon": "incineroar",
+  "usage": 4,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [
+    "intimidate",
+    "blaze"
+  ],
+  "ability_usage": [
+    99.7,
+    0.3
+  ],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
 }
-```

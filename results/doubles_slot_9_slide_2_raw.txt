@@ -1,18 +1,16 @@
 {
   "screen_type": "ability",
-  "pokemon": "pelipper",
+  "pokemon": "garchomp",
   "usage": 9,
   "moves": [],
   "move_usage": [],
   "abilities": [
-    "drizzle",
-    "keen eye",
-    "rain dish"
+    "rough skin",
+    "sand veil"
   ],
   "ability_usage": [
-    100.0,
-    0.0,
-    0.0
+    97.0,
+    3.0
   ],
   "spread_values": [],
   "spread_usage": [],

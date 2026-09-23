@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "arcanine",
+  "pokemon": "raichu",
   "usage": 17,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
+    "raichunite y",
+    "raichunite x",
     "focus sash",
-    "choice scarf",
-    "life orb",
     "sitrus berry",
-    "wide lens"
+    "magnet"
   ],
   "item_usage": [
-    91.0,
-    3.1,
-    2.1,
-    0.7,
-    0.5
+    83.2,
+    14.0,
+    1.4,
+    0.2,
+    0.1
   ]
 }

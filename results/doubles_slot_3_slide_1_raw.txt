@@ -7,14 +7,14 @@
     "hyper voice",
     "tailwind",
     "draco meteor",
-    "double-edge"
+    "flamethrower"
   ],
   "move_usage": [
-    94.9,
-    91.4,
-    64.2,
-    56.4,
-    25.0
+    94.6,
+    91.1,
+    62.0,
+    58.5,
+    25.7
   ],
   "abilities": [],
   "ability_usage": [],

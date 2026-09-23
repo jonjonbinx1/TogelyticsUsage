@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "garchomp",
+  "pokemon": "gholdengo",
   "usage": 10,
   "moves": [],
   "move_usage": [],
@@ -8,8 +8,8 @@
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
-  "natures": ["modest", "jolly", "adamant", "timid", "impish"],
-  "nature_usage": [34.0, 31.3, 20.9, 10.3, 0.8],
+  "natures": ["modest", "timid", "bold", "quiet", "calm"],
+  "nature_usage": [64.9, 32.9, 0.7, 0.6, 0.4],
   "items": [],
   "item_usage": []
 }

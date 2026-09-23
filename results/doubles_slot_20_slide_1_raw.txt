@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "armarouge",
+  "pokemon": "tyranitar",
   "usage": 20,
   "moves": [
-    "expanding force",
-    "armor cannon",
+    "rock slide",
+    "knock off",
     "protect",
-    "trick room",
-    "wide guard"
+    "low kick",
+    "ice punch"
   ],
   "move_usage": [
-    94.8,
-    76.9,
-    61.0,
-    46.4,
-    40.8
+    97.1,
+    94.0,
+    87.1,
+    56.2,
+    17.3
   ],
   "abilities": [],
   "ability_usage": [],

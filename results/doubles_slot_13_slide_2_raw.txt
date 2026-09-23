@@ -4,8 +4,16 @@
   "usage": 13,
   "moves": [],
   "move_usage": [],
-  "abilities": ["competitive", "marvel scale", "cute charm"],
-  "ability_usage": [99.4, 0.4, 0.2],
+  "abilities": [
+    "competitive",
+    "marvel scale",
+    "cute charm"
+  ],
+  "ability_usage": [
+    99.3,
+    0.5,
+    0.2
+  ],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

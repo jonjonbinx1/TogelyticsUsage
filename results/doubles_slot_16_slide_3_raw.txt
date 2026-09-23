@@ -1,1 +1,27 @@
-{"id":"gen-1789916616-OIoM4fomRZLJendcJWCM","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}
+{
+  "screen_type": "stat_points",
+  "pokemon": "gardevoir",
+  "usage": 16,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [
+    [1, 2, 0, 0, 32, 0, 32],
+    [2, 32, 0, 2, 32, 0, 0],
+    [3, 29, 0, 0, 32, 0, 5],
+    [4, 0, 0, 2, 32, 0, 32],
+    [5, 28, 0, 17, 10, 0, 11]
+  ],
+  "spread_usage": [
+    19.4,
+    11.5,
+    8.8,
+    6.1,
+    4.6
+  ],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

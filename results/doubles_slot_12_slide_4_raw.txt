@@ -8,6 +8,20 @@
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
-  "natures": ["modest", "calm", "bold", "timid", "quiet"],
-  "nature_usage": [54.3, 29.4, 9.8, 2.9, 1.8]
+  "natures": [
+    "modest",
+    "calm",
+    "bold",
+    "timid",
+    "quiet"
+  ],
+  "nature_usage": [
+    52.8,
+    29.2,
+    11.1,
+    3.1,
+    1.9
+  ],
+  "items": [],
+  "item_usage": []
 }

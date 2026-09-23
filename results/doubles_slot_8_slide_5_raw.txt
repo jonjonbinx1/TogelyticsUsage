@@ -10,18 +10,6 @@
   "spread_usage": [],
   "natures": [],
   "nature_usage": [],
-  "items": [
-    "golisopite",
-    "life orb",
-    "sitrus berry",
-    "leftovers",
-    "silver powder"
-  ],
-  "item_usage": [
-    98.8,
-    0.3,
-    0.2,
-    0.1,
-    0.1
-  ]
+  "items": ["golisopite", "life orb", "sitrus berry", "leftovers", "silver powder"],
+  "item_usage": [98.7, 0.3, 0.2, 0.1, 0.1]
 }

@@ -1,27 +1,16 @@
 {
-  "screen_type": "stat_alignment",
-  "pokemon": "gholdego",
-  "usage": 11,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
   "natures": [
-    "modest",
-    "timid",
-    "bold",
-    "quiet",
-    "calm"
+    "Modest",
+    "Timid",
+    "Bold",
+    "Calm",
+    "Quiet"
   ],
   "nature_usage": [
-    66.8,
-    31.2,
-    0.7,
-    0.6,
-    0.3
-  ],
-  "items": [],
-  "item_usage": []
+    57.0,
+    18.9,
+    12.0,
+    5.7,
+    4.1
+  ]
 }

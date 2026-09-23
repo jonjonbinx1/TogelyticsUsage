@@ -1,13 +1,27 @@
 {
-  "error": null,
-  "item_usage": [
-    12
-  ],
+  "screen_type": "held_item",
+  "pokemon": "archaludon",
+  "usage": 12,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
   "items": [
-    "Leftover",
-    "Sitrus Berry",
-    "Chople Berry",
-    "Choice Scarf",
-    "Psychic Seed"
+    "leftovers",
+    "sitrus berry",
+    "chople berry",
+    "choice scarf",
+    "psychic seed"
+  ],
+  "item_usage": [
+    87.3,
+    2.8,
+    2.2,
+    1.4,
+    1.1
   ]
 }
