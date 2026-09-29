@@ -1,20 +1,25 @@
 {
-  "error": null,
-  "natures": [
-    "Adamant",
-    "Jolly",
-    "Brave",
-    "Impish",
-    "Careful"
-  ],
-  "nature_usage": [
-    0.525,
-    0.374,
-    0.051,
-    0.018,
-    0.016
-  ],
   "slot": 20,
-  "slide": 4,
-  "usage": "stat_alignment"
+  "nature_usage": [
+    {
+      "nature": "Adamant",
+      "usage": 48.7
+    },
+    {
+      "nature": "Jolly",
+      "usage": 41.2
+    },
+    {
+      "nature": "Brave",
+      "usage": 4.8
+    },
+    {
+      "nature": "Impish",
+      "usage": 1.8
+    },
+    {
+      "nature": "Careful",
+      "usage": 1.6
+    }
+  ]
 }

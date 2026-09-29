@@ -1,1 +1,27 @@
-{"id":"gen-1789653750-tTW97n3vaib1XjDRhRAC","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}
+{
+  "screen_type": "held_item",
+  "pokemon": "arcanine",
+  "usage": 18,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [
+    "focus sash",
+    "choice scarf",
+    "life orb",
+    "sitrus berry",
+    "wide lens"
+  ],
+  "item_usage": [
+    90.4,
+    3.2,
+    2.3,
+    0.8,
+    0.5
+  ]
+}

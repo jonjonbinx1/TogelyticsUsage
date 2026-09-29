@@ -1,16 +1,17 @@
 {
+  "slot": 11,
   "natures": [
     "Modest",
-    "Timid",
-    "Bold",
     "Calm",
+    "Bold",
+    "Timid",
     "Quiet"
   ],
   "nature_usage": [
-    57.0,
-    18.9,
-    12.0,
-    5.7,
-    4.1
+    51.1,
+    28.4,
+    13.0,
+    3.4,
+    2.0
   ]
 }

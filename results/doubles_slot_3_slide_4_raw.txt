@@ -1,15 +1,11 @@
 {
-  "screen_type": "stat_alignment",
-  "pokemon": "salamence",
-  "usage": 3,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": ["timid", "modest", "naive", "hasty", "adamant"],
-  "nature_usage": [48.8, 24.0, 11.7, 5.8, 3.4],
-  "items": [],
-  "item_usage": []
+  "error": null,
+  "nature_usage": "Careful: 37.5%",
+  "natures": [
+    "Careful",
+    "Impish",
+    "Adamant",
+    "Sassy",
+    "Brave"
+  ]
 }

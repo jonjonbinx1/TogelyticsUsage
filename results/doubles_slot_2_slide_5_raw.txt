@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "psychic seed",
     "white herb",
+    "psychic seed",
     "grassy seed",
     "focus sash",
     "normal gem"
   ],
   "item_usage": [
-    27.5,
-    27.3,
-    27.0,
-    14.2,
-    0.9
+    30.5,
+    26.3,
+    25.1,
+    13.5,
+    1.0
   ]
 }

@@ -1,0 +1,9126 @@
+{
+  "folder": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\data\\doubles\\20260928doubles",
+  "date": "2026-09-28",
+  "format": "doubles",
+  "provider": "ollama,openrouter",
+  "model": "qwen3-vl:30b-a3b",
+  "prefilled_name_authority": {},
+  "prefilled_name_conflicts": [],
+  "raw_extracted": [
+    {
+      "image": "doubles_slot_1_slide_1.png",
+      "data": {
+        "id": "gen-1790609739-Mi4OebQIlVZa0005NJ4T",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "moves",
+        "usage": 1,
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_1_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "rillaboom",
+        "usage": 1,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "grassy surge",
+          "overgrow"
+        ],
+        "ability_usage": [
+          99.9,
+          0.1
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_1_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "rillaboom",
+        "usage": 1,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            32,
+            32,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            2,
+            32,
+            32,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            3,
+            18,
+            25,
+            5,
+            0,
+            10,
+            8
+          ],
+          [
+            4,
+            32,
+            32,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          11.4,
+          9.6,
+          4.5,
+          2.3,
+          2.2
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_1_slide_4.png",
+      "data": {
+        "error": "Not answerable",
+        "nature_usage": [
+          "Adamant",
+          "Brave",
+          "Careful",
+          "Sassy",
+          "Jolly"
+        ],
+        "natures": [
+          "Attack",
+          "Sp. Atk",
+          "Attack",
+          "Speed",
+          "Sp. Def",
+          "Sp. Def",
+          "Speed",
+          "Speed",
+          "Sp. Atk",
+          "Sp. Atk"
+        ],
+        "screen_type": "stat_alignment",
+        "usage": 1,
+        "move_usage": [],
+        "moves": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_1_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "rillaboom",
+        "usage": 1,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "miracle seed",
+          "life orb",
+          "sitrus berry",
+          "grassy seed",
+          "eject button"
+        ],
+        "item_usage": [
+          57.4,
+          10.5,
+          10.2,
+          5.4,
+          4.0
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_2_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "sneasler",
+        "usage": 2,
+        "moves": [
+          "close combat",
+          "dire claw",
+          "protect",
+          "fake out",
+          "rock slide"
+        ],
+        "move_usage": [
+          99.3,
+          92.5,
+          64.1,
+          55.8,
+          27.6
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_2_slide_2.png",
+      "data": {
+        "abilities": [
+          "Unburden",
+          "Poison Touch",
+          "Pressure"
+        ],
+        "ability_usage": [
+          89.2,
+          10.7,
+          0.2
+        ],
+        "screen_type": "ability",
+        "usage": 2,
+        "move_usage": [],
+        "moves": [],
+        "items": [],
+        "item_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_2_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "sneasler",
+        "usage": 2,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            16,
+            20,
+            0,
+            0,
+            0,
+            30
+          ],
+          [
+            4,
+            0,
+            32,
+            0,
+            0,
+            2,
+            32
+          ],
+          [
+            5,
+            1,
+            32,
+            1,
+            0,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          46.2,
+          8.5,
+          4.3,
+          4.1,
+          1.9
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_2_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "sneasler",
+        "usage": 2,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "adamant",
+          "jolly",
+          "brave",
+          "naughty",
+          "naive"
+        ],
+        "nature_usage": [
+          63.4,
+          34.2,
+          0.5,
+          0.4,
+          0.3
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_2_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "sneasler",
+        "usage": 2,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "white herb",
+          "psychic seed",
+          "grassy seed",
+          "focus sash",
+          "normal gem"
+        ],
+        "item_usage": [
+          30.5,
+          26.3,
+          25.1,
+          13.5,
+          1.0
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_3_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "incineroar",
+        "usage": 3,
+        "moves": [
+          "fake out",
+          "flare blitz",
+          "parting shot",
+          "darkest lariat",
+          "throat chop"
+        ],
+        "move_usage": [
+          97.6,
+          91.1,
+          90.7,
+          40.6,
+          38.8
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_3_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "incineroar",
+        "usage": 3,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "intimidate",
+          "blaze"
+        ],
+        "ability_usage": [
+          99.7,
+          0.3
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_3_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "incineroar",
+        "usage": 3,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            32,
+            0,
+            14,
+            0,
+            20,
+            0
+          ],
+          [
+            2,
+            32,
+            0,
+            20,
+            0,
+            14,
+            0
+          ],
+          [
+            3,
+            32,
+            0,
+            20,
+            0,
+            13,
+            1
+          ],
+          [
+            4,
+            32,
+            1,
+            8,
+            0,
+            20,
+            5
+          ],
+          [
+            5,
+            31,
+            0,
+            15,
+            0,
+            20,
+            0
+          ]
+        ],
+        "spread_usage": [
+          9.2,
+          2.7,
+          2.6,
+          2.4,
+          2.4
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_3_slide_4.png",
+      "data": {
+        "error": null,
+        "nature_usage": "Careful: 37.5%",
+        "natures": [
+          "Careful",
+          "Impish",
+          "Adamant",
+          "Sassy",
+          "Brave"
+        ],
+        "screen_type": "stat_alignment",
+        "usage": 3,
+        "move_usage": [],
+        "moves": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_3_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "incineroar",
+        "usage": 3,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "sitrus berry",
+          "chople berry",
+          "passho berry",
+          "rocky helmet",
+          "leftovers"
+        ],
+        "item_usage": [
+          64.7,
+          8.7,
+          7.0,
+          6.1,
+          3.6
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_4_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "salamence",
+        "usage": 4,
+        "moves": [
+          "protect",
+          "hyper voice",
+          "draco meteor",
+          "tailwind",
+          "flamethrower"
+        ],
+        "move_usage": [
+          93.9,
+          90.7,
+          61.2,
+          58.5,
+          29.3
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_4_slide_2.png",
+      "data": {
+        "id": "gen-1790609773-N6YkY2ZZL4JceR0pyM9z",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "ability",
+        "usage": 4,
+        "move_usage": [],
+        "moves": [],
+        "items": [],
+        "item_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_4_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "salamence",
+        "usage": 4,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            1,
+            0,
+            0,
+            32,
+            1,
+            32
+          ],
+          [
+            3,
+            1,
+            21,
+            0,
+            15,
+            0,
+            29
+          ],
+          [
+            4,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            5,
+            1,
+            0,
+            1,
+            32,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          44.2,
+          6.1,
+          3.5,
+          3.4,
+          3.0
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_4_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "salamence",
+        "usage": 4,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "timid",
+          "modest",
+          "naive",
+          "hasty",
+          "adamant"
+        ],
+        "nature_usage": [
+          51.7,
+          23.0,
+          10.3,
+          5.1,
+          3.4
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_4_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "salamence",
+        "usage": 4,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "salamencite",
+          "life orb",
+          "haban berry",
+          "choice scarf",
+          "focus sash"
+        ],
+        "item_usage": [
+          97.7,
+          0.5,
+          0.3,
+          0.3,
+          0.2
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_5_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "indeedee",
+        "usage": 5,
+        "moves": [
+          "follow me",
+          "trick room",
+          "helping hand",
+          "psychic",
+          "protect"
+        ],
+        "move_usage": [
+          97.4,
+          82.2,
+          79.9,
+          62.1,
+          18.9
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_5_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "indeedee",
+        "usage": 5,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "psychic surge",
+          "synchronize",
+          "own tempo"
+        ],
+        "ability_usage": [
+          99.7,
+          0.2,
+          0.1
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_5_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "indeedee",
+        "usage": 5,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            32,
+            0,
+            32,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            32,
+            0,
+            25,
+            0,
+            9,
+            0
+          ],
+          [
+            3,
+            32,
+            0,
+            32,
+            2,
+            0,
+            0
+          ],
+          [
+            4,
+            31,
+            0,
+            32,
+            0,
+            3,
+            0
+          ]
+        ],
+        "spread_usage": [
+          53.5,
+          8.8,
+          3.3,
+          1.9
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_5_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "indeedee",
+        "usage": 5,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "relaxed",
+          "bold",
+          "calm",
+          "modest",
+          "sassy"
+        ],
+        "nature_usage": [
+          43.5,
+          36.6,
+          9.1,
+          3.6,
+          3.1
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_5_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "indeedee",
+        "usage": 5,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "colbur berry",
+          "rocky helmet",
+          "psychic seed",
+          "sitrus berry",
+          "focus sash"
+        ],
+        "item_usage": [
+          26.9,
+          26.2,
+          22.9,
+          12.9,
+          3.6
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_6_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "kingambit",
+        "usage": 6,
+        "moves": [
+          "kowtow cleave",
+          "sucker punch",
+          "iron head",
+          "protect",
+          "low kick"
+        ],
+        "move_usage": [
+          97.5,
+          96.8,
+          79.0,
+          57.1,
+          48.1
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_6_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "kingambit",
+        "usage": 6,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "defiant",
+          "supreme overlord",
+          "pressure"
+        ],
+        "ability_usage": [
+          95.8,
+          4.1,
+          0.1
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_6_slide_3.png",
+      "data": {
+        "id": "gen-1790609796-MevuLAUH4lyAwKjas3D0",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "stat_points",
+        "usage": 6,
+        "spread_values": [],
+        "move_usage": [],
+        "moves": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_6_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "kingambit",
+        "usage": 6,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "adamant",
+          "brave",
+          "jolly",
+          "careful",
+          "impish"
+        ],
+        "nature_usage": [
+          81.3,
+          16.0,
+          0.7,
+          0.5,
+          0.5
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_6_slide_5.png",
+      "data": {
+        "id": "gen-1790609798-Jt4de16mQt9uRvhkli1n",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "held_item",
+        "usage": 6,
+        "move_usage": [],
+        "moves": [],
+        "ability_usage": [],
+        "abilities": [],
+        "natures": [],
+        "nature_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_7_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "basculegion",
+        "usage": 7,
+        "moves": [
+          "last respects",
+          "wave crash",
+          "aqua jet",
+          "protect",
+          "flip turn"
+        ],
+        "move_usage": [
+          99.8,
+          93.0,
+          90.3,
+          51.4,
+          46.3
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_7_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "basculegion",
+        "usage": 7,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "adaptability",
+          "swift swim",
+          "mold breaker"
+        ],
+        "ability_usage": [
+          94.1,
+          5.6,
+          0.3
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_7_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "basculegion",
+        "usage": 7,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            4,
+            23,
+            13,
+            0,
+            0,
+            26
+          ],
+          [
+            4,
+            0,
+            32,
+            1,
+            0,
+            1,
+            32
+          ],
+          [
+            5,
+            0,
+            32,
+            0,
+            0,
+            2,
+            32
+          ]
+        ],
+        "spread_usage": [
+          37.7,
+          11.6,
+          5.7,
+          3.7,
+          3.1
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_7_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "basculegion",
+        "usage": 7,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "adamant",
+          "jolly",
+          "brave",
+          "lonely",
+          "naughty"
+        ],
+        "nature_usage": [
+          53.4,
+          44.0,
+          0.8,
+          0.3,
+          0.3
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_7_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "basculegion",
+        "usage": 7,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "choice scarf",
+          "life orb",
+          "mystic water",
+          "focus sash",
+          "sitrus berry"
+        ],
+        "item_usage": [
+          45.7,
+          29.3,
+          13.0,
+          7.6,
+          1.9
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_8_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "golisopod",
+        "usage": 8,
+        "moves": [
+          "leech life",
+          "iron head",
+          "protect",
+          "swords dance",
+          "sucker punch"
+        ],
+        "move_usage": [
+          94.9,
+          81.6,
+          63.7,
+          44.1,
+          33.5
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_8_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "golisopod",
+        "usage": 8,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "emergency exit"
+        ],
+        "ability_usage": [
+          100.0
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_8_slide_3.png",
+      "data": {
+        "id": "gen-1790609830-msg9Uu0OSIGfTdhCk16P",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "stat_points",
+        "usage": 8,
+        "spread_values": [],
+        "move_usage": [],
+        "moves": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_8_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "golisopod",
+        "usage": 8,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "adamant",
+          "brave",
+          "careful",
+          "sassy",
+          "impish"
+        ],
+        "nature_usage": [
+          59.9,
+          34.0,
+          2.3,
+          1.5,
+          0.7
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_8_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "golisopod",
+        "usage": 8,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "golisopite",
+          "life orb",
+          "sitrus berry",
+          "leftovers",
+          "silver powder"
+        ],
+        "item_usage": [
+          98.4,
+          0.4,
+          0.2,
+          0.1,
+          0.1
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_1.png",
+      "data": {
+        "error": null,
+        "moves": [
+          "Protect",
+          "Rock Slide",
+          "Dragon Claw",
+          "Earthquake",
+          "Power Gem"
+        ],
+        "move_usage": [
+          0.803,
+          0.446,
+          0.437,
+          0.415,
+          0.359
+        ],
+        "screen_type": "moves",
+        "usage": 9,
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_2.png",
+      "data": {
+        "id": "gen-1790609839-uZS7VMLqcTpb27lbiSVi",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "ability",
+        "usage": 9,
+        "move_usage": [],
+        "moves": [],
+        "items": [],
+        "item_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "garchomp",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            3,
+            0,
+            0,
+            5,
+            31,
+            0,
+            30
+          ],
+          [
+            4,
+            8,
+            0,
+            6,
+            21,
+            1,
+            30
+          ],
+          [
+            5,
+            0,
+            32,
+            0,
+            0,
+            2,
+            32
+          ]
+        ],
+        "spread_usage": [
+          25.0,
+          17.4,
+          3.6,
+          3.1,
+          2.9
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_4.png",
+      "data": {
+        "error": false,
+        "natures": [
+          "Modest",
+          "Jolly",
+          "Adamant",
+          "Timid",
+          "Impish"
+        ],
+        "nature_usage": [
+          34.8,
+          30.8,
+          20.5,
+          9.8,
+          0.8
+        ],
+        "screen_type": "stat_alignment",
+        "usage": 9,
+        "move_usage": [],
+        "moves": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_5.png",
+      "data": {
+        "id": "gen-1790609857-j1rXxBg32eitRGUZ99hy",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "held_item",
+        "usage": 9,
+        "move_usage": [],
+        "moves": [],
+        "ability_usage": [],
+        "abilities": [],
+        "natures": [],
+        "nature_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_10_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "gholdengo",
+        "usage": 10,
+        "moves": [
+          "make it rain",
+          "shadow ball",
+          "protect",
+          "nasty plot",
+          "power gem"
+        ],
+        "move_usage": [
+          99.4,
+          98.7,
+          90.5,
+          81.6,
+          11.6
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_10_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "gholdengo",
+        "usage": 10,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "good as gold"
+        ],
+        "ability_usage": [
+          100.0
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_10_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "gholdengo",
+        "usage": 10,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            17,
+            0,
+            0,
+            17,
+            0,
+            32
+          ],
+          [
+            3,
+            7,
+            0,
+            0,
+            27,
+            0,
+            32
+          ],
+          [
+            4,
+            15,
+            0,
+            1,
+            18,
+            0,
+            32
+          ],
+          [
+            5,
+            1,
+            0,
+            1,
+            32,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          23.2,
+          9.8,
+          7.4,
+          3.2,
+          2.9
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_10_slide_4.png",
+      "data": {
+        "error": false,
+        "natures": [
+          "Modest",
+          "Timid",
+          "Bold",
+          "Quiet",
+          "Calm"
+        ],
+        "nature_usage": [
+          63.2,
+          34.4,
+          0.7,
+          0.7,
+          0.4
+        ],
+        "slot": 10,
+        "slide": 4,
+        "stat_alignment": true,
+        "screen_type": "stat_alignment",
+        "usage": 10,
+        "move_usage": [],
+        "moves": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_10_slide_5.png",
+      "data": {
+        "id": "gen-1790609902-DhPNPrF95mrnIW5h8le9",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "held_item",
+        "usage": 10,
+        "move_usage": [],
+        "moves": [],
+        "ability_usage": [],
+        "abilities": [],
+        "natures": [],
+        "nature_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_11_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "archaludon",
+        "usage": 11,
+        "moves": [
+          "electro shot",
+          "protect",
+          "flash cannon",
+          "dragon pulse",
+          "aura sphere"
+        ],
+        "move_usage": [
+          94.9,
+          92.5,
+          83.2,
+          75.9,
+          18.2
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_11_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "archaludon",
+        "usage": 11,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "stamina",
+          "sturdy",
+          "stalwart"
+        ],
+        "ability_usage": [
+          96.3,
+          2.3,
+          1.5
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_11_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "archaludon",
+        "usage": 11,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            32,
+            0,
+            0,
+            1,
+            29,
+            4
+          ],
+          [
+            2,
+            32,
+            0,
+            0,
+            2,
+            32,
+            0
+          ],
+          [
+            3,
+            32,
+            0,
+            1,
+            1,
+            32,
+            0
+          ],
+          [
+            4,
+            32,
+            0,
+            0,
+            32,
+            0,
+            2
+          ],
+          [
+            5,
+            32,
+            0,
+            0,
+            32,
+            2,
+            0
+          ]
+        ],
+        "spread_usage": [
+          4.8,
+          3.9,
+          3.3,
+          3.1,
+          2.9
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_11_slide_4.png",
+      "data": {
+        "slot": 11,
+        "natures": [
+          "Modest",
+          "Calm",
+          "Bold",
+          "Timid",
+          "Quiet"
+        ],
+        "nature_usage": [
+          51.1,
+          28.4,
+          13.0,
+          3.4,
+          2.0
+        ],
+        "screen_type": "stat_alignment",
+        "usage": 11,
+        "move_usage": [],
+        "moves": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_11_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "archaludon",
+        "usage": 11,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "leftovers",
+          "sitrus berry",
+          "chople berry",
+          "choice scarf",
+          "psychic seed"
+        ],
+        "item_usage": [
+          86.5,
+          3.0,
+          2.2,
+          1.4,
+          1.1
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_12_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "pelipper",
+        "usage": 12,
+        "moves": [
+          "hurricane",
+          "weather ball",
+          "tailwind",
+          "wide guard",
+          "protect"
+        ],
+        "move_usage": [
+          97.2,
+          85.2,
+          78.6,
+          67.1,
+          31.2
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_12_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "pelipper",
+        "usage": 12,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "drizzle",
+          "keen eye",
+          "rain dish"
+        ],
+        "ability_usage": [
+          99.9,
+          0.0,
+          0.0
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_12_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "pelipper",
+        "usage": 12,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            32,
+            0,
+            0,
+            32,
+            2,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            32,
+            2,
+            32
+          ],
+          [
+            4,
+            32,
+            0,
+            1,
+            5,
+            17,
+            11
+          ],
+          [
+            5,
+            0,
+            0,
+            2,
+            32,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          30.3,
+          4.5,
+          4.3,
+          3.4,
+          2.7
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_12_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "pelipper",
+        "usage": 12,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "modest",
+          "timid",
+          "bold",
+          "calm",
+          "quiet"
+        ],
+        "nature_usage": [
+          56.3,
+          19.7,
+          11.6,
+          5.8,
+          4.1
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_12_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "pelipper",
+        "usage": 12,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "focus sash",
+          "sitrus berry",
+          "damp rock",
+          "life orb",
+          "choice scarf"
+        ],
+        "item_usage": [
+          48.0,
+          29.6,
+          8.6,
+          3.3,
+          2.9
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_13_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "milotic",
+        "usage": 13,
+        "moves": [
+          "protect",
+          "scald",
+          "ice beam",
+          "icy wind",
+          "muddy water"
+        ],
+        "move_usage": [
+          71.1,
+          65.6,
+          58.4,
+          40.5,
+          35.0
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_13_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "milotic",
+        "usage": 13,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "competitive",
+          "marvel scale",
+          "cute charm"
+        ],
+        "ability_usage": [
+          99.2,
+          0.6,
+          0.3
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_13_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "milotic",
+        "usage": 13,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            32,
+            0,
+            32,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            20,
+            0,
+            20,
+            4,
+            8,
+            14
+          ],
+          [
+            3,
+            32,
+            0,
+            2,
+            32,
+            0,
+            0
+          ],
+          [
+            4,
+            32,
+            0,
+            32,
+            2,
+            0,
+            0
+          ],
+          [
+            5,
+            31,
+            0,
+            15,
+            0,
+            12,
+            8
+          ]
+        ],
+        "spread_usage": [
+          8.7,
+          3.4,
+          3.2,
+          2.4,
+          2.0
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_13_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "milotic",
+        "usage": 13,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "modest",
+          "calm",
+          "bold",
+          "timid",
+          "quiet"
+        ],
+        "nature_usage": [
+          34.1,
+          32.5,
+          25.8,
+          3.4,
+          1.8
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_13_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "milotic",
+        "usage": 13,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "leftovers",
+          "sitrus berry",
+          "psychic seed",
+          "grassy seed",
+          "mystic water"
+        ],
+        "item_usage": [
+          62.6,
+          21.8,
+          5.8,
+          2.4,
+          1.2
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_14_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "farigiraf",
+        "usage": 14,
+        "moves": [
+          "trick room",
+          "helping hand",
+          "psychic",
+          "protect",
+          "thunderbolt"
+        ],
+        "move_usage": [
+          95.0,
+          52.4,
+          50.9,
+          46.2,
+          42.0
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_14_slide_2.png",
+      "data": {
+        "id": "gen-1790609954-0FR1fZKpNjwUVVHxNPgF",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "ability",
+        "usage": 14,
+        "move_usage": [],
+        "moves": [],
+        "items": [],
+        "item_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_14_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "farigiraf",
+        "usage": 14,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            27,
+            0,
+            20,
+            0,
+            19,
+            0
+          ],
+          [
+            2,
+            32,
+            0,
+            20,
+            0,
+            14,
+            0
+          ],
+          [
+            3,
+            29,
+            0,
+            21,
+            0,
+            16,
+            0
+          ],
+          [
+            4,
+            32,
+            0,
+            32,
+            0,
+            2,
+            0
+          ],
+          [
+            5,
+            32,
+            0,
+            2,
+            32,
+            0,
+            0
+          ]
+        ],
+        "spread_usage": [
+          7.5,
+          4.6,
+          3.8,
+          3.3,
+          2.5
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_14_slide_4.png",
+      "data": {
+        "error": false,
+        "natures": [
+          "Bold",
+          "Relaxed",
+          "Modest",
+          "Calm",
+          "Quiet"
+        ],
+        "nature_usage": [
+          35.3,
+          18.6,
+          13.4,
+          12.0,
+          11.6
+        ],
+        "screen_type": "stat_alignment",
+        "usage": 14,
+        "move_usage": [],
+        "moves": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_14_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "farigiraf",
+        "usage": 14,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "sitrus berry",
+          "colbur berry",
+          "grassy seed",
+          "leftovers",
+          "mental herb"
+        ],
+        "item_usage": [
+          59.5,
+          19.6,
+          6.5,
+          3.0,
+          2.6
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_15_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "charizard",
+        "usage": 15,
+        "moves": [
+          "protect",
+          "heat wave",
+          "weather ball",
+          "solar beam",
+          "ancient power"
+        ],
+        "move_usage": [
+          93.6,
+          93.2,
+          70.6,
+          60.4,
+          26.0
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_15_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "charizard",
+        "usage": 15,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "blaze",
+          "solar power"
+        ],
+        "ability_usage": [
+          76.4,
+          23.6
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_15_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "charizard",
+        "usage": 15,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            0,
+            0,
+            2,
+            32,
+            0,
+            32
+          ],
+          [
+            3,
+            12,
+            0,
+            14,
+            8,
+            0,
+            32
+          ],
+          [
+            4,
+            24,
+            0,
+            16,
+            9,
+            0,
+            17
+          ],
+          [
+            5,
+            0,
+            0,
+            0,
+            32,
+            2,
+            32
+          ]
+        ],
+        "spread_usage": [
+          28.8,
+          5.5,
+          4.3,
+          2.3,
+          2.1
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_15_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "charizard",
+        "usage": 15,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "modest",
+          "timid",
+          "adamant",
+          "bold",
+          "jolly"
+        ],
+        "nature_usage": [
+          58.9,
+          32.2,
+          3.5,
+          1.3,
+          1.3
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_15_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "charizard",
+        "usage": 15,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "charizardite y",
+          "charizardite x",
+          "choice scarf",
+          "charcoal",
+          "life orb"
+        ],
+        "item_usage": [
+          93.3,
+          4.7,
+          0.4,
+          0.3,
+          0.2
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_16_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "raichu",
+        "usage": 16,
+        "moves": [
+          "protect",
+          "zap cannon",
+          "focus blast",
+          "fake out",
+          "encore"
+        ],
+        "move_usage": [
+          86.4,
+          82.9,
+          82.6,
+          75.9,
+          20.8
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_16_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "raichu",
+        "usage": 16,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "lightning rod",
+          "static"
+        ],
+        "ability_usage": [
+          96.8,
+          3.2
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_16_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "raichu",
+        "usage": 16,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            26,
+            0,
+            17,
+            0,
+            0,
+            23
+          ],
+          [
+            3,
+            32,
+            0,
+            11,
+            0,
+            0,
+            23
+          ],
+          [
+            4,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            5,
+            32,
+            0,
+            0,
+            2,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          21.4,
+          5.3,
+          4.7,
+          4.3,
+          4.3
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_16_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "raichu",
+        "usage": 16,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "timid",
+          "modest",
+          "jolly",
+          "adamant",
+          "hasty"
+        ],
+        "nature_usage": [
+          82.5,
+          7.5,
+          6.5,
+          1.5,
+          0.5
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_16_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "raichu",
+        "usage": 16,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "raichunite y",
+          "raichunite x",
+          "focus sash",
+          "sitrus berry",
+          "magnet"
+        ],
+        "item_usage": [
+          82.9,
+          14.3,
+          1.4,
+          0.2,
+          0.2
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_17_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "gardevoir",
+        "usage": 17,
+        "moves": [
+          "hyper voice",
+          "protect",
+          "expanding force",
+          "trick room",
+          "mystical fire"
+        ],
+        "move_usage": [
+          94.9,
+          94.0,
+          93.2,
+          33.2,
+          22.0
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_17_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "gardevoir",
+        "usage": 17,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "trace",
+          "telepathy",
+          "synchronize"
+        ],
+        "ability_usage": [
+          78.7,
+          11.5,
+          9.8
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_17_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "gardevoir",
+        "usage": 17,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            32,
+            0,
+            2,
+            32,
+            0,
+            0
+          ],
+          [
+            3,
+            29,
+            0,
+            0,
+            32,
+            0,
+            5
+          ],
+          [
+            4,
+            0,
+            0,
+            2,
+            32,
+            0,
+            32
+          ],
+          [
+            5,
+            28,
+            0,
+            17,
+            10,
+            0,
+            11
+          ]
+        ],
+        "spread_usage": [
+          20.6,
+          11.5,
+          7.9,
+          6.0,
+          4.1
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_17_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "gardevoir",
+        "usage": 17,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "modest",
+          "timid",
+          "quiet",
+          "bold",
+          "relaxed"
+        ],
+        "nature_usage": [
+          75.9,
+          12.3,
+          9.4,
+          1.1,
+          0.4
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_17_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "gardevoir",
+        "usage": 17,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "gardevoirite",
+          "choice scarf",
+          "focus sash",
+          "life orb",
+          "twisted spoon"
+        ],
+        "item_usage": [
+          96.9,
+          0.9,
+          0.4,
+          0.3,
+          0.2
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_18_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "arcanine",
+        "usage": 18,
+        "moves": [
+          "flare blitz",
+          "head smash",
+          "protect",
+          "extreme speed",
+          "rock slide"
+        ],
+        "move_usage": [
+          99.6,
+          95.1,
+          93.0,
+          86.2,
+          12.6
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_18_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "arcanine",
+        "usage": 18,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "rock head",
+          "intimidate",
+          "flash fire"
+        ],
+        "ability_usage": [
+          97.1,
+          2.7,
+          0.3
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_18_slide_3.png",
+      "data": {
+        "id": "gen-1790610043-R9KCow490hMqUWgO0k74",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (372/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "stat_points",
+        "usage": 18,
+        "spread_values": [],
+        "move_usage": [],
+        "moves": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_18_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "arcanine",
+        "usage": 18,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "jolly",
+          "adamant",
+          "brave",
+          "naughty",
+          "lonely"
+        ],
+        "nature_usage": [
+          78.6,
+          19.7,
+          0.3,
+          0.3,
+          0.2
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_18_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "arcanine",
+        "usage": 18,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "focus sash",
+          "choice scarf",
+          "life orb",
+          "sitrus berry",
+          "wide lens"
+        ],
+        "item_usage": [
+          90.3,
+          3.3,
+          2.3,
+          0.8,
+          0.5
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_19_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "sylveon",
+        "usage": 19,
+        "moves": [
+          "hyper voice",
+          "hyper beam",
+          "quick attack",
+          "detect",
+          "protect"
+        ],
+        "move_usage": [
+          99.6,
+          74.3,
+          69.0,
+          64.5,
+          30.4
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_19_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "sylveon",
+        "usage": 19,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "pixilate",
+          "cute charm"
+        ],
+        "ability_usage": [
+          99.8,
+          0.2
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_19_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "sylveon",
+        "usage": 19,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            32,
+            0,
+            2,
+            32,
+            0,
+            0
+          ],
+          [
+            2,
+            9,
+            0,
+            22,
+            20,
+            0,
+            15
+          ],
+          [
+            3,
+            32,
+            0,
+            0,
+            32,
+            0,
+            2
+          ],
+          [
+            4,
+            13,
+            0,
+            22,
+            23,
+            0,
+            8
+          ],
+          [
+            5,
+            32,
+            0,
+            0,
+            32,
+            2,
+            0
+          ]
+        ],
+        "spread_usage": [
+          12.0,
+          6.0,
+          5.4,
+          4.2,
+          2.8
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_19_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "sylveon",
+        "usage": 19,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "modest",
+          "quiet",
+          "bold",
+          "timid",
+          "calm"
+        ],
+        "nature_usage": [
+          79.9,
+          13.6,
+          2.3,
+          1.9,
+          0.6
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_19_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "sylveon",
+        "usage": 19,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "fairy feather",
+          "life orb",
+          "leftovers",
+          "sitrus berry",
+          "quick claw"
+        ],
+        "item_usage": [
+          86.2,
+          5.1,
+          2.2,
+          1.7,
+          1.4
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_20_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "tyranitar",
+        "usage": 20,
+        "moves": [
+          "rock slide",
+          "knock off",
+          "protect",
+          "low kick",
+          "ice punch"
+        ],
+        "move_usage": [
+          96.8,
+          94.0,
+          88.4,
+          56.4,
+          15.9
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_20_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "tyranitar",
+        "usage": 20,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "sand stream",
+          "unnerve"
+        ],
+        "ability_usage": [
+          99.4,
+          0.6
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_20_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "tyranitar",
+        "usage": 20,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            17,
+            17,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            32,
+            32,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            4,
+            18,
+            16,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            5,
+            32,
+            32,
+            2,
+            0,
+            0,
+            0
+          ]
+        ],
+        "spread_usage": [
+          19.8,
+          6.0,
+          5.1,
+          4.5,
+          4.4
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_20_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "tyranitar",
+        "usage": 20,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "adamant",
+          "jolly",
+          "brave",
+          "impish",
+          "careful"
+        ],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_20_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "tyranitar",
+        "usage": 20,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "tyranitarite",
+          "choice scarf",
+          "chople berry",
+          "focus sash",
+          "life orb"
+        ],
+        "item_usage": [
+          71.5,
+          7.1,
+          6.9,
+          3.3,
+          2.2
+        ]
+      }
+    }
+  ],
+  "autocorrected_extracted": [
+    {
+      "image": "doubles_slot_1_slide_1.png",
+      "data": {
+        "id": "gen-1790609739-Mi4OebQIlVZa0005NJ4T",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "moves",
+        "usage": 1,
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_1_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "rillaboom",
+        "usage": 1,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "grassy surge",
+          "overgrow"
+        ],
+        "ability_usage": [
+          99.9,
+          0.1
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_1_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "rillaboom",
+        "usage": 1,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            32,
+            32,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            2,
+            32,
+            32,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            3,
+            18,
+            25,
+            5,
+            0,
+            10,
+            8
+          ],
+          [
+            4,
+            32,
+            32,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          11.4,
+          9.6,
+          4.5,
+          2.3,
+          2.2
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_1_slide_4.png",
+      "data": {
+        "error": "Not answerable",
+        "nature_usage": [
+          "Adamant",
+          "Brave",
+          "Careful",
+          "Sassy",
+          "Jolly"
+        ],
+        "natures": [
+          "Attack",
+          "Sp. Atk",
+          "Attack",
+          "Speed",
+          "Sp. Def",
+          "Sp. Def",
+          "Speed",
+          "Speed",
+          "Sp. Atk",
+          "Sp. Atk"
+        ],
+        "screen_type": "stat_alignment",
+        "usage": 1,
+        "move_usage": [],
+        "moves": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_1_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "rillaboom",
+        "usage": 1,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "miracle seed",
+          "life orb",
+          "sitrus berry",
+          "grassy seed",
+          "eject button"
+        ],
+        "item_usage": [
+          57.4,
+          10.5,
+          10.2,
+          5.4,
+          4.0
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_2_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "sneasler",
+        "usage": 2,
+        "moves": [
+          "close combat",
+          "dire claw",
+          "protect",
+          "fake out",
+          "rock slide"
+        ],
+        "move_usage": [
+          99.3,
+          92.5,
+          64.1,
+          55.8,
+          27.6
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_2_slide_2.png",
+      "data": {
+        "abilities": [
+          "Unburden",
+          "Poison Touch",
+          "Pressure"
+        ],
+        "ability_usage": [
+          89.2,
+          10.7,
+          0.2
+        ],
+        "screen_type": "ability",
+        "usage": 2,
+        "move_usage": [],
+        "moves": [],
+        "items": [],
+        "item_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_2_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "sneasler",
+        "usage": 2,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            16,
+            20,
+            0,
+            0,
+            0,
+            30
+          ],
+          [
+            4,
+            0,
+            32,
+            0,
+            0,
+            2,
+            32
+          ],
+          [
+            5,
+            1,
+            32,
+            1,
+            0,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          46.2,
+          8.5,
+          4.3,
+          4.1,
+          1.9
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_2_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "sneasler",
+        "usage": 2,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "adamant",
+          "jolly",
+          "brave",
+          "naughty",
+          "naive"
+        ],
+        "nature_usage": [
+          63.4,
+          34.2,
+          0.5,
+          0.4,
+          0.3
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_2_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "sneasler",
+        "usage": 2,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "white herb",
+          "psychic seed",
+          "grassy seed",
+          "focus sash",
+          "normal gem"
+        ],
+        "item_usage": [
+          30.5,
+          26.3,
+          25.1,
+          13.5,
+          1.0
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_3_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "incineroar",
+        "usage": 3,
+        "moves": [
+          "fake out",
+          "flare blitz",
+          "parting shot",
+          "darkest lariat",
+          "throat chop"
+        ],
+        "move_usage": [
+          97.6,
+          91.1,
+          90.7,
+          40.6,
+          38.8
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_3_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "incineroar",
+        "usage": 3,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "intimidate",
+          "blaze"
+        ],
+        "ability_usage": [
+          99.7,
+          0.3
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_3_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "incineroar",
+        "usage": 3,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            32,
+            0,
+            14,
+            0,
+            20,
+            0
+          ],
+          [
+            2,
+            32,
+            0,
+            20,
+            0,
+            14,
+            0
+          ],
+          [
+            3,
+            32,
+            0,
+            20,
+            0,
+            13,
+            1
+          ],
+          [
+            4,
+            32,
+            1,
+            8,
+            0,
+            20,
+            5
+          ],
+          [
+            5,
+            31,
+            0,
+            15,
+            0,
+            20,
+            0
+          ]
+        ],
+        "spread_usage": [
+          9.2,
+          2.7,
+          2.6,
+          2.4,
+          2.4
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_3_slide_4.png",
+      "data": {
+        "error": null,
+        "nature_usage": "Careful: 37.5%",
+        "natures": [
+          "Careful",
+          "Impish",
+          "Adamant",
+          "Sassy",
+          "Brave"
+        ],
+        "screen_type": "stat_alignment",
+        "usage": 3,
+        "move_usage": [],
+        "moves": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_3_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "incineroar",
+        "usage": 3,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "sitrus berry",
+          "chople berry",
+          "passho berry",
+          "rocky helmet",
+          "leftovers"
+        ],
+        "item_usage": [
+          64.7,
+          8.7,
+          7.0,
+          6.1,
+          3.6
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_4_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "salamence",
+        "usage": 4,
+        "moves": [
+          "protect",
+          "hyper voice",
+          "draco meteor",
+          "tailwind",
+          "flamethrower"
+        ],
+        "move_usage": [
+          93.9,
+          90.7,
+          61.2,
+          58.5,
+          29.3
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_4_slide_2.png",
+      "data": {
+        "id": "gen-1790609773-N6YkY2ZZL4JceR0pyM9z",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "ability",
+        "usage": 4,
+        "move_usage": [],
+        "moves": [],
+        "items": [],
+        "item_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_4_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "salamence",
+        "usage": 4,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            1,
+            0,
+            0,
+            32,
+            1,
+            32
+          ],
+          [
+            3,
+            1,
+            21,
+            0,
+            15,
+            0,
+            29
+          ],
+          [
+            4,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            5,
+            1,
+            0,
+            1,
+            32,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          44.2,
+          6.1,
+          3.5,
+          3.4,
+          3.0
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_4_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "salamence",
+        "usage": 4,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "timid",
+          "modest",
+          "naive",
+          "hasty",
+          "adamant"
+        ],
+        "nature_usage": [
+          51.7,
+          23.0,
+          10.3,
+          5.1,
+          3.4
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_4_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "salamence",
+        "usage": 4,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "salamencite",
+          "life orb",
+          "haban berry",
+          "choice scarf",
+          "focus sash"
+        ],
+        "item_usage": [
+          97.7,
+          0.5,
+          0.3,
+          0.3,
+          0.2
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_5_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "indeedee",
+        "usage": 5,
+        "moves": [
+          "follow me",
+          "trick room",
+          "helping hand",
+          "psychic",
+          "protect"
+        ],
+        "move_usage": [
+          97.4,
+          82.2,
+          79.9,
+          62.1,
+          18.9
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_5_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "indeedee",
+        "usage": 5,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "psychic surge",
+          "synchronize",
+          "own tempo"
+        ],
+        "ability_usage": [
+          99.7,
+          0.2,
+          0.1
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_5_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "indeedee",
+        "usage": 5,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            32,
+            0,
+            32,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            32,
+            0,
+            25,
+            0,
+            9,
+            0
+          ],
+          [
+            3,
+            32,
+            0,
+            32,
+            2,
+            0,
+            0
+          ],
+          [
+            4,
+            31,
+            0,
+            32,
+            0,
+            3,
+            0
+          ]
+        ],
+        "spread_usage": [
+          53.5,
+          8.8,
+          3.3,
+          1.9
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_5_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "indeedee",
+        "usage": 5,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "relaxed",
+          "bold",
+          "calm",
+          "modest",
+          "sassy"
+        ],
+        "nature_usage": [
+          43.5,
+          36.6,
+          9.1,
+          3.6,
+          3.1
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_5_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "indeedee",
+        "usage": 5,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "colbur berry",
+          "rocky helmet",
+          "psychic seed",
+          "sitrus berry",
+          "focus sash"
+        ],
+        "item_usage": [
+          26.9,
+          26.2,
+          22.9,
+          12.9,
+          3.6
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_6_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "kingambit",
+        "usage": 6,
+        "moves": [
+          "kowtow cleave",
+          "sucker punch",
+          "iron head",
+          "protect",
+          "low kick"
+        ],
+        "move_usage": [
+          97.5,
+          96.8,
+          79.0,
+          57.1,
+          48.1
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_6_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "kingambit",
+        "usage": 6,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "defiant",
+          "supreme overlord",
+          "pressure"
+        ],
+        "ability_usage": [
+          95.8,
+          4.1,
+          0.1
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_6_slide_3.png",
+      "data": {
+        "id": "gen-1790609796-MevuLAUH4lyAwKjas3D0",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "stat_points",
+        "usage": 6,
+        "spread_values": [],
+        "move_usage": [],
+        "moves": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_6_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "kingambit",
+        "usage": 6,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "adamant",
+          "brave",
+          "jolly",
+          "careful",
+          "impish"
+        ],
+        "nature_usage": [
+          81.3,
+          16.0,
+          0.7,
+          0.5,
+          0.5
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_6_slide_5.png",
+      "data": {
+        "id": "gen-1790609798-Jt4de16mQt9uRvhkli1n",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "held_item",
+        "usage": 6,
+        "move_usage": [],
+        "moves": [],
+        "ability_usage": [],
+        "abilities": [],
+        "natures": [],
+        "nature_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_7_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "basculegion",
+        "usage": 7,
+        "moves": [
+          "last respects",
+          "wave crash",
+          "aqua jet",
+          "protect",
+          "flip turn"
+        ],
+        "move_usage": [
+          99.8,
+          93.0,
+          90.3,
+          51.4,
+          46.3
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_7_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "basculegion",
+        "usage": 7,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "adaptability",
+          "swift swim",
+          "mold breaker"
+        ],
+        "ability_usage": [
+          94.1,
+          5.6,
+          0.3
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_7_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "basculegion",
+        "usage": 7,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            4,
+            23,
+            13,
+            0,
+            0,
+            26
+          ],
+          [
+            4,
+            0,
+            32,
+            1,
+            0,
+            1,
+            32
+          ],
+          [
+            5,
+            0,
+            32,
+            0,
+            0,
+            2,
+            32
+          ]
+        ],
+        "spread_usage": [
+          37.7,
+          11.6,
+          5.7,
+          3.7,
+          3.1
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_7_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "basculegion",
+        "usage": 7,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "adamant",
+          "jolly",
+          "brave",
+          "lonely",
+          "naughty"
+        ],
+        "nature_usage": [
+          53.4,
+          44.0,
+          0.8,
+          0.3,
+          0.3
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_7_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "basculegion",
+        "usage": 7,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "choice scarf",
+          "life orb",
+          "mystic water",
+          "focus sash",
+          "sitrus berry"
+        ],
+        "item_usage": [
+          45.7,
+          29.3,
+          13.0,
+          7.6,
+          1.9
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_8_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "golisopod",
+        "usage": 8,
+        "moves": [
+          "leech life",
+          "iron head",
+          "protect",
+          "swords dance",
+          "sucker punch"
+        ],
+        "move_usage": [
+          94.9,
+          81.6,
+          63.7,
+          44.1,
+          33.5
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_8_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "golisopod",
+        "usage": 8,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "emergency exit"
+        ],
+        "ability_usage": [
+          100.0
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_8_slide_3.png",
+      "data": {
+        "id": "gen-1790609830-msg9Uu0OSIGfTdhCk16P",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "stat_points",
+        "usage": 8,
+        "spread_values": [],
+        "move_usage": [],
+        "moves": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_8_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "golisopod",
+        "usage": 8,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "adamant",
+          "brave",
+          "careful",
+          "sassy",
+          "impish"
+        ],
+        "nature_usage": [
+          59.9,
+          34.0,
+          2.3,
+          1.5,
+          0.7
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_8_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "golisopod",
+        "usage": 8,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "golisopite",
+          "life orb",
+          "sitrus berry",
+          "leftovers",
+          "silver powder"
+        ],
+        "item_usage": [
+          98.4,
+          0.4,
+          0.2,
+          0.1,
+          0.1
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_1.png",
+      "data": {
+        "error": null,
+        "moves": [
+          "Protect",
+          "Rock Slide",
+          "Dragon Claw",
+          "Earthquake",
+          "Power Gem"
+        ],
+        "move_usage": [
+          0.803,
+          0.446,
+          0.437,
+          0.415,
+          0.359
+        ],
+        "screen_type": "moves",
+        "usage": 9,
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_2.png",
+      "data": {
+        "id": "gen-1790609839-uZS7VMLqcTpb27lbiSVi",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "ability",
+        "usage": 9,
+        "move_usage": [],
+        "moves": [],
+        "items": [],
+        "item_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "garchomp",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            3,
+            0,
+            0,
+            5,
+            31,
+            0,
+            30
+          ],
+          [
+            4,
+            8,
+            0,
+            6,
+            21,
+            1,
+            30
+          ],
+          [
+            5,
+            0,
+            32,
+            0,
+            0,
+            2,
+            32
+          ]
+        ],
+        "spread_usage": [
+          25.0,
+          17.4,
+          3.6,
+          3.1,
+          2.9
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_4.png",
+      "data": {
+        "error": false,
+        "natures": [
+          "Modest",
+          "Jolly",
+          "Adamant",
+          "Timid",
+          "Impish"
+        ],
+        "nature_usage": [
+          34.8,
+          30.8,
+          20.5,
+          9.8,
+          0.8
+        ],
+        "screen_type": "stat_alignment",
+        "usage": 9,
+        "move_usage": [],
+        "moves": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_5.png",
+      "data": {
+        "id": "gen-1790609857-j1rXxBg32eitRGUZ99hy",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "held_item",
+        "usage": 9,
+        "move_usage": [],
+        "moves": [],
+        "ability_usage": [],
+        "abilities": [],
+        "natures": [],
+        "nature_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_10_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "gholdengo",
+        "usage": 10,
+        "moves": [
+          "make it rain",
+          "shadow ball",
+          "protect",
+          "nasty plot",
+          "power gem"
+        ],
+        "move_usage": [
+          99.4,
+          98.7,
+          90.5,
+          81.6,
+          11.6
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_10_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "gholdengo",
+        "usage": 10,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "good as gold"
+        ],
+        "ability_usage": [
+          100.0
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_10_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "gholdengo",
+        "usage": 10,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            17,
+            0,
+            0,
+            17,
+            0,
+            32
+          ],
+          [
+            3,
+            7,
+            0,
+            0,
+            27,
+            0,
+            32
+          ],
+          [
+            4,
+            15,
+            0,
+            1,
+            18,
+            0,
+            32
+          ],
+          [
+            5,
+            1,
+            0,
+            1,
+            32,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          23.2,
+          9.8,
+          7.4,
+          3.2,
+          2.9
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_10_slide_4.png",
+      "data": {
+        "error": false,
+        "natures": [
+          "Modest",
+          "Timid",
+          "Bold",
+          "Quiet",
+          "Calm"
+        ],
+        "nature_usage": [
+          63.2,
+          34.4,
+          0.7,
+          0.7,
+          0.4
+        ],
+        "slot": 10,
+        "slide": 4,
+        "stat_alignment": true,
+        "screen_type": "stat_alignment",
+        "usage": 10,
+        "move_usage": [],
+        "moves": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_10_slide_5.png",
+      "data": {
+        "id": "gen-1790609902-DhPNPrF95mrnIW5h8le9",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "held_item",
+        "usage": 10,
+        "move_usage": [],
+        "moves": [],
+        "ability_usage": [],
+        "abilities": [],
+        "natures": [],
+        "nature_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_11_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "archaludon",
+        "usage": 11,
+        "moves": [
+          "electro shot",
+          "protect",
+          "flash cannon",
+          "dragon pulse",
+          "aura sphere"
+        ],
+        "move_usage": [
+          94.9,
+          92.5,
+          83.2,
+          75.9,
+          18.2
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_11_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "archaludon",
+        "usage": 11,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "stamina",
+          "sturdy",
+          "stalwart"
+        ],
+        "ability_usage": [
+          96.3,
+          2.3,
+          1.5
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_11_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "archaludon",
+        "usage": 11,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            32,
+            0,
+            0,
+            1,
+            29,
+            4
+          ],
+          [
+            2,
+            32,
+            0,
+            0,
+            2,
+            32,
+            0
+          ],
+          [
+            3,
+            32,
+            0,
+            1,
+            1,
+            32,
+            0
+          ],
+          [
+            4,
+            32,
+            0,
+            0,
+            32,
+            0,
+            2
+          ],
+          [
+            5,
+            32,
+            0,
+            0,
+            32,
+            2,
+            0
+          ]
+        ],
+        "spread_usage": [
+          4.8,
+          3.9,
+          3.3,
+          3.1,
+          2.9
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_11_slide_4.png",
+      "data": {
+        "slot": 11,
+        "natures": [
+          "Modest",
+          "Calm",
+          "Bold",
+          "Timid",
+          "Quiet"
+        ],
+        "nature_usage": [
+          51.1,
+          28.4,
+          13.0,
+          3.4,
+          2.0
+        ],
+        "screen_type": "stat_alignment",
+        "usage": 11,
+        "move_usage": [],
+        "moves": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_11_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "archaludon",
+        "usage": 11,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "leftovers",
+          "sitrus berry",
+          "chople berry",
+          "choice scarf",
+          "psychic seed"
+        ],
+        "item_usage": [
+          86.5,
+          3.0,
+          2.2,
+          1.4,
+          1.1
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_12_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "pelipper",
+        "usage": 12,
+        "moves": [
+          "hurricane",
+          "weather ball",
+          "tailwind",
+          "wide guard",
+          "protect"
+        ],
+        "move_usage": [
+          97.2,
+          85.2,
+          78.6,
+          67.1,
+          31.2
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_12_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "pelipper",
+        "usage": 12,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "drizzle",
+          "keen eye",
+          "rain dish"
+        ],
+        "ability_usage": [
+          99.9,
+          0.0,
+          0.0
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_12_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "pelipper",
+        "usage": 12,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            32,
+            0,
+            0,
+            32,
+            2,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            32,
+            2,
+            32
+          ],
+          [
+            4,
+            32,
+            0,
+            1,
+            5,
+            17,
+            11
+          ],
+          [
+            5,
+            0,
+            0,
+            2,
+            32,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          30.3,
+          4.5,
+          4.3,
+          3.4,
+          2.7
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_12_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "pelipper",
+        "usage": 12,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "modest",
+          "timid",
+          "bold",
+          "calm",
+          "quiet"
+        ],
+        "nature_usage": [
+          56.3,
+          19.7,
+          11.6,
+          5.8,
+          4.1
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_12_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "pelipper",
+        "usage": 12,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "focus sash",
+          "sitrus berry",
+          "damp rock",
+          "life orb",
+          "choice scarf"
+        ],
+        "item_usage": [
+          48.0,
+          29.6,
+          8.6,
+          3.3,
+          2.9
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_13_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "milotic",
+        "usage": 13,
+        "moves": [
+          "protect",
+          "scald",
+          "ice beam",
+          "icy wind",
+          "muddy water"
+        ],
+        "move_usage": [
+          71.1,
+          65.6,
+          58.4,
+          40.5,
+          35.0
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_13_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "milotic",
+        "usage": 13,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "competitive",
+          "marvel scale",
+          "cute charm"
+        ],
+        "ability_usage": [
+          99.2,
+          0.6,
+          0.3
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_13_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "milotic",
+        "usage": 13,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            32,
+            0,
+            32,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            20,
+            0,
+            20,
+            4,
+            8,
+            14
+          ],
+          [
+            3,
+            32,
+            0,
+            2,
+            32,
+            0,
+            0
+          ],
+          [
+            4,
+            32,
+            0,
+            32,
+            2,
+            0,
+            0
+          ],
+          [
+            5,
+            31,
+            0,
+            15,
+            0,
+            12,
+            8
+          ]
+        ],
+        "spread_usage": [
+          8.7,
+          3.4,
+          3.2,
+          2.4,
+          2.0
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_13_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "milotic",
+        "usage": 13,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "modest",
+          "calm",
+          "bold",
+          "timid",
+          "quiet"
+        ],
+        "nature_usage": [
+          34.1,
+          32.5,
+          25.8,
+          3.4,
+          1.8
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_13_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "milotic",
+        "usage": 13,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "leftovers",
+          "sitrus berry",
+          "psychic seed",
+          "grassy seed",
+          "mystic water"
+        ],
+        "item_usage": [
+          62.6,
+          21.8,
+          5.8,
+          2.4,
+          1.2
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_14_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "farigiraf",
+        "usage": 14,
+        "moves": [
+          "trick room",
+          "helping hand",
+          "psychic",
+          "protect",
+          "thunderbolt"
+        ],
+        "move_usage": [
+          95.0,
+          52.4,
+          50.9,
+          46.2,
+          42.0
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_14_slide_2.png",
+      "data": {
+        "id": "gen-1790609954-0FR1fZKpNjwUVVHxNPgF",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "ability",
+        "usage": 14,
+        "move_usage": [],
+        "moves": [],
+        "items": [],
+        "item_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_14_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "farigiraf",
+        "usage": 14,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            27,
+            0,
+            20,
+            0,
+            19,
+            0
+          ],
+          [
+            2,
+            32,
+            0,
+            20,
+            0,
+            14,
+            0
+          ],
+          [
+            3,
+            29,
+            0,
+            21,
+            0,
+            16,
+            0
+          ],
+          [
+            4,
+            32,
+            0,
+            32,
+            0,
+            2,
+            0
+          ],
+          [
+            5,
+            32,
+            0,
+            2,
+            32,
+            0,
+            0
+          ]
+        ],
+        "spread_usage": [
+          7.5,
+          4.6,
+          3.8,
+          3.3,
+          2.5
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_14_slide_4.png",
+      "data": {
+        "error": false,
+        "natures": [
+          "Bold",
+          "Relaxed",
+          "Modest",
+          "Calm",
+          "Quiet"
+        ],
+        "nature_usage": [
+          35.3,
+          18.6,
+          13.4,
+          12.0,
+          11.6
+        ],
+        "screen_type": "stat_alignment",
+        "usage": 14,
+        "move_usage": [],
+        "moves": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "spread_usage": [],
+        "spread_values": []
+      }
+    },
+    {
+      "image": "doubles_slot_14_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "farigiraf",
+        "usage": 14,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "sitrus berry",
+          "colbur berry",
+          "grassy seed",
+          "leftovers",
+          "mental herb"
+        ],
+        "item_usage": [
+          59.5,
+          19.6,
+          6.5,
+          3.0,
+          2.6
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_15_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "charizard",
+        "usage": 15,
+        "moves": [
+          "protect",
+          "heat wave",
+          "weather ball",
+          "solar beam",
+          "ancient power"
+        ],
+        "move_usage": [
+          93.6,
+          93.2,
+          70.6,
+          60.4,
+          26.0
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_15_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "charizard",
+        "usage": 15,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "blaze",
+          "solar power"
+        ],
+        "ability_usage": [
+          76.4,
+          23.6
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_15_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "charizard",
+        "usage": 15,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            0,
+            0,
+            2,
+            32,
+            0,
+            32
+          ],
+          [
+            3,
+            12,
+            0,
+            14,
+            8,
+            0,
+            32
+          ],
+          [
+            4,
+            24,
+            0,
+            16,
+            9,
+            0,
+            17
+          ],
+          [
+            5,
+            0,
+            0,
+            0,
+            32,
+            2,
+            32
+          ]
+        ],
+        "spread_usage": [
+          28.8,
+          5.5,
+          4.3,
+          2.3,
+          2.1
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_15_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "charizard",
+        "usage": 15,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "modest",
+          "timid",
+          "adamant",
+          "bold",
+          "jolly"
+        ],
+        "nature_usage": [
+          58.9,
+          32.2,
+          3.5,
+          1.3,
+          1.3
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_15_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "charizard",
+        "usage": 15,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "charizardite y",
+          "charizardite x",
+          "choice scarf",
+          "charcoal",
+          "life orb"
+        ],
+        "item_usage": [
+          93.3,
+          4.7,
+          0.4,
+          0.3,
+          0.2
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_16_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "raichu",
+        "usage": 16,
+        "moves": [
+          "protect",
+          "zap cannon",
+          "focus blast",
+          "fake out",
+          "encore"
+        ],
+        "move_usage": [
+          86.4,
+          82.9,
+          82.6,
+          75.9,
+          20.8
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_16_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "raichu",
+        "usage": 16,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "lightning rod",
+          "static"
+        ],
+        "ability_usage": [
+          96.8,
+          3.2
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_16_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "raichu",
+        "usage": 16,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            26,
+            0,
+            17,
+            0,
+            0,
+            23
+          ],
+          [
+            3,
+            32,
+            0,
+            11,
+            0,
+            0,
+            23
+          ],
+          [
+            4,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            5,
+            32,
+            0,
+            0,
+            2,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          21.4,
+          5.3,
+          4.7,
+          4.3,
+          4.3
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_16_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "raichu",
+        "usage": 16,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "timid",
+          "modest",
+          "jolly",
+          "adamant",
+          "hasty"
+        ],
+        "nature_usage": [
+          82.5,
+          7.5,
+          6.5,
+          1.5,
+          0.5
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_16_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "raichu",
+        "usage": 16,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "raichunite y",
+          "raichunite x",
+          "focus sash",
+          "sitrus berry",
+          "magnet"
+        ],
+        "item_usage": [
+          82.9,
+          14.3,
+          1.4,
+          0.2,
+          0.2
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_17_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "gardevoir",
+        "usage": 17,
+        "moves": [
+          "hyper voice",
+          "protect",
+          "expanding force",
+          "trick room",
+          "mystical fire"
+        ],
+        "move_usage": [
+          94.9,
+          94.0,
+          93.2,
+          33.2,
+          22.0
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_17_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "gardevoir",
+        "usage": 17,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "trace",
+          "telepathy",
+          "synchronize"
+        ],
+        "ability_usage": [
+          78.7,
+          11.5,
+          9.8
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_17_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "gardevoir",
+        "usage": 17,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            32,
+            0,
+            2,
+            32,
+            0,
+            0
+          ],
+          [
+            3,
+            29,
+            0,
+            0,
+            32,
+            0,
+            5
+          ],
+          [
+            4,
+            0,
+            0,
+            2,
+            32,
+            0,
+            32
+          ],
+          [
+            5,
+            28,
+            0,
+            17,
+            10,
+            0,
+            11
+          ]
+        ],
+        "spread_usage": [
+          20.6,
+          11.5,
+          7.9,
+          6.0,
+          4.1
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_17_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "gardevoir",
+        "usage": 17,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "modest",
+          "timid",
+          "quiet",
+          "bold",
+          "relaxed"
+        ],
+        "nature_usage": [
+          75.9,
+          12.3,
+          9.4,
+          1.1,
+          0.4
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_17_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "gardevoir",
+        "usage": 17,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "gardevoirite",
+          "choice scarf",
+          "focus sash",
+          "life orb",
+          "twisted spoon"
+        ],
+        "item_usage": [
+          96.9,
+          0.9,
+          0.4,
+          0.3,
+          0.2
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_18_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "arcanine",
+        "usage": 18,
+        "moves": [
+          "flare blitz",
+          "head smash",
+          "protect",
+          "extreme speed",
+          "rock slide"
+        ],
+        "move_usage": [
+          99.6,
+          95.1,
+          93.0,
+          86.2,
+          12.6
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_18_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "arcanine",
+        "usage": 18,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "rock head",
+          "intimidate",
+          "flash fire"
+        ],
+        "ability_usage": [
+          97.1,
+          2.7,
+          0.3
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_18_slide_3.png",
+      "data": {
+        "id": "gen-1790610043-R9KCow490hMqUWgO0k74",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (372/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "stat_points",
+        "usage": 18,
+        "spread_values": [],
+        "move_usage": [],
+        "moves": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_18_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "arcanine",
+        "usage": 18,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "jolly",
+          "adamant",
+          "brave",
+          "naughty",
+          "lonely"
+        ],
+        "nature_usage": [
+          78.6,
+          19.7,
+          0.3,
+          0.3,
+          0.2
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_18_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "arcanine",
+        "usage": 18,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "focus sash",
+          "choice scarf",
+          "life orb",
+          "sitrus berry",
+          "wide lens"
+        ],
+        "item_usage": [
+          90.3,
+          3.3,
+          2.3,
+          0.8,
+          0.5
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_19_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "sylveon",
+        "usage": 19,
+        "moves": [
+          "hyper voice",
+          "hyper beam",
+          "quick attack",
+          "detect",
+          "protect"
+        ],
+        "move_usage": [
+          99.6,
+          74.3,
+          69.0,
+          64.5,
+          30.4
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_19_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "sylveon",
+        "usage": 19,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "pixilate",
+          "cute charm"
+        ],
+        "ability_usage": [
+          99.8,
+          0.2
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_19_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "sylveon",
+        "usage": 19,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            32,
+            0,
+            2,
+            32,
+            0,
+            0
+          ],
+          [
+            2,
+            9,
+            0,
+            22,
+            20,
+            0,
+            15
+          ],
+          [
+            3,
+            32,
+            0,
+            0,
+            32,
+            0,
+            2
+          ],
+          [
+            4,
+            13,
+            0,
+            22,
+            23,
+            0,
+            8
+          ],
+          [
+            5,
+            32,
+            0,
+            0,
+            32,
+            2,
+            0
+          ]
+        ],
+        "spread_usage": [
+          12.0,
+          6.0,
+          5.4,
+          4.2,
+          2.8
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_19_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "sylveon",
+        "usage": 19,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "modest",
+          "quiet",
+          "bold",
+          "timid",
+          "calm"
+        ],
+        "nature_usage": [
+          79.9,
+          13.6,
+          2.3,
+          1.9,
+          0.6
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_19_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "sylveon",
+        "usage": 19,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "fairy feather",
+          "life orb",
+          "leftovers",
+          "sitrus berry",
+          "quick claw"
+        ],
+        "item_usage": [
+          86.2,
+          5.1,
+          2.2,
+          1.7,
+          1.4
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_20_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "tyranitar",
+        "usage": 20,
+        "moves": [
+          "rock slide",
+          "knock off",
+          "protect",
+          "low kick",
+          "ice punch"
+        ],
+        "move_usage": [
+          96.8,
+          94.0,
+          88.4,
+          56.4,
+          15.9
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_20_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "tyranitar",
+        "usage": 20,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "sand stream",
+          "unnerve"
+        ],
+        "ability_usage": [
+          99.4,
+          0.6
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_20_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "tyranitar",
+        "usage": 20,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            17,
+            17,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            32,
+            32,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            4,
+            18,
+            16,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            5,
+            32,
+            32,
+            2,
+            0,
+            0,
+            0
+          ]
+        ],
+        "spread_usage": [
+          19.8,
+          6.0,
+          5.1,
+          4.5,
+          4.4
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_20_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "tyranitar",
+        "usage": 20,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "adamant",
+          "jolly",
+          "brave",
+          "impish",
+          "careful"
+        ],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_20_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "tyranitar",
+        "usage": 20,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "tyranitarite",
+          "choice scarf",
+          "chople berry",
+          "focus sash",
+          "life orb"
+        ],
+        "item_usage": [
+          71.5,
+          7.1,
+          6.9,
+          3.3,
+          2.2
+        ]
+      }
+    }
+  ],
+  "autocorrections": [],
+  "extracted": [
+    {
+      "image": "doubles_slot_1_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "rillaboom",
+        "usage": 1,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "grassy surge",
+          "overgrow"
+        ],
+        "ability_usage": [
+          99.9,
+          0.1
+        ],
+        "spread_values": [
+          [
+            1,
+            32,
+            32,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            2,
+            32,
+            32,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            3,
+            18,
+            25,
+            5,
+            0,
+            10,
+            8
+          ],
+          [
+            4,
+            32,
+            32,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          11.4,
+          9.6,
+          4.5,
+          2.3,
+          2.2
+        ],
+        "natures": [
+          "Attack",
+          "Sp. Atk",
+          "Attack",
+          "Speed",
+          "Sp. Def",
+          "Sp. Def",
+          "Speed",
+          "Speed",
+          "Sp. Atk",
+          "Sp. Atk"
+        ],
+        "nature_usage": [
+          "Adamant",
+          "Brave",
+          "Careful",
+          "Sassy",
+          "Jolly"
+        ],
+        "items": [
+          "miracle seed",
+          "life orb",
+          "sitrus berry",
+          "grassy seed",
+          "eject button"
+        ],
+        "item_usage": [
+          57.4,
+          10.5,
+          10.2,
+          5.4,
+          4.0
+        ],
+        "id": "gen-1790609739-Mi4OebQIlVZa0005NJ4T",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        }
+      }
+    },
+    {
+      "image": "doubles_slot_2_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "sneasler",
+        "usage": 2,
+        "moves": [
+          "close combat",
+          "dire claw",
+          "protect",
+          "fake out",
+          "rock slide"
+        ],
+        "move_usage": [
+          99.3,
+          92.5,
+          64.1,
+          55.8,
+          27.6
+        ],
+        "abilities": [
+          "Unburden",
+          "Poison Touch",
+          "Pressure"
+        ],
+        "ability_usage": [
+          89.2,
+          10.7,
+          0.2
+        ],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            16,
+            20,
+            0,
+            0,
+            0,
+            30
+          ],
+          [
+            4,
+            0,
+            32,
+            0,
+            0,
+            2,
+            32
+          ],
+          [
+            5,
+            1,
+            32,
+            1,
+            0,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          46.2,
+          8.5,
+          4.3,
+          4.1,
+          1.9
+        ],
+        "natures": [
+          "adamant",
+          "jolly",
+          "brave",
+          "naughty",
+          "naive"
+        ],
+        "nature_usage": [
+          63.4,
+          34.2,
+          0.5,
+          0.4,
+          0.3
+        ],
+        "items": [
+          "white herb",
+          "psychic seed",
+          "grassy seed",
+          "focus sash",
+          "normal gem"
+        ],
+        "item_usage": [
+          30.5,
+          26.3,
+          25.1,
+          13.5,
+          1.0
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_3_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "incineroar",
+        "usage": 3,
+        "moves": [
+          "fake out",
+          "flare blitz",
+          "parting shot",
+          "darkest lariat",
+          "throat chop"
+        ],
+        "move_usage": [
+          97.6,
+          91.1,
+          90.7,
+          40.6,
+          38.8
+        ],
+        "abilities": [
+          "intimidate",
+          "blaze"
+        ],
+        "ability_usage": [
+          99.7,
+          0.3
+        ],
+        "spread_values": [
+          [
+            1,
+            32,
+            0,
+            14,
+            0,
+            20,
+            0
+          ],
+          [
+            2,
+            32,
+            0,
+            20,
+            0,
+            14,
+            0
+          ],
+          [
+            3,
+            32,
+            0,
+            20,
+            0,
+            13,
+            1
+          ],
+          [
+            4,
+            32,
+            1,
+            8,
+            0,
+            20,
+            5
+          ],
+          [
+            5,
+            31,
+            0,
+            15,
+            0,
+            20,
+            0
+          ]
+        ],
+        "spread_usage": [
+          9.2,
+          2.7,
+          2.6,
+          2.4,
+          2.4
+        ],
+        "natures": [
+          "Careful",
+          "Impish",
+          "Adamant",
+          "Sassy",
+          "Brave"
+        ],
+        "nature_usage": "Careful: 37.5%",
+        "items": [
+          "sitrus berry",
+          "chople berry",
+          "passho berry",
+          "rocky helmet",
+          "leftovers"
+        ],
+        "item_usage": [
+          64.7,
+          8.7,
+          7.0,
+          6.1,
+          3.6
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_4_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "salamence",
+        "usage": 4,
+        "moves": [
+          "protect",
+          "hyper voice",
+          "draco meteor",
+          "tailwind",
+          "flamethrower"
+        ],
+        "move_usage": [
+          93.9,
+          90.7,
+          61.2,
+          58.5,
+          29.3
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            1,
+            0,
+            0,
+            32,
+            1,
+            32
+          ],
+          [
+            3,
+            1,
+            21,
+            0,
+            15,
+            0,
+            29
+          ],
+          [
+            4,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            5,
+            1,
+            0,
+            1,
+            32,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          44.2,
+          6.1,
+          3.5,
+          3.4,
+          3.0
+        ],
+        "natures": [
+          "timid",
+          "modest",
+          "naive",
+          "hasty",
+          "adamant"
+        ],
+        "nature_usage": [
+          51.7,
+          23.0,
+          10.3,
+          5.1,
+          3.4
+        ],
+        "items": [
+          "salamencite",
+          "life orb",
+          "haban berry",
+          "choice scarf",
+          "focus sash"
+        ],
+        "item_usage": [
+          97.7,
+          0.5,
+          0.3,
+          0.3,
+          0.2
+        ],
+        "id": "gen-1790609773-N6YkY2ZZL4JceR0pyM9z",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        }
+      }
+    },
+    {
+      "image": "doubles_slot_5_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "indeedee",
+        "usage": 5,
+        "moves": [
+          "follow me",
+          "trick room",
+          "helping hand",
+          "psychic",
+          "protect"
+        ],
+        "move_usage": [
+          97.4,
+          82.2,
+          79.9,
+          62.1,
+          18.9
+        ],
+        "abilities": [
+          "psychic surge",
+          "synchronize",
+          "own tempo"
+        ],
+        "ability_usage": [
+          99.7,
+          0.2,
+          0.1
+        ],
+        "spread_values": [
+          [
+            1,
+            32,
+            0,
+            32,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            32,
+            0,
+            25,
+            0,
+            9,
+            0
+          ],
+          [
+            3,
+            32,
+            0,
+            32,
+            2,
+            0,
+            0
+          ],
+          [
+            4,
+            31,
+            0,
+            32,
+            0,
+            3,
+            0
+          ]
+        ],
+        "spread_usage": [
+          53.5,
+          8.8,
+          3.3,
+          1.9
+        ],
+        "natures": [
+          "relaxed",
+          "bold",
+          "calm",
+          "modest",
+          "sassy"
+        ],
+        "nature_usage": [
+          43.5,
+          36.6,
+          9.1,
+          3.6,
+          3.1
+        ],
+        "items": [
+          "colbur berry",
+          "rocky helmet",
+          "psychic seed",
+          "sitrus berry",
+          "focus sash"
+        ],
+        "item_usage": [
+          26.9,
+          26.2,
+          22.9,
+          12.9,
+          3.6
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_6_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "kingambit",
+        "usage": 6,
+        "moves": [
+          "kowtow cleave",
+          "sucker punch",
+          "iron head",
+          "protect",
+          "low kick"
+        ],
+        "move_usage": [
+          97.5,
+          96.8,
+          79.0,
+          57.1,
+          48.1
+        ],
+        "abilities": [
+          "defiant",
+          "supreme overlord",
+          "pressure"
+        ],
+        "ability_usage": [
+          95.8,
+          4.1,
+          0.1
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "adamant",
+          "brave",
+          "jolly",
+          "careful",
+          "impish"
+        ],
+        "nature_usage": [
+          81.3,
+          16.0,
+          0.7,
+          0.5,
+          0.5
+        ],
+        "items": [],
+        "item_usage": [],
+        "id": "gen-1790609796-MevuLAUH4lyAwKjas3D0",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        }
+      }
+    },
+    {
+      "image": "doubles_slot_7_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "basculegion",
+        "usage": 7,
+        "moves": [
+          "last respects",
+          "wave crash",
+          "aqua jet",
+          "protect",
+          "flip turn"
+        ],
+        "move_usage": [
+          99.8,
+          93.0,
+          90.3,
+          51.4,
+          46.3
+        ],
+        "abilities": [
+          "adaptability",
+          "swift swim",
+          "mold breaker"
+        ],
+        "ability_usage": [
+          94.1,
+          5.6,
+          0.3
+        ],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            4,
+            23,
+            13,
+            0,
+            0,
+            26
+          ],
+          [
+            4,
+            0,
+            32,
+            1,
+            0,
+            1,
+            32
+          ],
+          [
+            5,
+            0,
+            32,
+            0,
+            0,
+            2,
+            32
+          ]
+        ],
+        "spread_usage": [
+          37.7,
+          11.6,
+          5.7,
+          3.7,
+          3.1
+        ],
+        "natures": [
+          "adamant",
+          "jolly",
+          "brave",
+          "lonely",
+          "naughty"
+        ],
+        "nature_usage": [
+          53.4,
+          44.0,
+          0.8,
+          0.3,
+          0.3
+        ],
+        "items": [
+          "choice scarf",
+          "life orb",
+          "mystic water",
+          "focus sash",
+          "sitrus berry"
+        ],
+        "item_usage": [
+          45.7,
+          29.3,
+          13.0,
+          7.6,
+          1.9
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_8_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "golisopod",
+        "usage": 8,
+        "moves": [
+          "leech life",
+          "iron head",
+          "protect",
+          "swords dance",
+          "sucker punch"
+        ],
+        "move_usage": [
+          94.9,
+          81.6,
+          63.7,
+          44.1,
+          33.5
+        ],
+        "abilities": [
+          "emergency exit"
+        ],
+        "ability_usage": [
+          100.0
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "adamant",
+          "brave",
+          "careful",
+          "sassy",
+          "impish"
+        ],
+        "nature_usage": [
+          59.9,
+          34.0,
+          2.3,
+          1.5,
+          0.7
+        ],
+        "items": [
+          "golisopite",
+          "life orb",
+          "sitrus berry",
+          "leftovers",
+          "silver powder"
+        ],
+        "item_usage": [
+          98.4,
+          0.4,
+          0.2,
+          0.1,
+          0.1
+        ],
+        "id": "gen-1790609830-msg9Uu0OSIGfTdhCk16P",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        }
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "garchomp",
+        "usage": 9,
+        "moves": [
+          "Protect",
+          "Rock Slide",
+          "Dragon Claw",
+          "Earthquake",
+          "Power Gem"
+        ],
+        "move_usage": [
+          0.803,
+          0.446,
+          0.437,
+          0.415,
+          0.359
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            3,
+            0,
+            0,
+            5,
+            31,
+            0,
+            30
+          ],
+          [
+            4,
+            8,
+            0,
+            6,
+            21,
+            1,
+            30
+          ],
+          [
+            5,
+            0,
+            32,
+            0,
+            0,
+            2,
+            32
+          ]
+        ],
+        "spread_usage": [
+          25.0,
+          17.4,
+          3.6,
+          3.1,
+          2.9
+        ],
+        "natures": [
+          "Modest",
+          "Jolly",
+          "Adamant",
+          "Timid",
+          "Impish"
+        ],
+        "nature_usage": [
+          34.8,
+          30.8,
+          20.5,
+          9.8,
+          0.8
+        ],
+        "items": [],
+        "item_usage": [],
+        "id": "gen-1790609839-uZS7VMLqcTpb27lbiSVi",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        }
+      }
+    },
+    {
+      "image": "doubles_slot_10_slide_4.png",
+      "data": {
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "natures": [
+          "Modest",
+          "Timid",
+          "Bold",
+          "Quiet",
+          "Calm"
+        ],
+        "nature_usage": [
+          63.2,
+          34.4,
+          0.7,
+          0.7,
+          0.4
+        ],
+        "slot": 10,
+        "slide": 4,
+        "stat_alignment": true,
+        "screen_type": "stat_alignment",
+        "usage": 10,
+        "move_usage": [
+          99.4,
+          98.7,
+          90.5,
+          81.6,
+          11.6
+        ],
+        "moves": [
+          "make it rain",
+          "shadow ball",
+          "protect",
+          "nasty plot",
+          "power gem"
+        ],
+        "ability_usage": [
+          100.0
+        ],
+        "abilities": [
+          "good as gold"
+        ],
+        "items": [],
+        "item_usage": [],
+        "spread_usage": [
+          23.2,
+          9.8,
+          7.4,
+          3.2,
+          2.9
+        ],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            17,
+            0,
+            0,
+            17,
+            0,
+            32
+          ],
+          [
+            3,
+            7,
+            0,
+            0,
+            27,
+            0,
+            32
+          ],
+          [
+            4,
+            15,
+            0,
+            1,
+            18,
+            0,
+            32
+          ],
+          [
+            5,
+            1,
+            0,
+            1,
+            32,
+            0,
+            32
+          ]
+        ],
+        "pokemon": "gholdengo",
+        "id": "gen-1790609902-DhPNPrF95mrnIW5h8le9"
+      }
+    },
+    {
+      "image": "doubles_slot_11_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "archaludon",
+        "usage": 11,
+        "moves": [
+          "electro shot",
+          "protect",
+          "flash cannon",
+          "dragon pulse",
+          "aura sphere"
+        ],
+        "move_usage": [
+          94.9,
+          92.5,
+          83.2,
+          75.9,
+          18.2
+        ],
+        "abilities": [
+          "stamina",
+          "sturdy",
+          "stalwart"
+        ],
+        "ability_usage": [
+          96.3,
+          2.3,
+          1.5
+        ],
+        "spread_values": [
+          [
+            1,
+            32,
+            0,
+            0,
+            1,
+            29,
+            4
+          ],
+          [
+            2,
+            32,
+            0,
+            0,
+            2,
+            32,
+            0
+          ],
+          [
+            3,
+            32,
+            0,
+            1,
+            1,
+            32,
+            0
+          ],
+          [
+            4,
+            32,
+            0,
+            0,
+            32,
+            0,
+            2
+          ],
+          [
+            5,
+            32,
+            0,
+            0,
+            32,
+            2,
+            0
+          ]
+        ],
+        "spread_usage": [
+          4.8,
+          3.9,
+          3.3,
+          3.1,
+          2.9
+        ],
+        "natures": [
+          "Modest",
+          "Calm",
+          "Bold",
+          "Timid",
+          "Quiet"
+        ],
+        "nature_usage": [
+          51.1,
+          28.4,
+          13.0,
+          3.4,
+          2.0
+        ],
+        "items": [
+          "leftovers",
+          "sitrus berry",
+          "chople berry",
+          "choice scarf",
+          "psychic seed"
+        ],
+        "item_usage": [
+          86.5,
+          3.0,
+          2.2,
+          1.4,
+          1.1
+        ],
+        "slot": 11
+      }
+    },
+    {
+      "image": "doubles_slot_12_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "pelipper",
+        "usage": 12,
+        "moves": [
+          "hurricane",
+          "weather ball",
+          "tailwind",
+          "wide guard",
+          "protect"
+        ],
+        "move_usage": [
+          97.2,
+          85.2,
+          78.6,
+          67.1,
+          31.2
+        ],
+        "abilities": [
+          "drizzle",
+          "keen eye",
+          "rain dish"
+        ],
+        "ability_usage": [
+          99.9,
+          0.0,
+          0.0
+        ],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            32,
+            0,
+            0,
+            32,
+            2,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            32,
+            2,
+            32
+          ],
+          [
+            4,
+            32,
+            0,
+            1,
+            5,
+            17,
+            11
+          ],
+          [
+            5,
+            0,
+            0,
+            2,
+            32,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          30.3,
+          4.5,
+          4.3,
+          3.4,
+          2.7
+        ],
+        "natures": [
+          "modest",
+          "timid",
+          "bold",
+          "calm",
+          "quiet"
+        ],
+        "nature_usage": [
+          56.3,
+          19.7,
+          11.6,
+          5.8,
+          4.1
+        ],
+        "items": [
+          "focus sash",
+          "sitrus berry",
+          "damp rock",
+          "life orb",
+          "choice scarf"
+        ],
+        "item_usage": [
+          48.0,
+          29.6,
+          8.6,
+          3.3,
+          2.9
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_13_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "milotic",
+        "usage": 13,
+        "moves": [
+          "protect",
+          "scald",
+          "ice beam",
+          "icy wind",
+          "muddy water"
+        ],
+        "move_usage": [
+          71.1,
+          65.6,
+          58.4,
+          40.5,
+          35.0
+        ],
+        "abilities": [
+          "competitive",
+          "marvel scale",
+          "cute charm"
+        ],
+        "ability_usage": [
+          99.2,
+          0.6,
+          0.3
+        ],
+        "spread_values": [
+          [
+            1,
+            32,
+            0,
+            32,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            20,
+            0,
+            20,
+            4,
+            8,
+            14
+          ],
+          [
+            3,
+            32,
+            0,
+            2,
+            32,
+            0,
+            0
+          ],
+          [
+            4,
+            32,
+            0,
+            32,
+            2,
+            0,
+            0
+          ],
+          [
+            5,
+            31,
+            0,
+            15,
+            0,
+            12,
+            8
+          ]
+        ],
+        "spread_usage": [
+          8.7,
+          3.4,
+          3.2,
+          2.4,
+          2.0
+        ],
+        "natures": [
+          "modest",
+          "calm",
+          "bold",
+          "timid",
+          "quiet"
+        ],
+        "nature_usage": [
+          34.1,
+          32.5,
+          25.8,
+          3.4,
+          1.8
+        ],
+        "items": [
+          "leftovers",
+          "sitrus berry",
+          "psychic seed",
+          "grassy seed",
+          "mystic water"
+        ],
+        "item_usage": [
+          62.6,
+          21.8,
+          5.8,
+          2.4,
+          1.2
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_14_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "farigiraf",
+        "usage": 14,
+        "moves": [
+          "trick room",
+          "helping hand",
+          "psychic",
+          "protect",
+          "thunderbolt"
+        ],
+        "move_usage": [
+          95.0,
+          52.4,
+          50.9,
+          46.2,
+          42.0
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            27,
+            0,
+            20,
+            0,
+            19,
+            0
+          ],
+          [
+            2,
+            32,
+            0,
+            20,
+            0,
+            14,
+            0
+          ],
+          [
+            3,
+            29,
+            0,
+            21,
+            0,
+            16,
+            0
+          ],
+          [
+            4,
+            32,
+            0,
+            32,
+            0,
+            2,
+            0
+          ],
+          [
+            5,
+            32,
+            0,
+            2,
+            32,
+            0,
+            0
+          ]
+        ],
+        "spread_usage": [
+          7.5,
+          4.6,
+          3.8,
+          3.3,
+          2.5
+        ],
+        "natures": [
+          "Bold",
+          "Relaxed",
+          "Modest",
+          "Calm",
+          "Quiet"
+        ],
+        "nature_usage": [
+          35.3,
+          18.6,
+          13.4,
+          12.0,
+          11.6
+        ],
+        "items": [
+          "sitrus berry",
+          "colbur berry",
+          "grassy seed",
+          "leftovers",
+          "mental herb"
+        ],
+        "item_usage": [
+          59.5,
+          19.6,
+          6.5,
+          3.0,
+          2.6
+        ],
+        "id": "gen-1790609954-0FR1fZKpNjwUVVHxNPgF",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        }
+      }
+    },
+    {
+      "image": "doubles_slot_15_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "charizard",
+        "usage": 15,
+        "moves": [
+          "protect",
+          "heat wave",
+          "weather ball",
+          "solar beam",
+          "ancient power"
+        ],
+        "move_usage": [
+          93.6,
+          93.2,
+          70.6,
+          60.4,
+          26.0
+        ],
+        "abilities": [
+          "blaze",
+          "solar power"
+        ],
+        "ability_usage": [
+          76.4,
+          23.6
+        ],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            0,
+            0,
+            2,
+            32,
+            0,
+            32
+          ],
+          [
+            3,
+            12,
+            0,
+            14,
+            8,
+            0,
+            32
+          ],
+          [
+            4,
+            24,
+            0,
+            16,
+            9,
+            0,
+            17
+          ],
+          [
+            5,
+            0,
+            0,
+            0,
+            32,
+            2,
+            32
+          ]
+        ],
+        "spread_usage": [
+          28.8,
+          5.5,
+          4.3,
+          2.3,
+          2.1
+        ],
+        "natures": [
+          "modest",
+          "timid",
+          "adamant",
+          "bold",
+          "jolly"
+        ],
+        "nature_usage": [
+          58.9,
+          32.2,
+          3.5,
+          1.3,
+          1.3
+        ],
+        "items": [
+          "charizardite y",
+          "charizardite x",
+          "choice scarf",
+          "charcoal",
+          "life orb"
+        ],
+        "item_usage": [
+          93.3,
+          4.7,
+          0.4,
+          0.3,
+          0.2
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_16_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "raichu",
+        "usage": 16,
+        "moves": [
+          "protect",
+          "zap cannon",
+          "focus blast",
+          "fake out",
+          "encore"
+        ],
+        "move_usage": [
+          86.4,
+          82.9,
+          82.6,
+          75.9,
+          20.8
+        ],
+        "abilities": [
+          "lightning rod",
+          "static"
+        ],
+        "ability_usage": [
+          96.8,
+          3.2
+        ],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            26,
+            0,
+            17,
+            0,
+            0,
+            23
+          ],
+          [
+            3,
+            32,
+            0,
+            11,
+            0,
+            0,
+            23
+          ],
+          [
+            4,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            5,
+            32,
+            0,
+            0,
+            2,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          21.4,
+          5.3,
+          4.7,
+          4.3,
+          4.3
+        ],
+        "natures": [
+          "timid",
+          "modest",
+          "jolly",
+          "adamant",
+          "hasty"
+        ],
+        "nature_usage": [
+          82.5,
+          7.5,
+          6.5,
+          1.5,
+          0.5
+        ],
+        "items": [
+          "raichunite y",
+          "raichunite x",
+          "focus sash",
+          "sitrus berry",
+          "magnet"
+        ],
+        "item_usage": [
+          82.9,
+          14.3,
+          1.4,
+          0.2,
+          0.2
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_17_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "gardevoir",
+        "usage": 17,
+        "moves": [
+          "hyper voice",
+          "protect",
+          "expanding force",
+          "trick room",
+          "mystical fire"
+        ],
+        "move_usage": [
+          94.9,
+          94.0,
+          93.2,
+          33.2,
+          22.0
+        ],
+        "abilities": [
+          "trace",
+          "telepathy",
+          "synchronize"
+        ],
+        "ability_usage": [
+          78.7,
+          11.5,
+          9.8
+        ],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            32,
+            0,
+            2,
+            32,
+            0,
+            0
+          ],
+          [
+            3,
+            29,
+            0,
+            0,
+            32,
+            0,
+            5
+          ],
+          [
+            4,
+            0,
+            0,
+            2,
+            32,
+            0,
+            32
+          ],
+          [
+            5,
+            28,
+            0,
+            17,
+            10,
+            0,
+            11
+          ]
+        ],
+        "spread_usage": [
+          20.6,
+          11.5,
+          7.9,
+          6.0,
+          4.1
+        ],
+        "natures": [
+          "modest",
+          "timid",
+          "quiet",
+          "bold",
+          "relaxed"
+        ],
+        "nature_usage": [
+          75.9,
+          12.3,
+          9.4,
+          1.1,
+          0.4
+        ],
+        "items": [
+          "gardevoirite",
+          "choice scarf",
+          "focus sash",
+          "life orb",
+          "twisted spoon"
+        ],
+        "item_usage": [
+          96.9,
+          0.9,
+          0.4,
+          0.3,
+          0.2
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_18_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "arcanine",
+        "usage": 18,
+        "moves": [
+          "flare blitz",
+          "head smash",
+          "protect",
+          "extreme speed",
+          "rock slide"
+        ],
+        "move_usage": [
+          99.6,
+          95.1,
+          93.0,
+          86.2,
+          12.6
+        ],
+        "abilities": [
+          "rock head",
+          "intimidate",
+          "flash fire"
+        ],
+        "ability_usage": [
+          97.1,
+          2.7,
+          0.3
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "jolly",
+          "adamant",
+          "brave",
+          "naughty",
+          "lonely"
+        ],
+        "nature_usage": [
+          78.6,
+          19.7,
+          0.3,
+          0.3,
+          0.2
+        ],
+        "items": [
+          "focus sash",
+          "choice scarf",
+          "life orb",
+          "sitrus berry",
+          "wide lens"
+        ],
+        "item_usage": [
+          90.3,
+          3.3,
+          2.3,
+          0.8,
+          0.5
+        ],
+        "id": "gen-1790610043-R9KCow490hMqUWgO0k74",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (372/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        }
+      }
+    },
+    {
+      "image": "doubles_slot_19_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "sylveon",
+        "usage": 19,
+        "moves": [
+          "hyper voice",
+          "hyper beam",
+          "quick attack",
+          "detect",
+          "protect"
+        ],
+        "move_usage": [
+          99.6,
+          74.3,
+          69.0,
+          64.5,
+          30.4
+        ],
+        "abilities": [
+          "pixilate",
+          "cute charm"
+        ],
+        "ability_usage": [
+          99.8,
+          0.2
+        ],
+        "spread_values": [
+          [
+            1,
+            32,
+            0,
+            2,
+            32,
+            0,
+            0
+          ],
+          [
+            2,
+            9,
+            0,
+            22,
+            20,
+            0,
+            15
+          ],
+          [
+            3,
+            32,
+            0,
+            0,
+            32,
+            0,
+            2
+          ],
+          [
+            4,
+            13,
+            0,
+            22,
+            23,
+            0,
+            8
+          ],
+          [
+            5,
+            32,
+            0,
+            0,
+            32,
+            2,
+            0
+          ]
+        ],
+        "spread_usage": [
+          12.0,
+          6.0,
+          5.4,
+          4.2,
+          2.8
+        ],
+        "natures": [
+          "modest",
+          "quiet",
+          "bold",
+          "timid",
+          "calm"
+        ],
+        "nature_usage": [
+          79.9,
+          13.6,
+          2.3,
+          1.9,
+          0.6
+        ],
+        "items": [
+          "fairy feather",
+          "life orb",
+          "leftovers",
+          "sitrus berry",
+          "quick claw"
+        ],
+        "item_usage": [
+          86.2,
+          5.1,
+          2.2,
+          1.7,
+          1.4
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_20_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "tyranitar",
+        "usage": 20,
+        "moves": [
+          "rock slide",
+          "knock off",
+          "protect",
+          "low kick",
+          "ice punch"
+        ],
+        "move_usage": [
+          96.8,
+          94.0,
+          88.4,
+          56.4,
+          15.9
+        ],
+        "abilities": [
+          "sand stream",
+          "unnerve"
+        ],
+        "ability_usage": [
+          99.4,
+          0.6
+        ],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            17,
+            17,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            32,
+            32,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            4,
+            18,
+            16,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            5,
+            32,
+            32,
+            2,
+            0,
+            0,
+            0
+          ]
+        ],
+        "spread_usage": [
+          19.8,
+          6.0,
+          5.1,
+          4.5,
+          4.4
+        ],
+        "natures": [
+          "adamant",
+          "jolly",
+          "brave",
+          "impish",
+          "careful"
+        ],
+        "nature_usage": [],
+        "items": [
+          "tyranitarite",
+          "choice scarf",
+          "chople berry",
+          "focus sash",
+          "life orb"
+        ],
+        "item_usage": [
+          71.5,
+          7.1,
+          6.9,
+          3.3,
+          2.2
+        ]
+      }
+    }
+  ],
+  "errors": []
+}

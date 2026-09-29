@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "pelipper",
+  "pokemon": "archaludon",
   "usage": 11,
   "moves": [
-    "hurricane",
-    "weather ball",
-    "tailwind",
-    "wide guard",
-    "protect"
+    "electro shot",
+    "protect",
+    "flash cannon",
+    "dragon pulse",
+    "aura sphere"
   ],
   "move_usage": [
-    97.5,
-    86.8,
-    79.8,
-    67.4,
-    31.3
+    94.9,
+    92.5,
+    83.2,
+    75.9,
+    18.2
   ],
   "abilities": [],
   "ability_usage": [],

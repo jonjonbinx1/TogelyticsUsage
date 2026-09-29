@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "gardevoir",
+  "pokemon": "raichu",
   "usage": 16,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "gardevoirite",
-    "choice scarf",
+    "raichunite y",
+    "raichunite x",
     "focus sash",
-    "life orb",
-    "twisted spoon"
+    "sitrus berry",
+    "magnet"
   ],
   "item_usage": [
-    97.3,
-    0.8,
-    0.3,
-    0.3,
+    82.9,
+    14.3,
+    1.4,
+    0.2,
     0.2
   ]
 }

@@ -1,15 +1,20 @@
 {
-  "screen_type": "stat_alignment",
-  "pokemon": "gholdengo",
-  "usage": 10,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": ["modest", "timid", "bold", "quiet", "calm"],
-  "nature_usage": [64.9, 32.9, 0.7, 0.6, 0.4],
-  "items": [],
-  "item_usage": []
+  "error": false,
+  "natures": [
+    "Modest",
+    "Timid",
+    "Bold",
+    "Quiet",
+    "Calm"
+  ],
+  "nature_usage": [
+    63.2,
+    34.4,
+    0.7,
+    0.7,
+    0.4
+  ],
+  "slot": 10,
+  "slide": 4,
+  "stat_alignment": true
 }

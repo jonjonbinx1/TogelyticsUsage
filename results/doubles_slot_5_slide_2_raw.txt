@@ -4,8 +4,16 @@
   "usage": 5,
   "moves": [],
   "move_usage": [],
-  "abilities": ["psychic surge", "synchronize", "own tempo"],
-  "ability_usage": [99.8, 0.2, 0.1],
+  "abilities": [
+    "psychic surge",
+    "synchronize",
+    "own tempo"
+  ],
+  "ability_usage": [
+    99.7,
+    0.2,
+    0.1
+  ],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

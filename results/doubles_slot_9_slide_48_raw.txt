@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "sylveon",
+  "pokemon": "arcanine",
   "usage": 18,
   "moves": [],
   "move_usage": [],
@@ -9,18 +9,18 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
-    "modest",
-    "quiet",
-    "bold",
-    "timid",
-    "relaxed"
+    "jolly",
+    "adamant",
+    "brave",
+    "naughty",
+    "lonely"
   ],
   "nature_usage": [
-    82.2,
-    12.7,
-    1.8,
-    1.7,
-    0.4
+    78.6,
+    19.6,
+    0.3,
+    0.3,
+    0.2
   ],
   "items": [],
   "item_usage": []

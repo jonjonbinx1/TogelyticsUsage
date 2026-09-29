@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "archaludon",
+  "pokemon": "pelipper",
   "usage": 12,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "leftovers",
+    "focus sash",
     "sitrus berry",
-    "chople berry",
-    "choice scarf",
-    "psychic seed"
+    "damp rock",
+    "life orb",
+    "choice scarf"
   ],
   "item_usage": [
-    87.3,
-    2.8,
-    2.2,
-    1.4,
-    1.1
+    48.0,
+    29.6,
+    8.6,
+    3.3,
+    2.9
   ]
 }

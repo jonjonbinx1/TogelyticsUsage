@@ -1,1 +1,27 @@
-{"id":"gen-1790131867-CHowukBrnklA0yrWnxXT","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (1590/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}
+{
+  "screen_type": "held_item",
+  "pokemon": "indeedee",
+  "usage": 5,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [
+    "colbur berry",
+    "rocky helmet",
+    "psychic seed",
+    "sitrus berry",
+    "focus sash"
+  ],
+  "item_usage": [
+    26.9,
+    26.2,
+    22.9,
+    12.9,
+    3.6
+  ]
+}

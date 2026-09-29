@@ -1,23 +1,14 @@
+```json
 {
-  "screen_type": "ability",
-  "pokemon": "sneasler",
-  "usage": 2,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [
-    "unburden",
-    "poison touch",
-    "pressure"
-  ],
-  "ability_usage": [
-    89.0,
-    10.9,
-    0.1
-  ],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
+    "abilities": [
+        "Unburden",
+        "Poison Touch",
+        "Pressure"
+    ],
+    "ability_usage": [
+        89.2,
+        10.7,
+        0.2
+    ]
 }
+```

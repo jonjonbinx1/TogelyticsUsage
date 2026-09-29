@@ -1,27 +1,17 @@
 {
-  "screen_type": "stat_alignment",
-  "pokemon": "garchomp",
-  "usage": 9,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
+  "error": false,
   "natures": [
-    "modest",
-    "jolly",
-    "adamant",
-    "timid",
-    "impish"
+    "Modest",
+    "Jolly",
+    "Adamant",
+    "Timid",
+    "Impish"
   ],
   "nature_usage": [
-    34.4,
-    31.1,
-    20.7,
-    10.1,
+    34.8,
+    30.8,
+    20.5,
+    9.8,
     0.8
-  ],
-  "items": [],
-  "item_usage": []
+  ]
 }

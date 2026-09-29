@@ -1,1 +1,15 @@
-{"id":"gen-1790131882-3shitDENNHon79IecAig","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}
+{
+  "screen_type": "ability",
+  "pokemon": "pelipper",
+  "usage": 12,
+  "moves": [],
+  "move_usage": [],
+  "abilities": ["drizzle", "keen eye", "rain dish"],
+  "ability_usage": [99.9, 0.0, 0.0],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

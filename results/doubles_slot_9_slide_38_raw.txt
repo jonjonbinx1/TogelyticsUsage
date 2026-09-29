@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "charizard",
+  "pokemon": "raichu",
   "usage": 16,
   "moves": [],
   "move_usage": [],
@@ -9,17 +9,19 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
-    "modest",
     "timid",
+    "modest",
+    "jolly",
     "adamant",
-    "bold",
-    "jolly"
+    "hasty"
   ],
   "nature_usage": [
-    64.0,
-    28.4,
-    2.9,
+    82.5,
+    7.5,
+    6.5,
     1.5,
-    1.1
-  ]
+    0.5
+  ],
+  "items": [],
+  "item_usage": []
 }

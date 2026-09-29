@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "incineroar",
+  "pokemon": "salamence",
   "usage": 4,
   "moves": [
-    "fake out",
-    "flare blitz",
-    "parting shot",
-    "throat chop",
-    "darkest lariat"
+    "protect",
+    "hyper voice",
+    "draco meteor",
+    "tailwind",
+    "flamethrower"
   ],
   "move_usage": [
-    97.8,
-    91.6,
-    90.8,
-    39.8,
-    39.7
+    93.9,
+    90.7,
+    61.2,
+    58.5,
+    29.3
   ],
   "abilities": [],
   "ability_usage": [],

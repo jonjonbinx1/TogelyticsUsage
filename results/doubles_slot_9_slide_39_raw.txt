@@ -1,1 +1,27 @@
-{"id":"gen-1789653724-zRgqD3WUwmACDDzrFkyK","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}
+{
+  "screen_type": "held_item",
+  "pokemon": "raichu",
+  "usage": 16,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [
+    "raichunite y",
+    "raichunite x",
+    "focus sash",
+    "sitrus berry",
+    "magnet"
+  ],
+  "item_usage": [
+    82.8,
+    14.4,
+    1.4,
+    0.2,
+    0.2
+  ]
+}

@@ -1,0 +1,6564 @@
+{
+  "folder": "C:\\Users\\johnb\\Code\\ModelTraining\\ChampionsUsageExtractor\\data\\doubles\\20260927doubles",
+  "date": "2026-09-27",
+  "format": "doubles",
+  "provider": "ollama,openrouter",
+  "model": "qwen3-vl:30b-a3b",
+  "prefilled_name_authority": {},
+  "prefilled_name_conflicts": [],
+  "raw_extracted": [
+    {
+      "image": "doubles_slot_1_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "rillaboom",
+        "usage": 1,
+        "moves": [
+          "grassy glide",
+          "fake out",
+          "wood hammer",
+          "high horsepower",
+          "u-turn"
+        ],
+        "move_usage": [
+          97.4,
+          95.1,
+          78.2,
+          50.3,
+          47.3
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_1_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "rillaboom",
+        "usage": 1,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "grassy surge",
+          "overgrow"
+        ],
+        "ability_usage": [
+          99.9,
+          0.1
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_1_slide_3.png",
+      "data": {
+        "id": "gen-1790564926-tt5I0IRsIvmXpaPaYGom",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "stat_points",
+        "usage": 1,
+        "spread_values": [],
+        "moves": [],
+        "move_usage": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_1_slide_4.png",
+      "data": {
+        "id": "gen-1790564927-JOnov87Yu7Kp4vmKHuwY",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "stat_alignment",
+        "usage": 1,
+        "moves": [],
+        "move_usage": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_1_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "rillaboom",
+        "usage": 1,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "miracle seed",
+          "life orb",
+          "sitrus berry",
+          "grassy seed",
+          "eject button"
+        ],
+        "item_usage": [
+          57.2,
+          10.6,
+          10.3,
+          5.4,
+          4.0
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_2_slide_1.png",
+      "data": {
+        "moves": [
+          "Close Combat",
+          "Dire Claw",
+          "Protect",
+          "Fake Out",
+          "Rock Slide"
+        ],
+        "move_usage": [
+          99.3,
+          92.5,
+          64.1,
+          55.9,
+          27.6
+        ],
+        "screen_type": "moves",
+        "usage": 2,
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_2_slide_2.png",
+      "data": {
+        "abilities": [
+          "Unburden",
+          "Poison Touch",
+          "Pressure"
+        ],
+        "ability_usage": [
+          89.2,
+          10.7,
+          0.1
+        ],
+        "screen_type": "ability",
+        "usage": 2,
+        "moves": [],
+        "move_usage": [],
+        "items": [],
+        "item_usage": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_2_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "sneasler",
+        "usage": 2,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            16,
+            20,
+            0,
+            0,
+            0,
+            30
+          ],
+          [
+            4,
+            0,
+            32,
+            0,
+            0,
+            2,
+            32
+          ],
+          [
+            5,
+            1,
+            32,
+            1,
+            0,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          46.2,
+          8.5,
+          4.3,
+          4.1,
+          1.9
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_2_slide_4.png",
+      "data": {
+        "id": "gen-1790564943-3QTAOCU9rdoNUdEHUuEQ",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "stat_alignment",
+        "usage": 2,
+        "moves": [],
+        "move_usage": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_2_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "sneasler",
+        "usage": 2,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "white herb",
+          "psychic seed",
+          "grassy seed",
+          "focus sash",
+          "normal gem"
+        ],
+        "item_usage": [
+          30.4,
+          26.4,
+          25.3,
+          13.6,
+          1.0
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_3_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "incineroar",
+        "usage": 3,
+        "moves": [
+          "fake out",
+          "flare blitz",
+          "parting shot",
+          "darkest lariat",
+          "throat chop"
+        ],
+        "move_usage": [
+          97.6,
+          91.1,
+          90.7,
+          40.3,
+          39.0
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_3_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "incineroar",
+        "usage": 3,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "intimidate",
+          "blaze"
+        ],
+        "ability_usage": [
+          99.7,
+          0.3
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_3_slide_3.png",
+      "data": {
+        "id": "gen-1790564957-gv1AhXOP4c2OJIHxoi5v",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (511/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "stat_points",
+        "usage": 3,
+        "spread_values": [],
+        "moves": [],
+        "move_usage": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_3_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "incineroar",
+        "usage": 3,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "careful",
+          "impish",
+          "adamant",
+          "sassy",
+          "brave"
+        ],
+        "nature_usage": [
+          37.6,
+          24.8,
+          19.0,
+          6.0,
+          5.8
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_3_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "incineroar",
+        "usage": 3,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "sitrus berry",
+          "chople berry",
+          "passho berry",
+          "rocky helmet",
+          "leftovers"
+        ],
+        "item_usage": [
+          64.6,
+          8.7,
+          7.0,
+          6.2,
+          3.6
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_4_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "salamence",
+        "usage": 4,
+        "moves": [
+          "protect",
+          "hyper voice",
+          "draco meteor",
+          "tailwind",
+          "flamethrower"
+        ],
+        "move_usage": [
+          93.9,
+          90.8,
+          61.0,
+          58.7,
+          29.1
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_4_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "salamence",
+        "usage": 4,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "intimidate",
+          "moxie"
+        ],
+        "ability_usage": [
+          98.8,
+          1.2
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_4_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "salamence",
+        "usage": 4,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            1,
+            0,
+            0,
+            32,
+            1,
+            32
+          ],
+          [
+            3,
+            1,
+            21,
+            0,
+            15,
+            0,
+            29
+          ],
+          [
+            4,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            5,
+            1,
+            0,
+            1,
+            32,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          44.1,
+          6.1,
+          3.6,
+          3.4,
+          3.0
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_4_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "salamence",
+        "usage": 4,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "timid",
+          "modest",
+          "naive",
+          "hasty",
+          "adamant"
+        ],
+        "nature_usage": [
+          51.5,
+          23.1,
+          10.4,
+          5.1,
+          3.4
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_4_slide_5.png",
+      "data": {
+        "id": "gen-1790564994-6uDb7JiJq891Xo2xxrOx",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "held_item",
+        "usage": 4,
+        "moves": [],
+        "move_usage": [],
+        "ability_usage": [],
+        "abilities": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_5_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "indeedee",
+        "usage": 5,
+        "moves": [
+          "follow me",
+          "trick room",
+          "helping hand",
+          "psychic",
+          "protect"
+        ],
+        "move_usage": [
+          97.5,
+          82.4,
+          80.1,
+          61.9,
+          18.8
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_5_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "indeedee",
+        "usage": 5,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "psychic surge",
+          "synchronize",
+          "own tempo"
+        ],
+        "ability_usage": [
+          99.7,
+          0.2,
+          0.1
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_5_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "indeedee",
+        "usage": 5,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            32,
+            0,
+            32,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            32,
+            0,
+            25,
+            0,
+            9,
+            0
+          ],
+          [
+            3,
+            32,
+            0,
+            32,
+            2,
+            0,
+            0
+          ],
+          [
+            4,
+            31,
+            0,
+            32,
+            0,
+            3,
+            0
+          ],
+          [
+            5,
+            32,
+            0,
+            29,
+            0,
+            5,
+            0
+          ]
+        ],
+        "spread_usage": [
+          53.5,
+          8.9,
+          3.3,
+          1.8,
+          1.7
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_5_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "indeedee",
+        "usage": 5,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "relaxed",
+          "bold",
+          "calm",
+          "modest",
+          "sassy"
+        ],
+        "nature_usage": [
+          43.5,
+          36.6,
+          9.2,
+          3.6,
+          3.2
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_5_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "indeedee",
+        "usage": 5,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "colbur berry",
+          "rocky helmet",
+          "psychic seed",
+          "sitrus berry",
+          "focus sash"
+        ],
+        "item_usage": [
+          27.0,
+          26.1,
+          23.0,
+          12.9,
+          3.6
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_6_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "kingambit",
+        "usage": 6,
+        "moves": [
+          "kowtow cleave",
+          "sucker punch",
+          "iron head",
+          "protect",
+          "low kick"
+        ],
+        "move_usage": [
+          97.5,
+          96.8,
+          79.0,
+          56.9,
+          48.3
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_6_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "kingambit",
+        "usage": 6,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "defiant",
+          "supreme overlord",
+          "pressure"
+        ],
+        "ability_usage": [
+          95.9,
+          4.0,
+          0.1
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_6_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "kingambit",
+        "usage": 6,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            32,
+            32,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            32,
+            32,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            4,
+            32,
+            32,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            5,
+            32,
+            25,
+            2,
+            0,
+            6,
+            1
+          ]
+        ],
+        "spread_usage": [
+          19.9,
+          9.0,
+          7.0,
+          5.9,
+          5.5
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_6_slide_4.png",
+      "data": {
+        "id": "gen-1790565042-8tGs8xtdwf87zBb9D846",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "stat_alignment",
+        "usage": 6,
+        "moves": [],
+        "move_usage": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_6_slide_5.png",
+      "data": {
+        "error": false,
+        "item_usage": [],
+        "items": [
+          "Chople Berry",
+          "Black Glasses",
+          "Focus Sash",
+          "Life Orb",
+          "Occa Berry"
+        ],
+        "screen_type": "held_item",
+        "usage": 6,
+        "moves": [],
+        "move_usage": [],
+        "ability_usage": [],
+        "abilities": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_7_slide_1.png",
+      "data": {
+        "id": "gen-1790565044-1nhr8EuVZk3FrGwihcxB",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "moves",
+        "usage": 7,
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_7_slide_2.png",
+      "data": {
+        "abilities": [
+          "Adaptability",
+          "Swift Swim",
+          "Mold Breaker"
+        ],
+        "ability_usage": [
+          94.2,
+          5.5,
+          0.3
+        ],
+        "slot": 7,
+        "error": [],
+        "screen_type": "ability",
+        "usage": 7,
+        "moves": [],
+        "move_usage": [],
+        "items": [],
+        "item_usage": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_7_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "basculegion",
+        "usage": 7,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            4,
+            23,
+            13,
+            0,
+            0,
+            26
+          ],
+          [
+            4,
+            0,
+            32,
+            1,
+            0,
+            1,
+            32
+          ],
+          [
+            5,
+            0,
+            32,
+            0,
+            0,
+            2,
+            32
+          ]
+        ],
+        "spread_usage": [
+          37.7,
+          11.6,
+          5.8,
+          3.7,
+          3.1
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_7_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "basculegion",
+        "usage": 7,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "adamant",
+          "jolly",
+          "brave",
+          "lonely",
+          "naughty"
+        ],
+        "nature_usage": [
+          53.5,
+          43.9,
+          0.8,
+          0.3,
+          0.3
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_7_slide_5.png",
+      "data": {
+        "error": null,
+        "item_usage": [
+          "Choice Scarf",
+          "Life Orb",
+          "Mystic Water",
+          "Focus Sash",
+          "Sitrus Berry"
+        ],
+        "items": [],
+        "screen_type": "held_item",
+        "usage": 7,
+        "moves": [],
+        "move_usage": [],
+        "ability_usage": [],
+        "abilities": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_8_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "golisopod",
+        "usage": 8,
+        "moves": [
+          "leech life",
+          "iron head",
+          "protect",
+          "swords dance",
+          "sucker punch"
+        ],
+        "move_usage": [
+          94.9,
+          81.7,
+          63.7,
+          44.2,
+          33.4
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_8_slide_2.png",
+      "data": {
+        "abilities": [
+          "Emergency Exit"
+        ],
+        "ability_usage": [],
+        "error": [],
+        "screen_type": "ability",
+        "usage": 8,
+        "moves": [],
+        "move_usage": [],
+        "items": [],
+        "item_usage": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_8_slide_3.png",
+      "data": {
+        "id": "gen-1790565090-ET2gkH0319vTfBXuezmR",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "stat_points",
+        "usage": 8,
+        "spread_values": [],
+        "moves": [],
+        "move_usage": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_8_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "golisopod",
+        "usage": 8,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "adamant",
+          "brave",
+          "careful",
+          "sassy",
+          "impish"
+        ],
+        "nature_usage": [
+          59.8,
+          34.2,
+          2.3,
+          1.5,
+          0.7
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_8_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "golisopod",
+        "usage": 8,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "golisopite",
+          "life orb",
+          "sitrus berry",
+          "leftovers",
+          "silver powder"
+        ],
+        "item_usage": [
+          98.4,
+          0.4,
+          0.2,
+          0.1,
+          0.1
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_1.png",
+      "data": {
+        "id": "gen-1790565093-Y7jPLsjfM4jUnueEXvsj",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "moves",
+        "usage": 9,
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "garchomp",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "rough skin",
+          "sand force",
+          "sand veil"
+        ],
+        "ability_usage": [
+          25.2,
+          17.0,
+          3.6
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "garchomp",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_4.png",
+      "data": {
+        "id": "gen-1790565098-lPMzHRh3tcEHZGQ61HVS",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "stat_alignment",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_5.png",
+      "data": {
+        "id": "gen-1790565099-TwAmxUtHHBlblMfEpN7A",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "held_item",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "ability_usage": [],
+        "abilities": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_6.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "gholdengo",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "good as gold"
+        ],
+        "ability_usage": [
+          100.0
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_7.png",
+      "data": {
+        "id": "gen-1790565103-Kj6WiIFh6a3iTsZ5Kw6V",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_8.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "gholdengo",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "modest",
+          "timid",
+          "bold",
+          "quiet",
+          "calm"
+        ],
+        "nature_usage": [
+          63.1,
+          34.5,
+          0.7,
+          0.7,
+          0.4
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_9.png",
+      "data": {
+        "id": "gen-1790565109-YpEM7vpYD6YYKbmzfAYl",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_10.png",
+      "data": {
+        "id": "gen-1790565110-0J70oqrg52KFhFtI2XgG",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_11.png",
+      "data": {
+        "id": "gen-1790565111-8szs22QghZiGo20nA0Vf",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_12.png",
+      "data": {
+        "id": "gen-1790565112-j51mpo1vDfI5h0y6cmUn",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_13.png",
+      "data": {
+        "id": "gen-1790565113-Csu8lz1SDzWtYKMfaZ0x",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (735/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_14.png",
+      "data": {
+        "id": "gen-1790565114-TfKtN85xsezdW2ut9sYn",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_15.png",
+      "data": {
+        "id": "gen-1790565116-iciNZdVSWrWMtEker4rC",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_16.png",
+      "data": {
+        "id": "gen-1790565117-ES2FvbGevkPztGvy35rz",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_17.png",
+      "data": {
+        "id": "gen-1790565118-v2xQOFjwv8sLT71kFwTi",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_18.png",
+      "data": {
+        "id": "gen-1790565119-6CY9h1GXWM0frCGpp1Wt",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_19.png",
+      "data": {
+        "id": "gen-1790565120-8Srs1KX3IZPN66tpL6oL",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_20.png",
+      "data": {
+        "id": "gen-1790565120-vJ2w7r0MDMIEmilr1tRY",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_21.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "milotic",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "competitive",
+          "marvel scale",
+          "cute charm"
+        ],
+        "ability_usage": [
+          99.2,
+          0.6,
+          0.3
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_22.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "milotic",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            32,
+            0,
+            32,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            20,
+            0,
+            20,
+            4,
+            8,
+            14
+          ],
+          [
+            3,
+            32,
+            0,
+            2,
+            32,
+            0,
+            0
+          ],
+          [
+            4,
+            32,
+            0,
+            32,
+            2,
+            0,
+            0
+          ],
+          [
+            5,
+            31,
+            0,
+            15,
+            0,
+            12,
+            8
+          ]
+        ],
+        "spread_usage": [
+          8.7,
+          3.4,
+          3.2,
+          2.4,
+          2.0
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_23.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "milotic",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "modest",
+          "calm",
+          "bold",
+          "timid",
+          "quiet"
+        ],
+        "nature_usage": [
+          34.2,
+          32.5,
+          25.8,
+          3.4,
+          1.8
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_24.png",
+      "data": {
+        "id": "gen-1790565139-74Ekdey7PxKDi33o7v97",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (324/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_25.png",
+      "data": {
+        "id": "gen-1790565140-s2eETe79wfPO1TcbMPj0",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_26.png",
+      "data": {
+        "id": "gen-1790565141-QKNgk1CxnxJNtPhqWXIR",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_27.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "farigiraf",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            27,
+            0,
+            20,
+            0,
+            19,
+            0
+          ],
+          [
+            2,
+            32,
+            0,
+            20,
+            0,
+            14,
+            0
+          ],
+          [
+            3,
+            29,
+            0,
+            21,
+            0,
+            16,
+            0
+          ],
+          [
+            4,
+            32,
+            0,
+            32,
+            0,
+            2,
+            0
+          ],
+          [
+            5,
+            32,
+            0,
+            2,
+            32,
+            0,
+            0
+          ]
+        ],
+        "spread_usage": [
+          7.6,
+          4.6,
+          3.8,
+          3.3,
+          2.5
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_28.png",
+      "data": {
+        "id": "gen-1790565149-Pd335bomQMposNm9ImxX",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_29.png",
+      "data": {
+        "id": "gen-1790565150-qmlUzClmNNbGNX05tmTd",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_30.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "charizard",
+        "usage": 9,
+        "moves": [
+          "protect",
+          "heat wave",
+          "weather ball",
+          "solar beam",
+          "ancient power"
+        ],
+        "move_usage": [
+          93.6,
+          93.3,
+          70.7,
+          60.4,
+          26.1
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_31.png",
+      "data": {
+        "id": "gen-1790565160-mRi3jlJxymZdPiW0xzqr",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_32.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "charizard",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            0,
+            0,
+            2,
+            32,
+            0,
+            32
+          ],
+          [
+            3,
+            12,
+            0,
+            14,
+            8,
+            0,
+            32
+          ],
+          [
+            4,
+            24,
+            0,
+            16,
+            9,
+            0,
+            17
+          ],
+          [
+            5,
+            0,
+            0,
+            0,
+            32,
+            2,
+            32
+          ]
+        ],
+        "spread_usage": [
+          28.7,
+          5.5,
+          4.3,
+          2.4,
+          2.1
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_33.png",
+      "data": {
+        "id": "gen-1790565167-N1pSHlXdKpyZUUC0gFIA",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_34.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "charizard",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "charizardite y",
+          "charizardite x",
+          "choice scarf",
+          "charcoal",
+          "life orb"
+        ],
+        "item_usage": [
+          93.3,
+          4.7,
+          0.5,
+          0.2,
+          0.2
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_35.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "raichu",
+        "usage": 9,
+        "moves": [
+          "protect",
+          "zap cannon",
+          "focus blast",
+          "fake out",
+          "encore"
+        ],
+        "move_usage": [
+          86.4,
+          82.8,
+          82.5,
+          75.6,
+          21.0
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_36.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "raichu",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "lightning rod",
+          "static"
+        ],
+        "ability_usage": [
+          96.8,
+          3.2
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_37.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "raichu",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            26,
+            0,
+            17,
+            0,
+            0,
+            23
+          ],
+          [
+            3,
+            32,
+            0,
+            11,
+            0,
+            0,
+            23
+          ],
+          [
+            4,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            5,
+            32,
+            0,
+            0,
+            2,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          21.3,
+          5.4,
+          4.7,
+          4.4,
+          4.3
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_38.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "raichu",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "timid",
+          "modest",
+          "jolly",
+          "adamant",
+          "hasty"
+        ],
+        "nature_usage": [
+          82.5,
+          7.5,
+          6.5,
+          1.5,
+          0.5
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_39.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "raichu",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "raichunite y",
+          "raichunite x",
+          "focus sash",
+          "sitrus berry",
+          "magnet"
+        ],
+        "item_usage": [
+          82.8,
+          14.4,
+          1.4,
+          0.2,
+          0.2
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_40.png",
+      "data": {
+        "id": "gen-1790565201-4wY3Qe94nJvB8xJDnsjR",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_41.png",
+      "data": {
+        "id": "gen-1790565202-KdvJ21TymXd9vtgZNIqm",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_42.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "gardevoir",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            32,
+            0,
+            2,
+            32,
+            0,
+            0
+          ],
+          [
+            3,
+            29,
+            0,
+            0,
+            32,
+            0,
+            5
+          ],
+          [
+            4,
+            0,
+            0,
+            2,
+            32,
+            0,
+            32
+          ],
+          [
+            5,
+            28,
+            0,
+            17,
+            10,
+            0,
+            11
+          ]
+        ],
+        "spread_usage": [
+          20.5,
+          11.5,
+          8.0,
+          6.0,
+          4.1
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_43.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "gardevoir",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "modest",
+          "timid",
+          "quiet",
+          "bold",
+          "relaxed"
+        ],
+        "nature_usage": [
+          76.0,
+          12.2,
+          9.4,
+          1.1,
+          0.4
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_44.png",
+      "data": {
+        "id": "gen-1790565215-KFTUOFdLqRHcJYhb1ILQ",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (2587/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_45.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "arcanine",
+        "usage": 9,
+        "moves": [
+          "flare blitz",
+          "head smash",
+          "protect",
+          "extreme speed",
+          "rock slide"
+        ],
+        "move_usage": [
+          99.6,
+          95.1,
+          93.0,
+          86.3,
+          12.6
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_46.png",
+      "data": {
+        "id": "gen-1790565224-jPm71t5Y9YMPpzV7aAG1",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_47.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "arcanine",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            1,
+            32,
+            0,
+            0,
+            1,
+            32
+          ],
+          [
+            3,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            4,
+            0,
+            32,
+            1,
+            0,
+            1,
+            32
+          ],
+          [
+            5,
+            1,
+            32,
+            1,
+            0,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          65.5,
+          9.7,
+          5.3,
+          4.7,
+          3.9
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_48.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "arcanine",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "jolly",
+          "adamant",
+          "brave",
+          "naughty",
+          "lonely"
+        ],
+        "nature_usage": [
+          78.6,
+          19.6,
+          0.3,
+          0.3,
+          0.2
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_49.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "arcanine",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "focus sash",
+          "choice scarf",
+          "life orb",
+          "sitrus berry",
+          "wide lens"
+        ],
+        "item_usage": [
+          90.4,
+          3.2,
+          2.3,
+          0.8,
+          0.5
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_50.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "sylveon",
+        "usage": 9,
+        "moves": [
+          "hyper voice",
+          "hyper beam",
+          "quick attack",
+          "detect",
+          "protect"
+        ],
+        "move_usage": [
+          99.6,
+          74.4,
+          69.3,
+          64.6,
+          30.4
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_51.png",
+      "data": {
+        "id": "gen-1790565248-z5rQJ55zVxHT1FNwOLsr",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_52.png",
+      "data": {
+        "id": "gen-1790565249-Itj7bXYpcUVjQM4rgiGN",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_53.png",
+      "data": {
+        "id": "gen-1790565250-KY7hrjdHFkYhBHTdbC3f",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_54.png",
+      "data": {
+        "id": "gen-1790565251-yn8CAIMjRDneHRcJgm9u",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (406/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_55.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "tyranitar",
+        "usage": 9,
+        "moves": [
+          "rock slide",
+          "knock off",
+          "protect",
+          "low kick",
+          "ice punch"
+        ],
+        "move_usage": [
+          96.8,
+          94.0,
+          88.3,
+          56.6,
+          15.9
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_56.png",
+      "data": {
+        "id": "gen-1790565257-5UE1TlXJyqtwKjmTYpCC",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_57.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": 20,
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            17,
+            17,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            32,
+            32,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            4,
+            18,
+            16,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            5,
+            32,
+            32,
+            2,
+            0,
+            0,
+            0
+          ]
+        ],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_58.png",
+      "data": {
+        "id": "gen-1790565273-wnInwsKGOh2NL00uwLoO",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (1342/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_59.png",
+      "data": {
+        "id": "gen-1790565274-TpmXXa7UGvPwVH0znJ75",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (9242/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    }
+  ],
+  "autocorrected_extracted": [
+    {
+      "image": "doubles_slot_1_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "rillaboom",
+        "usage": 1,
+        "moves": [
+          "grassy glide",
+          "fake out",
+          "wood hammer",
+          "high horsepower",
+          "u-turn"
+        ],
+        "move_usage": [
+          97.4,
+          95.1,
+          78.2,
+          50.3,
+          47.3
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_1_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "rillaboom",
+        "usage": 1,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "grassy surge",
+          "overgrow"
+        ],
+        "ability_usage": [
+          99.9,
+          0.1
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_1_slide_3.png",
+      "data": {
+        "id": "gen-1790564926-tt5I0IRsIvmXpaPaYGom",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "stat_points",
+        "usage": 1,
+        "spread_values": [],
+        "moves": [],
+        "move_usage": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_1_slide_4.png",
+      "data": {
+        "id": "gen-1790564927-JOnov87Yu7Kp4vmKHuwY",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "stat_alignment",
+        "usage": 1,
+        "moves": [],
+        "move_usage": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_1_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "rillaboom",
+        "usage": 1,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "miracle seed",
+          "life orb",
+          "sitrus berry",
+          "grassy seed",
+          "eject button"
+        ],
+        "item_usage": [
+          57.2,
+          10.6,
+          10.3,
+          5.4,
+          4.0
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_2_slide_1.png",
+      "data": {
+        "moves": [
+          "Close Combat",
+          "Dire Claw",
+          "Protect",
+          "Fake Out",
+          "Rock Slide"
+        ],
+        "move_usage": [
+          99.3,
+          92.5,
+          64.1,
+          55.9,
+          27.6
+        ],
+        "screen_type": "moves",
+        "usage": 2,
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_2_slide_2.png",
+      "data": {
+        "abilities": [
+          "Unburden",
+          "Poison Touch",
+          "Pressure"
+        ],
+        "ability_usage": [
+          89.2,
+          10.7,
+          0.1
+        ],
+        "screen_type": "ability",
+        "usage": 2,
+        "moves": [],
+        "move_usage": [],
+        "items": [],
+        "item_usage": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_2_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "sneasler",
+        "usage": 2,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            16,
+            20,
+            0,
+            0,
+            0,
+            30
+          ],
+          [
+            4,
+            0,
+            32,
+            0,
+            0,
+            2,
+            32
+          ],
+          [
+            5,
+            1,
+            32,
+            1,
+            0,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          46.2,
+          8.5,
+          4.3,
+          4.1,
+          1.9
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_2_slide_4.png",
+      "data": {
+        "id": "gen-1790564943-3QTAOCU9rdoNUdEHUuEQ",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "stat_alignment",
+        "usage": 2,
+        "moves": [],
+        "move_usage": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_2_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "sneasler",
+        "usage": 2,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "white herb",
+          "psychic seed",
+          "grassy seed",
+          "focus sash",
+          "normal gem"
+        ],
+        "item_usage": [
+          30.4,
+          26.4,
+          25.3,
+          13.6,
+          1.0
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_3_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "incineroar",
+        "usage": 3,
+        "moves": [
+          "fake out",
+          "flare blitz",
+          "parting shot",
+          "darkest lariat",
+          "throat chop"
+        ],
+        "move_usage": [
+          97.6,
+          91.1,
+          90.7,
+          40.3,
+          39.0
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_3_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "incineroar",
+        "usage": 3,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "intimidate",
+          "blaze"
+        ],
+        "ability_usage": [
+          99.7,
+          0.3
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_3_slide_3.png",
+      "data": {
+        "id": "gen-1790564957-gv1AhXOP4c2OJIHxoi5v",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (511/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "stat_points",
+        "usage": 3,
+        "spread_values": [],
+        "moves": [],
+        "move_usage": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_3_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "incineroar",
+        "usage": 3,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "careful",
+          "impish",
+          "adamant",
+          "sassy",
+          "brave"
+        ],
+        "nature_usage": [
+          37.6,
+          24.8,
+          19.0,
+          6.0,
+          5.8
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_3_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "incineroar",
+        "usage": 3,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "sitrus berry",
+          "chople berry",
+          "passho berry",
+          "rocky helmet",
+          "leftovers"
+        ],
+        "item_usage": [
+          64.6,
+          8.7,
+          7.0,
+          6.2,
+          3.6
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_4_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "salamence",
+        "usage": 4,
+        "moves": [
+          "protect",
+          "hyper voice",
+          "draco meteor",
+          "tailwind",
+          "flamethrower"
+        ],
+        "move_usage": [
+          93.9,
+          90.8,
+          61.0,
+          58.7,
+          29.1
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_4_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "salamence",
+        "usage": 4,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "intimidate",
+          "moxie"
+        ],
+        "ability_usage": [
+          98.8,
+          1.2
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_4_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "salamence",
+        "usage": 4,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            1,
+            0,
+            0,
+            32,
+            1,
+            32
+          ],
+          [
+            3,
+            1,
+            21,
+            0,
+            15,
+            0,
+            29
+          ],
+          [
+            4,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            5,
+            1,
+            0,
+            1,
+            32,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          44.1,
+          6.1,
+          3.6,
+          3.4,
+          3.0
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_4_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "salamence",
+        "usage": 4,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "timid",
+          "modest",
+          "naive",
+          "hasty",
+          "adamant"
+        ],
+        "nature_usage": [
+          51.5,
+          23.1,
+          10.4,
+          5.1,
+          3.4
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_4_slide_5.png",
+      "data": {
+        "id": "gen-1790564994-6uDb7JiJq891Xo2xxrOx",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "held_item",
+        "usage": 4,
+        "moves": [],
+        "move_usage": [],
+        "ability_usage": [],
+        "abilities": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_5_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "indeedee",
+        "usage": 5,
+        "moves": [
+          "follow me",
+          "trick room",
+          "helping hand",
+          "psychic",
+          "protect"
+        ],
+        "move_usage": [
+          97.5,
+          82.4,
+          80.1,
+          61.9,
+          18.8
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_5_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "indeedee",
+        "usage": 5,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "psychic surge",
+          "synchronize",
+          "own tempo"
+        ],
+        "ability_usage": [
+          99.7,
+          0.2,
+          0.1
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_5_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "indeedee",
+        "usage": 5,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            32,
+            0,
+            32,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            32,
+            0,
+            25,
+            0,
+            9,
+            0
+          ],
+          [
+            3,
+            32,
+            0,
+            32,
+            2,
+            0,
+            0
+          ],
+          [
+            4,
+            31,
+            0,
+            32,
+            0,
+            3,
+            0
+          ],
+          [
+            5,
+            32,
+            0,
+            29,
+            0,
+            5,
+            0
+          ]
+        ],
+        "spread_usage": [
+          53.5,
+          8.9,
+          3.3,
+          1.8,
+          1.7
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_5_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "indeedee",
+        "usage": 5,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "relaxed",
+          "bold",
+          "calm",
+          "modest",
+          "sassy"
+        ],
+        "nature_usage": [
+          43.5,
+          36.6,
+          9.2,
+          3.6,
+          3.2
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_5_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "indeedee",
+        "usage": 5,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "colbur berry",
+          "rocky helmet",
+          "psychic seed",
+          "sitrus berry",
+          "focus sash"
+        ],
+        "item_usage": [
+          27.0,
+          26.1,
+          23.0,
+          12.9,
+          3.6
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_6_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "kingambit",
+        "usage": 6,
+        "moves": [
+          "kowtow cleave",
+          "sucker punch",
+          "iron head",
+          "protect",
+          "low kick"
+        ],
+        "move_usage": [
+          97.5,
+          96.8,
+          79.0,
+          56.9,
+          48.3
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_6_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "kingambit",
+        "usage": 6,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "defiant",
+          "supreme overlord",
+          "pressure"
+        ],
+        "ability_usage": [
+          95.9,
+          4.0,
+          0.1
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_6_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "kingambit",
+        "usage": 6,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            32,
+            32,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            32,
+            32,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            4,
+            32,
+            32,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            5,
+            32,
+            25,
+            2,
+            0,
+            6,
+            1
+          ]
+        ],
+        "spread_usage": [
+          19.9,
+          9.0,
+          7.0,
+          5.9,
+          5.5
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_6_slide_4.png",
+      "data": {
+        "id": "gen-1790565042-8tGs8xtdwf87zBb9D846",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "stat_alignment",
+        "usage": 6,
+        "moves": [],
+        "move_usage": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_6_slide_5.png",
+      "data": {
+        "error": false,
+        "item_usage": [],
+        "items": [
+          "Chople Berry",
+          "Black Glasses",
+          "Focus Sash",
+          "Life Orb",
+          "Occa Berry"
+        ],
+        "screen_type": "held_item",
+        "usage": 6,
+        "moves": [],
+        "move_usage": [],
+        "ability_usage": [],
+        "abilities": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_7_slide_1.png",
+      "data": {
+        "id": "gen-1790565044-1nhr8EuVZk3FrGwihcxB",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "moves",
+        "usage": 7,
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_7_slide_2.png",
+      "data": {
+        "abilities": [
+          "Adaptability",
+          "Swift Swim",
+          "Mold Breaker"
+        ],
+        "ability_usage": [
+          94.2,
+          5.5,
+          0.3
+        ],
+        "slot": 7,
+        "error": [],
+        "screen_type": "ability",
+        "usage": 7,
+        "moves": [],
+        "move_usage": [],
+        "items": [],
+        "item_usage": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_7_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "basculegion",
+        "usage": 7,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            4,
+            23,
+            13,
+            0,
+            0,
+            26
+          ],
+          [
+            4,
+            0,
+            32,
+            1,
+            0,
+            1,
+            32
+          ],
+          [
+            5,
+            0,
+            32,
+            0,
+            0,
+            2,
+            32
+          ]
+        ],
+        "spread_usage": [
+          37.7,
+          11.6,
+          5.8,
+          3.7,
+          3.1
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_7_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "basculegion",
+        "usage": 7,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "adamant",
+          "jolly",
+          "brave",
+          "lonely",
+          "naughty"
+        ],
+        "nature_usage": [
+          53.5,
+          43.9,
+          0.8,
+          0.3,
+          0.3
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_7_slide_5.png",
+      "data": {
+        "error": null,
+        "item_usage": [
+          "Choice Scarf",
+          "Life Orb",
+          "Mystic Water",
+          "Focus Sash",
+          "Sitrus Berry"
+        ],
+        "items": [],
+        "screen_type": "held_item",
+        "usage": 7,
+        "moves": [],
+        "move_usage": [],
+        "ability_usage": [],
+        "abilities": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_8_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "golisopod",
+        "usage": 8,
+        "moves": [
+          "leech life",
+          "iron head",
+          "protect",
+          "swords dance",
+          "sucker punch"
+        ],
+        "move_usage": [
+          94.9,
+          81.7,
+          63.7,
+          44.2,
+          33.4
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_8_slide_2.png",
+      "data": {
+        "abilities": [
+          "Emergency Exit"
+        ],
+        "ability_usage": [],
+        "error": [],
+        "screen_type": "ability",
+        "usage": 8,
+        "moves": [],
+        "move_usage": [],
+        "items": [],
+        "item_usage": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_8_slide_3.png",
+      "data": {
+        "id": "gen-1790565090-ET2gkH0319vTfBXuezmR",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "stat_points",
+        "usage": 8,
+        "spread_values": [],
+        "moves": [],
+        "move_usage": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_8_slide_4.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "golisopod",
+        "usage": 8,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "adamant",
+          "brave",
+          "careful",
+          "sassy",
+          "impish"
+        ],
+        "nature_usage": [
+          59.8,
+          34.2,
+          2.3,
+          1.5,
+          0.7
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_8_slide_5.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "golisopod",
+        "usage": 8,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "golisopite",
+          "life orb",
+          "sitrus berry",
+          "leftovers",
+          "silver powder"
+        ],
+        "item_usage": [
+          98.4,
+          0.4,
+          0.2,
+          0.1,
+          0.1
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_1.png",
+      "data": {
+        "id": "gen-1790565093-Y7jPLsjfM4jUnueEXvsj",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "moves",
+        "usage": 9,
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "garchomp",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "rough skin",
+          "sand force",
+          "sand veil"
+        ],
+        "ability_usage": [
+          25.2,
+          17.0,
+          3.6
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "garchomp",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_4.png",
+      "data": {
+        "id": "gen-1790565098-lPMzHRh3tcEHZGQ61HVS",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "stat_alignment",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "ability_usage": [],
+        "abilities": [],
+        "items": [],
+        "item_usage": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_5.png",
+      "data": {
+        "id": "gen-1790565099-TwAmxUtHHBlblMfEpN7A",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "held_item",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "ability_usage": [],
+        "abilities": [],
+        "nature_usage": [],
+        "natures": [],
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_6.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "gholdengo",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "good as gold"
+        ],
+        "ability_usage": [
+          100.0
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_7.png",
+      "data": {
+        "id": "gen-1790565103-Kj6WiIFh6a3iTsZ5Kw6V",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_8.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "gholdengo",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "modest",
+          "timid",
+          "bold",
+          "quiet",
+          "calm"
+        ],
+        "nature_usage": [
+          63.1,
+          34.5,
+          0.7,
+          0.7,
+          0.4
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_9.png",
+      "data": {
+        "id": "gen-1790565109-YpEM7vpYD6YYKbmzfAYl",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_10.png",
+      "data": {
+        "id": "gen-1790565110-0J70oqrg52KFhFtI2XgG",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_11.png",
+      "data": {
+        "id": "gen-1790565111-8szs22QghZiGo20nA0Vf",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_12.png",
+      "data": {
+        "id": "gen-1790565112-j51mpo1vDfI5h0y6cmUn",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_13.png",
+      "data": {
+        "id": "gen-1790565113-Csu8lz1SDzWtYKMfaZ0x",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (735/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_14.png",
+      "data": {
+        "id": "gen-1790565114-TfKtN85xsezdW2ut9sYn",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_15.png",
+      "data": {
+        "id": "gen-1790565116-iciNZdVSWrWMtEker4rC",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_16.png",
+      "data": {
+        "id": "gen-1790565117-ES2FvbGevkPztGvy35rz",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_17.png",
+      "data": {
+        "id": "gen-1790565118-v2xQOFjwv8sLT71kFwTi",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_18.png",
+      "data": {
+        "id": "gen-1790565119-6CY9h1GXWM0frCGpp1Wt",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_19.png",
+      "data": {
+        "id": "gen-1790565120-8Srs1KX3IZPN66tpL6oL",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_20.png",
+      "data": {
+        "id": "gen-1790565120-vJ2w7r0MDMIEmilr1tRY",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_21.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "milotic",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "competitive",
+          "marvel scale",
+          "cute charm"
+        ],
+        "ability_usage": [
+          99.2,
+          0.6,
+          0.3
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_22.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "milotic",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            32,
+            0,
+            32,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            20,
+            0,
+            20,
+            4,
+            8,
+            14
+          ],
+          [
+            3,
+            32,
+            0,
+            2,
+            32,
+            0,
+            0
+          ],
+          [
+            4,
+            32,
+            0,
+            32,
+            2,
+            0,
+            0
+          ],
+          [
+            5,
+            31,
+            0,
+            15,
+            0,
+            12,
+            8
+          ]
+        ],
+        "spread_usage": [
+          8.7,
+          3.4,
+          3.2,
+          2.4,
+          2.0
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_23.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "milotic",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "modest",
+          "calm",
+          "bold",
+          "timid",
+          "quiet"
+        ],
+        "nature_usage": [
+          34.2,
+          32.5,
+          25.8,
+          3.4,
+          1.8
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_24.png",
+      "data": {
+        "id": "gen-1790565139-74Ekdey7PxKDi33o7v97",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (324/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_25.png",
+      "data": {
+        "id": "gen-1790565140-s2eETe79wfPO1TcbMPj0",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_26.png",
+      "data": {
+        "id": "gen-1790565141-QKNgk1CxnxJNtPhqWXIR",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_27.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "farigiraf",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            27,
+            0,
+            20,
+            0,
+            19,
+            0
+          ],
+          [
+            2,
+            32,
+            0,
+            20,
+            0,
+            14,
+            0
+          ],
+          [
+            3,
+            29,
+            0,
+            21,
+            0,
+            16,
+            0
+          ],
+          [
+            4,
+            32,
+            0,
+            32,
+            0,
+            2,
+            0
+          ],
+          [
+            5,
+            32,
+            0,
+            2,
+            32,
+            0,
+            0
+          ]
+        ],
+        "spread_usage": [
+          7.6,
+          4.6,
+          3.8,
+          3.3,
+          2.5
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_28.png",
+      "data": {
+        "id": "gen-1790565149-Pd335bomQMposNm9ImxX",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_29.png",
+      "data": {
+        "id": "gen-1790565150-qmlUzClmNNbGNX05tmTd",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_30.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "charizard",
+        "usage": 9,
+        "moves": [
+          "protect",
+          "heat wave",
+          "weather ball",
+          "solar beam",
+          "ancient power"
+        ],
+        "move_usage": [
+          93.6,
+          93.3,
+          70.7,
+          60.4,
+          26.1
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_31.png",
+      "data": {
+        "id": "gen-1790565160-mRi3jlJxymZdPiW0xzqr",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_32.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "charizard",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            0,
+            0,
+            2,
+            32,
+            0,
+            32
+          ],
+          [
+            3,
+            12,
+            0,
+            14,
+            8,
+            0,
+            32
+          ],
+          [
+            4,
+            24,
+            0,
+            16,
+            9,
+            0,
+            17
+          ],
+          [
+            5,
+            0,
+            0,
+            0,
+            32,
+            2,
+            32
+          ]
+        ],
+        "spread_usage": [
+          28.7,
+          5.5,
+          4.3,
+          2.4,
+          2.1
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_33.png",
+      "data": {
+        "id": "gen-1790565167-N1pSHlXdKpyZUUC0gFIA",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_34.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "charizard",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "charizardite y",
+          "charizardite x",
+          "choice scarf",
+          "charcoal",
+          "life orb"
+        ],
+        "item_usage": [
+          93.3,
+          4.7,
+          0.5,
+          0.2,
+          0.2
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_35.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "raichu",
+        "usage": 9,
+        "moves": [
+          "protect",
+          "zap cannon",
+          "focus blast",
+          "fake out",
+          "encore"
+        ],
+        "move_usage": [
+          86.4,
+          82.8,
+          82.5,
+          75.6,
+          21.0
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_36.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "raichu",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [
+          "lightning rod",
+          "static"
+        ],
+        "ability_usage": [
+          96.8,
+          3.2
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_37.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "raichu",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            26,
+            0,
+            17,
+            0,
+            0,
+            23
+          ],
+          [
+            3,
+            32,
+            0,
+            11,
+            0,
+            0,
+            23
+          ],
+          [
+            4,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            5,
+            32,
+            0,
+            0,
+            2,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          21.3,
+          5.4,
+          4.7,
+          4.4,
+          4.3
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_38.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "raichu",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "timid",
+          "modest",
+          "jolly",
+          "adamant",
+          "hasty"
+        ],
+        "nature_usage": [
+          82.5,
+          7.5,
+          6.5,
+          1.5,
+          0.5
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_39.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "raichu",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "raichunite y",
+          "raichunite x",
+          "focus sash",
+          "sitrus berry",
+          "magnet"
+        ],
+        "item_usage": [
+          82.8,
+          14.4,
+          1.4,
+          0.2,
+          0.2
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_40.png",
+      "data": {
+        "id": "gen-1790565201-4wY3Qe94nJvB8xJDnsjR",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_41.png",
+      "data": {
+        "id": "gen-1790565202-KdvJ21TymXd9vtgZNIqm",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_42.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "gardevoir",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            32,
+            0,
+            2,
+            32,
+            0,
+            0
+          ],
+          [
+            3,
+            29,
+            0,
+            0,
+            32,
+            0,
+            5
+          ],
+          [
+            4,
+            0,
+            0,
+            2,
+            32,
+            0,
+            32
+          ],
+          [
+            5,
+            28,
+            0,
+            17,
+            10,
+            0,
+            11
+          ]
+        ],
+        "spread_usage": [
+          20.5,
+          11.5,
+          8.0,
+          6.0,
+          4.1
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_43.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "gardevoir",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "modest",
+          "timid",
+          "quiet",
+          "bold",
+          "relaxed"
+        ],
+        "nature_usage": [
+          76.0,
+          12.2,
+          9.4,
+          1.1,
+          0.4
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_44.png",
+      "data": {
+        "id": "gen-1790565215-KFTUOFdLqRHcJYhb1ILQ",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (2587/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_45.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "arcanine",
+        "usage": 9,
+        "moves": [
+          "flare blitz",
+          "head smash",
+          "protect",
+          "extreme speed",
+          "rock slide"
+        ],
+        "move_usage": [
+          99.6,
+          95.1,
+          93.0,
+          86.3,
+          12.6
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_46.png",
+      "data": {
+        "id": "gen-1790565224-jPm71t5Y9YMPpzV7aAG1",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_47.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "arcanine",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            1,
+            32,
+            0,
+            0,
+            1,
+            32
+          ],
+          [
+            3,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            4,
+            0,
+            32,
+            1,
+            0,
+            1,
+            32
+          ],
+          [
+            5,
+            1,
+            32,
+            1,
+            0,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          65.5,
+          9.7,
+          5.3,
+          4.7,
+          3.9
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_48.png",
+      "data": {
+        "screen_type": "stat_alignment",
+        "pokemon": "arcanine",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "jolly",
+          "adamant",
+          "brave",
+          "naughty",
+          "lonely"
+        ],
+        "nature_usage": [
+          78.6,
+          19.6,
+          0.3,
+          0.3,
+          0.2
+        ],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_49.png",
+      "data": {
+        "screen_type": "held_item",
+        "pokemon": "arcanine",
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "focus sash",
+          "choice scarf",
+          "life orb",
+          "sitrus berry",
+          "wide lens"
+        ],
+        "item_usage": [
+          90.4,
+          3.2,
+          2.3,
+          0.8,
+          0.5
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_50.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "sylveon",
+        "usage": 9,
+        "moves": [
+          "hyper voice",
+          "hyper beam",
+          "quick attack",
+          "detect",
+          "protect"
+        ],
+        "move_usage": [
+          99.6,
+          74.4,
+          69.3,
+          64.6,
+          30.4
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_51.png",
+      "data": {
+        "id": "gen-1790565248-z5rQJ55zVxHT1FNwOLsr",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_52.png",
+      "data": {
+        "id": "gen-1790565249-Itj7bXYpcUVjQM4rgiGN",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_53.png",
+      "data": {
+        "id": "gen-1790565250-KY7hrjdHFkYhBHTdbC3f",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_54.png",
+      "data": {
+        "id": "gen-1790565251-yn8CAIMjRDneHRcJgm9u",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (406/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_55.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "tyranitar",
+        "usage": 9,
+        "moves": [
+          "rock slide",
+          "knock off",
+          "protect",
+          "low kick",
+          "ice punch"
+        ],
+        "move_usage": [
+          96.8,
+          94.0,
+          88.3,
+          56.6,
+          15.9
+        ],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_56.png",
+      "data": {
+        "id": "gen-1790565257-5UE1TlXJyqtwKjmTYpCC",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_57.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": 20,
+        "usage": 9,
+        "moves": [],
+        "move_usage": [],
+        "abilities": [],
+        "ability_usage": [],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            17,
+            17,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            32,
+            32,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            4,
+            18,
+            16,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            5,
+            32,
+            32,
+            2,
+            0,
+            0,
+            0
+          ]
+        ],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [],
+        "item_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_58.png",
+      "data": {
+        "id": "gen-1790565273-wnInwsKGOh2NL00uwLoO",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (1342/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_59.png",
+      "data": {
+        "id": "gen-1790565274-TpmXXa7UGvPwVH0znJ75",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (9242/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "usage": 9,
+        "spread_values": [],
+        "spread_usage": []
+      }
+    }
+  ],
+  "autocorrections": [],
+  "extracted": [
+    {
+      "image": "doubles_slot_1_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "rillaboom",
+        "usage": 1,
+        "moves": [
+          "grassy glide",
+          "fake out",
+          "wood hammer",
+          "high horsepower",
+          "u-turn"
+        ],
+        "move_usage": [
+          97.4,
+          95.1,
+          78.2,
+          50.3,
+          47.3
+        ],
+        "abilities": [
+          "grassy surge",
+          "overgrow"
+        ],
+        "ability_usage": [
+          99.9,
+          0.1
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "miracle seed",
+          "life orb",
+          "sitrus berry",
+          "grassy seed",
+          "eject button"
+        ],
+        "item_usage": [
+          57.2,
+          10.6,
+          10.3,
+          5.4,
+          4.0
+        ],
+        "id": "gen-1790564926-tt5I0IRsIvmXpaPaYGom",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        }
+      }
+    },
+    {
+      "image": "doubles_slot_2_slide_3.png",
+      "data": {
+        "screen_type": "stat_points",
+        "pokemon": "sneasler",
+        "usage": 2,
+        "moves": [
+          "Close Combat",
+          "Dire Claw",
+          "Protect",
+          "Fake Out",
+          "Rock Slide"
+        ],
+        "move_usage": [
+          99.3,
+          92.5,
+          64.1,
+          55.9,
+          27.6
+        ],
+        "abilities": [
+          "Unburden",
+          "Poison Touch",
+          "Pressure"
+        ],
+        "ability_usage": [
+          89.2,
+          10.7,
+          0.1
+        ],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            16,
+            20,
+            0,
+            0,
+            0,
+            30
+          ],
+          [
+            4,
+            0,
+            32,
+            0,
+            0,
+            2,
+            32
+          ],
+          [
+            5,
+            1,
+            32,
+            1,
+            0,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          46.2,
+          8.5,
+          4.3,
+          4.1,
+          1.9
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "white herb",
+          "psychic seed",
+          "grassy seed",
+          "focus sash",
+          "normal gem"
+        ],
+        "item_usage": [
+          30.4,
+          26.4,
+          25.3,
+          13.6,
+          1.0
+        ],
+        "id": "gen-1790564943-3QTAOCU9rdoNUdEHUuEQ",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        }
+      }
+    },
+    {
+      "image": "doubles_slot_3_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "incineroar",
+        "usage": 3,
+        "moves": [
+          "fake out",
+          "flare blitz",
+          "parting shot",
+          "darkest lariat",
+          "throat chop"
+        ],
+        "move_usage": [
+          97.6,
+          91.1,
+          90.7,
+          40.3,
+          39.0
+        ],
+        "abilities": [
+          "intimidate",
+          "blaze"
+        ],
+        "ability_usage": [
+          99.7,
+          0.3
+        ],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "careful",
+          "impish",
+          "adamant",
+          "sassy",
+          "brave"
+        ],
+        "nature_usage": [
+          37.6,
+          24.8,
+          19.0,
+          6.0,
+          5.8
+        ],
+        "items": [
+          "sitrus berry",
+          "chople berry",
+          "passho berry",
+          "rocky helmet",
+          "leftovers"
+        ],
+        "item_usage": [
+          64.6,
+          8.7,
+          7.0,
+          6.2,
+          3.6
+        ],
+        "id": "gen-1790564957-gv1AhXOP4c2OJIHxoi5v",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (511/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        }
+      }
+    },
+    {
+      "image": "doubles_slot_4_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "salamence",
+        "usage": 4,
+        "moves": [
+          "protect",
+          "hyper voice",
+          "draco meteor",
+          "tailwind",
+          "flamethrower"
+        ],
+        "move_usage": [
+          93.9,
+          90.8,
+          61.0,
+          58.7,
+          29.1
+        ],
+        "abilities": [
+          "intimidate",
+          "moxie"
+        ],
+        "ability_usage": [
+          98.8,
+          1.2
+        ],
+        "spread_values": [
+          [
+            1,
+            2,
+            0,
+            0,
+            32,
+            0,
+            32
+          ],
+          [
+            2,
+            1,
+            0,
+            0,
+            32,
+            1,
+            32
+          ],
+          [
+            3,
+            1,
+            21,
+            0,
+            15,
+            0,
+            29
+          ],
+          [
+            4,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            5,
+            1,
+            0,
+            1,
+            32,
+            0,
+            32
+          ]
+        ],
+        "spread_usage": [
+          44.1,
+          6.1,
+          3.6,
+          3.4,
+          3.0
+        ],
+        "natures": [
+          "timid",
+          "modest",
+          "naive",
+          "hasty",
+          "adamant"
+        ],
+        "nature_usage": [
+          51.5,
+          23.1,
+          10.4,
+          5.1,
+          3.4
+        ],
+        "items": [],
+        "item_usage": [],
+        "id": "gen-1790564994-6uDb7JiJq891Xo2xxrOx",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        }
+      }
+    },
+    {
+      "image": "doubles_slot_5_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "indeedee",
+        "usage": 5,
+        "moves": [
+          "follow me",
+          "trick room",
+          "helping hand",
+          "psychic",
+          "protect"
+        ],
+        "move_usage": [
+          97.5,
+          82.4,
+          80.1,
+          61.9,
+          18.8
+        ],
+        "abilities": [
+          "psychic surge",
+          "synchronize",
+          "own tempo"
+        ],
+        "ability_usage": [
+          99.7,
+          0.2,
+          0.1
+        ],
+        "spread_values": [
+          [
+            1,
+            32,
+            0,
+            32,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            32,
+            0,
+            25,
+            0,
+            9,
+            0
+          ],
+          [
+            3,
+            32,
+            0,
+            32,
+            2,
+            0,
+            0
+          ],
+          [
+            4,
+            31,
+            0,
+            32,
+            0,
+            3,
+            0
+          ],
+          [
+            5,
+            32,
+            0,
+            29,
+            0,
+            5,
+            0
+          ]
+        ],
+        "spread_usage": [
+          53.5,
+          8.9,
+          3.3,
+          1.8,
+          1.7
+        ],
+        "natures": [
+          "relaxed",
+          "bold",
+          "calm",
+          "modest",
+          "sassy"
+        ],
+        "nature_usage": [
+          43.5,
+          36.6,
+          9.2,
+          3.6,
+          3.2
+        ],
+        "items": [
+          "colbur berry",
+          "rocky helmet",
+          "psychic seed",
+          "sitrus berry",
+          "focus sash"
+        ],
+        "item_usage": [
+          27.0,
+          26.1,
+          23.0,
+          12.9,
+          3.6
+        ]
+      }
+    },
+    {
+      "image": "doubles_slot_6_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "kingambit",
+        "usage": 6,
+        "moves": [
+          "kowtow cleave",
+          "sucker punch",
+          "iron head",
+          "protect",
+          "low kick"
+        ],
+        "move_usage": [
+          97.5,
+          96.8,
+          79.0,
+          56.9,
+          48.3
+        ],
+        "abilities": [
+          "defiant",
+          "supreme overlord",
+          "pressure"
+        ],
+        "ability_usage": [
+          95.9,
+          4.0,
+          0.1
+        ],
+        "spread_values": [
+          [
+            1,
+            32,
+            32,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            32,
+            32,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            4,
+            32,
+            32,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            5,
+            32,
+            25,
+            2,
+            0,
+            6,
+            1
+          ]
+        ],
+        "spread_usage": [
+          19.9,
+          9.0,
+          7.0,
+          5.9,
+          5.5
+        ],
+        "natures": [],
+        "nature_usage": [],
+        "items": [
+          "Chople Berry",
+          "Black Glasses",
+          "Focus Sash",
+          "Life Orb",
+          "Occa Berry"
+        ],
+        "item_usage": [],
+        "id": "gen-1790565042-8tGs8xtdwf87zBb9D846",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        }
+      }
+    },
+    {
+      "image": "doubles_slot_7_slide_2.png",
+      "data": {
+        "abilities": [
+          "Adaptability",
+          "Swift Swim",
+          "Mold Breaker"
+        ],
+        "ability_usage": [
+          94.2,
+          5.5,
+          0.3
+        ],
+        "slot": 7,
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        },
+        "screen_type": "ability",
+        "usage": 7,
+        "moves": [],
+        "move_usage": [],
+        "items": [],
+        "item_usage": [
+          "Choice Scarf",
+          "Life Orb",
+          "Mystic Water",
+          "Focus Sash",
+          "Sitrus Berry"
+        ],
+        "nature_usage": [
+          53.5,
+          43.9,
+          0.8,
+          0.3,
+          0.3
+        ],
+        "natures": [
+          "adamant",
+          "jolly",
+          "brave",
+          "lonely",
+          "naughty"
+        ],
+        "spread_values": [
+          [
+            1,
+            2,
+            32,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            2,
+            0,
+            32,
+            2,
+            0,
+            0,
+            32
+          ],
+          [
+            3,
+            4,
+            23,
+            13,
+            0,
+            0,
+            26
+          ],
+          [
+            4,
+            0,
+            32,
+            1,
+            0,
+            1,
+            32
+          ],
+          [
+            5,
+            0,
+            32,
+            0,
+            0,
+            2,
+            32
+          ]
+        ],
+        "spread_usage": [
+          37.7,
+          11.6,
+          5.8,
+          3.7,
+          3.1
+        ],
+        "pokemon": "basculegion",
+        "id": "gen-1790565044-1nhr8EuVZk3FrGwihcxB"
+      }
+    },
+    {
+      "image": "doubles_slot_8_slide_1.png",
+      "data": {
+        "screen_type": "moves",
+        "pokemon": "golisopod",
+        "usage": 8,
+        "moves": [
+          "leech life",
+          "iron head",
+          "protect",
+          "swords dance",
+          "sucker punch"
+        ],
+        "move_usage": [
+          94.9,
+          81.7,
+          63.7,
+          44.2,
+          33.4
+        ],
+        "abilities": [
+          "Emergency Exit"
+        ],
+        "ability_usage": [],
+        "spread_values": [],
+        "spread_usage": [],
+        "natures": [
+          "adamant",
+          "brave",
+          "careful",
+          "sassy",
+          "impish"
+        ],
+        "nature_usage": [
+          59.8,
+          34.2,
+          2.3,
+          1.5,
+          0.7
+        ],
+        "items": [
+          "golisopite",
+          "life orb",
+          "sitrus berry",
+          "leftovers",
+          "silver powder"
+        ],
+        "item_usage": [
+          98.4,
+          0.4,
+          0.2,
+          0.1,
+          0.1
+        ],
+        "id": "gen-1790565090-ET2gkH0319vTfBXuezmR",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        }
+      }
+    },
+    {
+      "image": "doubles_slot_9_slide_2.png",
+      "data": {
+        "screen_type": "ability",
+        "pokemon": "raichu",
+        "usage": 9,
+        "moves": [
+          "protect",
+          "heat wave",
+          "weather ball",
+          "solar beam",
+          "ancient power"
+        ],
+        "move_usage": [
+          93.6,
+          93.3,
+          70.7,
+          60.4,
+          26.1
+        ],
+        "abilities": [
+          "rough skin",
+          "sand force",
+          "sand veil"
+        ],
+        "ability_usage": [
+          25.2,
+          17.0,
+          3.6
+        ],
+        "spread_values": [
+          [
+            1,
+            32,
+            0,
+            32,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            20,
+            0,
+            20,
+            4,
+            8,
+            14
+          ],
+          [
+            3,
+            32,
+            0,
+            2,
+            32,
+            0,
+            0
+          ],
+          [
+            4,
+            32,
+            0,
+            32,
+            2,
+            0,
+            0
+          ],
+          [
+            5,
+            31,
+            0,
+            15,
+            0,
+            12,
+            8
+          ]
+        ],
+        "spread_usage": [
+          8.7,
+          3.4,
+          3.2,
+          2.4,
+          2.0
+        ],
+        "natures": [
+          "modest",
+          "timid",
+          "bold",
+          "quiet",
+          "calm"
+        ],
+        "nature_usage": [
+          63.1,
+          34.5,
+          0.7,
+          0.7,
+          0.4
+        ],
+        "items": [
+          "charizardite y",
+          "charizardite x",
+          "choice scarf",
+          "charcoal",
+          "life orb"
+        ],
+        "item_usage": [
+          93.3,
+          4.7,
+          0.5,
+          0.2,
+          0.2
+        ],
+        "id": "gen-1790565093-Y7jPLsjfM4jUnueEXvsj",
+        "error": {
+          "message": "Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)",
+          "code": 502,
+          "metadata": {
+            "error_type": "provider_unavailable"
+          }
+        }
+      }
+    }
+  ],
+  "errors": []
+}

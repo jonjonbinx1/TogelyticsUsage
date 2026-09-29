@@ -1,17 +1,11 @@
 {
   "screen_type": "ability",
-  "pokemon": "charizard",
+  "pokemon": "raichu",
   "usage": 16,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "blaze",
-    "solar power"
-  ],
-  "ability_usage": [
-    78.4,
-    21.6
-  ],
+  "abilities": ["lightning rod", "static"],
+  "ability_usage": [96.8, 3.2],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

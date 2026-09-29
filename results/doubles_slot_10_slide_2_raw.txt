@@ -1,12 +1,15 @@
 {
-  "abilities": [
-    "Good as Gold"
-  ],
-  "ability_usage": [
-    {
-      "slot": 10,
-      "usage": "100.0%"
-    }
-  ],
-  "error": []
+  "screen_type": "ability",
+  "pokemon": "gholdengo",
+  "usage": 10,
+  "moves": [],
+  "move_usage": [],
+  "abilities": ["good as gold"],
+  "ability_usage": [100.0],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
 }

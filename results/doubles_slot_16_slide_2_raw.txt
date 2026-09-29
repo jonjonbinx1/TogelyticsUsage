@@ -1,18 +1,16 @@
 {
   "screen_type": "ability",
-  "pokemon": "gardevoir",
+  "pokemon": "raichu",
   "usage": 16,
   "moves": [],
   "move_usage": [],
   "abilities": [
-    "trace",
-    "telepathy",
-    "synchronize"
+    "lightning rod",
+    "static"
   ],
   "ability_usage": [
-    80.5,
-    10.8,
-    8.7
+    96.8,
+    3.2
   ],
   "spread_values": [],
   "spread_usage": [],

@@ -1,1 +1,27 @@
-{"id":"gen-1789653740-3sTF3Ahh5a96QpHtf2v7","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}
+{
+  "screen_type": "stat_points",
+  "pokemon": "arcanine",
+  "usage": 18,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [
+    [1, 2, 32, 0, 0, 0, 32],
+    [2, 1, 32, 0, 0, 1, 32],
+    [3, 0, 32, 2, 0, 0, 32],
+    [4, 0, 32, 1, 0, 1, 32],
+    [5, 1, 32, 1, 0, 0, 32]
+  ],
+  "spread_usage": [
+    65.5,
+    9.7,
+    5.3,
+    4.7,
+    3.9
+  ],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

@@ -7,14 +7,14 @@
     "trick room",
     "helping hand",
     "psychic",
-    "terrain pulse"
+    "protect"
   ],
   "move_usage": [
-    98.0,
-    85.2,
-    80.9,
-    60.3,
-    19.9
+    97.4,
+    82.2,
+    79.9,
+    62.1,
+    18.9
   ],
   "abilities": [],
   "ability_usage": [],

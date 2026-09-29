@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "raichu",
+  "pokemon": "gardevoir",
   "usage": 17,
   "moves": [],
   "move_usage": [],
@@ -8,8 +8,20 @@
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
-  "natures": ["timid", "modest", "jolly", "adamant", "hasty"],
-  "nature_usage": [83.5, 6.7, 6.4, 1.6, 0.5],
+  "natures": [
+    "modest",
+    "timid",
+    "quiet",
+    "bold",
+    "relaxed"
+  ],
+  "nature_usage": [
+    75.9,
+    12.3,
+    9.4,
+    1.1,
+    0.4
+  ],
   "items": [],
   "item_usage": []
 }

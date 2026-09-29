@@ -5,7 +5,7 @@
   "moves": [],
   "move_usage": [],
   "abilities": ["grassy surge", "overgrow"],
-  "ability_usage": [100.0, 0.0],
+  "ability_usage": [99.9, 0.1],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],

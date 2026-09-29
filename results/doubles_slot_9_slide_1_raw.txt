@@ -1,27 +1,17 @@
 {
-  "screen_type": "moves",
-  "pokemon": "garchomp",
-  "usage": 9,
+  "error": null,
   "moves": [
-    "protect",
-    "rock slide",
-    "dragon claw",
-    "earthquake",
-    "power gem"
+    "Protect",
+    "Rock Slide",
+    "Dragon Claw",
+    "Earthquake",
+    "Power Gem"
   ],
   "move_usage": [
-    80.9,
-    45.3,
-    44.5,
-    41.1,
-    35.6
-  ],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
+    0.803,
+    0.446,
+    0.437,
+    0.415,
+    0.359
+  ]
 }

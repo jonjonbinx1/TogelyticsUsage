@@ -1,1 +1,23 @@
-{"id":"gen-1790131868-HSdRF4ZwjzciY1Rpcdub","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}
+{
+  "screen_type": "ability",
+  "pokemon": "kingambit",
+  "usage": 6,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [
+    "defiant",
+    "supreme overlord",
+    "pressure"
+  ],
+  "ability_usage": [
+    95.8,
+    4.1,
+    0.1
+  ],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

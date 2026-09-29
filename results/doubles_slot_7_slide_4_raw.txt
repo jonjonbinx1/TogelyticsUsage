@@ -6,10 +6,32 @@
   "move_usage": [],
   "abilities": [],
   "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": ["adamant", "jolly", "brave", "naughty", "lonely"],
-  "nature_usage": [54.6, 43.2, 0.7, 0.3, 0.3],
-  "items": [],
-  "item_usage": []
+  "spread_values": [
+    [1, 53, 4, 0, 0, 0, 0],
+    [2, 0, 0, 0, 0, 0, 0],
+    [3, 0, 0, 0, 0, 0, 0],
+    [4, 0, 0, 0, 0, 0, 0],
+    [5, 0, 0, 0, 0, 0, 0]
+  ],
+  "spread_usage": [
+    53.4,
+    44.0,
+    0.8,
+    0.3,
+    0.3
+  ],
+  "natures": [
+    "adamant",
+    "jolly",
+    "brave",
+    "lonely",
+    "naughty"
+  ],
+  "nature_usage": [
+    53.4,
+    44.0,
+    0.8,
+    0.3,
+    0.3
+  ]
 }
