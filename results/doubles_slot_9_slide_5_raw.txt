@@ -1,31 +1,27 @@
 {
-  "error": null,
-  "item_usage": 9,
+  "screen_type": "held_item",
+  "pokemon": "basculegion",
+  "usage": 9,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
   "items": [
-    {
-      "slot": 1,
-      "usage": 45.4,
-      "item": "Garchompite Z"
-    },
-    {
-      "slot": 2,
-      "usage": 26.5,
-      "item": "Life Orb"
-    },
-    {
-      "slot": 3,
-      "usage": 9.5,
-      "item": "Choice Scarf"
-    },
-    {
-      "slot": 4,
-      "usage": 4.4,
-      "item": "Rocky Helmet"
-    },
-    {
-      "slot": 5,
-      "usage": 3.7,
-      "item": "Sitrus Berry"
-    }
+    "choice scarf",
+    "life orb",
+    "mystic water",
+    "focus sash",
+    "sitrus berry"
+  ],
+  "item_usage": [
+    45.8,
+    27.7,
+    12.5,
+    8.2,
+    1.9
   ]
 }

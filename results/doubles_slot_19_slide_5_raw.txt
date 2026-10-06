@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "sylveon",
+  "pokemon": "tyranitar",
   "usage": 19,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "fairy feather",
-    "life orb",
-    "leftovers",
-    "sitrus berry",
-    "quick claw"
+    "tyranitarite",
+    "chople berry",
+    "choice scarf",
+    "focus sash",
+    "life orb"
   ],
   "item_usage": [
-    86.2,
-    5.1,
-    2.2,
-    1.7,
-    1.4
+    72.1,
+    6.6,
+    6.3,
+    3.3,
+    2.3
   ]
 }

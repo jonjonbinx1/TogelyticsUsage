@@ -1,17 +1,15 @@
 {
-  "error": false,
-  "natures": [
-    "Modest",
-    "Jolly",
-    "Adamant",
-    "Timid",
-    "Impish"
-  ],
-  "nature_usage": [
-    34.8,
-    30.8,
-    20.5,
-    9.8,
-    0.8
-  ]
+  "screen_type": "stat_alignment",
+  "pokemon": "basculegion",
+  "usage": 9,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": ["adamant", "jolly", "brave", "naughty", "lonely"],
+  "nature_usage": [52.7, 44.2, 0.9, 0.4, 0.4],
+  "items": [],
+  "item_usage": []
 }

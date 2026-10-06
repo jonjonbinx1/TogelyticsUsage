@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "golisopod",
+  "pokemon": "gholdengo",
   "usage": 8,
   "moves": [],
   "move_usage": [],
@@ -10,6 +10,18 @@
   "spread_usage": [],
   "natures": [],
   "nature_usage": [],
-  "items": ["golisopite", "life orb", "sitrus berry", "leftovers", "silver powder"],
-  "item_usage": [98.4, 0.4, 0.2, 0.1, 0.1]
+  "items": [
+    "life orb",
+    "choice scarf",
+    "white herb",
+    "focus sash",
+    "leftovers"
+  ],
+  "item_usage": [
+    79.2,
+    5.3,
+    3.1,
+    2.7,
+    2.1
+  ]
 }

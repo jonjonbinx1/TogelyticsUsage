@@ -1,15 +1,1 @@
-{
-  "screen_type": "ability",
-  "pokemon": "pelipper",
-  "usage": 12,
-  "moves": [],
-  "move_usage": [],
-  "abilities": ["drizzle", "keen eye", "rain dish"],
-  "ability_usage": [99.9, 0.0, 0.0],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
-}
+{"abilities": ["Drizzle", "Keen Eye", "Rain Dish"], "ability_usage": [0.999, 0.0, 0.0]}

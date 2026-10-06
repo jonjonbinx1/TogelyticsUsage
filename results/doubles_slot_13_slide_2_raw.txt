@@ -1,18 +1,16 @@
 {
   "screen_type": "ability",
-  "pokemon": "milotic",
+  "pokemon": "raichu",
   "usage": 13,
   "moves": [],
   "move_usage": [],
   "abilities": [
-    "competitive",
-    "marvel scale",
-    "cute charm"
+    "lightning rod",
+    "static"
   ],
   "ability_usage": [
-    99.2,
-    0.6,
-    0.3
+    96.6,
+    3.4
   ],
   "spread_values": [],
   "spread_usage": [],

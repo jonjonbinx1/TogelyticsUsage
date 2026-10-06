@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "raichu",
+  "pokemon": "farigiraf",
   "usage": 16,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "raichunite y",
-    "raichunite x",
-    "focus sash",
     "sitrus berry",
-    "magnet"
+    "colbur berry",
+    "grassy seed",
+    "leftovers",
+    "mental herb"
   ],
   "item_usage": [
-    82.9,
-    14.3,
-    1.4,
-    0.2,
-    0.2
+    60.1,
+    19.3,
+    5.4,
+    3.2,
+    2.7
   ]
 }

@@ -1,11 +1,27 @@
 {
-  "error": null,
-  "nature_usage": "Careful: 37.5%",
+  "screen_type": "stat_alignment",
+  "pokemon": "incineroar",
+  "usage": 3,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
   "natures": [
-    "Careful",
-    "Impish",
-    "Adamant",
-    "Sassy",
-    "Brave"
-  ]
+    "careful",
+    "impish",
+    "adamant",
+    "sassy",
+    "brave"
+  ],
+  "nature_usage": [
+    35.5,
+    27.9,
+    18.9,
+    5.6,
+    5.4
+  ],
+  "items": [],
+  "item_usage": []
 }

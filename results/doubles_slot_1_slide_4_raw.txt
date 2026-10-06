@@ -1,22 +1,39 @@
 {
-  "error": "Not answerable",
-  "nature_usage": [
-    "Adamant",
-    "Brave",
-    "Careful",
-    "Sassy",
-    "Jolly"
+  "screen_type": "stat_alignment",
+  "pokemon": "rillaboom",
+  "usage": 1,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [
+    [1, 85, 2, 0, 0, 0],
+    [2, 0, 0, 0, 0, 0],
+    [3, 0, 0, 0, 0, 0],
+    [4, 0, 0, 0, 0, 0],
+    [5, 0, 0, 0, 0, 0]
+  ],
+  "spread_usage": [
+    85.2,
+    4.6,
+    3.8,
+    2.6,
+    2.0
   ],
   "natures": [
-    "Attack",
-    "Sp. Atk",
-    "Attack",
-    "Speed",
-    "Sp. Def",
-    "Sp. Def",
-    "Speed",
-    "Speed",
-    "Sp. Atk",
-    "Sp. Atk"
-  ]
+    "adamant",
+    "brave",
+    "careful",
+    "sassy",
+    "jolly"
+  ],
+  "nature_usage": [
+    85.2,
+    4.6,
+    3.8,
+    2.6,
+    2.0
+  ],
+  "items": [],
+  "item_usage": []
 }

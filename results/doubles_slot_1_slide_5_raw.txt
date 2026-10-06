@@ -10,18 +10,6 @@
   "spread_usage": [],
   "natures": [],
   "nature_usage": [],
-  "items": [
-    "miracle seed",
-    "life orb",
-    "sitrus berry",
-    "grassy seed",
-    "eject button"
-  ],
-  "item_usage": [
-    57.4,
-    10.5,
-    10.2,
-    5.4,
-    4.0
-  ]
+  "items": ["miracle seed", "life orb", "sitrus berry", "grassy seed", "eject button"],
+  "item_usage": [59.9, 9.9, 9.0, 5.5, 3.8]
 }

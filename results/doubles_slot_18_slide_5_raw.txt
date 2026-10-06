@@ -1,6 +1,6 @@
 {
   "screen_type": "held_item",
-  "pokemon": "arcanine",
+  "pokemon": "sylveon",
   "usage": 18,
   "moves": [],
   "move_usage": [],
@@ -11,17 +11,17 @@
   "natures": [],
   "nature_usage": [],
   "items": [
-    "focus sash",
-    "choice scarf",
+    "fairy feather",
     "life orb",
+    "leftovers",
     "sitrus berry",
-    "wide lens"
+    "quick claw"
   ],
   "item_usage": [
-    90.3,
-    3.3,
-    2.3,
-    0.8,
-    0.5
+    85.0,
+    5.3,
+    2.4,
+    2.0,
+    1.6
   ]
 }

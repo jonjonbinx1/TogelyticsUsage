@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "raichu",
+  "pokemon": "farigiraf",
   "usage": 16,
   "moves": [],
   "move_usage": [],
@@ -8,8 +8,8 @@
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
-  "natures": ["timid", "modest", "jolly", "adamant", "hasty"],
-  "nature_usage": [82.5, 7.5, 6.5, 1.5, 0.5],
+  "natures": ["bold", "relaxed", "modest", "calm", "quiet"],
+  "nature_usage": [34.9, 18.2, 13.1, 11.7, 11.5],
   "items": [],
   "item_usage": []
 }

@@ -1,17 +1,15 @@
 {
   "screen_type": "ability",
-  "pokemon": "arcanine",
+  "pokemon": "sylveon",
   "usage": 18,
   "moves": [],
   "move_usage": [],
   "abilities": [
-    "rock head",
-    "intimidate",
-    "flash fire"
+    "pixilate",
+    "cute charm"
   ],
   "ability_usage": [
-    97.1,
-    2.7,
+    99.7,
     0.3
   ],
   "spread_values": [],

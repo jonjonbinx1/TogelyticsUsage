@@ -1,14 +1,23 @@
-```json
 {
-    "abilities": [
-        "Unburden",
-        "Poison Touch",
-        "Pressure"
-    ],
-    "ability_usage": [
-        89.2,
-        10.7,
-        0.2
-    ]
+  "screen_type": "ability",
+  "pokemon": "sneasler",
+  "usage": 2,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [
+    "unburden",
+    "poison touch",
+    "pressure"
+  ],
+  "ability_usage": [
+    88.5,
+    11.3,
+    0.2
+  ],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
 }
-```

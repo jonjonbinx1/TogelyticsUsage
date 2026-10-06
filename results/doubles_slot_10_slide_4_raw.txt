@@ -1,20 +1,27 @@
 {
-  "error": false,
+  "screen_type": "stat_alignment",
+  "pokemon": "golisopod",
+  "usage": 10,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
   "natures": [
-    "Modest",
-    "Timid",
-    "Bold",
-    "Quiet",
-    "Calm"
+    "adamant",
+    "brave",
+    "careful",
+    "sassy",
+    "impish"
   ],
   "nature_usage": [
-    63.2,
-    34.4,
-    0.7,
-    0.7,
-    0.4
+    61.0,
+    32.6,
+    2.4,
+    1.5,
+    0.7
   ],
-  "slot": 10,
-  "slide": 4,
-  "stat_alignment": true
+  "items": [],
+  "item_usage": []
 }

@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "kingambit",
+  "pokemon": "garchomp",
   "usage": 6,
   "moves": [],
   "move_usage": [],
@@ -8,8 +8,20 @@
   "ability_usage": [],
   "spread_values": [],
   "spread_usage": [],
-  "natures": ["adamant", "brave", "jolly", "careful", "impish"],
-  "nature_usage": [81.3, 16.0, 0.7, 0.5, 0.5],
+  "natures": [
+    "modest",
+    "jolly",
+    "adamant",
+    "timid",
+    "impish"
+  ],
+  "nature_usage": [
+    40.3,
+    26.2,
+    19.0,
+    10.3,
+    1.0
+  ],
   "items": [],
   "item_usage": []
 }

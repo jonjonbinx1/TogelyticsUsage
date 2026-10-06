@@ -1,10 +1,10 @@
 {
   "screen_type": "ability",
-  "pokemon": "gholdengo",
+  "pokemon": "golisopod",
   "usage": 10,
   "moves": [],
   "move_usage": [],
-  "abilities": ["good as gold"],
+  "abilities": ["emergency exit"],
   "ability_usage": [100.0],
   "spread_values": [],
   "spread_usage": [],

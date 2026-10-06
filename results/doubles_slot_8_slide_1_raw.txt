@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "golisopod",
+  "pokemon": "gholdengo",
   "usage": 8,
   "moves": [
-    "leech life",
-    "iron head",
+    "make it rain",
+    "shadow ball",
     "protect",
-    "swords dance",
-    "sucker punch"
+    "nasty plot",
+    "power gem"
   ],
   "move_usage": [
-    94.9,
-    81.6,
-    63.7,
-    44.1,
-    33.5
+    99.3,
+    98.6,
+    90.8,
+    83.1,
+    10.3
   ],
   "abilities": [],
   "ability_usage": [],

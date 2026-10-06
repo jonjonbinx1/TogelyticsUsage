@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "sylveon",
+  "pokemon": "tyranitar",
   "usage": 19,
   "moves": [
-    "hyper voice",
-    "hyper beam",
-    "quick attack",
-    "detect",
-    "protect"
+    "rock slide",
+    "knock off",
+    "protect",
+    "low kick",
+    "ice punch"
   ],
   "move_usage": [
-    99.6,
-    74.3,
-    69.0,
-    64.5,
-    30.4
+    96.3,
+    93.6,
+    88.5,
+    54.5,
+    15.5
   ],
   "abilities": [],
   "ability_usage": [],

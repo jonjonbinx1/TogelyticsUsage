@@ -1,17 +1,27 @@
 {
-  "error": null,
+  "screen_type": "moves",
+  "pokemon": "basculegion",
+  "usage": 9,
   "moves": [
-    "Protect",
-    "Rock Slide",
-    "Dragon Claw",
-    "Earthquake",
-    "Power Gem"
+    "last respects",
+    "wave crash",
+    "aqua jet",
+    "protect",
+    "flip turn"
   ],
   "move_usage": [
-    0.803,
-    0.446,
-    0.437,
-    0.415,
-    0.359
-  ]
+    99.8,
+    92.3,
+    89.1,
+    50.9,
+    46.4
+  ],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
 }

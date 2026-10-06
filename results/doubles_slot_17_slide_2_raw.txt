@@ -10,9 +10,9 @@
     "synchronize"
   ],
   "ability_usage": [
-    78.7,
-    11.5,
-    9.8
+    77.3,
+    12.3,
+    10.4
   ],
   "spread_values": [],
   "spread_usage": [],

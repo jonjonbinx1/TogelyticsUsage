@@ -1,1 +1,27 @@
-{"id":"gen-1790610285-7u7AUAVVxYrFaH0sQ8vB","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (25/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}
+{
+  "screen_type": "moves",
+  "pokemon": "rillaboom",
+  "usage": 1,
+  "moves": [
+    "grassy glide",
+    "fake out",
+    "wood hammer",
+    "high horsepower",
+    "u-turn"
+  ],
+  "move_usage": [
+    97.3,
+    94.9,
+    78.4,
+    50.2,
+    47.5
+  ],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [],
+  "spread_usage": [],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

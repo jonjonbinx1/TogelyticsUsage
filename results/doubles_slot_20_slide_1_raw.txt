@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "tyranitar",
+  "pokemon": "whimsicott",
   "usage": 20,
   "moves": [
-    "rock slide",
-    "knock off",
+    "tailwind",
+    "moonblast",
+    "encore",
     "protect",
-    "low kick",
-    "ice punch"
+    "sunny day"
   ],
   "move_usage": [
-    96.8,
-    94.0,
-    88.4,
-    56.4,
-    15.9
+    95.8,
+    83.8,
+    63.0,
+    49.5,
+    17.7
   ],
   "abilities": [],
   "ability_usage": [],

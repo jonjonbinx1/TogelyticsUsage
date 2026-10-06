@@ -1,27 +1,16 @@
 {
-  "screen_type": "moves",
-  "pokemon": "charizard",
-  "usage": 15,
   "moves": [
-    "protect",
-    "heat wave",
-    "weather ball",
-    "solar beam",
-    "ancient power"
+    "Protect",
+    "Heat Wave",
+    "Weather Ball",
+    "Solar Beam",
+    "Ancient Power"
   ],
   "move_usage": [
-    93.6,
-    93.2,
-    70.6,
-    60.4,
-    26.0
-  ],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [],
-  "item_usage": []
+    92.8,
+    92.6,
+    69.4,
+    58.0,
+    25.9
+  ]
 }

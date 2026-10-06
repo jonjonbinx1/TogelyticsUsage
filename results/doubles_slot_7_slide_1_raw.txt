@@ -1,20 +1,20 @@
 {
   "screen_type": "moves",
-  "pokemon": "basculegion",
+  "pokemon": "kingambit",
   "usage": 7,
   "moves": [
-    "last respects",
-    "wave crash",
-    "aqua jet",
+    "kowtow cleave",
+    "sucker punch",
+    "iron head",
     "protect",
-    "flip turn"
+    "low kick"
   ],
   "move_usage": [
-    99.8,
-    93.0,
-    90.3,
-    51.4,
-    46.3
+    97.4,
+    96.7,
+    79.5,
+    59.7,
+    44.4
   ],
   "abilities": [],
   "ability_usage": [],

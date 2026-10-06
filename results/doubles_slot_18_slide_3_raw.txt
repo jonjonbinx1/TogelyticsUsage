@@ -1,1 +1,27 @@
-{"id":"gen-1790610327-iN96OzOgKIgweJKHDlrs","error":{"message":"Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)","code":502,"metadata":{"error_type":"provider_unavailable"}}}
+{
+  "screen_type": "stat_points",
+  "pokemon": "sylveon",
+  "usage": 18,
+  "moves": [],
+  "move_usage": [],
+  "abilities": [],
+  "ability_usage": [],
+  "spread_values": [
+    [1, 32, 0, 2, 32, 0, 0],
+    [2, 32, 0, 0, 32, 0, 2],
+    [3, 9, 0, 22, 20, 0, 15],
+    [4, 13, 0, 22, 23, 0, 8],
+    [5, 32, 0, 0, 32, 2, 0]
+  ],
+  "spread_usage": [
+    12.8,
+    5.9,
+    5.5,
+    3.6,
+    3.0
+  ],
+  "natures": [],
+  "nature_usage": [],
+  "items": [],
+  "item_usage": []
+}

@@ -1,27 +1,17 @@
 {
-  "screen_type": "held_item",
-  "pokemon": "basculegion",
-  "usage": 7,
-  "moves": [],
-  "move_usage": [],
-  "abilities": [],
-  "ability_usage": [],
-  "spread_values": [],
-  "spread_usage": [],
-  "natures": [],
-  "nature_usage": [],
-  "items": [
-    "choice scarf",
-    "life orb",
-    "mystic water",
-    "focus sash",
-    "sitrus berry"
-  ],
+  "error": false,
   "item_usage": [
-    45.7,
-    29.3,
-    13.0,
-    7.6,
-    1.9
+    "Chople Berry",
+    "Black Glasses",
+    "Focus Sash",
+    "Life Orb",
+    "Occa Berry"
+  ],
+  "items": [
+    "Chople Berry",
+    "Black Glasses",
+    "Focus Sash",
+    "Life Orb",
+    "Occa Berry"
   ]
 }

@@ -10,11 +10,11 @@
     "mystical fire"
   ],
   "move_usage": [
-    94.9,
     94.0,
-    93.2,
-    33.2,
-    22.0
+    93.0,
+    92.3,
+    30.1,
+    22.4
   ],
   "abilities": [],
   "ability_usage": [],

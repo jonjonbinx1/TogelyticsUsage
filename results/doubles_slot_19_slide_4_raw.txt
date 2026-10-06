@@ -1,6 +1,6 @@
 {
   "screen_type": "stat_alignment",
-  "pokemon": "sylveon",
+  "pokemon": "tyranitar",
   "usage": 19,
   "moves": [],
   "move_usage": [],
@@ -9,18 +9,18 @@
   "spread_values": [],
   "spread_usage": [],
   "natures": [
-    "modest",
-    "quiet",
-    "bold",
-    "timid",
-    "calm"
+    "adamant",
+    "jolly",
+    "brave",
+    "impish",
+    "careful"
   ],
   "nature_usage": [
-    79.9,
-    13.6,
-    2.3,
-    1.9,
-    0.6
+    47.2,
+    41.9,
+    5.0,
+    2.0,
+    1.7
   ],
   "items": [],
   "item_usage": []

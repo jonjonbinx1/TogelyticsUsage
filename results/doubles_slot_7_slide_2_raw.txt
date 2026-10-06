@@ -1,19 +1,11 @@
 {
   "screen_type": "ability",
-  "pokemon": "basculegion",
+  "pokemon": "kingambit",
   "usage": 7,
   "moves": [],
   "move_usage": [],
-  "abilities": [
-    "adaptability",
-    "swift swim",
-    "mold breaker"
-  ],
-  "ability_usage": [
-    94.1,
-    5.6,
-    0.3
-  ],
+  "abilities": ["defiant", "supreme overlord", "pressure"],
+  "ability_usage": [95.3, 4.6, 0.2],
   "spread_values": [],
   "spread_usage": [],
   "natures": [],
